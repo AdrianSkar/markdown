@@ -43,7 +43,8 @@ The function first evaluates `if` the condition `(val == 12)` evaluates to `true
 
 - ["if...else" - MDN JavaScript reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/if...else)
 
-- [Samoshkin, Alexey "Type coercion explained" - ](https://medium.freecodecamp.org/js-type-coercion-explained-27ba3d9a2839)
+- [Samoshkin, Alexey "Type coercion explained" - *freeCodeCamp, Medium* ](https://medium.freecodecamp.org/js-type-coercion-explained-27ba3d9a2839)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMxNTg1MDUzLC0xNzQzNDY0NDY5XX0=
+eyJoaXN0b3J5IjpbLTE5NDcxOTcxMjQsLTE3NDM0NjQ0NjldfQ
+==
 -->
