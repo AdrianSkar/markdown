@@ -42,6 +42,8 @@ The function first evaluates `if` the condition `(val == 12)` evaluates to `true
 - ["Boolean" - MDN Glossary](https://developer.mozilla.org/en-US/docs/Glossary/Boolean)
 
 - ["if...else" - MDN JavaScript reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/if...else)
+
+- ["Type coercion explained"](https://medium.freecodecamp.org/js-type-coercion-explained-27ba3d9a2839)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUxMDc5OTQ5MiwtMTc0MzQ2NDQ2OV19
+eyJoaXN0b3J5IjpbMjA0MjMxNDMzMywtMTc0MzQ2NDQ2OV19
 -->
