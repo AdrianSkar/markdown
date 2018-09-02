@@ -6,7 +6,7 @@ title: Comparison with the equality operator
 
 
 ### Problem explanation:
-_Add the equality operator to the indicated line so that the function will return "Equal" when `val` is equivalent to 1dfdfd2._
+_Add the equality operator to the indicated line so that the function will return "Equal" when `val` is equivalent to 12._
 
 #### Hint 1
 Remember that _equality is different from assignment (`=`), which assigns the value at the right of the operator to a variable in the left._<sup>1</sup>
@@ -43,5 +43,5 @@ The function first evaluates `if` the condition `(val == 12)` evaluates to `true
 
 - ["if...else" - MDN JavaScript reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/if...else)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk5MjQ0ODIzNiwtMTc0MzQ2NDQ2OV19
+eyJoaXN0b3J5IjpbLTUxMDc5OTQ5MiwtMTc0MzQ2NDQ2OV19
 -->
