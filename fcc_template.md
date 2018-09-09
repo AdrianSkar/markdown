@@ -9,7 +9,7 @@ title: Comparison with the equality operator
 _Exercise_
 
 #### Hint 1
-Remember that _equality is different from assignment (`=`), which assigns the value at the right of the operator to a variable in the left._<sup>1</sup>
+Hint X, remember that _text/paraphrasing_<sup>1</sup>
 > _try to solve the problem now_
 
 
@@ -45,5 +45,5 @@ The function first evaluates `if` the condition `(val == 12)` evaluates to `true
 
 - [Samoshkin, Alexey. "Type coercion explained". *freeCodeCamp, Medium*, 17 Jan. 2018.](https://medium.freecodecamp.org/js-type-coercion-explained-27ba3d9a2839) Accessed 2 Sep 2018. QUIT, advanced for this exercise
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgxMTA0MjQ1M119
+eyJoaXN0b3J5IjpbMTczNDM0MjM1NF19
 -->
