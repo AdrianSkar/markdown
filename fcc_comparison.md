@@ -13,7 +13,7 @@ Remember from last exercise that _equality is different from assignment (`=`), w
 > _try to solve the problem now_
 > 
 #### Hint 2
- Unlike the equality operator, which attempts to convert both values being compared to a common type, the strict equality operator does not perform a type conversion.<sup>2</sup>
+_Unlike the equality operator, which attempts to convert both values being compared to a common type, the strict equality operator does not perform a type conversion._<sup>2</sup>
 > _try to solve the problem now_
 
 ## Spoiler alert!
@@ -40,16 +40,16 @@ The function first evaluates `if` the condition `(val == 12)` evaluates to `true
 
 ### Sources
 1. ["Basic JavaScript: Comparison with the Equality Operator", fCC lesson at *Javascript Algorithms And Data Structures Certification*](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/comparison-with-the-equality-operator)
+2. ["Basic JavaScript: Comparison with the Strict Equality Operator", fCC lesson at *Javascript Algorithms And Data Structures Certification*](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/comparison-with-the-strict-equality-operator)
 
 ### Resources
-- ["Boolean" - *MDN Glossary*](https://developer.mozilla.org/en-US/docs/Glossary/Boolean)
 
 - ["if...else" - *MDN JavaScript reference*](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/if...else)
 
 
 - [Kondov, Alexander. "Understanding JS: Coercion". *Hackernoon*](https://hackernoon.com/understanding-js-coercion-ff5684475bfc), Accessed 13 Sep. 2018
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0OTI2Nzk0NDUsLTE2MjU1OTA0ODMsNT
-MzMTY0NzI3LDEyMDcyNjY3NDMsLTExNjMxNjY2MzUsLTY4MDU2
-MjEyOCwtNTEwNzk5NDkyXX0=
+eyJoaXN0b3J5IjpbMTE1NTU4NDc1MywtMTYyNTU5MDQ4Myw1Mz
+MxNjQ3MjcsMTIwNzI2Njc0MywtMTE2MzE2NjYzNSwtNjgwNTYy
+MTI4LC01MTA3OTk0OTJdfQ==
 -->
