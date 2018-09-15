@@ -29,7 +29,7 @@ function testStrict(val) {
   if (val === 7) { // Change this line
     return "Equal";
   }
-  return "Not Equal";
+  return "Not equal";
 }
 
 // Change this value to test
@@ -52,7 +52,7 @@ The function first evaluates `if` the condition `(val === 7)` evaluates to `true
 
 - ["Comparison operators" - *MDN JavaScript reference*](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Comparison_Operators)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDE2MTg5NDQsLTI3NzUxNDU5NSwtMTYyNT
-U5MDQ4Myw1MzMxNjQ3MjcsMTIwNzI2Njc0MywtMTE2MzE2NjYz
-NSwtNjgwNTYyMTI4LC01MTA3OTk0OTJdfQ==
+eyJoaXN0b3J5IjpbLTY3Mzk1MzMxMiwtMjc3NTE0NTk1LC0xNj
+I1NTkwNDgzLDUzMzE2NDcyNywxMjA3MjY2NzQzLC0xMTYzMTY2
+NjM1LC02ODA1NjIxMjgsLTUxMDc5OTQ5Ml19
 -->
