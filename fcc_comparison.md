@@ -46,10 +46,11 @@ The function first evaluates `if` the condition `(val == 12)` evaluates to `true
 
 - ["if...else" - *MDN JavaScript reference*](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/if...else)
 
+- [Kondov, Alexander. "Understanding JS: Coercion". *Hackernoon*](https://hackernoon.com/understanding-js-coercion-ff5684475bfc), Accessed 15 Sep. 2018
 
-- [Kondov, Alexander. "Understanding JS: Coercion". *Hackernoon*](https://hackernoon.com/understanding-js-coercion-ff5684475bfc), Accessed 13 Sep. 2018
+- ["Comparison operators" - *MDN JavaScript reference*](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Comparison_Operators)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE1NTU4NDc1MywtMTYyNTU5MDQ4Myw1Mz
+eyJoaXN0b3J5IjpbLTgyMzg2MzIwNCwtMTYyNTU5MDQ4Myw1Mz
 MxNjQ3MjcsMTIwNzI2Njc0MywtMTE2MzE2NjYzNSwtNjgwNTYy
 MTI4LC01MTA3OTk0OTJdfQ==
 -->
