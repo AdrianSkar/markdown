@@ -24,19 +24,21 @@ _Unlike the equality operator, which attempts to convert both values being compa
 
 ```javascript
 
-function testEqual(val) {
-  if (val == 12) { // Change this line
+// Setup
+function testStrict(val) {
+  if (val === 7) { // Change this line
     return "Equal";
   }
-  return "Not equal";
+  return "Not Equal";
 }
+
 // Change this value to test
-testEqual(10);
+testStrict(10);
 
 ```
 
 ### Code explanation
-The function first evaluates `if` the condition `(val == 12)` evaluates to `true`. If it does, it returns the statement between the curly braces ("Equal"). If it doesn't, it returns the next `return` statement outside them ("Not equal"). 
+The function first evaluates `if` the condition `(val === 7)` evaluates to `true`. If it does, it returns the statement between the curly braces ("Equal"). If it doesn't, it returns the next `return` statement outside them ("Not equal"). 
 
 ### Sources
 1. ["Basic JavaScript: Comparison with the Equality Operator", fCC lesson at *Javascript Algorithms And Data Structures Certification*](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/comparison-with-the-equality-operator)
@@ -50,7 +52,7 @@ The function first evaluates `if` the condition `(val == 12)` evaluates to `true
 
 - ["Comparison operators" - *MDN JavaScript reference*](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Comparison_Operators)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI3NzUxNDU5NSwtMTYyNTU5MDQ4Myw1Mz
-MxNjQ3MjcsMTIwNzI2Njc0MywtMTE2MzE2NjYzNSwtNjgwNTYy
-MTI4LC01MTA3OTk0OTJdfQ==
+eyJoaXN0b3J5IjpbNDE2MTg5NDQsLTI3NzUxNDU5NSwtMTYyNT
+U5MDQ4Myw1MzMxNjQ3MjcsMTIwNzI2Njc0MywtMTE2MzE2NjYz
+NSwtNjgwNTYyMTI4LC01MTA3OTk0OTJdfQ==
 -->
