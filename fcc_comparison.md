@@ -1,8 +1,8 @@
 
 ---
-title: Comparison with the equality operator
+title: Comparison with the Strict Equality Operator
 ---
-## Comparison with the equality operator
+## Comparison with the Strict Equality Operator
 
 
 ### Problem explanation:
@@ -46,7 +46,7 @@ The function first evaluates `if` the condition `(val == 12)` evaluates to `true
 
 - [Kondov, Alexander. "Understanding JS: Coercion". *Hackernoon*](https://hackernoon.com/understanding-js-coercion-ff5684475bfc), Accessed 13 Sep. 2018
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MjU1OTA0ODMsNTMzMTY0NzI3LDEyMD
-cyNjY3NDMsLTExNjMxNjY2MzUsLTY4MDU2MjEyOCwtNTEwNzk5
-NDkyXX0=
+eyJoaXN0b3J5IjpbLTk1NDQ0NzIzNSwtMTYyNTU5MDQ4Myw1Mz
+MxNjQ3MjcsMTIwNzI2Njc0MywtMTE2MzE2NjYzNSwtNjgwNTYy
+MTI4LC01MTA3OTk0OTJdfQ==
 -->
