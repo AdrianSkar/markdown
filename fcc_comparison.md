@@ -6,7 +6,7 @@ title: Comparison with the strict equality operator
 
 
 ### Problem explanation:
-_Use the strict equality operator in the `if` statement so the function will return "Equal" when `val` is strictly equal to `7`._
+· _Use the strict equality operator in the `if` statement so the function will return "Equal" when `val` is strictly equal to `7`._
 
 #### Hint 1
 Remember from last exercise that _equality is different from assignment (`=`), which assigns the value at the right of the operator to a variable in the left._<sup>1</sup>
@@ -50,7 +50,7 @@ The function first evaluates `if` the condition `(val == 12)` evaluates to `true
 
 - ["Comparison operators" - *MDN JavaScript reference*](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Comparison_Operators)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4OTQ4NjI1NzIsLTE2MjU1OTA0ODMsNT
-MzMTY0NzI3LDEyMDcyNjY3NDMsLTExNjMxNjY2MzUsLTY4MDU2
-MjEyOCwtNTEwNzk5NDkyXX0=
+eyJoaXN0b3J5IjpbLTI3NzUxNDU5NSwtMTYyNTU5MDQ4Myw1Mz
+MxNjQ3MjcsMTIwNzI2Njc0MywtMTE2MzE2NjYzNSwtNjgwNTYy
+MTI4LC01MTA3OTk0OTJdfQ==
 -->
