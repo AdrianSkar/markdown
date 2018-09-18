@@ -40,7 +40,7 @@ testStrict(10);
 The function first evaluates `if` the condition `(val === 7)` evaluates to `true`. If it does, it returns the statement between the curly braces ("Equal"). If it doesn't, it returns the next `return` statement outside them ("Not equal"). 
 
 ### Sources
-1. ["Basic JavaScript: Comparison with the Equality Operator", fCC lesson at *Javascript Algorithms And Data Structures Certification*](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/comparison-with-the-equality-operator)
+<span id="cite1">1</span>. ["Basic JavaScript: Comparison with the Equality Operator", fCC lesson at *Javascript Algorithms And Data Structures Certification*](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/comparison-with-the-equality-operator)
 2. ["Basic JavaScript: Comparison with the Strict Equality Operator", fCC lesson at *Javascript Algorithms And Data Structures Certification*](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/comparison-with-the-strict-equality-operator)
 
 ### Resources
@@ -51,8 +51,8 @@ The function first evaluates `if` the condition `(val === 7)` evaluates to `true
 
 - ["Comparison operators" - *MDN JavaScript reference*](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Comparison_Operators)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA4NDg3NzM1Niw3NjMwNzY2ODUsLTY3Mz
-k1MzMxMiwtMjc3NTE0NTk1LC0xNjI1NTkwNDgzLDUzMzE2NDcy
-NywxMjA3MjY2NzQzLC0xMTYzMTY2NjM1LC02ODA1NjIxMjgsLT
-UxMDc5OTQ5Ml19
+eyJoaXN0b3J5IjpbMzc1Mjc1MzkzLDc2MzA3NjY4NSwtNjczOT
+UzMzEyLC0yNzc1MTQ1OTUsLTE2MjU1OTA0ODMsNTMzMTY0NzI3
+LDEyMDcyNjY3NDMsLTExNjMxNjY2MzUsLTY4MDU2MjEyOCwtNT
+EwNzk5NDkyXX0=
 -->
