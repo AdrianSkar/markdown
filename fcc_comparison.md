@@ -41,7 +41,7 @@ The function first evaluates `if` the condition `(val === 7)` evaluates to `true
 
 ### Sources
 <span id="cite1">1</span>. ["Basic JavaScript: Comparison with the Equality Operator", fCC lesson at *Javascript Algorithms And Data Structures Certification*](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/comparison-with-the-equality-operator)
-2. ["Basic JavaScript: Comparison with the Strict Equality Operator", fCC lesson at *Javascript Algorithms And Data Structures Certification*](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/comparison-with-the-strict-equality-operator)
+<span id="cite2">2</span>. ["Basic JavaScript: Comparison with the Strict Equality Operator", fCC lesson at *Javascript Algorithms And Data Structures Certification*](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/comparison-with-the-strict-equality-operator)
 
 ### Resources
 
@@ -51,8 +51,8 @@ The function first evaluates `if` the condition `(val === 7)` evaluates to `true
 
 - ["Comparison operators" - *MDN JavaScript reference*](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Comparison_Operators)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNzAzMTk4NjIsNzYzMDc2Njg1LC02Nz
-M5NTMzMTIsLTI3NzUxNDU5NSwtMTYyNTU5MDQ4Myw1MzMxNjQ3
-MjcsMTIwNzI2Njc0MywtMTE2MzE2NjYzNSwtNjgwNTYyMTI4LC
-01MTA3OTk0OTJdfQ==
+eyJoaXN0b3J5IjpbMTc1ODQ4MTkyMiw3NjMwNzY2ODUsLTY3Mz
+k1MzMxMiwtMjc3NTE0NTk1LC0xNjI1NTkwNDgzLDUzMzE2NDcy
+NywxMjA3MjY2NzQzLC0xMTYzMTY2NjM1LC02ODA1NjIxMjgsLT
+UxMDc5OTQ5Ml19
 -->
