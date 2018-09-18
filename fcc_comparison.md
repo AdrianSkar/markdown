@@ -8,7 +8,7 @@ title: Comparison with the strict equality operator
 · _Use the strict equality operator in the `if` statement so the function will return "Equal" when `val` is strictly equal to `7`._
 
 #### Hint 1
-Remember from last exercise that _equality is different from assignment (`=`), which assigns the value at the right of the operator to a variable in the left._<sup>1</sup>
+Remember from last exercise that _equality is different from assignment (`=`), which assigns the value at the right of the operator to a variable in the left._<sup><a href="#cite1" title="Citation 1">1</a></sup>
 > _try to solve the problem now_
 > 
 #### Hint 2
@@ -51,8 +51,8 @@ The function first evaluates `if` the condition `(val === 7)` evaluates to `true
 
 - ["Comparison operators" - *MDN JavaScript reference*](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Comparison_Operators)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MTczMDk2MTgsLTY3Mzk1MzMxMiwtMj
-c3NTE0NTk1LC0xNjI1NTkwNDgzLDUzMzE2NDcyNywxMjA3MjY2
-NzQzLC0xMTYzMTY2NjM1LC02ODA1NjIxMjgsLTUxMDc5OTQ5Ml
-19
+eyJoaXN0b3J5IjpbNzYzMDc2Njg1LC02NzM5NTMzMTIsLTI3Nz
+UxNDU5NSwtMTYyNTU5MDQ4Myw1MzMxNjQ3MjcsMTIwNzI2Njc0
+MywtMTE2MzE2NjYzNSwtNjgwNTYyMTI4LC01MTA3OTk0OTJdfQ
+==
 -->
