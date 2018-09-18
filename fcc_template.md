@@ -1,4 +1,3 @@
-
 ---
 title: Comparison with the equality operator
 ---
@@ -45,5 +44,5 @@ The function first evaluates `if` the condition `(val == 12)` evaluates to `true
 
 - [Samoshkin, Alexey. "Type coercion explained". *freeCodeCamp, Medium*, 17 Jan. 2018.](https://medium.freecodecamp.org/js-type-coercion-explained-27ba3d9a2839) Accessed 2 Sep 2018. QUIT, advanced for this exercise
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDQ4MjI5MjQ1LDE3MzQzNDIzNTRdfQ==
+eyJoaXN0b3J5IjpbMTU4MDU5MjU5MSwxNzM0MzQyMzU0XX0=
 -->
