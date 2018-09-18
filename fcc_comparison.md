@@ -12,7 +12,7 @@ Remember from last exercise that _equality is different from assignment (`=`), w
 > _try to solve the problem now_
 > 
 #### Hint 2
-_Unlike the equality operator, which attempts to convert both values being compared to a common type, the strict equality operator does not perform a type conversion._<sup>2</sup>
+_Unlike the equality operator, which attempts to convert both values being compared to a common type, the strict equality operator does not perform a type conversion._<sup><a href="#cite2">2</a></sup>
 > _try to solve the problem now_
 
 ## Spoiler alert!
@@ -51,8 +51,8 @@ The function first evaluates `if` the condition `(val === 7)` evaluates to `true
 
 - ["Comparison operators" - *MDN JavaScript reference*](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Comparison_Operators)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzc1Mjc1MzkzLDc2MzA3NjY4NSwtNjczOT
-UzMzEyLC0yNzc1MTQ1OTUsLTE2MjU1OTA0ODMsNTMzMTY0NzI3
-LDEyMDcyNjY3NDMsLTExNjMxNjY2MzUsLTY4MDU2MjEyOCwtNT
-EwNzk5NDkyXX0=
+eyJoaXN0b3J5IjpbLTEzNzAzMTk4NjIsNzYzMDc2Njg1LC02Nz
+M5NTMzMTIsLTI3NzUxNDU5NSwtMTYyNTU5MDQ4Myw1MzMxNjQ3
+MjcsMTIwNzI2Njc0MywtMTE2MzE2NjYzNSwtNjgwNTYyMTI4LC
+01MTA3OTk0OTJdfQ==
 -->
