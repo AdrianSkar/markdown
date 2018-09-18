@@ -1,4 +1,3 @@
-
 ---
 title: Comparison with the strict equality operator
 ---
@@ -52,7 +51,8 @@ The function first evaluates `if` the condition `(val === 7)` evaluates to `true
 
 - ["Comparison operators" - *MDN JavaScript reference*](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Comparison_Operators)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY3Mzk1MzMxMiwtMjc3NTE0NTk1LC0xNj
-I1NTkwNDgzLDUzMzE2NDcyNywxMjA3MjY2NzQzLC0xMTYzMTY2
-NjM1LC02ODA1NjIxMjgsLTUxMDc5OTQ5Ml19
+eyJoaXN0b3J5IjpbLTE1MTczMDk2MTgsLTY3Mzk1MzMxMiwtMj
+c3NTE0NTk1LC0xNjI1NTkwNDgzLDUzMzE2NDcyNywxMjA3MjY2
+NzQzLC0xMTYzMTY2NjM1LC02ODA1NjIxMjgsLTUxMDc5OTQ5Ml
+19
 -->
