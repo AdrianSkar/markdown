@@ -5,10 +5,10 @@ title: Comparison with the inequality operator
 
 
 ### Problem explanation:
-· _Add the inequality operator `!=` in the `if` statement so that the function will return "Not Equal" when `val` is not equivalent to `99`._
+· _Add the inequality operator `!=` in the `if` statement so that the function will return "Not equal" when `val` is not equivalent to `99`._
 
 #### Hint 1
-The "Not Equal" operator (`!=`) will return `true` if the first value is not equal to the second one without taking value type into consideration.
+The inequality operator (`!=`) will return `true` if the first value is not equal to the second one without taking value type into consideration.
 > _try to solve the problem now_
 > 
 
@@ -38,6 +38,6 @@ The function first evaluates `if` the condition `(val != 99)` evaluates to `true
 
 - ["Using the Equality Operators" - *MDN JavaScript reference*](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Comparison_Operators#Using_the_Equality_Operators)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc3NDIxMDIzMiwtMjAzMDQ3MTkyOSw1ND
-I0NzMyNTgsMTc1ODQ4MTkyMl19
+eyJoaXN0b3J5IjpbMTM3NTYxOTU0NCwtNzc0MjEwMjMyLC0yMD
+MwNDcxOTI5LDU0MjQ3MzI1OCwxNzU4NDgxOTIyXX0=
 -->
