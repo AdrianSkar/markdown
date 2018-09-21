@@ -1,11 +1,11 @@
 ---
-title: Practice comparing different values
+title: Comparison with the inequality operator
 ---
-## Practice comparing different values
+## Comparison with the inequality operator
 
 
 ### Problem explanation:
-· _Modify the function so that it returns "Equal" only when the values are **strictly** equal._
+· _Add the inequality operator `!=` in the `if` statement so that the function will return "Not Equal" when `val`is not equivalent to `99`._
 
 #### Hint 1
 Remember from last exercises that _unlike the equality operator, which attempts to convert both values being compared to a common type, the strict equality operator does not perform a type conversion._<sup><a href="#cite1">1</a></sup>
@@ -42,6 +42,6 @@ The function first evaluates `if` the condition `(a === b)` evaluates to `true` 
 
 - ["Using the Equality Operators" - *MDN JavaScript reference*](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Comparison_Operators#Using_the_Equality_Operators)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMzA0NzE5MjksNTQyNDczMjU4LDE3NT
-g0ODE5MjJdfQ==
+eyJoaXN0b3J5IjpbLTExMTQ3MjkwMjcsLTIwMzA0NzE5MjksNT
+QyNDczMjU4LDE3NTg0ODE5MjJdfQ==
 -->
