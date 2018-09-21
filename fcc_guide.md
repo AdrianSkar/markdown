@@ -32,7 +32,7 @@ compareEquality(10, "10");
 ```
 
 ### Code explanation
-The function first evaluates `if` the condition `(a === b)` evaluates to `true` cons. If it does, it returns the statement between the curly braces ("Equal"). If it doesn't, it returns the next `return` statement outside them ("Not equal"). 
+The function first evaluates `if` the condition `(a === b)` evaluates to `true` considering both type and value. If it does, it returns the statement between the curly braces ("Equal"). If it doesn't, it returns the next `return` statement outside them ("Not equal"). 
 
 ### Sources
 
@@ -40,10 +40,8 @@ The function first evaluates `if` the condition `(a === b)` evaluates to `true` 
 
 ### Resources
 
-- ["if...else" - *MDN JavaScript reference*](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/if...else)
-
 - ["Using the Equality Operators" - *MDN JavaScript reference*](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Comparison_Operators#Using_the_Equality_Operators)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMwNDk5NTI0OSw1NDI0NzMyNTgsMTc1OD
-Q4MTkyMl19
+eyJoaXN0b3J5IjpbLTIwMzA0NzE5MjksNTQyNDczMjU4LDE3NT
+g0ODE5MjJdfQ==
 -->
