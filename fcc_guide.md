@@ -22,7 +22,7 @@ The "Not Equal" operator (`!=`) will return `true` if the first value is not equ
 // Setup
 function testNotEqual(val) {
   if (val != 99) { // Change this line
-    return "Not Equal";
+    return "Not equal";
   }
   return "Equal";
 }
@@ -32,16 +32,12 @@ testNotEqual(10);
 ```
 
 ### Code explanation
-The function first evaluates `if` the condition `(a === b)` evaluates to `true` considering both type and value. If it does, it returns the statement between the curly braces ("Equal"). If it doesn't, it returns the next `return` statement outside them ("Not equal"). 
-
-### Sources
-
-<span id="cite1">1</span>. ["Basic JavaScript: Comparison with the Strict Equality Operator", fCC lesson at *Javascript Algorithms And Data Structures Certification*](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/comparison-with-the-strict-equality-operator)
+The function first evaluates `if` the condition `(val != 99)` evaluates to `true`. If it does, it returns the statement between the curly braces ("Not equal"). If it doesn't, it returns the next `return` statement outside them ("Equal"). 
 
 ### Resources
 
 - ["Using the Equality Operators" - *MDN JavaScript reference*](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Comparison_Operators#Using_the_Equality_Operators)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA3OTc4Mzg4LC0yMDMwNDcxOTI5LDU0Mj
-Q3MzI1OCwxNzU4NDgxOTIyXX0=
+eyJoaXN0b3J5IjpbLTc3NDIxMDIzMiwtMjAzMDQ3MTkyOSw1ND
+I0NzMyNTgsMTc1ODQ4MTkyMl19
 -->
