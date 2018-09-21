@@ -12,7 +12,6 @@ Remember from last exercises that _unlike the equality operator, which attempts 
 > _try to solve the problem now_
 > 
 
-
 ## Spoiler alert!
 
 **Solution ahead!**
@@ -20,22 +19,20 @@ Remember from last exercises that _unlike the equality operator, which attempts 
 ## Basic code solution:
 
 ```javascript
-
 // Setup
-function testStrict(val) {
-  if (val === 7) { // Change this line
-    return "Equal";
-  }
-  return "Not equal";
+function compareEquality(a, b) {
+	if (a === b) { // Change this line
+	return  "Equal";
+	}
+	return  "Not Equal";
 }
 
 // Change this value to test
-testStrict(10);
-
+compareEquality(10, "10");
 ```
 
 ### Code explanation
-The function first evaluates `if` the condition `(val === 7)` evaluates to `true`. If it does, it returns the statement between the curly braces ("Equal"). If it doesn't, it returns the next `return` statement outside them ("Not equal"). 
+The function first evaluates `if` the condition `(val === b)` evaluates to `true`. If it does, it returns the statement between the curly braces ("Equal"). If it doesn't, it returns the next `return` statement outside them ("Not equal"). 
 
 ### Sources
 
@@ -49,5 +46,5 @@ The function first evaluates `if` the condition `(val === 7)` evaluates to `true
 
 - ["Comparison operators" - *MDN JavaScript reference*](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Comparison_Operators)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE4OTU5MDA0LDE3NTg0ODE5MjJdfQ==
+eyJoaXN0b3J5IjpbMTU5ODM0MjQ3LDE3NTg0ODE5MjJdfQ==
 -->
