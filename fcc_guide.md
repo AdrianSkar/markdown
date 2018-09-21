@@ -8,7 +8,7 @@ title: Comparison with the inequality operator
 · _Add the inequality operator `!=` in the `if` statement so that the function will return "Not Equal" when `val` is not equivalent to `99`._
 
 #### Hint 1
-The "Not Equal" operator (`!=`) will return `true` if, and only if, the first value is not equal_<sup><a href="#cite1">1</a></sup>
+The "Not Equal" operator (`!=`) will return `true` if the first value is not equal to the second one without taking value type into consideration.
 > _try to solve the problem now_
 > 
 
@@ -42,6 +42,6 @@ The function first evaluates `if` the condition `(a === b)` evaluates to `true` 
 
 - ["Using the Equality Operators" - *MDN JavaScript reference*](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Comparison_Operators#Using_the_Equality_Operators)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU4MDk0MjM0OCwtMjAzMDQ3MTkyOSw1ND
-I0NzMyNTgsMTc1ODQ4MTkyMl19
+eyJoaXN0b3J5IjpbMTA3OTc4Mzg4LC0yMDMwNDcxOTI5LDU0Mj
+Q3MzI1OCwxNzU4NDgxOTIyXX0=
 -->
