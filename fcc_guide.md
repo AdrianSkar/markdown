@@ -36,8 +36,8 @@ The function first evaluates `if` the condition `(val != 99)` evaluates to `true
 
 ### Resources
 
-- ["Using the Equality Operators" - *MDN JavaScript reference*](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Comparison_Operators#Using_the_Equality_Operators)
+- ["Inequality operator" - *MDN JavaScript reference*](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Comparison_Operators#Using_the_Equality_Operators#Inequality_(!))
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM3NTYxOTU0NCwtNzc0MjEwMjMyLC0yMD
-MwNDcxOTI5LDU0MjQ3MzI1OCwxNzU4NDgxOTIyXX0=
+eyJoaXN0b3J5IjpbLTE1MDg5MTIzMTQsLTc3NDIxMDIzMiwtMj
+AzMDQ3MTkyOSw1NDI0NzMyNTgsMTc1ODQ4MTkyMl19
 -->
