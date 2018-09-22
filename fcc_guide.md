@@ -1,7 +1,7 @@
 ---
-title: Comparison with the inequality operator
+title: Comparison with the strict inequality operator
 ---
-## Comparison with the inequality operator
+## Comparison with the strict inequality operator
 
 
 ### Problem explanation:
@@ -19,16 +19,18 @@ The inequality operator (`!=`) will return `true` if the first value is not equa
 ## Basic code solution:
 
 ```javascript
-// Setup
-function testNotEqual(val) {
-  if (val != 99) { // Change this line
+
+function testStrictNotEqual(val) {
+ 
+  if (val !== 17) {
+
     return "Not equal";
   }
   return "Equal";
 }
 
 // Change this value to test
-testNotEqual(10);
+testStrictNotEqual(10);
 ```
 
 ### Code explanation
@@ -38,6 +40,7 @@ The function first evaluates `if` the condition `(val != 99)` evaluates to `true
 
 - ["Inequality operator" - *MDN JavaScript reference*](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Comparison_Operators#Using_the_Equality_Operators#Inequality_(!))
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MDg5MTIzMTQsLTc3NDIxMDIzMiwtMj
-AzMDQ3MTkyOSw1NDI0NzMyNTgsMTc1ODQ4MTkyMl19
+eyJoaXN0b3J5IjpbMTE3Mjc3MDg2OCwtMTUwODkxMjMxNCwtNz
+c0MjEwMjMyLC0yMDMwNDcxOTI5LDU0MjQ3MzI1OCwxNzU4NDgx
+OTIyXX0=
 -->
