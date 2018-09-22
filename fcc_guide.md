@@ -28,7 +28,7 @@ function testGreaterThan(val) {
     return "Over 10";
   }
 
-  return "10 or Under";
+  return "10 or under";
 }
 
 // Change this value to test
@@ -36,12 +36,12 @@ testGreaterThan(10);
 ```
 
 ### Code explanation
-The function first evaluates `if` the condition `(val > 100)` evaluates to `true` converting `val` to a number if necessary. If it does, it returns the statement between the curly braces ("Over 100"). If it doesn't, it checks if the next condition is `true` (returning "Over 10"). Otherwise the function will return
+The function first evaluates `if` the condition `(val > 100)` evaluates to `true` converting `val` to a number if necessary. If it does, it returns the statement between the curly braces ("Over 100"). If it doesn't, it checks if the next condition is `true` (returning "Over 10"). Otherwise the function will return "10 or under".
 ### Resources
 
 - ["Non-identity / strict inequality (!==)" - *MDN JavaScript reference*](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Comparison_Operators#Non-identity_strict_inequality_(!))
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQyMjgxODUyMCwyOTgwMDI1MTksOTk4MD
+eyJoaXN0b3J5IjpbLTc1MDU4ODQ3MCwyOTgwMDI1MTksOTk4MD
 g1OTI3LC0xMzM3MjcwNTg2LC0xNTA4OTEyMzE0LC03NzQyMTAy
 MzIsLTIwMzA0NzE5MjksNTQyNDczMjU4LDE3NTg0ODE5MjJdfQ
 ==
