@@ -19,11 +19,8 @@ The inequality operator (`!=`) will return `true` if the first value is not equa
 ## Basic code solution:
 
 ```javascript
-
 function testStrictNotEqual(val) {
- 
   if (val !== 17) {
-
     return "Not equal";
   }
   return "Equal";
@@ -34,13 +31,13 @@ testStrictNotEqual(10);
 ```
 
 ### Code explanation
-The function first evaluates `if` the condition `(val != 99)` evaluates to `true`. If it does, it returns the statement between the curly braces ("Not equal"). If it doesn't, it returns the next `return` statement outside them ("Equal"). 
+The function first evaluates `if` the condition `(val !== 17)` evaluates to `true` considering both value and value type. If it does, it returns the statement between the curly braces ("Not equal"). If it doesn't, it returns the next `return` statement outside them ("Equal"). 
 
 ### Resources
 
 - ["Inequality operator" - *MDN JavaScript reference*](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Comparison_Operators#Using_the_Equality_Operators#Inequality_(!))
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE3Mjc3MDg2OCwtMTUwODkxMjMxNCwtNz
-c0MjEwMjMyLC0yMDMwNDcxOTI5LDU0MjQ3MzI1OCwxNzU4NDgx
-OTIyXX0=
+eyJoaXN0b3J5IjpbLTEzMzcyNzA1ODYsLTE1MDg5MTIzMTQsLT
+c3NDIxMDIzMiwtMjAzMDQ3MTkyOSw1NDI0NzMyNTgsMTc1ODQ4
+MTkyMl19
 -->
