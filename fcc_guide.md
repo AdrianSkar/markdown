@@ -5,7 +5,7 @@ title: Comparison with the greater than operator (>)
 
 
 ### Problem explanation:
-· _Add the `greater than` operator to the indicated lines so that the return statements make sense.._
+· _Add the `greater than` operator to the indicated lines so that the return statements make sense._
 
 #### Hint 1
 The greater than operator `(>)` compares both operands using type coercion (converting data types if necessary) and returns `true` if the first one is greater than the second one.
@@ -43,8 +43,8 @@ The function first evaluates `if` the condition `(val > 100)` evaluates to `true
 
 - ["Greater than operator (>)" - *MDN JavaScript reference*](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Comparison_Operators#Greater_than_operator_(%3E))
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg5NzE4NzYxMiwyOTgwMDI1MTksOTk4MD
-g1OTI3LC0xMzM3MjcwNTg2LC0xNTA4OTEyMzE0LC03NzQyMTAy
-MzIsLTIwMzA0NzE5MjksNTQyNDczMjU4LDE3NTg0ODE5MjJdfQ
-==
+eyJoaXN0b3J5IjpbLTM4OTEyNDU1NCwtODk3MTg3NjEyLDI5OD
+AwMjUxOSw5OTgwODU5MjcsLTEzMzcyNzA1ODYsLTE1MDg5MTIz
+MTQsLTc3NDIxMDIzMiwtMjAzMDQ3MTkyOSw1NDI0NzMyNTgsMT
+c1ODQ4MTkyMl19
 -->
