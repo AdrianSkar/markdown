@@ -35,9 +35,9 @@ The function first evaluates `if` the condition `(val !== 17)` evaluates to `tru
 
 ### Resources
 
-- ["Inequality operator" - *MDN JavaScript reference*](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Comparison_Operators#Using_the_Equality_Operators#Inequality_(!))
+- ["Non-identity / strict inequality (!==)" - *MDN JavaScript reference*](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Comparison_Operators#Non-identity_strict_inequality_(!))
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMzcyNzA1ODYsLTE1MDg5MTIzMTQsLT
-c3NDIxMDIzMiwtMjAzMDQ3MTkyOSw1NDI0NzMyNTgsMTc1ODQ4
-MTkyMl19
+eyJoaXN0b3J5IjpbMTAwMTA1NzM3LC0xMzM3MjcwNTg2LC0xNT
+A4OTEyMzE0LC03NzQyMTAyMzIsLTIwMzA0NzE5MjksNTQyNDcz
+MjU4LDE3NTg0ODE5MjJdfQ==
 -->
