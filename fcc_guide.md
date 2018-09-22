@@ -19,25 +19,30 @@ The greater than operator `(>)` compares both operands using type coercion (conv
 ## Basic code solution:
 
 ```javascript
-function testStrictNotEqual(val) {
-  if (val !== 17) {
-    return "Not equal";
+function testGreaterThan(val) {
+  if (val > 100) {  // Change this line
+    return "Over 100";
   }
-  return "Equal";
+  
+  if (val > 10) {  // Change this line
+    return "Over 10";
+  }
+
+  return "10 or Under";
 }
 
 // Change this value to test
-testStrictNotEqual(10);
+testGreaterThan(10);
 ```
 
 ### Code explanation
-The function first evaluates `if` the condition `(val !== 17)` evaluates to `true` considering both value and value type. If it does, it returns the statement between the curly braces ("Not equal"). If it doesn't, it returns the next `return` statement outside them ("Equal"). 
-
+The function first evaluates `if` the condition `(val > 100)` evaluates to `true` converting `val` to a number if necessary. If it does, it returns the statement between the curly braces ("Over 100"). If it doesn't, it checks if the nec
 ### Resources
 
 - ["Non-identity / strict inequality (!==)" - *MDN JavaScript reference*](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Comparison_Operators#Non-identity_strict_inequality_(!))
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY4NDYyMDM0LDI5ODAwMjUxOSw5OTgwOD
-U5MjcsLTEzMzcyNzA1ODYsLTE1MDg5MTIzMTQsLTc3NDIxMDIz
-MiwtMjAzMDQ3MTkyOSw1NDI0NzMyNTgsMTc1ODQ4MTkyMl19
+eyJoaXN0b3J5IjpbLTE5MTM0NTk5OSwyOTgwMDI1MTksOTk4MD
+g1OTI3LC0xMzM3MjcwNTg2LC0xNTA4OTEyMzE0LC03NzQyMTAy
+MzIsLTIwMzA0NzE5MjksNTQyNDczMjU4LDE3NTg0ODE5MjJdfQ
+==
 -->
