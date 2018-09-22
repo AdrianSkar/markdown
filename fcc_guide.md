@@ -8,7 +8,7 @@ title: Comparison with the strict inequality operator
 · _Add the `strict inequality operator` to the `if` statement so the function will return "Not Equal" when `val` is not strictly equal to `17`._
 
 #### Hint 1
-The inequality operator (`!=`) will return `true` if the first value is not equal to the second one without taking value type into consideration.
+The strict inequality operator (`!==`) will return `true` if the first value is not equal to the second one taking value type into consideration.
 > _try to solve the problem now_
 > 
 
@@ -37,7 +37,7 @@ The function first evaluates `if` the condition `(val !== 17)` evaluates to `tru
 
 - ["Non-identity / strict inequality (!==)" - *MDN JavaScript reference*](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Comparison_Operators#Non-identity_strict_inequality_(!))
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTk4MDg1OTI3LC0xMzM3MjcwNTg2LC0xNT
-A4OTEyMzE0LC03NzQyMTAyMzIsLTIwMzA0NzE5MjksNTQyNDcz
-MjU4LDE3NTg0ODE5MjJdfQ==
+eyJoaXN0b3J5IjpbMjk4MDAyNTE5LDk5ODA4NTkyNywtMTMzNz
+I3MDU4NiwtMTUwODkxMjMxNCwtNzc0MjEwMjMyLC0yMDMwNDcx
+OTI5LDU0MjQ3MzI1OCwxNzU4NDgxOTIyXX0=
 -->
