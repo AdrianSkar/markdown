@@ -38,12 +38,9 @@ The function first evaluates `if` the condition `(val == 12)` evaluates to `true
 1. ["Basic JavaScript: Comparison with the Equality Operator", fCC lesson at *Javascript Algorithms And Data Structures Certification*](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/comparison-with-the-equality-operator)
 
 ### Resources
-- ["Boolean" - *MDN Glossary*](https://developer.mozilla.org/en-US/docs/Glossary/Boolean)
 
-- ["if...else" - *MDN JavaScript reference*](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/if...else)
+- ["Equality operator" - *MDN JavaScript reference*](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/if...else)
 
-
-- [Kondov, Alexander. "Understanding JS: Coercion". *Hackernoon*](https://hackernoon.com/understanding-js-coercion-ff5684475bfc), Accessed 13 Sep. 2018
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MzQ0NTY0MjFdfQ==
+eyJoaXN0b3J5IjpbMTQ4NjcyOTMwMiwtMTQzNDQ1NjQyMV19
 -->
