@@ -44,11 +44,11 @@ The function first evaluates `if` the condition `(val > 100)` evaluates to `true
 
 ### Resources
 
-- ["Greater than operator (>)" - *MDN JavaScript reference*](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Comparison_Operators#Greater_than_operator_(%3E))
+- ["Logical operators" - *MDN JavaScript reference*](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Logical_Operators)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MDM0OTE0NjUsLTEzMDcxNzk0NjUsMT
-UxNjQ3MjA4MiwtMzg5MTI0NTU0LC04OTcxODc2MTIsMjk4MDAy
-NTE5LDk5ODA4NTkyNywtMTMzNzI3MDU4NiwtMTUwODkxMjMxNC
-wtNzc0MjEwMjMyLC0yMDMwNDcxOTI5LDU0MjQ3MzI1OCwxNzU4
-NDgxOTIyXX0=
+eyJoaXN0b3J5IjpbLTE5MzU0MTYyMzAsLTE3MDM0OTE0NjUsLT
+EzMDcxNzk0NjUsMTUxNjQ3MjA4MiwtMzg5MTI0NTU0LC04OTcx
+ODc2MTIsMjk4MDAyNTE5LDk5ODA4NTkyNywtMTMzNzI3MDU4Ni
+wtMTUwODkxMjMxNCwtNzc0MjEwMjMyLC0yMDMwNDcxOTI5LDU0
+MjQ3MzI1OCwxNzU4NDgxOTIyXX0=
 -->
