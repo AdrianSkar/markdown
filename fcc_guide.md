@@ -37,7 +37,7 @@ function testLogicalAnd(val) {
 // Change this value to test
 testLogicalAnd(10);
 ```
-· [Run code at repl.it](https://repl.it/@AdrianSkar/Basic-JS-Comparison-with-greater)
+· [Run code at repl.it](https://repl.it/@AdrianSkar/Basic-JS-Comparison-with-the-and-operator)
 
 ### Code explanation
 The function first evaluates `if` the condition `(val > 100)` evaluates to `true` converting `val` to a number if necessary. If it does, it returns the statement between the curly braces ("Over 100"). If it doesn't, it checks if the next condition is `true` (returning "Over 10"). Otherwise the function will return "10 or under".
@@ -46,8 +46,9 @@ The function first evaluates `if` the condition `(val > 100)` evaluates to `true
 
 - ["Greater than operator (>)" - *MDN JavaScript reference*](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Comparison_Operators#Greater_than_operator_(%3E))
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMDcxNzk0NjUsMTUxNjQ3MjA4MiwtMz
-g5MTI0NTU0LC04OTcxODc2MTIsMjk4MDAyNTE5LDk5ODA4NTky
-NywtMTMzNzI3MDU4NiwtMTUwODkxMjMxNCwtNzc0MjEwMjMyLC
-0yMDMwNDcxOTI5LDU0MjQ3MzI1OCwxNzU4NDgxOTIyXX0=
+eyJoaXN0b3J5IjpbLTE3MDM0OTE0NjUsLTEzMDcxNzk0NjUsMT
+UxNjQ3MjA4MiwtMzg5MTI0NTU0LC04OTcxODc2MTIsMjk4MDAy
+NTE5LDk5ODA4NTkyNywtMTMzNzI3MDU4NiwtMTUwODkxMjMxNC
+wtNzc0MjEwMjMyLC0yMDMwNDcxOTI5LDU0MjQ3MzI1OCwxNzU4
+NDgxOTIyXX0=
 -->
