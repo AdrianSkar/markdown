@@ -7,7 +7,12 @@ title: Comparisons with the && (logical AND) operator
 · _Combine the two if statements into one statement which will return `"Yes"` if `val` is less than or equal to `50` and greater than or equal to `25`. Otherwise, will return `"No"`._
 
 #### Hint 1
-The logical AND (`&&`) operator compares both statements and returns `true` only if both are true.
+The logical AND (`&&`) operator compares both statements and returns `true` only if both are true or can be converted to true (truthy).
+> _try to solve the problem now_
+> 
+
+#### Hint 2
+Remember that this effect can be also achieves by nesting `if.
 > _try to solve the problem now_
 > 
 
@@ -42,8 +47,8 @@ The function first evaluates `if` the condition `(val > 100)` evaluates to `true
 
 - ["Greater than operator (>)" - *MDN JavaScript reference*](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Comparison_Operators#Greater_than_operator_(%3E))
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUxNjQ3MjA4MiwtMzg5MTI0NTU0LC04OT
-cxODc2MTIsMjk4MDAyNTE5LDk5ODA4NTkyNywtMTMzNzI3MDU4
-NiwtMTUwODkxMjMxNCwtNzc0MjEwMjMyLC0yMDMwNDcxOTI5LD
-U0MjQ3MzI1OCwxNzU4NDgxOTIyXX0=
+eyJoaXN0b3J5IjpbLTEyNzY1Mzc0NDUsMTUxNjQ3MjA4MiwtMz
+g5MTI0NTU0LC04OTcxODc2MTIsMjk4MDAyNTE5LDk5ODA4NTky
+NywtMTMzNzI3MDU4NiwtMTUwODkxMjMxNCwtNzc0MjEwMjMyLC
+0yMDMwNDcxOTI5LDU0MjQ3MzI1OCwxNzU4NDgxOTIyXX0=
 -->
