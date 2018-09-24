@@ -40,15 +40,15 @@ testLogicalAnd(10);
 · [Run code at repl.it](https://repl.it/@AdrianSkar/Basic-JS-Comparison-with-the-and-operator)
 
 ### Code explanation
-The function first evaluates `if` the condition `(val > 100)` evaluates to `true` converting `val` to a number if necessary. If it does, it returns the statement between the curly braces ("Over 100"). If it doesn't, it checks if the next condition is `true` (returning "Over 10"). Otherwise the function will return "10 or under".
+The function first evaluates `if` the condition `(val <= 50)` evaluates to `true` converting `val` to a number if necessary, then does the same with `val >=25`; if both return true the `return "Yes"` statement is executed. 
 
 ### Resources
 
 - ["Logical operators" - *MDN JavaScript reference*](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Logical_Operators)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MzU0MTYyMzAsLTE3MDM0OTE0NjUsLT
-EzMDcxNzk0NjUsMTUxNjQ3MjA4MiwtMzg5MTI0NTU0LC04OTcx
-ODc2MTIsMjk4MDAyNTE5LDk5ODA4NTkyNywtMTMzNzI3MDU4Ni
-wtMTUwODkxMjMxNCwtNzc0MjEwMjMyLC0yMDMwNDcxOTI5LDU0
-MjQ3MzI1OCwxNzU4NDgxOTIyXX0=
+eyJoaXN0b3J5IjpbLTYxNjI3ODI1OCwtMTkzNTQxNjIzMCwtMT
+cwMzQ5MTQ2NSwtMTMwNzE3OTQ2NSwxNTE2NDcyMDgyLC0zODkx
+MjQ1NTQsLTg5NzE4NzYxMiwyOTgwMDI1MTksOTk4MDg1OTI3LC
+0xMzM3MjcwNTg2LC0xNTA4OTEyMzE0LC03NzQyMTAyMzIsLTIw
+MzA0NzE5MjksNTQyNDczMjU4LDE3NTg0ODE5MjJdfQ==
 -->
