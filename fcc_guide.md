@@ -1,11 +1,10 @@
 ---
-title: Comparison with the greater than operator (>)
+title: Comparisons with the && (logical AND) operator
 ---
-## Comparison with the greater than operator (>)
-
+## Comparisons with the && (logical AND) operator
 
 ### Problem explanation:
-· _Add the `greater than` operator to the indicated lines so that the return statements make sense._
+· _Combine the two if statements into one statement which will return `"Yes"` if `val`is less than or equal to `50` and greater than or equal to `25`. Otherwise, will return `"No"`._
 
 #### Hint 1
 The greater than operator `(>)` compares both operands using type coercion (converting data types if necessary) and returns `true` if the first one is greater than the second one.
@@ -43,8 +42,8 @@ The function first evaluates `if` the condition `(val > 100)` evaluates to `true
 
 - ["Greater than operator (>)" - *MDN JavaScript reference*](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Comparison_Operators#Greater_than_operator_(%3E))
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM4OTEyNDU1NCwtODk3MTg3NjEyLDI5OD
-AwMjUxOSw5OTgwODU5MjcsLTEzMzcyNzA1ODYsLTE1MDg5MTIz
-MTQsLTc3NDIxMDIzMiwtMjAzMDQ3MTkyOSw1NDI0NzMyNTgsMT
-c1ODQ4MTkyMl19
+eyJoaXN0b3J5IjpbLTIwMjA3ODI4MzYsLTM4OTEyNDU1NCwtOD
+k3MTg3NjEyLDI5ODAwMjUxOSw5OTgwODU5MjcsLTEzMzcyNzA1
+ODYsLTE1MDg5MTIzMTQsLTc3NDIxMDIzMiwtMjAzMDQ3MTkyOS
+w1NDI0NzMyNTgsMTc1ODQ4MTkyMl19
 -->
