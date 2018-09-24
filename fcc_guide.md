@@ -23,20 +23,19 @@ Remember that this effect can be also achieved by nesting `if` statements.
 ## Basic code solution:
 
 ```javascript
-function testGreaterThan(val) {
-  if (val > 100) {  // Change this line
-    return "Over 100";
-  }
-  
-  if (val > 10) {  // Change this line
-    return "Over 10";
+function testLogicalAnd(val) {
+  // Only change code below this line
+
+  if (val <= 50 && val >= 25) {
+      return "Yes";
   }
 
-  return "10 or under";
+  // Only change code above this line
+  return "No";
 }
 
 // Change this value to test
-testGreaterThan(10);
+testLogicalAnd(10);
 ```
 · [Run code at repl.it](https://repl.it/@AdrianSkar/Basic-JS-Comparison-with-greater)
 
@@ -47,8 +46,8 @@ The function first evaluates `if` the condition `(val > 100)` evaluates to `true
 
 - ["Greater than operator (>)" - *MDN JavaScript reference*](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Comparison_Operators#Greater_than_operator_(%3E))
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNjQ5ODAwMiwxNTE2NDcyMDgyLC0zOD
-kxMjQ1NTQsLTg5NzE4NzYxMiwyOTgwMDI1MTksOTk4MDg1OTI3
-LC0xMzM3MjcwNTg2LC0xNTA4OTEyMzE0LC03NzQyMTAyMzIsLT
-IwMzA0NzE5MjksNTQyNDczMjU4LDE3NTg0ODE5MjJdfQ==
+eyJoaXN0b3J5IjpbLTEzMDcxNzk0NjUsMTUxNjQ3MjA4MiwtMz
+g5MTI0NTU0LC04OTcxODc2MTIsMjk4MDAyNTE5LDk5ODA4NTky
+NywtMTMzNzI3MDU4NiwtMTUwODkxMjMxNCwtNzc0MjEwMjMyLC
+0yMDMwNDcxOTI5LDU0MjQ3MzI1OCwxNzU4NDgxOTIyXX0=
 -->
