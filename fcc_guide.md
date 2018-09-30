@@ -45,16 +45,16 @@ testElse(4);
 · [Run code at repl.it](https://repl.it/@AdrianSkar/Introducing-else-statements)
 
 ### Code explanation
-The function first evaluates `if` the condition `val <= 50` evaluates to `true` converting `val` to a number if necessary, then does the same with `val >=25` because of the logical AND (`&&`) operator; if both return true, the `return "Yes"` statement is executed. 
+The function first evaluates `if` the condition `val > 5` evaluates to `true`. If it doesn't,it executes the next statement (`else` { return "5 or smaller"}.  
 
 ### Resources
 
 - ["if...else" - *MDN JavaScript reference*](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/if...else)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUzNDIzNDcxLC0xMDkyMDE2NjM1LDI5MT
-Q3MDE4LC0xOTM1NDE2MjMwLC0xNzAzNDkxNDY1LC0xMzA3MTc5
-NDY1LDE1MTY0NzIwODIsLTM4OTEyNDU1NCwtODk3MTg3NjEyLD
-I5ODAwMjUxOSw5OTgwODU5MjcsLTEzMzcyNzA1ODYsLTE1MDg5
-MTIzMTQsLTc3NDIxMDIzMiwtMjAzMDQ3MTkyOSw1NDI0NzMyNT
-gsMTc1ODQ4MTkyMl19
+eyJoaXN0b3J5IjpbLTkxMzkyNTIyMiwtMTA5MjAxNjYzNSwyOT
+E0NzAxOCwtMTkzNTQxNjIzMCwtMTcwMzQ5MTQ2NSwtMTMwNzE3
+OTQ2NSwxNTE2NDcyMDgyLC0zODkxMjQ1NTQsLTg5NzE4NzYxMi
+wyOTgwMDI1MTksOTk4MDg1OTI3LC0xMzM3MjcwNTg2LC0xNTA4
+OTEyMzE0LC03NzQyMTAyMzIsLTIwMzA0NzE5MjksNTQyNDczMj
+U4LDE3NTg0ODE5MjJdfQ==
 -->
