@@ -1,10 +1,10 @@
 ---
-title: Comparisons with the && (logical AND) operator
+title: Introducing Else statements
 ---
-## Comparisons with the && (logical AND) operator
+## Introducing Else statements
 
 ### Problem explanation:
-· _Combine the two if statements into one statement which will return `"Yes"` if `val` is less than or equal to `50` and greater than or equal to `25`. Otherwise, will return `"No"`._
+· _Combine the `if` statements into a single `if/else` statement._
 
 #### Hint 1
 The logical AND (`&&`) operator compares both statements and returns `true` only if both are true or can be converted to true (truthy).
@@ -46,9 +46,10 @@ The function first evaluates `if` the condition `val <= 50` evaluates to `true` 
 
 - ["Logical operators" - *MDN JavaScript reference*](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Logical_Operators)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjkxNDcwMTgsLTE5MzU0MTYyMzAsLTE3MD
-M0OTE0NjUsLTEzMDcxNzk0NjUsMTUxNjQ3MjA4MiwtMzg5MTI0
-NTU0LC04OTcxODc2MTIsMjk4MDAyNTE5LDk5ODA4NTkyNywtMT
-MzNzI3MDU4NiwtMTUwODkxMjMxNCwtNzc0MjEwMjMyLC0yMDMw
-NDcxOTI5LDU0MjQ3MzI1OCwxNzU4NDgxOTIyXX0=
+eyJoaXN0b3J5IjpbLTE5MTU0OTg4MjksMjkxNDcwMTgsLTE5Mz
+U0MTYyMzAsLTE3MDM0OTE0NjUsLTEzMDcxNzk0NjUsMTUxNjQ3
+MjA4MiwtMzg5MTI0NTU0LC04OTcxODc2MTIsMjk4MDAyNTE5LD
+k5ODA4NTkyNywtMTMzNzI3MDU4NiwtMTUwODkxMjMxNCwtNzc0
+MjEwMjMyLC0yMDMwNDcxOTI5LDU0MjQ3MzI1OCwxNzU4NDgxOT
+IyXX0=
 -->
