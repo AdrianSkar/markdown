@@ -23,19 +23,24 @@ Remember that this effect can be also achieved by nesting `if` statements.
 ## Basic code solution:
 
 ```javascript
-function testLogicalAnd(val) {
+function testElse(val) {
+  var result = "";
   // Only change code below this line
-
-  if (val <= 50 && val >= 25) {
-      return "Yes";
+  
+  if (val > 5) {
+    result = "Bigger than 5";
   }
-
+  
+  else {
+    return "5 or smaller";
+  }
+  
   // Only change code above this line
-  return "No";
+  return result;
 }
 
 // Change this value to test
-testLogicalAnd(10);
+testElse(4);
 ```
 · [Run code at repl.it](https://repl.it/@AdrianSkar/Basic-JS-Comparison-with-the-and-operator)
 
@@ -46,7 +51,7 @@ The function first evaluates `if` the condition `val <= 50` evaluates to `true` 
 
 - ["Logical operators" - *MDN JavaScript reference*](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Logical_Operators)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MTU0OTg4MjksMjkxNDcwMTgsLTE5Mz
+eyJoaXN0b3J5IjpbLTEwOTIwMTY2MzUsMjkxNDcwMTgsLTE5Mz
 U0MTYyMzAsLTE3MDM0OTE0NjUsLTEzMDcxNzk0NjUsMTUxNjQ3
 MjA4MiwtMzg5MTI0NTU0LC04OTcxODc2MTIsMjk4MDAyNTE5LD
 k5ODA4NTkyNywtMTMzNzI3MDU4NiwtMTUwODkxMjMxNCwtNzc0
