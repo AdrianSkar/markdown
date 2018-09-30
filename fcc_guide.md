@@ -12,7 +12,7 @@ When the first  `if` statement returns `false` the next piece of code is execute
 > 
 
 #### Hint 2
-Remember that this effect can be also achieved by nesting `if` statements.
+Sometimes `if` (`condition`) statements can be replaced by `else {code to execute} ` statements.
 > _try to solve the problem now_
 > 
 
@@ -51,10 +51,10 @@ The function first evaluates `if` the condition `val <= 50` evaluates to `true` 
 
 - ["if...else" - *MDN JavaScript reference*](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/if...else)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM4NzEwNjg0OSwtMTA5MjAxNjYzNSwyOT
-E0NzAxOCwtMTkzNTQxNjIzMCwtMTcwMzQ5MTQ2NSwtMTMwNzE3
-OTQ2NSwxNTE2NDcyMDgyLC0zODkxMjQ1NTQsLTg5NzE4NzYxMi
-wyOTgwMDI1MTksOTk4MDg1OTI3LC0xMzM3MjcwNTg2LC0xNTA4
-OTEyMzE0LC03NzQyMTAyMzIsLTIwMzA0NzE5MjksNTQyNDczMj
-U4LDE3NTg0ODE5MjJdfQ==
+eyJoaXN0b3J5IjpbNTgyODc4MiwtMTA5MjAxNjYzNSwyOTE0Nz
+AxOCwtMTkzNTQxNjIzMCwtMTcwMzQ5MTQ2NSwtMTMwNzE3OTQ2
+NSwxNTE2NDcyMDgyLC0zODkxMjQ1NTQsLTg5NzE4NzYxMiwyOT
+gwMDI1MTksOTk4MDg1OTI3LC0xMzM3MjcwNTg2LC0xNTA4OTEy
+MzE0LC03NzQyMTAyMzIsLTIwMzA0NzE5MjksNTQyNDczMjU4LD
+E3NTg0ODE5MjJdfQ==
 -->
