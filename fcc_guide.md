@@ -32,7 +32,7 @@ function testElse(val) {
   }
   
   else {
-    return "5 or smaller";
+    result = "5 or smaller";
   }
   
   // Only change code above this line
@@ -51,10 +51,10 @@ The function first evaluates `if` the condition `val > 5` evaluates to `true`. I
 
 - ["if...else" - *MDN JavaScript reference*](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/if...else)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NDQwODQyNDQsLTEwOTIwMTY2MzUsMj
-kxNDcwMTgsLTE5MzU0MTYyMzAsLTE3MDM0OTE0NjUsLTEzMDcx
-Nzk0NjUsMTUxNjQ3MjA4MiwtMzg5MTI0NTU0LC04OTcxODc2MT
-IsMjk4MDAyNTE5LDk5ODA4NTkyNywtMTMzNzI3MDU4NiwtMTUw
-ODkxMjMxNCwtNzc0MjEwMjMyLC0yMDMwNDcxOTI5LDU0MjQ3Mz
-I1OCwxNzU4NDgxOTIyXX0=
+eyJoaXN0b3J5IjpbLTEyNTM4ODIzNzgsLTE0NDQwODQyNDQsLT
+EwOTIwMTY2MzUsMjkxNDcwMTgsLTE5MzU0MTYyMzAsLTE3MDM0
+OTE0NjUsLTEzMDcxNzk0NjUsMTUxNjQ3MjA4MiwtMzg5MTI0NT
+U0LC04OTcxODc2MTIsMjk4MDAyNTE5LDk5ODA4NTkyNywtMTMz
+NzI3MDU4NiwtMTUwODkxMjMxNCwtNzc0MjEwMjMyLC0yMDMwND
+cxOTI5LDU0MjQ3MzI1OCwxNzU4NDgxOTIyXX0=
 -->
