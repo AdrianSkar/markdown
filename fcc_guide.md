@@ -1,60 +1,99 @@
+
 ---
-title: Introducing Else statements
+title: Introducing Else If statements
 ---
-## Introducing Else statements
+## Introducing Else If statements
 
-### Problem explanation:
-· _Combine the `if` statements into a single `if/else` statement._
+ Remember to use Read-Search-Ask if you get stuck. Try to pair program and write your own code.
 
-#### Hint 1
-When the first  `if` statement returns `false` the next piece of code is executed/evaluated (like `return`, `if` or `else` statements).
-> _try to solve the problem now_
-> 
-
-#### Hint 2
-Sometimes `if` (`condition`) statements can be replaced by `else {code to execute instead} ` statements (in essence you are telling your function to do _"y"_ if it can't do _"x"_ instead of specifying _"x"_ several times) .  
-> _try to solve the problem now_
-> 
-
-## Spoiler alert!
-
-**Solution ahead!**
-
-## Basic code solution:
-
+ ### Problem explanation:
 ```javascript
-function testElse(val) {
-  var result = "";
-  // Only change code below this line
-  
-  if (val > 5) {
-    result = "Bigger than 5";
+function testElseIf(val) {
+  if (val > 10) {
+    return "Greater than 10";
   }
   
-  else {
-    result = "5 or smaller";
+  if (val < 5) {
+    return "Smaller than 5";
   }
   
-  // Only change code above this line
-  return result;
+  return "Between 5 and 10";
 }
 
 // Change this value to test
-testElse(4);
+testElseIf(7);
 ```
-· [Run code at repl.it](https://repl.it/@AdrianSkar/Introducing-else-statements)
+We'll be modifying the existing code above so that it follows the flow of logic that an **else-if** statement has.
 
-### Code explanation
-The function first evaluates `if` the condition `val > 5` evaluates to `true`. If it doesn't, it executes the next statement (`else { return "5 or smaller";})`.  
+ ### Hint: 1
+ ``` javascript
+   if (val > 10) {
+    return "Greater than 10";
+  }
+  ```
+  All `if` statements and their variants start off with an `if` statement.
+> _try to solve the problem now_
+ 
+ ### Hint: 2
+  ``` javascript
+  else if (val < 5) {
+    return "Smaller than 5";
+  }
+  ```
+  Statements between the `if` statement and the `else` statement in an **else-if** flow are in the else-if format
+> _try to solve the problem now_
+ 
+ ### Hint: 3
+``` javascript
+else {
+  return "Between 5 and 10";
+  }
+ ```
+ The last statement in an **else-if** flow is in the `else` format
+ ### Spoiler Alert!
+![spoiler](http://discourse-user-assets.s3.amazonaws.com/original/2X/2/2d6c412a50797771301e7ceabd554cef4edcd74d.gif)
+ Solution ahead!
+ ## Basic code solution:
+```javascript
+function testElseIf(val) {
+  if (val > 10) {
+    return "Greater than 10";
+  }
+  
+  else if (val < 5) {
+    return "Smaller than 5";
+  }
+  
+  else {
+  return "Between 5 and 10";
+  }
+}
 
-### Resources
+// Change this value to test
+testElseIf(7);
+```
+:rocket: [Run Code](https://repl.it/@RyanPisuena/GoldenWorriedRuntime)
+ ## Code explanation
+The structure of an **else-if logic flow** is an initial *if statement*, one more *if-else statements*, and one final *else statement*
+ 
+ Relevant Link:  [else-if statements](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/if...else)
 
-- ["if...else" - *MDN JavaScript reference*](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/if...else)
+ 
+ # :clipboard: NOTES FOR CONTRIBUTIONS:
+ * :warning: DO NOT add solutions that are similar to any existing solutions. If you think it is similar but better, then try to merge (or replace) the existing similar solution.
+* Add an explanation of your solution.
+* Categorize the solution in one of the following categories — Basic, Intermediate and Advanced.  :traffic_light:
+* Please add your username only if you have added any relevant main contents. (  :warning: DO NOT remove any existing usernames)
+ See  :point_right: [Wiki Challenge Solution Template](https://forum.freecodecamp.org/t/freecodecamp-algorithm-challenge-template-guide/14272) for reference.
+
+<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNTM4ODIzNzgsLTE0NDQwODQyNDQsLT
-EwOTIwMTY2MzUsMjkxNDcwMTgsLTE5MzU0MTYyMzAsLTE3MDM0
-OTE0NjUsLTEzMDcxNzk0NjUsMTUxNjQ3MjA4MiwtMzg5MTI0NT
-U0LC04OTcxODc2MTIsMjk4MDAyNTE5LDk5ODA4NTkyNywtMTMz
-NzI3MDU4NiwtMTUwODkxMjMxNCwtNzc0MjEwMjMyLC0yMDMwND
-cxOTI5LDU0MjQ3MzI1OCwxNzU4NDgxOTIyXX0=
+eyJoaXN0b3J5IjpbMTQ0NDQ2MDE1MSwtMTI1Mzg4MjM3OCwtMT
+Q0NDA4NDI0NCwtMTA5MjAxNjYzNSwyOTE0NzAxOCwtMTkzNTQx
+NjIzMCwtMTcwMzQ5MTQ2NSwtMTMwNzE3OTQ2NSwxNTE2NDcyMD
+gyLC0zODkxMjQ1NTQsLTg5NzE4NzYxMiwyOTgwMDI1MTksOTk4
+MDg1OTI3LC0xMzM3MjcwNTg2LC0xNTA4OTEyMzE0LC03NzQyMT
+AyMzIsLTIwMzA0NzE5MjksNTQyNDczMjU4LDE3NTg0ODE5MjJd
+fQ==
 -->
