@@ -42,7 +42,7 @@ function testElse(val) {
 // Change this value to test
 testElse(4);
 ```
-· [Run code at repl.it](https://repl.it/@AdrianSkar/Basic-JS-Comparison-with-the-and-operator)
+· [Run code at repl.it](https://repl.it/@AdrianSkar/Introducing-else-statements)
 
 ### Code explanation
 The function first evaluates `if` the condition `val <= 50` evaluates to `true` converting `val` to a number if necessary, then does the same with `val >=25` because of the logical AND (`&&`) operator; if both return true, the `return "Yes"` statement is executed. 
@@ -51,10 +51,10 @@ The function first evaluates `if` the condition `val <= 50` evaluates to `true` 
 
 - ["if...else" - *MDN JavaScript reference*](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/if...else)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MTkzNTA5MDYsLTEwOTIwMTY2MzUsMj
-kxNDcwMTgsLTE5MzU0MTYyMzAsLTE3MDM0OTE0NjUsLTEzMDcx
-Nzk0NjUsMTUxNjQ3MjA4MiwtMzg5MTI0NTU0LC04OTcxODc2MT
-IsMjk4MDAyNTE5LDk5ODA4NTkyNywtMTMzNzI3MDU4NiwtMTUw
-ODkxMjMxNCwtNzc0MjEwMjMyLC0yMDMwNDcxOTI5LDU0MjQ3Mz
-I1OCwxNzU4NDgxOTIyXX0=
+eyJoaXN0b3J5IjpbMTUzNDIzNDcxLC0xMDkyMDE2NjM1LDI5MT
+Q3MDE4LC0xOTM1NDE2MjMwLC0xNzAzNDkxNDY1LC0xMzA3MTc5
+NDY1LDE1MTY0NzIwODIsLTM4OTEyNDU1NCwtODk3MTg3NjEyLD
+I5ODAwMjUxOSw5OTgwODU5MjcsLTEzMzcyNzA1ODYsLTE1MDg5
+MTIzMTQsLTc3NDIxMDIzMiwtMjAzMDQ3MTkyOSw1NDI0NzMyNT
+gsMTc1ODQ4MTkyMl19
 -->
