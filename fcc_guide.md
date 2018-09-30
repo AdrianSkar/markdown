@@ -7,7 +7,7 @@ title: Introducing Else statements
 · _Combine the `if` statements into a single `if/else` statement._
 
 #### Hint 1
-The logical AND (`&&`) operator compares both statements and returns `true` only if both are true or can be converted to true (truthy).
+When the first  `if` statement is .
 > _try to solve the problem now_
 > 
 
@@ -51,7 +51,7 @@ The function first evaluates `if` the condition `val <= 50` evaluates to `true` 
 
 - ["if...else" - *MDN JavaScript reference*](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/if...else)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4ODg3NDg3NjUsLTEwOTIwMTY2MzUsMj
+eyJoaXN0b3J5IjpbLTE5MDEyNTU5MjMsLTEwOTIwMTY2MzUsMj
 kxNDcwMTgsLTE5MzU0MTYyMzAsLTE3MDM0OTE0NjUsLTEzMDcx
 Nzk0NjUsMTUxNjQ3MjA4MiwtMzg5MTI0NTU0LC04OTcxODc2MT
 IsMjk4MDAyNTE5LDk5ODA4NTkyNywtMTMzNzI3MDU4NiwtMTUw
