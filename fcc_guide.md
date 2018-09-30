@@ -7,7 +7,7 @@ title: Introducing Else statements
 · _Combine the `if` statements into a single `if/else` statement._
 
 #### Hint 1
-When the first  `if` statement is .
+When the first  `if` statement returns `false` the next piece of code is executed/evaluated (like `return`, `if` or `else` statements).
 > _try to solve the problem now_
 > 
 
@@ -51,10 +51,10 @@ The function first evaluates `if` the condition `val <= 50` evaluates to `true` 
 
 - ["if...else" - *MDN JavaScript reference*](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/if...else)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MDEyNTU5MjMsLTEwOTIwMTY2MzUsMj
-kxNDcwMTgsLTE5MzU0MTYyMzAsLTE3MDM0OTE0NjUsLTEzMDcx
-Nzk0NjUsMTUxNjQ3MjA4MiwtMzg5MTI0NTU0LC04OTcxODc2MT
-IsMjk4MDAyNTE5LDk5ODA4NTkyNywtMTMzNzI3MDU4NiwtMTUw
-ODkxMjMxNCwtNzc0MjEwMjMyLC0yMDMwNDcxOTI5LDU0MjQ3Mz
-I1OCwxNzU4NDgxOTIyXX0=
+eyJoaXN0b3J5IjpbMTM4NzEwNjg0OSwtMTA5MjAxNjYzNSwyOT
+E0NzAxOCwtMTkzNTQxNjIzMCwtMTcwMzQ5MTQ2NSwtMTMwNzE3
+OTQ2NSwxNTE2NDcyMDgyLC0zODkxMjQ1NTQsLTg5NzE4NzYxMi
+wyOTgwMDI1MTksOTk4MDg1OTI3LC0xMzM3MjcwNTg2LC0xNTA4
+OTEyMzE0LC03NzQyMTAyMzIsLTIwMzA0NzE5MjksNTQyNDczMj
+U4LDE3NTg0ODE5MjJdfQ==
 -->
