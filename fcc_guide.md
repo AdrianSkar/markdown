@@ -76,15 +76,16 @@ testElseIf(7);
  ## Code explanation
 The structure of an **else-if logic flow** is an initial `if` statement, one more `if-else` statements, and one final `else` statement.
  
- Relevant Link:  [else-if statements](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/if...else)
+### Resources
+- ["if...else" - *MDN JavaScript reference*](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/if...else)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc2OTMxNjYxMCwtMTI1Mzg4MjM3OCwtMT
-Q0NDA4NDI0NCwtMTA5MjAxNjYzNSwyOTE0NzAxOCwtMTkzNTQx
-NjIzMCwtMTcwMzQ5MTQ2NSwtMTMwNzE3OTQ2NSwxNTE2NDcyMD
-gyLC0zODkxMjQ1NTQsLTg5NzE4NzYxMiwyOTgwMDI1MTksOTk4
-MDg1OTI3LC0xMzM3MjcwNTg2LC0xNTA4OTEyMzE0LC03NzQyMT
-AyMzIsLTIwMzA0NzE5MjksNTQyNDczMjU4LDE3NTg0ODE5MjJd
-fQ==
+eyJoaXN0b3J5IjpbODA0NzkyNzExLC0xMjUzODgyMzc4LC0xND
+Q0MDg0MjQ0LC0xMDkyMDE2NjM1LDI5MTQ3MDE4LC0xOTM1NDE2
+MjMwLC0xNzAzNDkxNDY1LC0xMzA3MTc5NDY1LDE1MTY0NzIwOD
+IsLTM4OTEyNDU1NCwtODk3MTg3NjEyLDI5ODAwMjUxOSw5OTgw
+ODU5MjcsLTEzMzcyNzA1ODYsLTE1MDg5MTIzMTQsLTc3NDIxMD
+IzMiwtMjAzMDQ3MTkyOSw1NDI0NzMyNTgsMTc1ODQ4MTkyMl19
+
 -->
