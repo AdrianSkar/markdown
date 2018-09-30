@@ -12,7 +12,7 @@ When the first  `if` statement returns `false` the next piece of code is execute
 > 
 
 #### Hint 2
-Sometimes `if` (`condition`) statements can be replaced by `else {code to execute} ` statements (in essence you are telling your function to do _"y"_ if it can't do _"x"_ instead of specifying _"x"_ several times) .  
+Sometimes `if` (`condition`) statements can be replaced by `else {code to execute instead} ` statements (in essence you are telling your function to do _"y"_ if it can't do _"x"_ instead of specifying _"x"_ several times) .  
 > _try to solve the problem now_
 > 
 
@@ -51,7 +51,7 @@ The function first evaluates `if` the condition `val <= 50` evaluates to `true` 
 
 - ["if...else" - *MDN JavaScript reference*](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/if...else)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMzkxOTE5NjQsLTEwOTIwMTY2MzUsMj
+eyJoaXN0b3J5IjpbLTE4MTkzNTA5MDYsLTEwOTIwMTY2MzUsMj
 kxNDcwMTgsLTE5MzU0MTYyMzAsLTE3MDM0OTE0NjUsLTEzMDcx
 Nzk0NjUsMTUxNjQ3MjA4MiwtMzg5MTI0NTU0LC04OTcxODc2MT
 IsMjk4MDAyNTE5LDk5ODA4NTkyNywtMTMzNzI3MDU4NiwtMTUw
