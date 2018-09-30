@@ -50,7 +50,7 @@ else {
   }
  ```
  The last statement in an **else-if** flow is in the `else` format
- ### Spoiler Alert!
+ ### Spoiler alert!
 ![spoiler](http://discourse-user-assets.s3.amazonaws.com/original/2X/2/2d6c412a50797771301e7ceabd554cef4edcd74d.gif)
  Solution ahead!
  ## Basic code solution:
@@ -72,7 +72,7 @@ function testElseIf(val) {
 // Change this value to test
 testElseIf(7);
 ```
-:rocket: [Run Code](https://repl.it/@RyanPisuena/GoldenWorriedRuntime)
+:rocket: [Run code](https://repl.it/@RyanPisuena/GoldenWorriedRuntime)
  ## Code explanation
 The structure of an **else-if logic flow** is an initial `if` statement, one more `if-else` statements, and one final `else` statement.
  
@@ -81,7 +81,7 @@ The structure of an **else-if logic flow** is an initial `if` statement, one mor
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODA0NzkyNzExLC0xMjUzODgyMzc4LC0xND
+eyJoaXN0b3J5IjpbMzU1MTQzMDQ3LC0xMjUzODgyMzc4LC0xND
 Q0MDg0MjQ0LC0xMDkyMDE2NjM1LDI5MTQ3MDE4LC0xOTM1NDE2
 MjMwLC0xNzAzNDkxNDY1LC0xMzA3MTc5NDY1LDE1MTY0NzIwOD
 IsLTM4OTEyNDU1NCwtODk3MTg3NjEyLDI5ODAwMjUxOSw5OTgw
