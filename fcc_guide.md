@@ -49,12 +49,12 @@ The function first evaluates `if` the condition `val <= 50` evaluates to `true` 
 
 ### Resources
 
-- ["Logical operators" - *MDN JavaScript reference*](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Logical_Operators)
+- ["if...else" - *MDN JavaScript reference*](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/if...else)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwOTIwMTY2MzUsMjkxNDcwMTgsLTE5Mz
-U0MTYyMzAsLTE3MDM0OTE0NjUsLTEzMDcxNzk0NjUsMTUxNjQ3
-MjA4MiwtMzg5MTI0NTU0LC04OTcxODc2MTIsMjk4MDAyNTE5LD
-k5ODA4NTkyNywtMTMzNzI3MDU4NiwtMTUwODkxMjMxNCwtNzc0
-MjEwMjMyLC0yMDMwNDcxOTI5LDU0MjQ3MzI1OCwxNzU4NDgxOT
-IyXX0=
+eyJoaXN0b3J5IjpbLTE4ODg3NDg3NjUsLTEwOTIwMTY2MzUsMj
+kxNDcwMTgsLTE5MzU0MTYyMzAsLTE3MDM0OTE0NjUsLTEzMDcx
+Nzk0NjUsMTUxNjQ3MjA4MiwtMzg5MTI0NTU0LC04OTcxODc2MT
+IsMjk4MDAyNTE5LDk5ODA4NTkyNywtMTMzNzI3MDU4NiwtMTUw
+ODkxMjMxNCwtNzc0MjEwMjMyLC0yMDMwNDcxOTI5LDU0MjQ3Mz
+I1OCwxNzU4NDgxOTIyXX0=
 -->
