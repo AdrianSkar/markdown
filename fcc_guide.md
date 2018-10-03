@@ -1,12 +1,12 @@
 ---
-title: Chaining If...else statements
+title: Chaining if...else statements
 ---
-##  Chaining If...else statements
+##  Chaining if...else statements
 
 ### Problem explanation:
-_Write chained  `if`/`else if`statements to fulfill the following conditions:
+_Write chained  `if`/`else if`statements to fulfill the following conditions_:
 
-`num < 5`- return "Tiny"  
+_`num < 5`- return "Tiny"  
 `num < 10`- return "Small"  
 `num < 15`- return "Medium"  
 `num < 20`- return "Large"  
@@ -15,6 +15,7 @@ _Write chained  `if`/`else if`statements to fulfill the following conditions:
 #### Hint 1
 Remember that you can combine (chain) several `if...else` statements one after the other until your last one using `else if (condition) {do this}`.
 > _try to solve the problem now_
+> 
 > 
 #### Hint 2
 Sometimes, when you write more code than you are used to and it doesn't work, the little things are what betray us. Checking for missing semicolons, brackets, etc. can prove very useful.
@@ -25,7 +26,7 @@ Sometimes, when you write more code than you are used to and it doesn't work, th
 
 **Solution ahead!**
 
-## Basic code solution:
+## Code solution:
 
 ```javascript
 function testSize(num) {
@@ -55,17 +56,12 @@ testSize(7);
 ### Code explanation
 The function first evaluates `if` the condition `(num < 5)` evaluates to `true`. If it does, it returns the statement between the curly braces ("Tiny"). If it doesn't, it checks the next condition until the last `else` statement. 
 
-### Sources
-<span id="cite1">1</span>. ["Basic JavaScript: Comparison with the Equality Operator", fCC lesson at *Javascript Algorithms And Data Structures Certification*](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/comparison-with-the-equality-operator)
 
 ### Resources
-- ["Boolean" - *MDN Glossary*](https://developer.mozilla.org/en-US/docs/Glossary/Boolean)
 
 - ["if...else" - *MDN JavaScript reference*](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/if...else)
-
-- [Samoshkin, Alexey. "Type coercion explained". *freeCodeCamp, Medium*, 17 Jan. 2018.](https://medium.freecodecamp.org/js-type-coercion-explained-27ba3d9a2839) Accessed 2 Sep 2018. QUIT, advanced for this exercise
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc3NDcxMTk1NywtOTkyMzQ2Mjk3LC0xMz
+eyJoaXN0b3J5IjpbLTU5ODkyNTQwNiwtOTkyMzQ2Mjk3LC0xMz
 Y1MDA3NzU1LDM1NTE0MzA0NywtMTI1Mzg4MjM3OCwtMTQ0NDA4
 NDI0NCwtMTA5MjAxNjYzNSwyOTE0NzAxOCwtMTkzNTQxNjIzMC
 wtMTcwMzQ5MTQ2NSwtMTMwNzE3OTQ2NSwxNTE2NDcyMDgyLC0z
