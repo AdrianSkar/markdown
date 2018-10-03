@@ -28,20 +28,32 @@ Sometimes, when you write more code than you are used to and it doesn't work, th
 ## Basic code solution:
 
 ```javascript
-
-function testEqual(val) {
-  if (val == 12) { // Change this line
-    return "Equal";
+function testSize(num) {
+  // Only change code below this line
+  if (num < 5){
+    return "Tiny";
   }
-  return "Not equal";
+  else if (num < 10) {
+    return "Small";
+  }
+  else if (num < 15){
+    return "Medium";
+  }
+  else if (num < 20){
+    return "Large";
+  }
+  else {
+    return "Huge";
+  }
+  // Only change code above this line
 }
-// Change this value to test
-testEqual(10);
 
+// Change this value to test
+testSize(7);
 ```
 
 ### Code explanation
-The function first evaluates `if` the condition `(val == 12)` evaluates to `true`. If it does, it returns the statement between the curly braces ("Equal"). If it doesn't, it returns the next `return` statement outside them ("Not equal"). 
+The function first evaluates `if` the condition `(num < 5)` evaluates to `true`. If it does, it returns the statement between the curly braces ("Tiny"). If it doesn't, it checks the next condition until the last `else` statement. 
 
 ### Sources
 <span id="cite1">1</span>. ["Basic JavaScript: Comparison with the Equality Operator", fCC lesson at *Javascript Algorithms And Data Structures Certification*](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/comparison-with-the-equality-operator)
@@ -53,6 +65,6 @@ The function first evaluates `if` the condition `(val == 12)` evaluates to `true
 
 - [Samoshkin, Alexey. "Type coercion explained". *freeCodeCamp, Medium*, 17 Jan. 2018.](https://medium.freecodecamp.org/js-type-coercion-explained-27ba3d9a2839) Accessed 2 Sep 2018. QUIT, advanced for this exercise
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcxODg4MTI0OSwtMTUxMTk5NTE0MiwxNT
-gwNTkyNTkxLDE3MzQzNDIzNTRdfQ==
+eyJoaXN0b3J5IjpbLTk5MjM0NjI5NywxNzE4ODgxMjQ5LC0xNT
+ExOTk1MTQyLDE1ODA1OTI1OTEsMTczNDM0MjM1NF19
 -->
