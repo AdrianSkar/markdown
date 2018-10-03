@@ -1,90 +1,75 @@
 ---
-title: Introducing Else If statements
+title: Chaining If Else statements
 ---
-## Introducing Else If statements
+##  Chaining If Else statements
 
- Remember to use Read-Search-Ask if you get stuck. Try to pair program and write your own code.
+### Problem explanation:
+_Write chained  `if`/`else if`statements to fulfill the following conditions:
 
- ### Problem explanation:
-```javascript
-function testElseIf(val) {
-  if (val > 10) {
-    return "Greater than 10";
-  }
-  
-  if (val < 5) {
-    return "Smaller than 5";
-  }
-  
-  return "Between 5 and 10";
-}
+`num < 5`- return "Tiny"  
+`num < 10`- return "Small"  
+`num < 15`- return "Medium"  
+`num < 20`- return "Large"  
+`num >= 20`- return "Huge"_
 
-// Change this value to test
-testElseIf(7);
-```
-We'll be modifying the existing code above so that it follows the flow of logic that an **else-if** statement has.
-
- ### Hint: 1
- ``` javascript
-   if (val > 10) {
-    return "Greater than 10";
-  }
-  ```
-  All `if` statements and their variants start off with an `if` statement.
+#### Hint 1
+Remember that you can combine (chain) several `if...else` statements one after the other until your last one using `else if (condition) {do this}`.
 > _try to solve the problem now_
- 
- ### Hint: 2
-  ``` javascript
-  else if (val < 5) {
-    return "Smaller than 5";
-  }
-  ```
-  Statements between the `if` statement and the `else` statement in an **else-if** flow are in the else-if format
+> 
+#### Hint 2
+Sometimes, when you write more code than you are used to and it doesn't work, the little things are what betray us. Checking for missing semicolons, brackets, etc. can prove very useful.
 > _try to solve the problem now_
- 
- ### Hint: 3
-``` javascript
-else {
-  return "Between 5 and 10";
-  }
- ```
- The last statement in an **else-if** flow is in the `else` format
- ### Spoiler alert!
-![spoiler](http://discourse-user-assets.s3.amazonaws.com/original/2X/2/2d6c412a50797771301e7ceabd554cef4edcd74d.gif)
- Solution ahead!
- ## Basic code solution:
+
+
+## Spoiler alert!
+
+**Solution ahead!**
+
+## Basic code solution:
+
 ```javascript
-function testElseIf(val) {
-  if (val > 10) {
-    return "Greater than 10";
+function testSize(num) {
+  // Only change code below this line
+  if (num < 5){
+    return "Tiny";
   }
-  
-  else if (val < 5) {
-    return "Smaller than 5";
+  else if (num < 10) {
+    return "Small";
   }
-  
+  else if (num < 15){
+    return "Medium";
+  }
+  else if (num < 20){
+    return "Large";
+  }
   else {
-  return "Between 5 and 10";
+    return "Huge";
   }
+  // Only change code above this line
 }
 
 // Change this value to test
-testElseIf(7);
+testSize(7);
 ```
-:rocket: [Run code](https://repl.it/@RyanPisuena/GoldenWorriedRuntime)
- ## Code explanation
-The structure of an **else-if logic flow** is an initial `if` statement, one more `if-else` statements, and one final `else` statement.
- 
+
+### Code explanation
+The function first evaluates `if` the condition `(num < 5)` evaluates to `true`. If it does, it returns the statement between the curly braces ("Tiny"). If it doesn't, it checks the next condition until the last `else` statement. 
+
+### Sources
+<span id="cite1">1</span>. ["Basic JavaScript: Comparison with the Equality Operator", fCC lesson at *Javascript Algorithms And Data Structures Certification*](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/comparison-with-the-equality-operator)
+
 ### Resources
+- ["Boolean" - *MDN Glossary*](https://developer.mozilla.org/en-US/docs/Glossary/Boolean)
+
 - ["if...else" - *MDN JavaScript reference*](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/if...else)
 
-
+- [Samoshkin, Alexey. "Type coercion explained". *freeCodeCamp, Medium*, 17 Jan. 2018.](https://medium.freecodecamp.org/js-type-coercion-explained-27ba3d9a2839) Accessed 2 Sep 2018. QUIT, advanced for this exercise
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNjUwMDc3NTUsMzU1MTQzMDQ3LC0xMj
-UzODgyMzc4LC0xNDQ0MDg0MjQ0LC0xMDkyMDE2NjM1LDI5MTQ3
-MDE4LC0xOTM1NDE2MjMwLC0xNzAzNDkxNDY1LC0xMzA3MTc5ND
-Y1LDE1MTY0NzIwODIsLTM4OTEyNDU1NCwtODk3MTg3NjEyLDI5
-ODAwMjUxOSw5OTgwODU5MjcsLTEzMzcyNzA1ODYsLTE1MDg5MT
-IzMTQsLTc3NDIxMDIzMiwtMjAzMDQ3MTkyOSw1NDI0NzMyNTgs
-MTc1ODQ4MTkyMl19
+eyJoaXN0b3J5IjpbLTk5MjM0NjI5NywtMTM2NTAwNzc1NSwzNT
+UxNDMwNDcsLTEyNTM4ODIzNzgsLTE0NDQwODQyNDQsLTEwOTIw
+MTY2MzUsMjkxNDcwMTgsLTE5MzU0MTYyMzAsLTE3MDM0OTE0Nj
+UsLTEzMDcxNzk0NjUsMTUxNjQ3MjA4MiwtMzg5MTI0NTU0LC04
+OTcxODc2MTIsMjk4MDAyNTE5LDk5ODA4NTkyNywtMTMzNzI3MD
+U4NiwtMTUwODkxMjMxNCwtNzc0MjEwMjMyLC0yMDMwNDcxOTI5
+LDU0MjQ3MzI1OF19
 -->
