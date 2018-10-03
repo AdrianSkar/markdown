@@ -17,7 +17,7 @@ Remember that you can combine (chain) several `if...else` statements one after t
 > _try to solve the problem now_
 > 
 #### Hint 2
-Sometimes, when you write more code than you are used to.
+Sometimes, when you write more code than you are used to and it doesn't work, the little things are what betray us. Checking for missing semicolons, brackets, etc. can prove very useful.
 > _try to solve the problem now_
 
 
@@ -53,6 +53,6 @@ The function first evaluates `if` the condition `(val == 12)` evaluates to `true
 
 - [Samoshkin, Alexey. "Type coercion explained". *freeCodeCamp, Medium*, 17 Jan. 2018.](https://medium.freecodecamp.org/js-type-coercion-explained-27ba3d9a2839) Accessed 2 Sep 2018. QUIT, advanced for this exercise
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc1ODc2MTk3LC0xNTExOTk1MTQyLDE1OD
-A1OTI1OTEsMTczNDM0MjM1NF19
+eyJoaXN0b3J5IjpbMTcxODg4MTI0OSwtMTUxMTk5NTE0MiwxNT
+gwNTkyNTkxLDE3MzQzNDIzNTRdfQ==
 -->
