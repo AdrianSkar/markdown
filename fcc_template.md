@@ -1,10 +1,16 @@
 ---
-title: Comparisons with the && (logical AND) operator
+title: Chaining If Else statements
 ---
-## Comparison with the && (logical AND) operator
+##  Chaining If Else statements
 
 ### Problem explanation:
-_Exercise_
+_Write chained  `if`/`else if`statements to fulfill the following conditions:
+
+`num < 5`- return "Tiny"  
+`num < 10`- return "Small"  
+`num < 15`- return "Medium"  
+`num < 20`- return "Large"  
+`num >= 20`- return "Huge"_
 
 #### Hint 1
 Hint X, remember that _text/paraphrasing_<sup><a href="#cite1">1</a></sup>
@@ -43,6 +49,6 @@ The function first evaluates `if` the condition `(val == 12)` evaluates to `true
 
 - [Samoshkin, Alexey. "Type coercion explained". *freeCodeCamp, Medium*, 17 Jan. 2018.](https://medium.freecodecamp.org/js-type-coercion-explained-27ba3d9a2839) Accessed 2 Sep 2018. QUIT, advanced for this exercise
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MTE5OTUxNDIsMTU4MDU5MjU5MSwxNz
-M0MzQyMzU0XX0=
+eyJoaXN0b3J5IjpbLTEwMDQyNTMzMTEsLTE1MTE5OTUxNDIsMT
+U4MDU5MjU5MSwxNzM0MzQyMzU0XX0=
 -->
