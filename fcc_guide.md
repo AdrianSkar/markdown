@@ -52,6 +52,7 @@ function testSize(num) {
 // Change this value to test
 testSize(7);
 ```
+· Run code at [repl.it](https://repl.it/@AdrianSkar/Basic-JS-Chaining-ifelse-statements)
 
 ### Code explanation
 The function first evaluates `if` the condition `(num < 5)` evaluates to `true`. If it does, it returns the statement between the curly braces ("Tiny"). If it doesn't, it checks the next condition until the last `else` statement. 
@@ -61,11 +62,11 @@ The function first evaluates `if` the condition `(num < 5)` evaluates to `true`.
 
 - ["if...else" - *MDN JavaScript reference*](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/if...else)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU5ODkyNTQwNiwtOTkyMzQ2Mjk3LC0xMz
-Y1MDA3NzU1LDM1NTE0MzA0NywtMTI1Mzg4MjM3OCwtMTQ0NDA4
-NDI0NCwtMTA5MjAxNjYzNSwyOTE0NzAxOCwtMTkzNTQxNjIzMC
-wtMTcwMzQ5MTQ2NSwtMTMwNzE3OTQ2NSwxNTE2NDcyMDgyLC0z
-ODkxMjQ1NTQsLTg5NzE4NzYxMiwyOTgwMDI1MTksOTk4MDg1OT
-I3LC0xMzM3MjcwNTg2LC0xNTA4OTEyMzE0LC03NzQyMTAyMzIs
-LTIwMzA0NzE5MjldfQ==
+eyJoaXN0b3J5IjpbLTExNTY0MzI2MjYsLTU5ODkyNTQwNiwtOT
+kyMzQ2Mjk3LC0xMzY1MDA3NzU1LDM1NTE0MzA0NywtMTI1Mzg4
+MjM3OCwtMTQ0NDA4NDI0NCwtMTA5MjAxNjYzNSwyOTE0NzAxOC
+wtMTkzNTQxNjIzMCwtMTcwMzQ5MTQ2NSwtMTMwNzE3OTQ2NSwx
+NTE2NDcyMDgyLC0zODkxMjQ1NTQsLTg5NzE4NzYxMiwyOTgwMD
+I1MTksOTk4MDg1OTI3LC0xMzM3MjcwNTg2LC0xNTA4OTEyMzE0
+LC03NzQyMTAyMzJdfQ==
 -->
