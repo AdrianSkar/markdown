@@ -86,12 +86,45 @@ Control the flow of your function based on the tables order of priority - top (h
 *   `if / else if` chain is used for flow control.
 *   String "Go Home!" is returned for every condition where **strokes** is greater than or equal to **par + 3**.
 
+## Alternative code solution:
+```javascript
+var names = ["Hole-in-one!", "Eagle", "Birdie", "Par", "Bogey", "Double Bogey", "Go Home!"];
+function golfScore(par, strokes) {
+  // Only change code below this line
+  if (strokes == 1){
+    return names[0];
+  }
+  else if (strokes <= par-2){
+    return names[1];
+  }
+  else if (strokes == par -1){
+    return names[2];
+  }
+  else if (strokes == par){
+    return names[3];
+  }
+  else if (strokes == par +1){
+    return names[4];
+  }
+  else if (strokes == par +2){
+    return names[5];
+  }
+  else {return names[6];}
+  // Only change code above this line
+}
+
+// Change these values to test
+golfScore(5, 4);
+```
+ ## Code explanation
+Since we have .
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODIwODE1Mjg3LC0xMTU2NDMyNjI2LC01OT
-g5MjU0MDYsLTk5MjM0NjI5NywtMTM2NTAwNzc1NSwzNTUxNDMw
-NDcsLTEyNTM4ODIzNzgsLTE0NDQwODQyNDQsLTEwOTIwMTY2Mz
-UsMjkxNDcwMTgsLTE5MzU0MTYyMzAsLTE3MDM0OTE0NjUsLTEz
-MDcxNzk0NjUsMTUxNjQ3MjA4MiwtMzg5MTI0NTU0LC04OTcxOD
-c2MTIsMjk4MDAyNTE5LDk5ODA4NTkyNywtMTMzNzI3MDU4Niwt
-MTUwODkxMjMxNF19
+eyJoaXN0b3J5IjpbMTg5MDE0OTgwNCw4MjA4MTUyODcsLTExNT
+Y0MzI2MjYsLTU5ODkyNTQwNiwtOTkyMzQ2Mjk3LC0xMzY1MDA3
+NzU1LDM1NTE0MzA0NywtMTI1Mzg4MjM3OCwtMTQ0NDA4NDI0NC
+wtMTA5MjAxNjYzNSwyOTE0NzAxOCwtMTkzNTQxNjIzMCwtMTcw
+MzQ5MTQ2NSwtMTMwNzE3OTQ2NSwxNTE2NDcyMDgyLC0zODkxMj
+Q1NTQsLTg5NzE4NzYxMiwyOTgwMDI1MTksOTk4MDg1OTI3LC0x
+MzM3MjcwNTg2XX0=
 -->
