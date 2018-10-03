@@ -33,18 +33,36 @@ Sometimes, when you write more code than you are used to and it doesn't work, th
 ## Solution:
 ```javascript
 function testSize(num) {
-  if(num < 5)
-    return 'Tiny';
-  else if(num < 10)
-    return 'Small';
-  else if(num < 15)
-    return 'Medium';
-  else if(num < 20)
-    return 'Large';
-  else
-    return 'Huge';
+  // Only change code below this line
+  if (num < 5){
+    return "Tiny";
+  }
+  else if (num < 10) {
+    return "Small";
+  }
+  else if (num < 15){
+    return "Medium";
+  }
+  else if (num < 20){
+    return "Large";
+  }
+  else {
+    return "Huge";
+  }
+  // Only change code above this line
 }
 ```
+
+· Run code at [repl.it](https://repl.it/@AdrianSkar/Basic-JS-Chaining-ifelse-statements)
+
+### Code explanation
+The function first evaluates `if` the condition `(num < 5)` evaluates to `true`. If it does, it returns the statement between the curly braces ("Tiny"). If it doesn't, it checks the next condition until the last `else` statement. 
+
+
+### Resources
+
+- ["if...else" - *MDN JavaScript reference*](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/if...else)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU1MzYyOTM0MSwtMjAwMTY3MTAwOV19
+eyJoaXN0b3J5IjpbLTE1ODg0ODg4MzYsLTIwMDE2NzEwMDldfQ
+==
 -->
