@@ -1,7 +1,7 @@
 ---
-title: Chaining If Else statements
+title: Chaining If...else statements
 ---
-##  Chaining If Else statements
+##  Chaining If...else statements
 
 ### Problem explanation:
 _Write chained  `if`/`else if`statements to fulfill the following conditions:
@@ -65,11 +65,11 @@ The function first evaluates `if` the condition `(num < 5)` evaluates to `true`.
 
 - [Samoshkin, Alexey. "Type coercion explained". *freeCodeCamp, Medium*, 17 Jan. 2018.](https://medium.freecodecamp.org/js-type-coercion-explained-27ba3d9a2839) Accessed 2 Sep 2018. QUIT, advanced for this exercise
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk5MjM0NjI5NywtMTM2NTAwNzc1NSwzNT
-UxNDMwNDcsLTEyNTM4ODIzNzgsLTE0NDQwODQyNDQsLTEwOTIw
-MTY2MzUsMjkxNDcwMTgsLTE5MzU0MTYyMzAsLTE3MDM0OTE0Nj
-UsLTEzMDcxNzk0NjUsMTUxNjQ3MjA4MiwtMzg5MTI0NTU0LC04
-OTcxODc2MTIsMjk4MDAyNTE5LDk5ODA4NTkyNywtMTMzNzI3MD
-U4NiwtMTUwODkxMjMxNCwtNzc0MjEwMjMyLC0yMDMwNDcxOTI5
-LDU0MjQ3MzI1OF19
+eyJoaXN0b3J5IjpbLTc3NDcxMTk1NywtOTkyMzQ2Mjk3LC0xMz
+Y1MDA3NzU1LDM1NTE0MzA0NywtMTI1Mzg4MjM3OCwtMTQ0NDA4
+NDI0NCwtMTA5MjAxNjYzNSwyOTE0NzAxOCwtMTkzNTQxNjIzMC
+wtMTcwMzQ5MTQ2NSwtMTMwNzE3OTQ2NSwxNTE2NDcyMDgyLC0z
+ODkxMjQ1NTQsLTg5NzE4NzYxMiwyOTgwMDI1MTksOTk4MDg1OT
+I3LC0xMzM3MjcwNTg2LC0xNTA4OTEyMzE0LC03NzQyMTAyMzIs
+LTIwMzA0NzE5MjldfQ==
 -->
