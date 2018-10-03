@@ -17,8 +17,7 @@ par - 1 | "Birdie"
 par | "Par"  
 par + 1 | "Bogey"  
 par + 2 | "Double Bogey"
-
->= par + 3 | "Go Home!"
+&gt;= par + 3 | "Go Home!"
 
 **par** and **strokes** will always be numeric and positive.
 
@@ -97,7 +96,7 @@ Control the flow of your function based on the tables order of priority - top (h
 > See ![:point_right:](https://forum.freecodecamp.com/images/emoji/emoji_one/point_right.png?v=3 ":point_right:") <a href='http://forum.freecodecamp.com/t/algorithm-article-template/14272' target='_blank' rel='nofollow'>**`Wiki Challenge Solution Template`**</a> for reference.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIwMDU1ODM0OSwtMTE1NjQzMjYyNiwtNT
+eyJoaXN0b3J5IjpbLTI3MzI3Njc1OSwtMTE1NjQzMjYyNiwtNT
 k4OTI1NDA2LC05OTIzNDYyOTcsLTEzNjUwMDc3NTUsMzU1MTQz
 MDQ3LC0xMjUzODgyMzc4LC0xNDQ0MDg0MjQ0LC0xMDkyMDE2Nj
 M1LDI5MTQ3MDE4LC0xOTM1NDE2MjMwLC0xNzAzNDkxNDY1LC0x
