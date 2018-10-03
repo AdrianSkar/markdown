@@ -54,7 +54,7 @@ function testSize(num) {
 ```
 
 · Run code at [repl.it](https://repl.it/@AdrianSkar/Basic-JS-Chaining-ifelse-statements)
-
+_In general, it is a good practice to always use block statements, especially in code involving nested `if` statements_
 ### Code explanation
 The function first evaluates `if` the condition `(num < 5)` evaluates to `true`. If it does, it returns the statement between the curly braces ("Tiny"). If it doesn't, it checks the next condition until the last `else` statement. 
 
@@ -63,6 +63,6 @@ The function first evaluates `if` the condition `(num < 5)` evaluates to `true`.
 
 - ["if...else" - *MDN JavaScript reference*](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/if...else)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk0NTM0OTMxNiwtMTU4ODQ4ODgzNiwtMj
+eyJoaXN0b3J5IjpbMTE0MDQ0NDE1NCwtMTU4ODQ4ODgzNiwtMj
 AwMTY3MTAwOV19
 -->
