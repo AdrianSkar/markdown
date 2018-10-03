@@ -1,7 +1,7 @@
 ---
-title: Chaining If Else Statements
+title: Chaining if...else statements
 ---
-## Chaining If Else Statements
+## Chaining if...else statements
 
 * ```If```: the first conditional in every if/else statement, case the conditional is *true*, execute the code and ignore the rest.
 * ```Else if```: can never be used as the first conditional. It is always a conditional after an ```if```, case the conditional is true, execute the code. Otherwise jumps into the next conditional.
@@ -63,6 +63,6 @@ The function first evaluates `if` the condition `(num < 5)` evaluates to `true`.
 
 - ["if...else" - *MDN JavaScript reference*](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/if...else)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1ODg0ODg4MzYsLTIwMDE2NzEwMDldfQ
-==
+eyJoaXN0b3J5IjpbLTk0NTM0OTMxNiwtMTU4ODQ4ODgzNiwtMj
+AwMTY3MTAwOV19
 -->
