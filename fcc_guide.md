@@ -1,72 +1,108 @@
+
 ---
-title: Chaining if...else statements
+title: Golf Code
 ---
-##  Chaining if...else statements
+![:triangular_flag_on_post:](https://forum.freecodecamp.com/images/emoji/emoji_one/triangular_flag_on_post.png?v=3 ":triangular_flag_on_post:") Remember to use <a>**`Read-Search-Ask`**</a> if you get stuck. Try to pair program ![:busts_in_silhouette:](https://forum.freecodecamp.com/images/emoji/emoji_one/busts_in_silhouette.png?v=3 ":busts_in_silhouette:") and write your own code ![:pencil:](https://forum.freecodecamp.com/images/emoji/emoji_one/pencil.png?v=3 ":pencil:")
 
-### Problem explanation:
-_Write chained  `if`/`else if`statements to fulfill the following conditions_:
+### ![:checkered_flag:](https://forum.freecodecamp.com/images/emoji/emoji_one/checkered_flag.png?v=3 ":checkered_flag:") Problem Explanation:
 
-_`num < 5`- return "Tiny"  
-`num < 10`- return "Small"  
-`num < 15`- return "Medium"  
-`num < 20`- return "Large"  
-`num >= 20`- return "Huge"_
+In the game of golf each hole has a **par** meaning the average number of **strokes** a golfer is expected to make in order to sink the ball in a hole to complete the play. Depending on how far above or below **par** your **strokes** are, there is a different nickname.
 
-#### Hint 1
-Remember that you can combine (chain) several `if...else` statements one after the other until your last one using `else if (condition) {do this}`.
+Your function will be passed **par** and **strokes** arguments. You've to return the correct string according to this table which lists the strokes in order of priority; top (highest) to bottom (lowest):
+
+Strokes | Return  
+:--------- | :-------------  
+1 | "Hole-in-one!"  
+<= par - 2 | "Eagle"  
+par - 1 | "Birdie"  
+par | "Par"  
+par + 1 | "Bogey"  
+par + 2 | "Double Bogey"
+
+> = par + 3 | "Go Home!"
+
+**par** and **strokes** will always be numeric and positive.
+
+*   Change the code below `// Only change code below this line` and above `// Only change code above this line`.
+*   Ensure that you're editing the inside of the `golfScore` function.
+*   You will have to make the function return exactly the same string as shown shown in the table, depending on the value of the parameters **par** and **strokes** that are passed to your function.
+
+#### Relevant Links
+
+*   <a href='https://en.wikipedia.org/wiki/Golf' target='_blank' rel='nofollow'>Golf</a>
+*   <a href='http://www.freecodecamp.com/challenges/chaining-if-else-statements' target='_blank' rel='nofollow'>Challenge: Chaining If Else Statements</a>
+*   <a href='http://www.freecodecamp.com/challenges/comparison-with-the-greater-than-equal-to-operator' target='_blank' rel='nofollow'>Challenge: Comparison with the Greater Than Equal To Operator</a>
+*   <a href='http://www.freecodecamp.com/challenges/comparison-with-the-less-than-equal-to-operator' target='_blank' rel='nofollow'>Challenge: Comparison with the Less Than Equal To Operator</a>
+
+## ![:speech_balloon:](https://forum.freecodecamp.com/images/emoji/emoji_one/speech_balloon.png?v=3 ":speech_balloon:") Hint: 1
+
+`+number -number` can be used to increase or decrease a parameter in your condition.
+
 > _try to solve the problem now_
-> 
-> 
-#### Hint 2
-Sometimes, when you write more code than you are used to and it doesn't work, the little things are what betray us. Checking for missing semicolons, brackets, etc. can prove very useful.
+
+## ![:speech_balloon:](https://forum.freecodecamp.com/images/emoji/emoji_one/speech_balloon.png?v=3 ":speech_balloon:") Hint: 2
+
+You use `if / else if` chains to return different values in different scenarios.
+
 > _try to solve the problem now_
 
+## ![:speech_balloon:](https://forum.freecodecamp.com/images/emoji/emoji_one/speech_balloon.png?v=3 ":speech_balloon:") Hint: 3
 
-## Spoiler alert!
+Control the flow of your function based on the tables order of priority - top (highest) to bottom (lowest) to return matching string values.
+
+> _try to solve the problem now_
+
+## Spoiler Alert!
+
+![warning sign](//discourse-user-assets.s3.amazonaws.com/original/2X/2/2d6c412a50797771301e7ceabd554cef4edcd74d.gif)
 
 **Solution ahead!**
 
-## Code solution:
+## ![:beginner:](https://forum.freecodecamp.com/images/emoji/emoji_one/beginner.png?v=3 ":beginner:") Basic Code Solution:
 
-```javascript
-function testSize(num) {
-  // Only change code below this line
-  if (num < 5){
-    return "Tiny";
-  }
-  else if (num < 10) {
-    return "Small";
-  }
-  else if (num < 15){
-    return "Medium";
-  }
-  else if (num < 20){
-    return "Large";
-  }
-  else {
-    return "Huge";
-  }
-  // Only change code above this line
-}
+    function golfScore(par, strokes) {
+      // Only change code below this line
+      if (strokes == 1){
+        return "Hole-in-one!";
+      } else if (strokes <= par -2){
+        return "Eagle";
+      } else if (strokes == par -1) {
+        return "Birdie";
+      } else if (strokes == par) {
+        return "Par";
+      } else if (strokes == par +1) {
+        return "Bogey";
+      } else if (strokes == par +2) {
+        return "Double Bogey";
+      } else {
+        return "Go Home!";
+      }
+      // Only change code above this line
+    }
+    // Change these values to test
+    golfScore(5, 4);
 
-// Change this value to test
-testSize(7);
-```
-· Run code at [repl.it](https://repl.it/@AdrianSkar/Basic-JS-Chaining-ifelse-statements)
+### Code Explanation:
 
-### Code explanation
-The function first evaluates `if` the condition `(num < 5)` evaluates to `true`. If it does, it returns the statement between the curly braces ("Tiny"). If it doesn't, it checks the next condition until the last `else` statement. 
+*   Compare the parameters **par** and **strokes** to return appropriate string values.
+*   `if / else if` chain is used for flow control.
+*   String "Go Home!" is returned for every condition where **strokes** is greater than or equal to **par + 3**.
 
+## ![:clipboard:](https://forum.freecodecamp.com/images/emoji/emoji_one/clipboard.png?v=3 ":clipboard:") NOTES FOR CONTRIBUTIONS:
 
-### Resources
+*   ![:warning:](https://forum.freecodecamp.com/images/emoji/emoji_one/warning.png?v=3 ":warning:") **DO NOT** add solutions that are similar to any existing solutions. If you think it is **_similar but better_**, then try to merge (or replace) the existing similar solution.
+*   Add an explanation of your solution.
+*   Categorize the solution in one of the following categories — **Basic**, **Intermediate** and **Advanced**. ![:traffic_light:](https://forum.freecodecamp.com/images/emoji/emoji_one/traffic_light.png?v=3 ":traffic_light:")
+*   Please add your username only if you have added any **relevant main contents**. (![:warning:](https://forum.freecodecamp.com/images/emoji/emoji_one/warning.png?v=3 ":warning:") **_DO NOT_** _remove any existing usernames_)
 
-- ["if...else" - *MDN JavaScript reference*](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/if...else)
+> See ![:point_right:](https://forum.freecodecamp.com/images/emoji/emoji_one/point_right.png?v=3 ":point_right:") <a href='http://forum.freecodecamp.com/t/algorithm-article-template/14272' target='_blank' rel='nofollow'>**`Wiki Challenge Solution Template`**</a> for reference.
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNTY0MzI2MjYsLTU5ODkyNTQwNiwtOT
-kyMzQ2Mjk3LC0xMzY1MDA3NzU1LDM1NTE0MzA0NywtMTI1Mzg4
-MjM3OCwtMTQ0NDA4NDI0NCwtMTA5MjAxNjYzNSwyOTE0NzAxOC
-wtMTkzNTQxNjIzMCwtMTcwMzQ5MTQ2NSwtMTMwNzE3OTQ2NSwx
-NTE2NDcyMDgyLC0zODkxMjQ1NTQsLTg5NzE4NzYxMiwyOTgwMD
-I1MTksOTk4MDg1OTI3LC0xMzM3MjcwNTg2LC0xNTA4OTEyMzE0
-LC03NzQyMTAyMzJdfQ==
+eyJoaXN0b3J5IjpbLTEwNzg0NzAzODUsLTExNTY0MzI2MjYsLT
+U5ODkyNTQwNiwtOTkyMzQ2Mjk3LC0xMzY1MDA3NzU1LDM1NTE0
+MzA0NywtMTI1Mzg4MjM3OCwtMTQ0NDA4NDI0NCwtMTA5MjAxNj
+YzNSwyOTE0NzAxOCwtMTkzNTQxNjIzMCwtMTcwMzQ5MTQ2NSwt
+MTMwNzE3OTQ2NSwxNTE2NDcyMDgyLC0zODkxMjQ1NTQsLTg5Nz
+E4NzYxMiwyOTgwMDI1MTksOTk4MDg1OTI3LC0xMzM3MjcwNTg2
+LC0xNTA4OTEyMzE0XX0=
 -->
