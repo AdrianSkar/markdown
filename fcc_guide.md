@@ -117,14 +117,14 @@ function golfScore(par, strokes) {
 golfScore(5, 4);
 ```
  ## Code explanation
-Since we have .
+Since we already have an array defined in the variable `names` we can take advantage of it and use it for our return statements using.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg5MDE0OTgwNCw4MjA4MTUyODcsLTExNT
-Y0MzI2MjYsLTU5ODkyNTQwNiwtOTkyMzQ2Mjk3LC0xMzY1MDA3
-NzU1LDM1NTE0MzA0NywtMTI1Mzg4MjM3OCwtMTQ0NDA4NDI0NC
-wtMTA5MjAxNjYzNSwyOTE0NzAxOCwtMTkzNTQxNjIzMCwtMTcw
-MzQ5MTQ2NSwtMTMwNzE3OTQ2NSwxNTE2NDcyMDgyLC0zODkxMj
-Q1NTQsLTg5NzE4NzYxMiwyOTgwMDI1MTksOTk4MDg1OTI3LC0x
-MzM3MjcwNTg2XX0=
+eyJoaXN0b3J5IjpbLTE2MTY3NjQ5MzksODIwODE1Mjg3LC0xMT
+U2NDMyNjI2LC01OTg5MjU0MDYsLTk5MjM0NjI5NywtMTM2NTAw
+Nzc1NSwzNTUxNDMwNDcsLTEyNTM4ODIzNzgsLTE0NDQwODQyND
+QsLTEwOTIwMTY2MzUsMjkxNDcwMTgsLTE5MzU0MTYyMzAsLTE3
+MDM0OTE0NjUsLTEzMDcxNzk0NjUsMTUxNjQ3MjA4MiwtMzg5MT
+I0NTU0LC04OTcxODc2MTIsMjk4MDAyNTE5LDk5ODA4NTkyNywt
+MTMzNzI3MDU4Nl19
 -->
