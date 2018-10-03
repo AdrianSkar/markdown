@@ -1,4 +1,3 @@
-
 ---
 title: Golf Code
 ---
@@ -19,7 +18,7 @@ par | "Par"
 par + 1 | "Bogey"  
 par + 2 | "Double Bogey"
 
-> = par + 3 | "Go Home!"
+>= par + 3 | "Go Home!"
 
 **par** and **strokes** will always be numeric and positive.
 
@@ -98,11 +97,11 @@ Control the flow of your function based on the tables order of priority - top (h
 > See ![:point_right:](https://forum.freecodecamp.com/images/emoji/emoji_one/point_right.png?v=3 ":point_right:") <a href='http://forum.freecodecamp.com/t/algorithm-article-template/14272' target='_blank' rel='nofollow'>**`Wiki Challenge Solution Template`**</a> for reference.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNzg0NzAzODUsLTExNTY0MzI2MjYsLT
-U5ODkyNTQwNiwtOTkyMzQ2Mjk3LC0xMzY1MDA3NzU1LDM1NTE0
-MzA0NywtMTI1Mzg4MjM3OCwtMTQ0NDA4NDI0NCwtMTA5MjAxNj
-YzNSwyOTE0NzAxOCwtMTkzNTQxNjIzMCwtMTcwMzQ5MTQ2NSwt
-MTMwNzE3OTQ2NSwxNTE2NDcyMDgyLC0zODkxMjQ1NTQsLTg5Nz
-E4NzYxMiwyOTgwMDI1MTksOTk4MDg1OTI3LC0xMzM3MjcwNTg2
-LC0xNTA4OTEyMzE0XX0=
+eyJoaXN0b3J5IjpbMTIwMDU1ODM0OSwtMTE1NjQzMjYyNiwtNT
+k4OTI1NDA2LC05OTIzNDYyOTcsLTEzNjUwMDc3NTUsMzU1MTQz
+MDQ3LC0xMjUzODgyMzc4LC0xNDQ0MDg0MjQ0LC0xMDkyMDE2Nj
+M1LDI5MTQ3MDE4LC0xOTM1NDE2MjMwLC0xNzAzNDkxNDY1LC0x
+MzA3MTc5NDY1LDE1MTY0NzIwODIsLTM4OTEyNDU1NCwtODk3MT
+g3NjEyLDI5ODAwMjUxOSw5OTgwODU5MjcsLTEzMzcyNzA1ODYs
+LTE1MDg5MTIzMTRdfQ==
 -->
