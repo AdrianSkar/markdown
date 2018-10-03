@@ -16,6 +16,20 @@ _`num < 5`- return "Tiny"
 `num < 20`- return "Large"  
 `num >= 20`- return "Huge"_
 
+#### Hint 1
+Remember that you can combine (chain) several `if...else` statements one after the other until your last one using `else if (condition) {do this}`.
+> _try to solve the problem now_
+> 
+> 
+#### Hint 2
+Sometimes, when you write more code than you are used to and it doesn't work, the little things are what betray us. Checking for missing semicolons, brackets, etc. can prove very useful.
+> _try to solve the problem now_
+
+## Spoiler alert!
+
+**Solution ahead!**
+
+
 ## Solution:
 ```javascript
 function testSize(num) {
@@ -32,5 +46,5 @@ function testSize(num) {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMDE2NzEwMDldfQ==
+eyJoaXN0b3J5IjpbMTU1MzYyOTM0MSwtMjAwMTY3MTAwOV19
 -->
