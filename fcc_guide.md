@@ -86,21 +86,12 @@ Control the flow of your function based on the tables order of priority - top (h
 *   `if / else if` chain is used for flow control.
 *   String "Go Home!" is returned for every condition where **strokes** is greater than or equal to **par + 3**.
 
-## ![:clipboard:](https://forum.freecodecamp.com/images/emoji/emoji_one/clipboard.png?v=3 ":clipboard:") NOTES FOR CONTRIBUTIONS:
-
-*   ![:warning:](https://forum.freecodecamp.com/images/emoji/emoji_one/warning.png?v=3 ":warning:") **DO NOT** add solutions that are similar to any existing solutions. If you think it is **_similar but better_**, then try to merge (or replace) the existing similar solution.
-*   Add an explanation of your solution.
-*   Categorize the solution in one of the following categories — **Basic**, **Intermediate** and **Advanced**. ![:traffic_light:](https://forum.freecodecamp.com/images/emoji/emoji_one/traffic_light.png?v=3 ":traffic_light:")
-*   Please add your username only if you have added any **relevant main contents**. (![:warning:](https://forum.freecodecamp.com/images/emoji/emoji_one/warning.png?v=3 ":warning:") **_DO NOT_** _remove any existing usernames_)
-
-> See ![:point_right:](https://forum.freecodecamp.com/images/emoji/emoji_one/point_right.png?v=3 ":point_right:") <a href='http://forum.freecodecamp.com/t/algorithm-article-template/14272' target='_blank' rel='nofollow'>**`Wiki Challenge Solution Template`**</a> for reference.
-
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI3MzI3Njc1OSwtMTE1NjQzMjYyNiwtNT
-k4OTI1NDA2LC05OTIzNDYyOTcsLTEzNjUwMDc3NTUsMzU1MTQz
-MDQ3LC0xMjUzODgyMzc4LC0xNDQ0MDg0MjQ0LC0xMDkyMDE2Nj
-M1LDI5MTQ3MDE4LC0xOTM1NDE2MjMwLC0xNzAzNDkxNDY1LC0x
-MzA3MTc5NDY1LDE1MTY0NzIwODIsLTM4OTEyNDU1NCwtODk3MT
-g3NjEyLDI5ODAwMjUxOSw5OTgwODU5MjcsLTEzMzcyNzA1ODYs
-LTE1MDg5MTIzMTRdfQ==
+eyJoaXN0b3J5IjpbODIwODE1Mjg3LC0xMTU2NDMyNjI2LC01OT
+g5MjU0MDYsLTk5MjM0NjI5NywtMTM2NTAwNzc1NSwzNTUxNDMw
+NDcsLTEyNTM4ODIzNzgsLTE0NDQwODQyNDQsLTEwOTIwMTY2Mz
+UsMjkxNDcwMTgsLTE5MzU0MTYyMzAsLTE3MDM0OTE0NjUsLTEz
+MDcxNzk0NjUsMTUxNjQ3MjA4MiwtMzg5MTI0NTU0LC04OTcxOD
+c2MTIsMjk4MDAyNTE5LDk5ODA4NTkyNywtMTMzNzI3MDU4Niwt
+MTUwODkxMjMxNF19
 -->
