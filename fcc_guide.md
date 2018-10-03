@@ -113,7 +113,7 @@ golfScore(5, 4);
 ·Run at [repl.it](https://repl.it/@AdrianSkar/Basic-JS-Golf-code)
 
  ## Code explanation
-Since we already have an array defined in the variable `names` we can take advantage of it and use it for our return statements using indexes (eg: `names[0] is the first one`). That way, if you ever need to change a specific result you woudn't need to look for it inside the function, it'd be at the beginning, in your array.
+Since we already have an array defined in the variable `names` we can take advantage of it and use it for our return statements using indexes (eg: `names[0] is the first one`). That way, if you ever need to change a specific result you wouldn't need to look for it inside the function, it'd be at the beginning, in your array.
 
 ### Resources
 
@@ -124,7 +124,7 @@ Since we already have an array defined in the variable `names` we can take advan
 * ["Array" - *MDN JavaScript reference*](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAxMjAzMTI2MywyMTM1NjAxNjI0LDgxNT
+eyJoaXN0b3J5IjpbLTI0MDYwNzA1NSwyMTM1NjAxNjI0LDgxNT
 IzNjk1OCw4MjA4MTUyODcsLTExNTY0MzI2MjYsLTU5ODkyNTQw
 NiwtOTkyMzQ2Mjk3LC0xMzY1MDA3NzU1LDM1NTE0MzA0NywtMT
 I1Mzg4MjM3OCwtMTQ0NDA4NDI0NCwtMTA5MjAxNjYzNSwyOTE0
