@@ -13,7 +13,11 @@ _Write chained  `if`/`else if`statements to fulfill the following conditions:
 `num >= 20`- return "Huge"_
 
 #### Hint 1
-Remember that you can combine (chain) several `if...else` statements one after the other until your last one.
+Remember that you can combine (chain) several `if...else` statements one after the other until your last one using `else if (condition) {do this}`.
+> _try to solve the problem now_
+> 
+#### Hint 2
+Sometimes, when you write more code than you are used to.
 > _try to solve the problem now_
 
 
@@ -49,6 +53,6 @@ The function first evaluates `if` the condition `(val == 12)` evaluates to `true
 
 - [Samoshkin, Alexey. "Type coercion explained". *freeCodeCamp, Medium*, 17 Jan. 2018.](https://medium.freecodecamp.org/js-type-coercion-explained-27ba3d9a2839) Accessed 2 Sep 2018. QUIT, advanced for this exercise
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU0Njg0NDE3OCwtMTUxMTk5NTE0MiwxNT
-gwNTkyNTkxLDE3MzQzNDIzNTRdfQ==
+eyJoaXN0b3J5IjpbMTc1ODc2MTk3LC0xNTExOTk1MTQyLDE1OD
+A1OTI1OTEsMTczNDM0MjM1NF19
 -->
