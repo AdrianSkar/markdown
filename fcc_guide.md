@@ -25,12 +25,6 @@ par + 2 | "Double Bogey"
 *   Ensure that you're editing the inside of the `golfScore` function.
 *   You will have to make the function return exactly the same string as shown shown in the table, depending on the value of the parameters **par** and **strokes** that are passed to your function.
 
-#### Relevant Links
-
-*   <a href='https://en.wikipedia.org/wiki/Golf' target='_blank' rel='nofollow'>Golf</a>
-*   <a href='http://www.freecodecamp.com/challenges/chaining-if-else-statements' target='_blank' rel='nofollow'>Challenge: Chaining If Else Statements</a>
-*   <a href='http://www.freecodecamp.com/challenges/comparison-with-the-greater-than-equal-to-operator' target='_blank' rel='nofollow'>Challenge: Comparison with the Greater Than Equal To Operator</a>
-*   <a href='http://www.freecodecamp.com/challenges/comparison-with-the-less-than-equal-to-operator' target='_blank' rel='nofollow'>Challenge: Comparison with the Less Than Equal To Operator</a>
 
 ## ![:speech_balloon:](https://forum.freecodecamp.com/images/emoji/emoji_one/speech_balloon.png?v=3 ":speech_balloon:") Hint: 1
 
@@ -119,10 +113,18 @@ golfScore(5, 4);
 ·Run a repl.it
 
  ## Code explanation
-Since we already have an array defined in the variable `names` we can take advantage of it and use it for our return statements using i.
+Since we already have an array defined in the variable `names` we can take advantage of it and use it for our return statements using indexes (eg: `names[0] s the first one`.
+
+### Resources
+
+*   <a href='https://en.wikipedia.org/wiki/Golf' target='_blank' rel='nofollow'>Golf</a>
+*   <a href='http://www.freecodecamp.com/challenges/chaining-if-else-statements' target='_blank' rel='nofollow'>Challenge: Chaining If Else Statements</a>
+*   <a href='http://www.freecodecamp.com/challenges/comparison-with-the-greater-than-equal-to-operator' target='_blank' rel='nofollow'>Challenge: Comparison with the Greater Than Equal To Operator</a>
+*   <a href='http://www.freecodecamp.com/challenges/comparison-with-the-less-than-equal-to-operator' target='_blank' rel='nofollow'>Challenge: Comparison with the Less Than Equal To Operator</a>
+* ["Array" - *MDN JavaScript reference*](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzE2MjE3OTE1LDgyMDgxNTI4NywtMTE1Nj
+eyJoaXN0b3J5IjpbODE1MjM2OTU4LDgyMDgxNTI4NywtMTE1Nj
 QzMjYyNiwtNTk4OTI1NDA2LC05OTIzNDYyOTcsLTEzNjUwMDc3
 NTUsMzU1MTQzMDQ3LC0xMjUzODgyMzc4LC0xNDQ0MDg0MjQ0LC
 0xMDkyMDE2NjM1LDI5MTQ3MDE4LC0xOTM1NDE2MjMwLC0xNzAz
