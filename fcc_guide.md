@@ -116,15 +116,17 @@ function golfScore(par, strokes) {
 // Change these values to test
 golfScore(5, 4);
 ```
+·Run a repl.it
+
  ## Code explanation
-Since we already have an array defined in the variable `names` we can take advantage of it and use it for our return statements using.
+Since we already have an array defined in the variable `names` we can take advantage of it and use it for our return statements using i.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MTY3NjQ5MzksODIwODE1Mjg3LC0xMT
-U2NDMyNjI2LC01OTg5MjU0MDYsLTk5MjM0NjI5NywtMTM2NTAw
-Nzc1NSwzNTUxNDMwNDcsLTEyNTM4ODIzNzgsLTE0NDQwODQyND
-QsLTEwOTIwMTY2MzUsMjkxNDcwMTgsLTE5MzU0MTYyMzAsLTE3
-MDM0OTE0NjUsLTEzMDcxNzk0NjUsMTUxNjQ3MjA4MiwtMzg5MT
-I0NTU0LC04OTcxODc2MTIsMjk4MDAyNTE5LDk5ODA4NTkyNywt
-MTMzNzI3MDU4Nl19
+eyJoaXN0b3J5IjpbNzE2MjE3OTE1LDgyMDgxNTI4NywtMTE1Nj
+QzMjYyNiwtNTk4OTI1NDA2LC05OTIzNDYyOTcsLTEzNjUwMDc3
+NTUsMzU1MTQzMDQ3LC0xMjUzODgyMzc4LC0xNDQ0MDg0MjQ0LC
+0xMDkyMDE2NjM1LDI5MTQ3MDE4LC0xOTM1NDE2MjMwLC0xNzAz
+NDkxNDY1LC0xMzA3MTc5NDY1LDE1MTY0NzIwODIsLTM4OTEyND
+U1NCwtODk3MTg3NjEyLDI5ODAwMjUxOSw5OTgwODU5MjcsLTEz
+MzcyNzA1ODZdfQ==
 -->
