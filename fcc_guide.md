@@ -1,134 +1,95 @@
+
 ---
-title: Golf Code
+title: Selecting from Many Options with Switch Statements
 ---
-![:triangular_flag_on_post:](https://forum.freecodecamp.com/images/emoji/emoji_one/triangular_flag_on_post.png?v=3 ":triangular_flag_on_post:") Remember to use <a>**`Read-Search-Ask`**</a> if you get stuck. Try to pair program ![:busts_in_silhouette:](https://forum.freecodecamp.com/images/emoji/emoji_one/busts_in_silhouette.png?v=3 ":busts_in_silhouette:") and write your own code ![:pencil:](https://forum.freecodecamp.com/images/emoji/emoji_one/pencil.png?v=3 ":pencil:")
+## Selecting from Many Options with Switch Statements
 
-### ![:checkered_flag:](https://forum.freecodecamp.com/images/emoji/emoji_one/checkered_flag.png?v=3 ":checkered_flag:") Problem Explanation:
+_If you have many options to choose from, use a `switch` statement. A `switch` statement tests a value and can have many `case` statements which define various possible values. Statements are executed from the first matched `case` value until a `break` is encountered._
 
-In the game of golf each hole has a **par** meaning the average number of **strokes** a golfer is expected to make in order to sink the ball in a hole to complete the play. Depending on how far above or below **par** your **strokes** are, there is a different nickname.
+_Here is a pseudocode example:_
 
-Your function will be passed **par** and **strokes** arguments. You've to return the correct string according to this table which lists the strokes in order of priority; top (highest) to bottom (lowest):
+```js
+  switch(num) {
+    case value1:
+      statement1;
+      break;
+    case value2:
+      statement2;
+      break;
+    ...
+    case valueN:
+      statementN;
+      break;
+  }
+```
 
-Strokes | Return  
-:--------- | :-------------  
-1 | "Hole-in-one!"  
-<= par - 2 | "Eagle"  
-par - 1 | "Birdie"  
-par | "Par"  
-par + 1 | "Bogey"  
-par + 2 | "Double Bogey"
-&gt;= par + 3 | "Go Home!"
+### A bit more explanation
+A switch statement first evaluates its expression. It then looks for the first `case` clause whose expression evaluates to the same value as the result of the input expression (using the [strict comparison](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Comparison_Operators), (`===`) and transfers control to that clause, executing the associated statements. (If multiple cases match the provided value, the first case that matches is selected, even if the cases are not equal to each other.)
 
-**par** and **strokes** will always be numeric and positive.
+If no matching `case` clause is found, the program looks for the optional `default` clause, and if found, transfers control to that clause, executing the associated statements. If no `default` clause is found, the program continues execution at the statement following the end of `switch`. By convention, the `default` clause is the last clause, but it does not need to be so.
 
-*   Change the code below `// Only change code below this line` and above `// Only change code above this line`.
-*   Ensure that you're editing the inside of the `golfScore` function.
-*   You will have to make the function return exactly the same string as shown shown in the table, depending on the value of the parameters **par** and **strokes** that are passed to your function.
+The optional `break` statement associated with each case label ensures that the program breaks out of switch once the matched statement is executed and continues execution at the statement following switch. If `break` is omitted, the program continues execution at the next statement in the `switch` statement.
 
 
-## ![:speech_balloon:](https://forum.freecodecamp.com/images/emoji/emoji_one/speech_balloon.png?v=3 ":speech_balloon:") Hint: 1
+### Problem Explanation: 
+Write a switch statement which tests `val` and sets `answer` for the following conditions:
+- `1` - "alpha",
+- `2` - "beta",
+- `3` - "gamma",
+- `4` - "delta".
 
-`+number -number` can be used to increase or decrease a parameter in your condition.
+# Hint 1
+Remember that `case` values are tested with strict equality (`===`).
+#### Try to solve the problem now!
 
-> _try to solve the problem now_
+# Hint 2
+Do not see "following conditions" as an ordered list as it looks in the original freeCodeCamp demo, but as values and statements, as shown here
+#### Try to solve the problem now!
 
-## ![:speech_balloon:](https://forum.freecodecamp.com/images/emoji/emoji_one/speech_balloon.png?v=3 ":speech_balloon:") Hint: 2
+# Spoiler Alert!
+### Are you completely sure what you want a look? ...
 
-You use `if / else if` chains to return different values in different scenarios.
+# Basic Code Solution
 
-> _try to solve the problem now_
-
-## ![:speech_balloon:](https://forum.freecodecamp.com/images/emoji/emoji_one/speech_balloon.png?v=3 ":speech_balloon:") Hint: 3
-
-Control the flow of your function based on the tables order of priority - top (highest) to bottom (lowest) to return matching string values.
-
-> _try to solve the problem now_
-
-## Spoiler Alert!
-
-![warning sign](//discourse-user-assets.s3.amazonaws.com/original/2X/2/2d6c412a50797771301e7ceabd554cef4edcd74d.gif)
-
-**Solution ahead!**
-
-## ![:beginner:](https://forum.freecodecamp.com/images/emoji/emoji_one/beginner.png?v=3 ":beginner:") Basic Code Solution:
-
-    function golfScore(par, strokes) {
-      // Only change code below this line
-      if (strokes == 1){
-        return "Hole-in-one!";
-      } else if (strokes <= par -2){
-        return "Eagle";
-      } else if (strokes == par -1) {
-        return "Birdie";
-      } else if (strokes == par) {
-        return "Par";
-      } else if (strokes == par +1) {
-        return "Bogey";
-      } else if (strokes == par +2) {
-        return "Double Bogey";
-      } else {
-        return "Go Home!";
-      }
-      // Only change code above this line
-    }
-    // Change these values to test
-    golfScore(5, 4);
-
-### Code Explanation:
-
-*   Compare the parameters **par** and **strokes** to return appropriate string values.
-*   `if / else if` chain is used for flow control.
-*   String "Go Home!" is returned for every condition where **strokes** is greater than or equal to **par + 3**.
-
-## Alternative code solution:
-```javascript
-var names = ["Hole-in-one!", "Eagle", "Birdie", "Par", "Bogey", "Double Bogey", "Go Home!"];
-function golfScore(par, strokes) {
+```js
+function caseInSwitch(val) {
+  var answer = "";
   // Only change code below this line
-  if (strokes == 1){
-    return names[0];
+  switch(val) {
+    case 1:
+      return "alpha";
+      break;
+    case 2:
+      return "beta";
+      break;
+    case 3:
+      return "gamma";
+      break;
+    case 4:
+      return "delta";
+      break;
   }
-  else if (strokes <= par-2){
-    return names[1];
-  }
-  else if (strokes == par -1){
-    return names[2];
-  }
-  else if (strokes == par){
-    return names[3];
-  }
-  else if (strokes == par +1){
-    return names[4];
-  }
-  else if (strokes == par +2){
-    return names[5];
-  }
-  else {return names[6];}
-  // Only change code above this line
+
+  // Only change code above this line  
+  return answer;  
 }
 
-// Change these values to test
-golfScore(5, 4);
+// Change this value to test
+caseInSwitch(1);
 ```
-·Run at [repl.it](https://repl.it/@AdrianSkar/Basic-JS-Golf-code)
+## Code Explanation
+It is common to ignore that `case` values are tested with strict equality with any need of other expression, like so:
+`case === value`
 
- ## Code explanation
-Since we already have an array defined in the variable `names` we can take advantage of it and use it for our return statements using indexes (eg: `names[0] is the first one`). That way, if you ever need to change a specific result you wouldn't need to look for it inside the function, it'd be at the beginning, in your array.
 
-### Resources
 
-*   <a href='https://en.wikipedia.org/wiki/Golf' target='_blank' rel='nofollow'>Golf</a>
-*   <a href='http://www.freecodecamp.com/challenges/chaining-if-else-statements' target='_blank' rel='nofollow'>Challenge: Chaining If Else Statements</a>
-*   <a href='http://www.freecodecamp.com/challenges/comparison-with-the-greater-than-equal-to-operator' target='_blank' rel='nofollow'>Challenge: Comparison with the Greater Than Equal To Operator</a>
-*   <a href='http://www.freecodecamp.com/challenges/comparison-with-the-less-than-equal-to-operator' target='_blank' rel='nofollow'>Challenge: Comparison with the Less Than Equal To Operator</a>
-* ["Array" - *MDN JavaScript reference*](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI0MDYwNzA1NSwyMTM1NjAxNjI0LDgxNT
-IzNjk1OCw4MjA4MTUyODcsLTExNTY0MzI2MjYsLTU5ODkyNTQw
-NiwtOTkyMzQ2Mjk3LC0xMzY1MDA3NzU1LDM1NTE0MzA0NywtMT
-I1Mzg4MjM3OCwtMTQ0NDA4NDI0NCwtMTA5MjAxNjYzNSwyOTE0
-NzAxOCwtMTkzNTQxNjIzMCwtMTcwMzQ5MTQ2NSwtMTMwNzE3OT
-Q2NSwxNTE2NDcyMDgyLC0zODkxMjQ1NTQsLTg5NzE4NzYxMiwy
-OTgwMDI1MTldfQ==
+eyJoaXN0b3J5IjpbLTIxNDY3NjQ0NDcsLTI0MDYwNzA1NSwyMT
+M1NjAxNjI0LDgxNTIzNjk1OCw4MjA4MTUyODcsLTExNTY0MzI2
+MjYsLTU5ODkyNTQwNiwtOTkyMzQ2Mjk3LC0xMzY1MDA3NzU1LD
+M1NTE0MzA0NywtMTI1Mzg4MjM3OCwtMTQ0NDA4NDI0NCwtMTA5
+MjAxNjYzNSwyOTE0NzAxOCwtMTkzNTQxNjIzMCwtMTcwMzQ5MT
+Q2NSwtMTMwNzE3OTQ2NSwxNTE2NDcyMDgyLC0zODkxMjQ1NTQs
+LTg5NzE4NzYxMl19
 -->
