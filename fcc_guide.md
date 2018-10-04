@@ -28,7 +28,7 @@ A switch statement first evaluates its expression. It then looks for the first `
 
 If no matching `case` clause is found, the program looks for the optional `default` clause, and if found, transfers control to that clause, executing the associated statements. If no `default` clause is found, the program continues execution at the statement following the end of `switch`. By convention, the `default` clause is the last clause, but it does not need to be so.
 
-The optional `break` statement associated with each case label ensures that the program breaks out of switch once the matched statement is executed and continues execution at the statement following switch. If `break` is omitted, the program continues execution at the next statement in the `switch` statement.
+The optional `break` statement associated with each case label ensures that the program breaks out of switch once the matched statement is executed and continues execution at the statement following switch. If `break` is omitted, the program continues execution at the next statement in the `switch` statement.<sup><a href="#cite1">1</a></sup>
 
 
 ### Problem Explanation: 
@@ -77,19 +77,23 @@ function caseInSwitch(val) {
 // Change this value to test
 caseInSwitch(1);
 ```
-## Code Explanation
+## Code explanation
 It is common to ignore that `case` values are tested with strict equality with any need of other expression, like so:
 `case === value`
+
+
+### Sources
+<span id="cite1">1</span>. ["if...else" - *MDN JavaScript reference*](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/switch#Description)
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxNDY3NjQ0NDcsLTI0MDYwNzA1NSwyMT
-M1NjAxNjI0LDgxNTIzNjk1OCw4MjA4MTUyODcsLTExNTY0MzI2
-MjYsLTU5ODkyNTQwNiwtOTkyMzQ2Mjk3LC0xMzY1MDA3NzU1LD
-M1NTE0MzA0NywtMTI1Mzg4MjM3OCwtMTQ0NDA4NDI0NCwtMTA5
-MjAxNjYzNSwyOTE0NzAxOCwtMTkzNTQxNjIzMCwtMTcwMzQ5MT
-Q2NSwtMTMwNzE3OTQ2NSwxNTE2NDcyMDgyLC0zODkxMjQ1NTQs
-LTg5NzE4NzYxMl19
+eyJoaXN0b3J5IjpbLTE1MjA3NzU2NDksLTIxNDY3NjQ0NDcsLT
+I0MDYwNzA1NSwyMTM1NjAxNjI0LDgxNTIzNjk1OCw4MjA4MTUy
+ODcsLTExNTY0MzI2MjYsLTU5ODkyNTQwNiwtOTkyMzQ2Mjk3LC
+0xMzY1MDA3NzU1LDM1NTE0MzA0NywtMTI1Mzg4MjM3OCwtMTQ0
+NDA4NDI0NCwtMTA5MjAxNjYzNSwyOTE0NzAxOCwtMTkzNTQxNj
+IzMCwtMTcwMzQ5MTQ2NSwtMTMwNzE3OTQ2NSwxNTE2NDcyMDgy
+LC0zODkxMjQ1NTRdfQ==
 -->
