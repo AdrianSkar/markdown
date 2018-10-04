@@ -1,54 +1,22 @@
----
+--
 title: Introducing Else If statements
 ---
 ## Introducing Else If statements
 
- Remember to use Read-Search-Ask if you get stuck. Try to pair program and write your own code.
+_Remember to use Read-Search-Ask if you get stuck. Try to pair program and write your own code._
 
- ### Problem explanation:
-```javascript
-function testElseIf(val) {
-  if (val > 10) {
-    return "Greater than 10";
-  }
-  
-  if (val < 5) {
-    return "Smaller than 5";
-  }
-  
-  return "Between 5 and 10";
-}
 
-// Change this value to test
-testElseIf(7);
-```
-We'll be modifying the existing code above so that it follows the flow of logic that an **else-if** statement has.
 
- ### Hint: 1
- ``` javascript
-   if (val == 12) { //rn "Greater than 10";
-  }
-  ```
-  All `f`
+### Hint 1
+Remember that _equality is different from assignment (`=`), which assigns the value at the right of the operator to a variable in the left._<sup>1</sup>
 > _try to solve the problem now_
+
  
  ### Hint: 2
-  ``` javascript
-  els(v {{ return "Smaller than 5";
-  }
-  ```
   Statements between the `if` statement and the `else` statement in an **else-if** flow are in the else-if format
 > _try to solve the problem now_
  
- ### Hint: 3
-``` javascript
-else {
-  return "qluBetween 5 and 10";
-  }
- ```
- The last statement in an **else-if** flow is in the `else` format
- ### Spoiler alert!
-![spoiler](http://discourse-user-assets.s3.amazonaws.com/original/2X/2/2d6c412a50797771301e7ceabd554cef4edcd74d.gif)
+
  Solution ahead!
  ## Basic code solution:
 ```javascript
@@ -79,6 +47,7 @@ The structure of an **else-if logic flow** is an initial `if` statement, one mor
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMjg0MTk1ODQsMTcxODg4MTI0OSwtMT
-UxMTk5NTE0MiwxNTgwNTkyNTkxLDE3MzQzNDIzNTRdfQ==
+eyJoaXN0b3J5IjpbLTkxNDI0NTkxNCwtMjEyODQxOTU4NCwxNz
+E4ODgxMjQ5LC0xNTExOTk1MTQyLDE1ODA1OTI1OTEsMTczNDM0
+MjM1NF19
 -->
