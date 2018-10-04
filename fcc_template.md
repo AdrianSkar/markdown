@@ -12,11 +12,7 @@ Remember that _equality is different from assignment (`=`), which assigns the va
 > _try to solve the problem now_
 
  
- ### Hint: 2
-  Statements between the `if` statement and the `else` statement in an **else-if** flow are in the else-if format
-> _try to solve the problem now_
- 
-####  Hint 1
+####  Hint 2
 
 The inequality operator (`!=`) will return `true` if the first value is not equal to the second one without taking value type into consideration.
 
@@ -51,6 +47,7 @@ return "Equal";
 testNotEqual(10);
 
 ```
+·  Run code at [repl.it](https://repl.it/@AdrianSkar/Basic-JS-Comparison-with-greater-operator).
 
 ###  Code explanation
 
@@ -62,7 +59,7 @@ The function first evaluates `if` the condition `(val != 99)` evaluates to `true
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjc2NjgwNzgyLC0yMTI4NDE5NTg0LDE3MT
-g4ODEyNDksLTE1MTE5OTUxNDIsMTU4MDU5MjU5MSwxNzM0MzQy
-MzU0XX0=
+eyJoaXN0b3J5IjpbLTkwNDUzMzcwNywtMjEyODQxOTU4NCwxNz
+E4ODgxMjQ5LC0xNTExOTk1MTQyLDE1ODA1OTI1OTEsMTczNDM0
+MjM1NF19
 -->
