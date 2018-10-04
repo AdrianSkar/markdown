@@ -1,65 +1,53 @@
---
-title: Introducing Else If statements
 ---
-## Introducing Else If statements
+title: Comparison with the equality operator
+---
+## Comparison with the equality operator
 
-_Remember to use Read-Search-Ask if you get stuck. Try to pair program and write your own code._
 
-
+### Problem explanation:
+_Exercise_
 
 #### Hint 1
-Remember that _equality is different from assignment (`=`), which assigns the value at the right of the operator to a variable in the left._<sup>1</sup>
+Hint X, remember that _text/paraphrasing_<sup><a href="#cite1">1</a></sup>
 > _try to solve the problem now_
 
- 
-####  Hint 2
 
-The inequality operator (`!=`) will return `true` if the first value is not equal to the second one without taking value type into consideration.
-
-> _try to solve the problem now_
-
->
-
-##  Spoiler alert!
+## Spoiler alert!
 
 **Solution ahead!**
 
-##  Basic code solution:
+## Basic code solution:
 
 ```javascript
 
-// Setup
-
-function testNotEqual(val) {
-
-if (val != 99) { // Change this line
-
-return "Not equal";
-
+function testEqual(val) {
+  if (val == 12) { // Change this line
+    return "Equal";
+  }
+  return "Not equal";
 }
-
-return "Equal";
-
-}
-
 // Change this value to test
-
-testNotEqual(10);
+testEqual(10);
 
 ```
 ·  Run code at [repl.it](https://repl.it/@AdrianSkar/Basic-JS-Comparison-with-greater-operator).
 
-###  Code explanation
+### Code explanation
+The function first evaluates `if` the condition `(val == 12)` evaluates to `true`. If it does, it returns the statement between the curly braces ("Equal"). If it doesn't, it returns the next `return` statement outside them ("Not equal"). 
 
-The function first evaluates `if` the condition `(val != 99)` evaluates to `true`. If it does, it returns the statement between the curly braces ("Not equal"). If it doesn't, it returns the next `return` statement outside them ("Equal").
+### Sources
+<span id="cite1">1</span>. ["Basic JavaScript: Comparison with the Equality Operator", fCC lesson at *Javascript Algorithms And Data Structures Certification*](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/comparison-with-the-equality-operator)
 
-###  Resources
+### Resources
+- ["Boolean" - *MDN Glossary*](https://developer.mozilla.org/en-US/docs/Glossary/Boolean)
 
-- ["Inequality operator" - *MDN JavaScript reference*](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Comparison_Operators#Using_the_Equality_Operators#Inequality_(!))
+- ["if...else" - *MDN JavaScript reference*](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/if...else)
+
+- [Samoshkin, Alexey. "Type coercion explained". *freeCodeCamp, Medium*, 17 Jan. 2018.](https://medium.freecodecamp.org/js-type-coercion-explained-27ba3d9a2839) Accessed 2 Sep 2018. 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkwNDUzMzcwNywtMjEyODQxOTU4NCwxNz
-E4ODgxMjQ5LC0xNTExOTk1MTQyLDE1ODA1OTI1OTEsMTczNDM0
-MjM1NF19
+eyJoaXN0b3J5IjpbMTAwOTM2NzY3MCwtOTA0NTMzNzA3LC0yMT
+I4NDE5NTg0LDE3MTg4ODEyNDksLTE1MTE5OTUxNDIsMTU4MDU5
+MjU5MSwxNzM0MzQyMzU0XX0=
 -->
