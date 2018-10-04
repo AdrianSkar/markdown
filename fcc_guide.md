@@ -83,17 +83,17 @@ It is common to ignore that `case` values are tested with strict equality with a
 
 
 ### Sources
-<span id="cite1">1</span>. ["if...else" - *MDN JavaScript reference*](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/switch#Description)
+<span id="cite1">1</span>. [Description of "switch" - *MDN JavaScript reference*](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/switch#Description).
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MjA3NzU2NDksLTIxNDY3NjQ0NDcsLT
-I0MDYwNzA1NSwyMTM1NjAxNjI0LDgxNTIzNjk1OCw4MjA4MTUy
-ODcsLTExNTY0MzI2MjYsLTU5ODkyNTQwNiwtOTkyMzQ2Mjk3LC
-0xMzY1MDA3NzU1LDM1NTE0MzA0NywtMTI1Mzg4MjM3OCwtMTQ0
-NDA4NDI0NCwtMTA5MjAxNjYzNSwyOTE0NzAxOCwtMTkzNTQxNj
-IzMCwtMTcwMzQ5MTQ2NSwtMTMwNzE3OTQ2NSwxNTE2NDcyMDgy
-LC0zODkxMjQ1NTRdfQ==
+eyJoaXN0b3J5IjpbMTUxMzg0NjIwNCwtMjE0Njc2NDQ0NywtMj
+QwNjA3MDU1LDIxMzU2MDE2MjQsODE1MjM2OTU4LDgyMDgxNTI4
+NywtMTE1NjQzMjYyNiwtNTk4OTI1NDA2LC05OTIzNDYyOTcsLT
+EzNjUwMDc3NTUsMzU1MTQzMDQ3LC0xMjUzODgyMzc4LC0xNDQ0
+MDg0MjQ0LC0xMDkyMDE2NjM1LDI5MTQ3MDE4LC0xOTM1NDE2Mj
+MwLC0xNzAzNDkxNDY1LC0xMzA3MTc5NDY1LDE1MTY0NzIwODIs
+LTM4OTEyNDU1NF19
 -->
