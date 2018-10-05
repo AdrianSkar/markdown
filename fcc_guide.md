@@ -31,7 +31,7 @@ The optional `break` statement associated with each case label ensures that the 
 
 
 ### Problem Explanation: 
-Write a switch statement which tests `val` and sets `answer` for the following conditions:
+_Write a switch statement which tests `val` and sets `answer` for the following conditions:_
 - `1` - "alpha",
 - `2` - "beta",
 - `3` - "gamma",
@@ -118,7 +118,7 @@ Since you already have a variable defined at the beginning of the function named
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0Nzc3MDg0MTMsMTUxMzg0NjIwNCwtMj
+eyJoaXN0b3J5IjpbLTExNTAxMzMyNjcsMTUxMzg0NjIwNCwtMj
 E0Njc2NDQ0NywtMjQwNjA3MDU1LDIxMzU2MDE2MjQsODE1MjM2
 OTU4LDgyMDgxNTI4NywtMTE1NjQzMjYyNiwtNTk4OTI1NDA2LC
 05OTIzNDYyOTcsLTEzNjUwMDc3NTUsMzU1MTQzMDQ3LC0xMjUz
