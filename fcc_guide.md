@@ -61,10 +61,37 @@ function sequentialSizes(val) {
 sequentialSizes(1);
 ```
 
+## Alternative code solution:
+
+```javascript
+function sequentialSizes(val) {
+  var answer = "";
+  // Only change code below this line
+  switch(val){
+    case 1: case 2: case 3:
+      answer = "Low";
+      break;
+    case 4: case 5: case 6:
+      answer = "Mid";
+      break;
+    case 7: case 8: case 9:
+      answer = "High";
+  }
+  // Only change code above this line  
+  return answer;  
+}
+// Change this value to test
+sequentialSizes(1);
+```
+·  Run code at [repl.it](https://repl.it/@AdrianSkar/Basic-JS-Comparison-with-greater-operator).
+
+### Code explanation
+The function first evaluates `if` the condition `(val == 12)` evaluates to `true`. If it does, it returns the statement between the curly braces ("Equal"). If it doesn't, it returns the next `return` statement outside them ("Not equal"). 
+
 ### Resources
 - ["Switch: Methods for multi-criteria case" - *MDN Javascript Reference*](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/switch)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTAzMTI0MTE0LC0xMTUwMTMzMjY3LDE1MT
+eyJoaXN0b3J5IjpbODk5MDU3Mjk0LC0xMTUwMTMzMjY3LDE1MT
 M4NDYyMDQsLTIxNDY3NjQ0NDcsLTI0MDYwNzA1NSwyMTM1NjAx
 NjI0LDgxNTIzNjk1OCw4MjA4MTUyODcsLTExNTY0MzI2MjYsLT
 U5ODkyNTQwNiwtOTkyMzQ2Mjk3LC0xMzY1MDA3NzU1LDM1NTE0
