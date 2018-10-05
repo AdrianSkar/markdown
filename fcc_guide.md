@@ -1,4 +1,3 @@
-
 ---
 title: Multiple Identical Options in Switch Statements
 ---
@@ -6,7 +5,7 @@ title: Multiple Identical Options in Switch Statements
 <!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
 <h2>Problem Explanation</h2>
 
-If the break statement is omitted from a switch statement's case, the following case statement(s) are executed until a break is encountered. If you have multiple inputs with the same output, you can represent them in a switch statement like this:
+_If the break statement is omitted from a switch statement's case, the following case statement(s) are executed until a break is encountered. If you have multiple inputs with the same output, you can represent them in a switch statement like this:_
 ```javascript
 switch(val) {
   case 1:
@@ -18,8 +17,6 @@ switch(val) {
     result = "4 alone";
 }
 ```
-## Useful Resources Link
-[Mozilla Developer Network - Switch Statements](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/switch)
 
 Cases for 1, 2, and 3 will all produce the same result.
 
@@ -60,13 +57,14 @@ function sequentialSizes(val) {
 // Change this value to test
 sequentialSizes(1);
 ```
-
+### Sources
+["Switch: Methods for multi-criteria case](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/switch)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQyNjA0MDY2NSwtMTE1MDEzMzI2NywxNT
-EzODQ2MjA0LC0yMTQ2NzY0NDQ3LC0yNDA2MDcwNTUsMjEzNTYw
-MTYyNCw4MTUyMzY5NTgsODIwODE1Mjg3LC0xMTU2NDMyNjI2LC
-01OTg5MjU0MDYsLTk5MjM0NjI5NywtMTM2NTAwNzc1NSwzNTUx
-NDMwNDcsLTEyNTM4ODIzNzgsLTE0NDQwODQyNDQsLTEwOTIwMT
-Y2MzUsMjkxNDcwMTgsLTE5MzU0MTYyMzAsLTE3MDM0OTE0NjUs
-LTEzMDcxNzk0NjVdfQ==
+eyJoaXN0b3J5IjpbMzUyMzgwOTQwLC0xMTUwMTMzMjY3LDE1MT
+M4NDYyMDQsLTIxNDY3NjQ0NDcsLTI0MDYwNzA1NSwyMTM1NjAx
+NjI0LDgxNTIzNjk1OCw4MjA4MTUyODcsLTExNTY0MzI2MjYsLT
+U5ODkyNTQwNiwtOTkyMzQ2Mjk3LC0xMzY1MDA3NzU1LDM1NTE0
+MzA0NywtMTI1Mzg4MjM3OCwtMTQ0NDA4NDI0NCwtMTA5MjAxNj
+YzNSwyOTE0NzAxOCwtMTkzNTQxNjIzMCwtMTcwMzQ5MTQ2NSwt
+MTMwNzE3OTQ2NV19
 -->
