@@ -121,7 +121,8 @@ function cc(card) {
 ·  Run code at [repl.it](https://repl.it/@AdrianSkar/Basic-JS-Counting-cards).
 
 ### Code explanation
-The function first evaluates `if` the condition `card` is a value greater than `1` and lower than `7`, in which case it adds . 
+· The function first evaluates `if` the condition `card` is a value greater than `1` and lower than `7`, in which case it increments `count` by one.
+· Then if the card is `10` or higher
 
 #### Resources
 
@@ -131,7 +132,7 @@ The function first evaluates `if` the condition `card` is a value greater than `
 *   <a href='http://www.freecodecamp.com/challenges/increment-a-number-with-javascript' target='_blank' rel='nofollow'>Challenge: Increment a Number with Javascript</a>
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUyMDQ2NjA2LC0xOTM0ODkzMjUsMjA1Mj
+eyJoaXN0b3J5IjpbNzI0OTQ2MjU2LC0xOTM0ODkzMjUsMjA1Mj
 k5NTg2MCwxNTYxMDAxNzU3LDE4Mzc1NTIyOTMsLTExNTAxMzMy
 NjcsMTUxMzg0NjIwNCwtMjE0Njc2NDQ0NywtMjQwNjA3MDU1LD
 IxMzU2MDE2MjQsODE1MjM2OTU4LDgyMDgxNTI4NywtMTE1NjQz
