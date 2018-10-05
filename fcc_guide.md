@@ -83,19 +83,19 @@ function sequentialSizes(val) {
 // Change this value to test
 sequentialSizes(1);
 ```
-·  Run code at [repl.it](https://repl.it/@AdrianSkar/Basic-JS-Comparison-with-greater-operator).
+·  Run code at [repl.it](https://repl.it/@AdrianSkar/Basic-JS-Multiple-opts-in-switch).
 
 ### Code explanation
-The function first evaluates `if` the condition `(val == 12)` evaluates to `true`. If it does, it returns the statement between the curly braces ("Equal"). If it doesn't, it returns the next `return` statement outside them ("Not equal"). 
+Since you already has. 
 
 ### Resources
 - ["Switch: Methods for multi-criteria case" - *MDN Javascript Reference*](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/switch)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODk5MDU3Mjk0LC0xMTUwMTMzMjY3LDE1MT
-M4NDYyMDQsLTIxNDY3NjQ0NDcsLTI0MDYwNzA1NSwyMTM1NjAx
-NjI0LDgxNTIzNjk1OCw4MjA4MTUyODcsLTExNTY0MzI2MjYsLT
-U5ODkyNTQwNiwtOTkyMzQ2Mjk3LC0xMzY1MDA3NzU1LDM1NTE0
-MzA0NywtMTI1Mzg4MjM3OCwtMTQ0NDA4NDI0NCwtMTA5MjAxNj
-YzNSwyOTE0NzAxOCwtMTkzNTQxNjIzMCwtMTcwMzQ5MTQ2NSwt
-MTMwNzE3OTQ2NV19
+eyJoaXN0b3J5IjpbLTYzNTA2NDQxNSwtMTE1MDEzMzI2NywxNT
+EzODQ2MjA0LC0yMTQ2NzY0NDQ3LC0yNDA2MDcwNTUsMjEzNTYw
+MTYyNCw4MTUyMzY5NTgsODIwODE1Mjg3LC0xMTU2NDMyNjI2LC
+01OTg5MjU0MDYsLTk5MjM0NjI5NywtMTM2NTAwNzc1NSwzNTUx
+NDMwNDcsLTEyNTM4ODIzNzgsLTE0NDQwODQyNDQsLTEwOTIwMT
+Y2MzUsMjkxNDcwMTgsLTE5MzU0MTYyMzAsLTE3MDM0OTE0NjUs
+LTEzMDcxNzk0NjVdfQ==
 -->
