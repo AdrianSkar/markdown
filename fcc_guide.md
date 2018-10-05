@@ -29,31 +29,12 @@ In order to return `true` or `false` you don't need two statements nor use `if` 
 
 ## Code Solution:
 ```javascript
-function sequentialSizes(val) {
-  var answer = "";
-  // Only change code below this line
-  switch(val) {
-    case 1:
-    case 2:
-    case 3:
-      return "Low";
-      break;
-    case 4:
-    case 5:
-    case 6:
-      return "Mid";
-      break;
-    case 7:
-    case 8:
-    case 9:
-      return "High";
-      break;
-  } 
-  // Only change code above this line  
-  return answer;  
+function isLess(a, b) {
+  // Fix this code
+  return a <= b;
 }
-// Change this value to test
-sequentialSizes(1);
+// Change these values to test
+isLess(10, 15);
 ```
 
 ## Alternative code solution:
@@ -86,7 +67,7 @@ Since you already have a variable named `answer` defined and the function return
 ### Resources
 - ["Switch: Methods for multi-criteria case" - *MDN Javascript Reference*](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/switch)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTUzMDI1OTQ0LDE4Mzc1NTIyOTMsLTExNT
+eyJoaXN0b3J5IjpbNzE4MjUxNjA3LDE4Mzc1NTIyOTMsLTExNT
 AxMzMyNjcsMTUxMzg0NjIwNCwtMjE0Njc2NDQ0NywtMjQwNjA3
 MDU1LDIxMzU2MDE2MjQsODE1MjM2OTU4LDgyMDgxNTI4NywtMT
 E1NjQzMjYyNiwtNTk4OTI1NDA2LC05OTIzNDYyOTcsLTEzNjUw
