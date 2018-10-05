@@ -121,7 +121,7 @@ function cc(card) {
 ·  Run code at [repl.it](https://repl.it/@AdrianSkar/Basic-JS-Counting-cards).
 
 ### Code explanation
-The function first evaluates `if` the condition `(val == 12)` evaluates to `true`. If it does, it returns the statement between the curly braces ("Equal"). If it doesn't, it returns the next `return` statement outside them ("Not equal"). 
+The function first evaluates `if` the condition `card` is a value greater than `1` and lower than `7`, in which case it adds . 
 
 #### Resources
 
@@ -131,7 +131,7 @@ The function first evaluates `if` the condition `(val == 12)` evaluates to `true
 *   <a href='http://www.freecodecamp.com/challenges/increment-a-number-with-javascript' target='_blank' rel='nofollow'>Challenge: Increment a Number with Javascript</a>
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkxMDg5MzY3LC0xOTM0ODkzMjUsMjA1Mj
+eyJoaXN0b3J5IjpbLTUyMDQ2NjA2LC0xOTM0ODkzMjUsMjA1Mj
 k5NTg2MCwxNTYxMDAxNzU3LDE4Mzc1NTIyOTMsLTExNTAxMzMy
 NjcsMTUxMzg0NjIwNCwtMjE0Njc2NDQ0NywtMjQwNjA3MDU1LD
 IxMzU2MDE2MjQsODE1MjM2OTU4LDgyMDgxNTI4NywtMTE1NjQz
