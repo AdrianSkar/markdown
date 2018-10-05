@@ -21,14 +21,17 @@ switch(val) {
 _Cases for 1, 2, and 3 will all produce the same result._
 
 _Write a switch statement to set answer for the following ranges:_
-<p>1-3 - "Low"</p>
-<p>4-6 - "Mid"</p>
-<p>7-9 - "High"</p>
+`1-3`- "Low"  
+`4-6`- "Mid"  
+`7-9`- "High"
 
-Note:
-You will need to have a case statement for each number in the range.
+_Note:
+You will need to have a case statement for each number in the range._
 
-Solution Ahead!
+## Spoiler alert!
+
+**Solution ahead!**
+
 ## Code Solution:
 ```javascript
 function sequentialSizes(val) {
@@ -61,7 +64,7 @@ sequentialSizes(1);
 ### Sources
 - ["Switch: Methods for multi-criteria case" - *MDN Javascript Reference*](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/switch)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk3OTc4MjY1NywtMTE1MDEzMzI2NywxNT
+eyJoaXN0b3J5IjpbMTU2MDU4NzY4NSwtMTE1MDEzMzI2NywxNT
 EzODQ2MjA0LC0yMTQ2NzY0NDQ3LC0yNDA2MDcwNTUsMjEzNTYw
 MTYyNCw4MTUyMzY5NTgsODIwODE1Mjg3LC0xMTU2NDMyNjI2LC
 01OTg5MjU0MDYsLTk5MjM0NjI5NywtMTM2NTAwNzc1NSwzNTUx
