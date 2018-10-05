@@ -82,15 +82,28 @@ It is common to ignore that `case` values are tested with strict equality with a
 
 ## Alternative code solution:
 ```javascript
-function testEqual(val) {
-  if (val == 12) { // Change this line
-    return "Equal";
+function caseInSwitch(val) {
+  var answer = "";
+  // Only change code below this line
+  switch (val){
+    case 1:
+      answer="alpha";
+      break;
+    case 2:
+      answer="beta";
+      break;
+    case 3:
+      answer="gamma";
+      break;
+    case 4:
+      answer="delta";
+      break;
   }
-  return "Not equal";
+  // Only change code above this line  
+  return answer;  
 }
 // Change this value to test
-testEqual(10);
-
+caseInSwitch(1);
 ```
 ·  Run code at [repl.it](https://repl.it/@AdrianSkar/Basic-JS-Comparison-with-greater-operator).
 
@@ -105,7 +118,7 @@ The function first evaluates `if` the condition `(val == 12)` evaluates to `true
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk5MTY0MTEwMSwxNTEzODQ2MjA0LC0yMT
+eyJoaXN0b3J5IjpbLTUzMTU0NTA4OSwxNTEzODQ2MjA0LC0yMT
 Q2NzY0NDQ3LC0yNDA2MDcwNTUsMjEzNTYwMTYyNCw4MTUyMzY5
 NTgsODIwODE1Mjg3LC0xMTU2NDMyNjI2LC01OTg5MjU0MDYsLT
 k5MjM0NjI5NywtMTM2NTAwNzc1NSwzNTUxNDMwNDcsLTEyNTM4
