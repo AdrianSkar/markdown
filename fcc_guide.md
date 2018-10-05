@@ -1,4 +1,3 @@
-
 ---
 title: Selecting from Many Options with Switch Statements
 ---
@@ -77,7 +76,7 @@ function caseInSwitch(val) {
 // Change this value to test
 caseInSwitch(1);
 ```
-## Code explanation
+### Code explanation
 It is common to ignore that `case` values are tested with strict equality with any need of other expression, like so:
 `case === value`
 
@@ -89,11 +88,11 @@ It is common to ignore that `case` values are tested with strict equality with a
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE2MTkyNTQ2NiwxNTEzODQ2MjA0LC0yMT
-Q2NzY0NDQ3LC0yNDA2MDcwNTUsMjEzNTYwMTYyNCw4MTUyMzY5
-NTgsODIwODE1Mjg3LC0xMTU2NDMyNjI2LC01OTg5MjU0MDYsLT
-k5MjM0NjI5NywtMTM2NTAwNzc1NSwzNTUxNDMwNDcsLTEyNTM4
-ODIzNzgsLTE0NDQwODQyNDQsLTEwOTIwMTY2MzUsMjkxNDcwMT
-gsLTE5MzU0MTYyMzAsLTE3MDM0OTE0NjUsLTEzMDcxNzk0NjUs
-MTUxNjQ3MjA4Ml19
+eyJoaXN0b3J5IjpbMjU1ODgzMzk1LDE1MTM4NDYyMDQsLTIxND
+Y3NjQ0NDcsLTI0MDYwNzA1NSwyMTM1NjAxNjI0LDgxNTIzNjk1
+OCw4MjA4MTUyODcsLTExNTY0MzI2MjYsLTU5ODkyNTQwNiwtOT
+kyMzQ2Mjk3LC0xMzY1MDA3NzU1LDM1NTE0MzA0NywtMTI1Mzg4
+MjM3OCwtMTQ0NDA4NDI0NCwtMTA5MjAxNjYzNSwyOTE0NzAxOC
+wtMTkzNTQxNjIzMCwtMTcwMzQ5MTQ2NSwtMTMwNzE3OTQ2NSwx
+NTE2NDcyMDgyXX0=
 -->
