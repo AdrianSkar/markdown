@@ -1,32 +1,15 @@
 ---
-title: Multiple Identical Options in Switch Statements
+title: Returning Boolean Values from Functions
 ---
-## Multiple Identical Options in Switch Statements
+## Returning Boolean Values from Functions
 
 ### Problem Explanation
 
-_If the break statement is omitted from a switch statement's case, the following case statement(s) are executed until a break is encountered. If you have multiple inputs with the same output, you can represent them in a switch statement like this:_
-```javascript
-switch(val) {
-  case 1:
-  case 2:
-  case 3:
-    result = "1, 2, or 3";
-    break;
-  case 4:
-    result = "4 alone";
-}
+_Fix the function `isLess` to remove the `if/else` statements._
+```js
+
 ```
 
-_Cases for 1, 2, and 3 will all produce the same result._
-
-_Write a switch statement to set answer for the following ranges:_
-`1-3`- "Low"  
-`4-6`- "Mid"  
-`7-9`- "High"
-
-_Note:
-You will need to have a case statement for each number in the range._
 
 ## Spoiler alert!
 
@@ -91,11 +74,11 @@ Since you already have a variable named `answer` defined and the function return
 ### Resources
 - ["Switch: Methods for multi-criteria case" - *MDN Javascript Reference*](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/switch)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgzNzU1MjI5MywtMTE1MDEzMzI2NywxNT
-EzODQ2MjA0LC0yMTQ2NzY0NDQ3LC0yNDA2MDcwNTUsMjEzNTYw
-MTYyNCw4MTUyMzY5NTgsODIwODE1Mjg3LC0xMTU2NDMyNjI2LC
-01OTg5MjU0MDYsLTk5MjM0NjI5NywtMTM2NTAwNzc1NSwzNTUx
-NDMwNDcsLTEyNTM4ODIzNzgsLTE0NDQwODQyNDQsLTEwOTIwMT
-Y2MzUsMjkxNDcwMTgsLTE5MzU0MTYyMzAsLTE3MDM0OTE0NjUs
-LTEzMDcxNzk0NjVdfQ==
+eyJoaXN0b3J5IjpbLTEwMjg5ODcyMTQsMTgzNzU1MjI5MywtMT
+E1MDEzMzI2NywxNTEzODQ2MjA0LC0yMTQ2NzY0NDQ3LC0yNDA2
+MDcwNTUsMjEzNTYwMTYyNCw4MTUyMzY5NTgsODIwODE1Mjg3LC
+0xMTU2NDMyNjI2LC01OTg5MjU0MDYsLTk5MjM0NjI5NywtMTM2
+NTAwNzc1NSwzNTUxNDMwNDcsLTEyNTM4ODIzNzgsLTE0NDQwOD
+QyNDQsLTEwOTIwMTY2MzUsMjkxNDcwMTgsLTE5MzU0MTYyMzAs
+LTE3MDM0OTE0NjVdfQ==
 -->
