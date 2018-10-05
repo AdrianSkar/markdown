@@ -106,17 +106,19 @@ After you've counted the cards, use an `if` statement to check the value of **co
 ## Additional code solution:
 
 ```javascript
-function testEqual(val) {
-  if (val == 12) { // Change this line
-    return "Equal";
-  }
-  return "Not equal";
-}
-// Change this value to test
-testEqual(10);
+function cc(card) {
+  // Only change code below this line
+  var regex = /[JQKA]/;
+  if (card > 1 && card < 7){count++;}
+  else if (card === 10 || String(card).match(regex)){count--;}
 
+  if (count > 0) return count + " Bet";
+  return count + " Hold";
+
+  // Only change code above this line
+}
 ```
-·  Run code at [repl.it](https://repl.it/@AdrianSkar/Basic-JS-Comparison-with-greater-operator).
+·  Run code at [repl.it](https://repl.it/@AdrianSkar/Basic-JS-Counting-cards).
 
 ### Code explanation
 The function first evaluates `if` the condition `(val == 12)` evaluates to `true`. If it does, it returns the statement between the curly braces ("Equal"). If it doesn't, it returns the next `return` statement outside them ("Not equal"). 
@@ -129,7 +131,7 @@ The function first evaluates `if` the condition `(val == 12)` evaluates to `true
 *   <a href='http://www.freecodecamp.com/challenges/increment-a-number-with-javascript' target='_blank' rel='nofollow'>Challenge: Increment a Number with Javascript</a>
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODg5OTQzMjYxLC0xOTM0ODkzMjUsMjA1Mj
+eyJoaXN0b3J5IjpbLTkxMDg5MzY3LC0xOTM0ODkzMjUsMjA1Mj
 k5NTg2MCwxNTYxMDAxNzU3LDE4Mzc1NTIyOTMsLTExNTAxMzMy
 NjcsMTUxMzg0NjIwNCwtMjE0Njc2NDQ0NywtMjQwNjA3MDU1LD
 IxMzU2MDE2MjQsODE1MjM2OTU4LDgyMDgxNTI4NywtMTE1NjQz
