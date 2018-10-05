@@ -1,4 +1,3 @@
-
 ---
 title: Counting Cards
 ---
@@ -104,18 +103,37 @@ After you've counted the cards, use an `if` statement to check the value of **co
 **_Note_**: As mentioned earlier, the `switch` statement could have also been an `else if` statement.
 
 
+## Additional code solution:
+
+```javascript
+function testEqual(val) {
+  if (val == 12) { // Change this line
+    return "Equal";
+  }
+  return "Not equal";
+}
+// Change this value to test
+testEqual(10);
+
+```
+·  Run code at [repl.it](https://repl.it/@AdrianSkar/Basic-JS-Comparison-with-greater-operator).
+
+### Code explanation
+The function first evaluates `if` the condition `(val == 12)` evaluates to `true`. If it does, it returns the statement between the curly braces ("Equal"). If it doesn't, it returns the next `return` statement outside them ("Not equal"). 
+
 #### Resources
 
 *   <a href='https://en.wikipedia.org/wiki/Card_counting' target='_blank' rel='nofollow'>Card counting at Wikipedia</a>
 *   <a href='http://www.freecodecamp.com/challenges/selecting-from-many-options-with-switch-statements' target='_blank' rel='nofollow'>Challenge: Selecting from many options with Switch Statements</a>
 *   <a href='http://www.freecodecamp.com/challenges/chaining-if-else-statements' target='_blank' rel='nofollow'>Challenge: Chaining If Else Statements</a>
 *   <a href='http://www.freecodecamp.com/challenges/increment-a-number-with-javascript' target='_blank' rel='nofollow'>Challenge: Increment a Number with Javascript</a>
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MzQ4OTMyNSwyMDUyOTk1ODYwLDE1Nj
-EwMDE3NTcsMTgzNzU1MjI5MywtMTE1MDEzMzI2NywxNTEzODQ2
-MjA0LC0yMTQ2NzY0NDQ3LC0yNDA2MDcwNTUsMjEzNTYwMTYyNC
-w4MTUyMzY5NTgsODIwODE1Mjg3LC0xMTU2NDMyNjI2LC01OTg5
-MjU0MDYsLTk5MjM0NjI5NywtMTM2NTAwNzc1NSwzNTUxNDMwND
-csLTEyNTM4ODIzNzgsLTE0NDQwODQyNDQsLTEwOTIwMTY2MzUs
-MjkxNDcwMThdfQ==
+eyJoaXN0b3J5IjpbODg5OTQzMjYxLC0xOTM0ODkzMjUsMjA1Mj
+k5NTg2MCwxNTYxMDAxNzU3LDE4Mzc1NTIyOTMsLTExNTAxMzMy
+NjcsMTUxMzg0NjIwNCwtMjE0Njc2NDQ0NywtMjQwNjA3MDU1LD
+IxMzU2MDE2MjQsODE1MjM2OTU4LDgyMDgxNTI4NywtMTE1NjQz
+MjYyNiwtNTk4OTI1NDA2LC05OTIzNDYyOTcsLTEzNjUwMDc3NT
+UsMzU1MTQzMDQ3LC0xMjUzODgyMzc4LC0xNDQ0MDg0MjQ0LC0x
+MDkyMDE2NjM1XX0=
 -->
