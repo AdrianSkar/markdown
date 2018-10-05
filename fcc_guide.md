@@ -80,6 +80,25 @@ caseInSwitch(1);
 It is common to ignore that `case` values are tested with strict equality with any need of other expression, like so:
 `case === value`
 
+## Alternative code solution:
+
+```javascript
+
+function testEqual(val) {
+  if (val == 12) { // Change this line
+    return "Equal";
+  }
+  return "Not equal";
+}
+// Change this value to test
+testEqual(10);
+
+```
+·  Run code at [repl.it](https://repl.it/@AdrianSkar/Basic-JS-Comparison-with-greater-operator).
+
+### Code explanation
+The function first evaluates `if` the condition `(val == 12)` evaluates to `true`. If it does, it returns the statement between the curly braces ("Equal"). If it doesn't, it returns the next `return` statement outside them ("Not equal"). 
+
 
 ### Sources
 <span id="cite1">1</span>. [Description of "switch" - *MDN JavaScript reference*](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/switch#Description).
@@ -88,11 +107,11 @@ It is common to ignore that `case` values are tested with strict equality with a
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjU1ODgzMzk1LDE1MTM4NDYyMDQsLTIxND
-Y3NjQ0NDcsLTI0MDYwNzA1NSwyMTM1NjAxNjI0LDgxNTIzNjk1
-OCw4MjA4MTUyODcsLTExNTY0MzI2MjYsLTU5ODkyNTQwNiwtOT
-kyMzQ2Mjk3LC0xMzY1MDA3NzU1LDM1NTE0MzA0NywtMTI1Mzg4
-MjM3OCwtMTQ0NDA4NDI0NCwtMTA5MjAxNjYzNSwyOTE0NzAxOC
-wtMTkzNTQxNjIzMCwtMTcwMzQ5MTQ2NSwtMTMwNzE3OTQ2NSwx
-NTE2NDcyMDgyXX0=
+eyJoaXN0b3J5IjpbLTEzMDQ1MDE2MywxNTEzODQ2MjA0LC0yMT
+Q2NzY0NDQ3LC0yNDA2MDcwNTUsMjEzNTYwMTYyNCw4MTUyMzY5
+NTgsODIwODE1Mjg3LC0xMTU2NDMyNjI2LC01OTg5MjU0MDYsLT
+k5MjM0NjI5NywtMTM2NTAwNzc1NSwzNTUxNDMwNDcsLTEyNTM4
+ODIzNzgsLTE0NDQwODQyNDQsLTEwOTIwMTY2MzUsMjkxNDcwMT
+gsLTE5MzU0MTYyMzAsLTE3MDM0OTE0NjUsLTEzMDcxNzk0NjUs
+MTUxNjQ3MjA4Ml19
 -->
