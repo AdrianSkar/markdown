@@ -30,12 +30,6 @@ You will write a card counting function. It will receive a **card** parameter an
 *   -3 Hold
 *   5 Bet
 
-#### Relevant Links
-
-*   <a href='https://en.wikipedia.org/wiki/Card_counting' target='_blank' rel='nofollow'>Card counting</a>
-*   <a href='http://www.freecodecamp.com/challenges/selecting-from-many-options-with-switch-statements' target='_blank' rel='nofollow'>Challenge: Selecting from many options with Switch Statements</a>
-*   <a href='http://www.freecodecamp.com/challenges/chaining-if-else-statements' target='_blank' rel='nofollow'>Challenge: Chaining If Else Statements</a>
-*   <a href='http://www.freecodecamp.com/challenges/increment-a-number-with-javascript' target='_blank' rel='nofollow'>Challenge: Increment a Number with Javascript</a>
 
 ## ![:speech_balloon:](https://forum.freecodecamp.com/images/emoji/emoji_one/speech_balloon.png?v=3 ":speech_balloon:") Hint: 1
 
@@ -110,12 +104,18 @@ After you've counted the cards, use an `if` statement to check the value of **co
 **_Note_**: As mentioned earlier, the `switch` statement could have also been an `else if` statement.
 
 
+#### Resources
+
+*   <a href='https://en.wikipedia.org/wiki/Card_counting' target='_blank' rel='nofollow'>Card counting at Wikipedia</a>
+*   <a href='http://www.freecodecamp.com/challenges/selecting-from-many-options-with-switch-statements' target='_blank' rel='nofollow'>Challenge: Selecting from many options with Switch Statements</a>
+*   <a href='http://www.freecodecamp.com/challenges/chaining-if-else-statements' target='_blank' rel='nofollow'>Challenge: Chaining If Else Statements</a>
+*   <a href='http://www.freecodecamp.com/challenges/increment-a-number-with-javascript' target='_blank' rel='nofollow'>Challenge: Increment a Number with Javascript</a>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzczOTYyODY0LDIwNTI5OTU4NjAsMTU2MT
-AwMTc1NywxODM3NTUyMjkzLC0xMTUwMTMzMjY3LDE1MTM4NDYy
-MDQsLTIxNDY3NjQ0NDcsLTI0MDYwNzA1NSwyMTM1NjAxNjI0LD
-gxNTIzNjk1OCw4MjA4MTUyODcsLTExNTY0MzI2MjYsLTU5ODky
-NTQwNiwtOTkyMzQ2Mjk3LC0xMzY1MDA3NzU1LDM1NTE0MzA0Ny
-wtMTI1Mzg4MjM3OCwtMTQ0NDA4NDI0NCwtMTA5MjAxNjYzNSwy
-OTE0NzAxOF19
+eyJoaXN0b3J5IjpbLTE5MzQ4OTMyNSwyMDUyOTk1ODYwLDE1Nj
+EwMDE3NTcsMTgzNzU1MjI5MywtMTE1MDEzMzI2NywxNTEzODQ2
+MjA0LC0yMTQ2NzY0NDQ3LC0yNDA2MDcwNTUsMjEzNTYwMTYyNC
+w4MTUyMzY5NTgsODIwODE1Mjg3LC0xMTU2NDMyNjI2LC01OTg5
+MjU0MDYsLTk5MjM0NjI5NywtMTM2NTAwNzc1NSwzNTUxNDMwND
+csLTEyNTM4ODIzNzgsLTE0NDQwODQyNDQsLTEwOTIwMTY2MzUs
+MjkxNDcwMThdfQ==
 -->
