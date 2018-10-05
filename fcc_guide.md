@@ -43,13 +43,13 @@ Remember that `case` values are tested with strict equality (`===`).
 > Try to solve the problem now!
 
 ## Hint 2
-Do not see "following conditions" as an ordered list as it looks in the original freeCodeCamp demo, but as values and statements, as shown here
+Do not see _"following conditions"_ as an ordered list as it looks in the original freeCodeCamp demo, but as values and statements, as shown here
 >Try to solve the problem now!
 
-# Spoiler Alert!
+## Spoiler Alert!
 ### Are you completely sure what you want a look? ...
 
-# Basic Code Solution
+## Basic Code Solution
 
 ```js
 function caseInSwitch(val) {
@@ -89,11 +89,11 @@ It is common to ignore that `case` values are tested with strict equality with a
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNDg1MzA3NjQsMTUxMzg0NjIwNCwtMj
-E0Njc2NDQ0NywtMjQwNjA3MDU1LDIxMzU2MDE2MjQsODE1MjM2
-OTU4LDgyMDgxNTI4NywtMTE1NjQzMjYyNiwtNTk4OTI1NDA2LC
-05OTIzNDYyOTcsLTEzNjUwMDc3NTUsMzU1MTQzMDQ3LC0xMjUz
-ODgyMzc4LC0xNDQ0MDg0MjQ0LC0xMDkyMDE2NjM1LDI5MTQ3MD
-E4LC0xOTM1NDE2MjMwLC0xNzAzNDkxNDY1LC0xMzA3MTc5NDY1
-LDE1MTY0NzIwODJdfQ==
+eyJoaXN0b3J5IjpbMTE2MTkyNTQ2NiwxNTEzODQ2MjA0LC0yMT
+Q2NzY0NDQ3LC0yNDA2MDcwNTUsMjEzNTYwMTYyNCw4MTUyMzY5
+NTgsODIwODE1Mjg3LC0xMTU2NDMyNjI2LC01OTg5MjU0MDYsLT
+k5MjM0NjI5NywtMTM2NTAwNzc1NSwzNTUxNDMwNDcsLTEyNTM4
+ODIzNzgsLTE0NDQwODQyNDQsLTEwOTIwMTY2MzUsMjkxNDcwMT
+gsLTE5MzU0MTYyMzAsLTE3MDM0OTE0NjUsLTEzMDcxNzk0NjUs
+MTUxNjQ3MjA4Ml19
 -->
