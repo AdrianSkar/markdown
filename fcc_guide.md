@@ -109,21 +109,13 @@ After you've counted the cards, use an `if` statement to check the value of **co
 
 **_Note_**: As mentioned earlier, the `switch` statement could have also been an `else if` statement.
 
-## ![:clipboard:](https://forum.freecodecamp.com/images/emoji/emoji_one/clipboard.png?v=3 ":clipboard:") NOTES FOR CONTRIBUTIONS:
-
-*   ![:warning:](https://forum.freecodecamp.com/images/emoji/emoji_one/warning.png?v=3 ":warning:") **DO NOT** add solutions that are similar to any existing solutions. If you think it is **_similar but better_**, then try to merge (or replace) the existing similar solution.
-*   Add an explanation of your solution.
-*   Categorize the solution in one of the following categories — **Basic**, **Intermediate** and **Advanced**. ![:traffic_light:](https://forum.freecodecamp.com/images/emoji/emoji_one/traffic_light.png?v=3 ":traffic_light:")
-*   Please add your username only if you have added any **relevant main contents**. (![:warning:](https://forum.freecodecamp.com/images/emoji/emoji_one/warning.png?v=3 ":warning:") **_DO NOT_** _remove any existing usernames_)
-
-> See ![:point_right:](https://forum.freecodecamp.com/images/emoji/emoji_one/point_right.png?v=3 ":point_right:") <a>**`Wiki Challenge Solution Template`**</a> for reference.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY1NjI3MjU3NywyMDUyOTk1ODYwLDE1Nj
-EwMDE3NTcsMTgzNzU1MjI5MywtMTE1MDEzMzI2NywxNTEzODQ2
-MjA0LC0yMTQ2NzY0NDQ3LC0yNDA2MDcwNTUsMjEzNTYwMTYyNC
-w4MTUyMzY5NTgsODIwODE1Mjg3LC0xMTU2NDMyNjI2LC01OTg5
-MjU0MDYsLTk5MjM0NjI5NywtMTM2NTAwNzc1NSwzNTUxNDMwND
-csLTEyNTM4ODIzNzgsLTE0NDQwODQyNDQsLTEwOTIwMTY2MzUs
-MjkxNDcwMThdfQ==
+eyJoaXN0b3J5IjpbMzczOTYyODY0LDIwNTI5OTU4NjAsMTU2MT
+AwMTc1NywxODM3NTUyMjkzLC0xMTUwMTMzMjY3LDE1MTM4NDYy
+MDQsLTIxNDY3NjQ0NDcsLTI0MDYwNzA1NSwyMTM1NjAxNjI0LD
+gxNTIzNjk1OCw4MjA4MTUyODcsLTExNTY0MzI2MjYsLTU5ODky
+NTQwNiwtOTkyMzQ2Mjk3LC0xMzY1MDA3NzU1LDM1NTE0MzA0Ny
+wtMTI1Mzg4MjM3OCwtMTQ0NDA4NDI0NCwtMTA5MjAxNjYzNSwy
+OTE0NzAxOF19
 -->
