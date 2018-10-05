@@ -105,10 +105,10 @@ function caseInSwitch(val) {
 // Change this value to test
 caseInSwitch(1);
 ```
-·  Run code at [repl.it](https://repl.it/@AdrianSkar/Basic-JS-Comparison-with-greater-operator).
+·  Run code at [repl.it](https://repl.it/@AdrianSkar/Basic-JS-Switch-statements).
 
 ### Code explanation
-The function first evaluates `if` the condition `(val == 12)` evaluates to `true`. If it does, it returns the statement between the curly braces ("Equal"). If it doesn't, it returns the next `return` statement outside them ("Not equal"). 
+Since you already have a variable defined at the beginning of the functino 
 
 
 ### Sources
@@ -118,7 +118,7 @@ The function first evaluates `if` the condition `(val == 12)` evaluates to `true
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUzMTU0NTA4OSwxNTEzODQ2MjA0LC0yMT
+eyJoaXN0b3J5IjpbLTMwMzIwNzE2MiwxNTEzODQ2MjA0LC0yMT
 Q2NzY0NDQ3LC0yNDA2MDcwNTUsMjEzNTYwMTYyNCw4MTUyMzY5
 NTgsODIwODE1Mjg3LC0xMTU2NDMyNjI2LC01OTg5MjU0MDYsLT
 k5MjM0NjI5NywtMTM2NTAwNzc1NSwzNTUxNDMwNDcsLTEyNTM4
