@@ -122,7 +122,8 @@ function cc(card) {
 
 ### Code explanation
 · The function first evaluates `if` the condition `card` is a value greater than `1` and lower than `7`, in which case it increments `count` by one.
-· Then if the card is `10` or higher
+· Then if the card is `10` or higher it decrements `count` by one.
+· The variable `regex` is a [regular expression](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp) representing values (letters) for the higher cards
 
 #### Resources
 
@@ -132,7 +133,7 @@ function cc(card) {
 *   <a href='http://www.freecodecamp.com/challenges/increment-a-number-with-javascript' target='_blank' rel='nofollow'>Challenge: Increment a Number with Javascript</a>
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzI0OTQ2MjU2LC0xOTM0ODkzMjUsMjA1Mj
+eyJoaXN0b3J5IjpbNDA0OTgyMzAwLC0xOTM0ODkzMjUsMjA1Mj
 k5NTg2MCwxNTYxMDAxNzU3LDE4Mzc1NTIyOTMsLTExNTAxMzMy
 NjcsMTUxMzg0NjIwNCwtMjE0Njc2NDQ0NywtMjQwNjA3MDU1LD
 IxMzU2MDE2MjQsODE1MjM2OTU4LDgyMDgxNTI4NywtMTE1NjQz
