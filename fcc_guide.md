@@ -108,7 +108,7 @@ caseInSwitch(1);
 ·  Run code at [repl.it](https://repl.it/@AdrianSkar/Basic-JS-Switch-statements).
 
 ### Code explanation
-Since you already have a variable defined at the beginning of the functino 
+Since you already have a variable defined at the beginning of the function named `answer` and it's defined as the last return statement, you can assign new values to it for each case and will return the expected value . 
 
 
 ### Sources
@@ -118,11 +118,11 @@ Since you already have a variable defined at the beginning of the functino
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMwMzIwNzE2MiwxNTEzODQ2MjA0LC0yMT
-Q2NzY0NDQ3LC0yNDA2MDcwNTUsMjEzNTYwMTYyNCw4MTUyMzY5
-NTgsODIwODE1Mjg3LC0xMTU2NDMyNjI2LC01OTg5MjU0MDYsLT
-k5MjM0NjI5NywtMTM2NTAwNzc1NSwzNTUxNDMwNDcsLTEyNTM4
-ODIzNzgsLTE0NDQwODQyNDQsLTEwOTIwMTY2MzUsMjkxNDcwMT
-gsLTE5MzU0MTYyMzAsLTE3MDM0OTE0NjUsLTEzMDcxNzk0NjUs
-MTUxNjQ3MjA4Ml19
+eyJoaXN0b3J5IjpbLTExNzE5NjI4NDMsMTUxMzg0NjIwNCwtMj
+E0Njc2NDQ0NywtMjQwNjA3MDU1LDIxMzU2MDE2MjQsODE1MjM2
+OTU4LDgyMDgxNTI4NywtMTE1NjQzMjYyNiwtNTk4OTI1NDA2LC
+05OTIzNDYyOTcsLTEzNjUwMDc3NTUsMzU1MTQzMDQ3LC0xMjUz
+ODgyMzc4LC0xNDQ0MDg0MjQ0LC0xMDkyMDE2NjM1LDI5MTQ3MD
+E4LC0xOTM1NDE2MjMwLC0xNzAzNDkxNDY1LC0xMzA3MTc5NDY1
+LDE1MTY0NzIwODJdfQ==
 -->
