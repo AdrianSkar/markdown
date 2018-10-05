@@ -108,7 +108,7 @@ caseInSwitch(1);
 ·  Run code at [repl.it](https://repl.it/@AdrianSkar/Basic-JS-Switch-statements).
 
 ### Code explanation
-Since you already have a variable defined at the beginning of the function named `answer` and it's defined as the last return statement, you can assign new values to it for each case and will return the expected value . 
+Since you already have a variable defined at the beginning of the function named `answer` and it's defined as the last return statement, you can assign new values to it for each case and will return the expected answer depending on the value you pass to the function. 
 
 
 ### Sources
@@ -118,7 +118,7 @@ Since you already have a variable defined at the beginning of the function named
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNzE5NjI4NDMsMTUxMzg0NjIwNCwtMj
+eyJoaXN0b3J5IjpbLTE0Nzc3MDg0MTMsMTUxMzg0NjIwNCwtMj
 E0Njc2NDQ0NywtMjQwNjA3MDU1LDIxMzU2MDE2MjQsODE1MjM2
 OTU4LDgyMDgxNTI4NywtMTE1NjQzMjYyNiwtNTk4OTI1NDA2LC
 05OTIzNDYyOTcsLTEzNjUwMDc3NTUsMzU1MTQzMDQ3LC0xMjUz
