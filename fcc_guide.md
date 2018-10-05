@@ -7,9 +7,17 @@ title: Returning Boolean Values from Functions
 
 _Fix the function `isLess` to remove the `if/else` statements._
 ```js
-
+// Fix this code
+  if (a < b) {
+    return true;
+  } else {
+    return false;
+  }
 ```
 
+#### Hint 1
+As with the previous exercise you are about to c
+> _try to solve the problem now_
 
 ## Spoiler alert!
 
@@ -74,7 +82,7 @@ Since you already have a variable named `answer` defined and the function return
 ### Resources
 - ["Switch: Methods for multi-criteria case" - *MDN Javascript Reference*](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/switch)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMjg5ODcyMTQsMTgzNzU1MjI5MywtMT
+eyJoaXN0b3J5IjpbLTIwNzE1MzQxMzgsMTgzNzU1MjI5MywtMT
 E1MDEzMzI2NywxNTEzODQ2MjA0LC0yMTQ2NzY0NDQ3LC0yNDA2
 MDcwNTUsMjEzNTYwMTYyNCw4MTUyMzY5NTgsODIwODE1Mjg3LC
 0xMTU2NDMyNjI2LC01OTg5MjU0MDYsLTk5MjM0NjI5NywtMTM2
