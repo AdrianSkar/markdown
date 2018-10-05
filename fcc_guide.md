@@ -16,7 +16,7 @@ _Fix the function `isLess` to remove the `if/else` statements._
 ```
 
 #### Hint 1
-As with the previous exercise you are about to c
+As with the [previous exercise](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/replacing-if-else-chains-with-switch) you are about to change how the function returns the correct value, meaning you don't have to reuse or modify that part of the function but to substitute it.
 > _try to solve the problem now_
 
 ## Spoiler alert!
@@ -82,11 +82,11 @@ Since you already have a variable named `answer` defined and the function return
 ### Resources
 - ["Switch: Methods for multi-criteria case" - *MDN Javascript Reference*](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/switch)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNzE1MzQxMzgsMTgzNzU1MjI5MywtMT
-E1MDEzMzI2NywxNTEzODQ2MjA0LC0yMTQ2NzY0NDQ3LC0yNDA2
-MDcwNTUsMjEzNTYwMTYyNCw4MTUyMzY5NTgsODIwODE1Mjg3LC
-0xMTU2NDMyNjI2LC01OTg5MjU0MDYsLTk5MjM0NjI5NywtMTM2
-NTAwNzc1NSwzNTUxNDMwNDcsLTEyNTM4ODIzNzgsLTE0NDQwOD
-QyNDQsLTEwOTIwMTY2MzUsMjkxNDcwMTgsLTE5MzU0MTYyMzAs
-LTE3MDM0OTE0NjVdfQ==
+eyJoaXN0b3J5IjpbMzE3MzAwNDQxLDE4Mzc1NTIyOTMsLTExNT
+AxMzMyNjcsMTUxMzg0NjIwNCwtMjE0Njc2NDQ0NywtMjQwNjA3
+MDU1LDIxMzU2MDE2MjQsODE1MjM2OTU4LDgyMDgxNTI4NywtMT
+E1NjQzMjYyNiwtNTk4OTI1NDA2LC05OTIzNDYyOTcsLTEzNjUw
+MDc3NTUsMzU1MTQzMDQ3LC0xMjUzODgyMzc4LC0xNDQ0MDg0Mj
+Q0LC0xMDkyMDE2NjM1LDI5MTQ3MDE4LC0xOTM1NDE2MjMwLC0x
+NzAzNDkxNDY1XX0=
 -->
