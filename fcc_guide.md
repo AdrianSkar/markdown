@@ -124,7 +124,7 @@ function cc(card) {
 · The function first evaluates `if` the condition `card` is a value greater than `1` and lower than `7`, in which case it increments `count` by one.
 · Then if the card is `10` or higher it decrements `count` by one.
 · The variable `regex` is a [regular expression](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp) representing values (letters) for the higher cards.
-· The `else` statement checks those values with the `|| (logical OR)` operator; first for `10` and then for any string 
+· The `else` statement checks those values with the `|| (logical OR)` operator; first for `10` and then for any string that matches the regular expression using [String.match()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/match).
 
 #### Resources
 
@@ -134,11 +134,11 @@ function cc(card) {
 *   <a href='http://www.freecodecamp.com/challenges/increment-a-number-with-javascript' target='_blank' rel='nofollow'>Challenge: Increment a Number with Javascript</a>
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg5MDExNzEwMSwtMTkzNDg5MzI1LDIwNT
-I5OTU4NjAsMTU2MTAwMTc1NywxODM3NTUyMjkzLC0xMTUwMTMz
-MjY3LDE1MTM4NDYyMDQsLTIxNDY3NjQ0NDcsLTI0MDYwNzA1NS
-wyMTM1NjAxNjI0LDgxNTIzNjk1OCw4MjA4MTUyODcsLTExNTY0
-MzI2MjYsLTU5ODkyNTQwNiwtOTkyMzQ2Mjk3LC0xMzY1MDA3Nz
-U1LDM1NTE0MzA0NywtMTI1Mzg4MjM3OCwtMTQ0NDA4NDI0NCwt
-MTA5MjAxNjYzNV19
+eyJoaXN0b3J5IjpbLTgyNTMwNTQ4LC0xOTM0ODkzMjUsMjA1Mj
+k5NTg2MCwxNTYxMDAxNzU3LDE4Mzc1NTIyOTMsLTExNTAxMzMy
+NjcsMTUxMzg0NjIwNCwtMjE0Njc2NDQ0NywtMjQwNjA3MDU1LD
+IxMzU2MDE2MjQsODE1MjM2OTU4LDgyMDgxNTI4NywtMTE1NjQz
+MjYyNiwtNTk4OTI1NDA2LC05OTIzNDYyOTcsLTEzNjUwMDc3NT
+UsMzU1MTQzMDQ3LC0xMjUzODgyMzc4LC0xNDQ0MDg0MjQ0LC0x
+MDkyMDE2NjM1XX0=
 -->
