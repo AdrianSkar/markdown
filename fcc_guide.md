@@ -3,9 +3,9 @@ title: Returning Boolean Values from Functions
 ---
 ## Returning Boolean Values from Functions
 
-### Problem Explanation
+### Problem explanation
 
-_Fix the function `isLess` to remove the `if/else` statements._
+_Fix the function `isLess` to remove the `if...else` statements._
 ```js
 // Fix this code
   if (a < b) {
@@ -16,7 +16,7 @@ _Fix the function `isLess` to remove the `if/else` statements._
 ```
 
 #### Hint 1
-As with the [previous exercise](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/replacing-if-else-chains-with-switch) you are about to change how the function returns the correct value, meaning you don't have to reuse or modify that part of the function but to substitute it.
+As with the [previous exercise](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/replacing-if-else-chains-with-switch) you are about to change how the function returns the correct value, meaning you don't have to reuse or modify that code but to substitute it.
 > _try to solve the problem now_
 
 #### Hint 2
@@ -45,11 +45,11 @@ The function just returns `true` or `false` after comparing `a` and `b` using th
 ### Resources
 - ["Less than or equal operator (<=)" - *MDN Javascript Reference*](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Comparison_Operators#Less_than_or_equal_operator_(%3C))
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU2MTAwMTc1NywxODM3NTUyMjkzLC0xMT
-UwMTMzMjY3LDE1MTM4NDYyMDQsLTIxNDY3NjQ0NDcsLTI0MDYw
-NzA1NSwyMTM1NjAxNjI0LDgxNTIzNjk1OCw4MjA4MTUyODcsLT
-ExNTY0MzI2MjYsLTU5ODkyNTQwNiwtOTkyMzQ2Mjk3LC0xMzY1
-MDA3NzU1LDM1NTE0MzA0NywtMTI1Mzg4MjM3OCwtMTQ0NDA4ND
-I0NCwtMTA5MjAxNjYzNSwyOTE0NzAxOCwtMTkzNTQxNjIzMCwt
-MTcwMzQ5MTQ2NV19
+eyJoaXN0b3J5IjpbMjA1Mjk5NTg2MCwxNTYxMDAxNzU3LDE4Mz
+c1NTIyOTMsLTExNTAxMzMyNjcsMTUxMzg0NjIwNCwtMjE0Njc2
+NDQ0NywtMjQwNjA3MDU1LDIxMzU2MDE2MjQsODE1MjM2OTU4LD
+gyMDgxNTI4NywtMTE1NjQzMjYyNiwtNTk4OTI1NDA2LC05OTIz
+NDYyOTcsLTEzNjUwMDc3NTUsMzU1MTQzMDQ3LC0xMjUzODgyMz
+c4LC0xNDQ0MDg0MjQ0LC0xMDkyMDE2NjM1LDI5MTQ3MDE4LC0x
+OTM1NDE2MjMwXX0=
 -->
