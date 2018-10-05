@@ -40,12 +40,12 @@ isLess(10, 15);
 ·  Run code at [repl.it](https://repl.it/@AdrianSkar/Basic-Js-Returning-boolean-from-function).
 
 ### Code explanation
-The function just returns the result after comparing `a` and `b` using . 
+The function just returns `true` or `false` after comparing `a` and `b` using the `<=` comparison operator rules. 
 
 ### Resources
-- ["Switch: Methods for multi-criteria case" - *MDN Javascript Reference*](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/switch)
+- ["Less than or equal operator (<=)" - *MDN Javascript Reference*](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Comparison_Operators#Less_than_or_equal_operator_(%3C))
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQwNDYzOTY2NSwxODM3NTUyMjkzLC0xMT
+eyJoaXN0b3J5IjpbMTU2MTAwMTc1NywxODM3NTUyMjkzLC0xMT
 UwMTMzMjY3LDE1MTM4NDYyMDQsLTIxNDY3NjQ0NDcsLTI0MDYw
 NzA1NSwyMTM1NjAxNjI0LDgxNTIzNjk1OCw4MjA4MTUyODcsLT
 ExNTY0MzI2MjYsLTU5ODkyNTQwNiwtOTkyMzQ2Mjk3LC0xMzY1
