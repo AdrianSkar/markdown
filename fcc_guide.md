@@ -81,9 +81,7 @@ It is common to ignore that `case` values are tested with strict equality with a
 `case === value`
 
 ## Alternative code solution:
-
 ```javascript
-
 function testEqual(val) {
   if (val == 12) { // Change this line
     return "Equal";
@@ -107,7 +105,7 @@ The function first evaluates `if` the condition `(val == 12)` evaluates to `true
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMDQ1MDE2MywxNTEzODQ2MjA0LC0yMT
+eyJoaXN0b3J5IjpbMTk5MTY0MTEwMSwxNTEzODQ2MjA0LC0yMT
 Q2NzY0NDQ3LC0yNDA2MDcwNTUsMjEzNTYwMTYyNCw4MTUyMzY5
 NTgsODIwODE1Mjg3LC0xMTU2NDMyNjI2LC01OTg5MjU0MDYsLT
 k5MjM0NjI5NywtMTM2NTAwNzc1NSwzNTUxNDMwNDcsLTEyNTM4
