@@ -38,13 +38,13 @@ Write a switch statement which tests `val` and sets `answer` for the following c
 - `3` - "gamma",
 - `4` - "delta".
 
-# Hint 1
+## Hint 1
 Remember that `case` values are tested with strict equality (`===`).
-#### Try to solve the problem now!
+> Try to solve the problem now!
 
-# Hint 2
+## Hint 2
 Do not see "following conditions" as an ordered list as it looks in the original freeCodeCamp demo, but as values and statements, as shown here
-#### Try to solve the problem now!
+>Try to solve the problem now!
 
 # Spoiler Alert!
 ### Are you completely sure what you want a look? ...
@@ -89,11 +89,11 @@ It is common to ignore that `case` values are tested with strict equality with a
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUxMzg0NjIwNCwtMjE0Njc2NDQ0NywtMj
-QwNjA3MDU1LDIxMzU2MDE2MjQsODE1MjM2OTU4LDgyMDgxNTI4
-NywtMTE1NjQzMjYyNiwtNTk4OTI1NDA2LC05OTIzNDYyOTcsLT
-EzNjUwMDc3NTUsMzU1MTQzMDQ3LC0xMjUzODgyMzc4LC0xNDQ0
-MDg0MjQ0LC0xMDkyMDE2NjM1LDI5MTQ3MDE4LC0xOTM1NDE2Mj
-MwLC0xNzAzNDkxNDY1LC0xMzA3MTc5NDY1LDE1MTY0NzIwODIs
-LTM4OTEyNDU1NF19
+eyJoaXN0b3J5IjpbLTIwNDg1MzA3NjQsMTUxMzg0NjIwNCwtMj
+E0Njc2NDQ0NywtMjQwNjA3MDU1LDIxMzU2MDE2MjQsODE1MjM2
+OTU4LDgyMDgxNTI4NywtMTE1NjQzMjYyNiwtNTk4OTI1NDA2LC
+05OTIzNDYyOTcsLTEzNjUwMDc3NTUsMzU1MTQzMDQ3LC0xMjUz
+ODgyMzc4LC0xNDQ0MDg0MjQ0LC0xMDkyMDE2NjM1LDI5MTQ3MD
+E4LC0xOTM1NDE2MjMwLC0xNzAzNDkxNDY1LC0xMzA3MTc5NDY1
+LDE1MTY0NzIwODJdfQ==
 -->
