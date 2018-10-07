@@ -66,17 +66,19 @@ After converting our case statements into object properties you can make use of 
   result = lookup[val];
  ```
 
+·  Run code at [repl.it](https://repl.it/@AdrianSkar/Basic-JS-Comparison-with-greater-operator).
+
 ### Resources
 
 - ["JavaScript object basics" - *MDN JavaScript reference*](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Basics)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEwNTk5Mzg0NiwtODI1MzA1NDgsLTE5Mz
-Q4OTMyNSwyMDUyOTk1ODYwLDE1NjEwMDE3NTcsMTgzNzU1MjI5
-MywtMTE1MDEzMzI2NywxNTEzODQ2MjA0LC0yMTQ2NzY0NDQ3LC
-0yNDA2MDcwNTUsMjEzNTYwMTYyNCw4MTUyMzY5NTgsODIwODE1
-Mjg3LC0xMTU2NDMyNjI2LC01OTg5MjU0MDYsLTk5MjM0NjI5Ny
-wtMTM2NTAwNzc1NSwzNTUxNDMwNDcsLTEyNTM4ODIzNzgsLTE0
-NDQwODQyNDRdfQ==
+eyJoaXN0b3J5IjpbNTY2MzM5MDA5LC04MjUzMDU0OCwtMTkzND
+g5MzI1LDIwNTI5OTU4NjAsMTU2MTAwMTc1NywxODM3NTUyMjkz
+LC0xMTUwMTMzMjY3LDE1MTM4NDYyMDQsLTIxNDY3NjQ0NDcsLT
+I0MDYwNzA1NSwyMTM1NjAxNjI0LDgxNTIzNjk1OCw4MjA4MTUy
+ODcsLTExNTY0MzI2MjYsLTU5ODkyNTQwNiwtOTkyMzQ2Mjk3LC
+0xMzY1MDA3NzU1LDM1NTE0MzA0NywtMTI1Mzg4MjM3OCwtMTQ0
+NDA4NDI0NF19
 -->
