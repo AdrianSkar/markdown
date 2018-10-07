@@ -64,18 +64,15 @@ After converting our case statements into object properties you can make use of 
 
 ```javascript
   result = lookup[val];
-}
  ```
- Then you can test the function passing any properties of the object for verification:
- ```javascript
-phoneticLookup("charlie");
- ```
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NzUyMjMwOTEsLTgyNTMwNTQ4LC0xOT
-M0ODkzMjUsMjA1Mjk5NTg2MCwxNTYxMDAxNzU3LDE4Mzc1NTIy
-OTMsLTExNTAxMzMyNjcsMTUxMzg0NjIwNCwtMjE0Njc2NDQ0Ny
-wtMjQwNjA3MDU1LDIxMzU2MDE2MjQsODE1MjM2OTU4LDgyMDgx
-NTI4NywtMTE1NjQzMjYyNiwtNTk4OTI1NDA2LC05OTIzNDYyOT
-csLTEzNjUwMDc3NTUsMzU1MTQzMDQ3LC0xMjUzODgyMzc4LC0x
-NDQ0MDg0MjQ0XX0=
+eyJoaXN0b3J5IjpbMTI0OTU5ODgwNSwtODI1MzA1NDgsLTE5Mz
+Q4OTMyNSwyMDUyOTk1ODYwLDE1NjEwMDE3NTcsMTgzNzU1MjI5
+MywtMTE1MDEzMzI2NywxNTEzODQ2MjA0LC0yMTQ2NzY0NDQ3LC
+0yNDA2MDcwNTUsMjEzNTYwMTYyNCw4MTUyMzY5NTgsODIwODE1
+Mjg3LC0xMTU2NDMyNjI2LC01OTg5MjU0MDYsLTk5MjM0NjI5Ny
+wtMTM2NTAwNzc1NSwzNTUxNDMwNDcsLTEyNTM4ODIzNzgsLTE0
+NDQwODQyNDRdfQ==
 -->
