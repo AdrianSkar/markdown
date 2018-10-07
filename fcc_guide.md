@@ -66,7 +66,7 @@ After converting our case statements into object properties you can make use of 
   result = lookup[val];
  ```
 
-·  Run code at [repl.it](https://repl.it/@AdrianSkar/Basic-JS-Comparison-with-greater-operator).
+·  Run code at [repl.it](https://repl.it/@AdrianSkar/Using-objects-for-lookups).
 
 ### Resources
 
@@ -74,7 +74,7 @@ After converting our case statements into object properties you can make use of 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTY2MzM5MDA5LC04MjUzMDU0OCwtMTkzND
+eyJoaXN0b3J5IjpbNjg1Njc1MTQ5LC04MjUzMDU0OCwtMTkzND
 g5MzI1LDIwNTI5OTU4NjAsMTU2MTAwMTc1NywxODM3NTUyMjkz
 LC0xMTUwMTMzMjY3LDE1MTM4NDYyMDQsLTIxNDY3NjQ0NDcsLT
 I0MDYwNzA1NSwyMTM1NjAxNjI0LDgxNTIzNjk1OCw4MjA4MTUy
