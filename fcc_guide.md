@@ -1,4 +1,3 @@
-
 ---
 title: Using Objects for Lookups
 ---
@@ -47,7 +46,7 @@ We do not change anything here:
 function phoneticLookup(val) {
   var result = "";
 ```
-We need to switch statement into an object. Transfer all `case` values to object properties: 
+We need to convert the switch statement into an object. Transfer all `case` values to object properties: 
 
 ```javascript
 function phoneticLookup(val) {
@@ -74,11 +73,11 @@ phoneticLookup("charlie");
 <!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTMzNTI0ODA4LC04MjUzMDU0OCwtMTkzND
-g5MzI1LDIwNTI5OTU4NjAsMTU2MTAwMTc1NywxODM3NTUyMjkz
-LC0xMTUwMTMzMjY3LDE1MTM4NDYyMDQsLTIxNDY3NjQ0NDcsLT
-I0MDYwNzA1NSwyMTM1NjAxNjI0LDgxNTIzNjk1OCw4MjA4MTUy
-ODcsLTExNTY0MzI2MjYsLTU5ODkyNTQwNiwtOTkyMzQ2Mjk3LC
-0xMzY1MDA3NzU1LDM1NTE0MzA0NywtMTI1Mzg4MjM3OCwtMTQ0
-NDA4NDI0NF19
+eyJoaXN0b3J5IjpbLTE5NzczNTUzMzgsLTgyNTMwNTQ4LC0xOT
+M0ODkzMjUsMjA1Mjk5NTg2MCwxNTYxMDAxNzU3LDE4Mzc1NTIy
+OTMsLTExNTAxMzMyNjcsMTUxMzg0NjIwNCwtMjE0Njc2NDQ0Ny
+wtMjQwNjA3MDU1LDIxMzU2MDE2MjQsODE1MjM2OTU4LDgyMDgx
+NTI4NywtMTE1NjQzMjYyNiwtNTk4OTI1NDA2LC05OTIzNDYyOT
+csLTEzNjUwMDc3NTUsMzU1MTQzMDQ3LC0xMjUzODgyMzc4LC0x
+NDQ0MDg0MjQ0XX0=
 -->
