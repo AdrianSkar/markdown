@@ -68,11 +68,11 @@ After converting our case statements into object properties you can make use of 
 
 ### Resources
 
-- ["# JavaScript object basics" - *MDN JavaScript reference*](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/if...else)
+- ["JavaScript object basics" - *MDN JavaScript reference*](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Basics)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM1Mzc5MzcwOCwtODI1MzA1NDgsLTE5Mz
+eyJoaXN0b3J5IjpbMjEwNTk5Mzg0NiwtODI1MzA1NDgsLTE5Mz
 Q4OTMyNSwyMDUyOTk1ODYwLDE1NjEwMDE3NTcsMTgzNzU1MjI5
 MywtMTE1MDEzMzI2NywxNTEzODQ2MjA0LC0yMTQ2NzY0NDQ3LC
 0yNDA2MDcwNTUsMjEzNTYwMTYyNCw4MTUyMzY5NTgsODIwODE1
