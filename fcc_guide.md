@@ -89,12 +89,12 @@ To access the value of a key in this object, you will use `collection[id][prop]`
 ### Resources:
 
 *   [Challenge: Accessing Objects Properties with Bracket Notation](http://www.freecodecamp.com/challenges/accessing-objects-properties-with-bracket-notation)
-*   Challenge: Add New Properties to a JavaScript Object</a>
-*   Challenge: Delete Properties from a JavaScript Object</a>
-*   <a href='http://www.freecodecamp.com/challenges/accessing-nested-objects-in-json' target='_blank' rel='nofollow'>Challenge: Accessing Nested Objects in JSON</a>
+*   [Challenge: Add New Properties to a JavaScript Object](http://www.freecodecamp.com/challenges/add-new-properties-to-a-javascript-object)
+*   [Challenge: Delete Properties from a JavaScript Object](http://www.freecodecamp.com/challenges/delete-properties-from-a-javascript-object)
+*   [Challenge: Accessing Nested Objects in JSON](http://www.freecodecamp.com/challenges/accessing-nested-objects-in-json)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI3MTEwMjQyMiw2ODU2NzUxNDksLTgyNT
+eyJoaXN0b3J5IjpbLTUxNzIyMzYzNSw2ODU2NzUxNDksLTgyNT
 MwNTQ4LC0xOTM0ODkzMjUsMjA1Mjk5NTg2MCwxNTYxMDAxNzU3
 LDE4Mzc1NTIyOTMsLTExNTAxMzMyNjcsMTUxMzg0NjIwNCwtMj
 E0Njc2NDQ0NywtMjQwNjA3MDU1LDIxMzU2MDE2MjQsODE1MjM2
