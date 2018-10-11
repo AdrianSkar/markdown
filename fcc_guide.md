@@ -92,14 +92,15 @@ To access the value of a key in this object, you will use `collection[id][prop]`
 *   [fCC's challenge: Add New Properties to a JavaScript Object](http://www.freecodecamp.com/challenges/add-new-properties-to-a-javascript-object)
 *   [fCC's challenge: Delete Properties from a JavaScript Object](http://www.freecodecamp.com/challenges/delete-properties-from-a-javascript-object)
 *   [fCC's challenge: Accessing Nested Objects](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/accessing-nested-objects/)
-*  ["if...else" - *MDN JavaScript reference*](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/if...else)
+*  ["Array.prototype.push()" - *MDN JavaScript reference*](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/push)
+*  ["delete operator" - *MDN JavaScript reference*](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/delete)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU1NTIzMjk2NCwtNTE3MjIzNjM1LDY4NT
-Y3NTE0OSwtODI1MzA1NDgsLTE5MzQ4OTMyNSwyMDUyOTk1ODYw
-LDE1NjEwMDE3NTcsMTgzNzU1MjI5MywtMTE1MDEzMzI2NywxNT
-EzODQ2MjA0LC0yMTQ2NzY0NDQ3LC0yNDA2MDcwNTUsMjEzNTYw
-MTYyNCw4MTUyMzY5NTgsODIwODE1Mjg3LC0xMTU2NDMyNjI2LC
-01OTg5MjU0MDYsLTk5MjM0NjI5NywtMTM2NTAwNzc1NSwzNTUx
-NDMwNDddfQ==
+eyJoaXN0b3J5IjpbLTE2MzU3MDc1MzEsLTUxNzIyMzYzNSw2OD
+U2NzUxNDksLTgyNTMwNTQ4LC0xOTM0ODkzMjUsMjA1Mjk5NTg2
+MCwxNTYxMDAxNzU3LDE4Mzc1NTIyOTMsLTExNTAxMzMyNjcsMT
+UxMzg0NjIwNCwtMjE0Njc2NDQ0NywtMjQwNjA3MDU1LDIxMzU2
+MDE2MjQsODE1MjM2OTU4LDgyMDgxNTI4NywtMTE1NjQzMjYyNi
+wtNTk4OTI1NDA2LC05OTIzNDYyOTcsLTEzNjUwMDc3NTUsMzU1
+MTQzMDQ3XX0=
 -->
