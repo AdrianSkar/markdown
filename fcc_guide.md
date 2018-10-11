@@ -92,9 +92,10 @@ To access the value of a key in this object, you will use `collection[id][prop]`
 *   [fCC's challenge: Add New Properties to a JavaScript Object](http://www.freecodecamp.com/challenges/add-new-properties-to-a-javascript-object)
 *   [fCC's challenge: Delete Properties from a JavaScript Object](http://www.freecodecamp.com/challenges/delete-properties-from-a-javascript-object)
 *   [fCC's challenge: Accessing Nested Objects](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/accessing-nested-objects/)
+*  ["if...else" - *MDN JavaScript reference*](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/if...else)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA2MTM1MDkzNiwtNTE3MjIzNjM1LDY4NT
+eyJoaXN0b3J5IjpbMTU1NTIzMjk2NCwtNTE3MjIzNjM1LDY4NT
 Y3NTE0OSwtODI1MzA1NDgsLTE5MzQ4OTMyNSwyMDUyOTk1ODYw
 LDE1NjEwMDE3NTcsMTgzNzU1MjI5MywtMTE1MDEzMzI2NywxNT
 EzODQ2MjA0LC0yMTQ2NzY0NDQ3LC0yNDA2MDcwNTUsMjEzNTYw
