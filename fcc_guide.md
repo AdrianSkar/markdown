@@ -27,13 +27,6 @@ Always return the entire collection object.
     *   If **value** is an empty string, delete that **prop** from the object.
 *   Finally, return the **collection** object.
 
-#### Relevant Links
-
-*   <a href='http://www.freecodecamp.com/challenges/accessing-objects-properties-with-bracket-notation' target='_blank' rel='nofollow'>Challenge: Accessing Objects Properties with Bracket Notation</a>
-*   <a href='http://www.freecodecamp.com/challenges/add-new-properties-to-a-javascript-object' target='_blank' rel='nofollow'>Challenge: Add New Properties to a JavaScript Object</a>
-*   <a href='http://www.freecodecamp.com/challenges/delete-properties-from-a-javascript-object' target='_blank' rel='nofollow'>Challenge: Delete Properties from a JavaScript Object</a>
-*   <a href='http://www.freecodecamp.com/challenges/accessing-nested-objects-in-json' target='_blank' rel='nofollow'>Challenge: Accessing Nested Objects in JSON</a>
-
 ## ![:speech_balloon:](https://forum.freecodecamp.com/images/emoji/emoji_one/speech_balloon.png?v=3 ":speech_balloon:") Hint: 1
 
 Use an `else if` statement to check the needed steps.
@@ -92,8 +85,16 @@ To access the value of a key in this object, you will use `collection[id][prop]`
 *   **value** is not a blank string, so the second part of the else if statement passes.
 *   `artist: "ABBA"` is added to the `5439` `id`.
 
+
+### Resources:
+
+*   [Challenge: Accessing Objects Properties with Bracket Notation](http://www.freecodecamp.com/challenges/accessing-objects-properties-with-bracket-notation)
+*   Challenge: Add New Properties to a JavaScript Object</a>
+*   Challenge: Delete Properties from a JavaScript Object</a>
+*   <a href='http://www.freecodecamp.com/challenges/accessing-nested-objects-in-json' target='_blank' rel='nofollow'>Challenge: Accessing Nested Objects in JSON</a>
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEwOTQ5OTM4NSw2ODU2NzUxNDksLTgyNT
+eyJoaXN0b3J5IjpbLTI3MTEwMjQyMiw2ODU2NzUxNDksLTgyNT
 MwNTQ4LC0xOTM0ODkzMjUsMjA1Mjk5NTg2MCwxNTYxMDAxNzU3
 LDE4Mzc1NTIyOTMsLTExNTAxMzMyNjcsMTUxMzg0NjIwNCwtMj
 E0Njc2NDQ0NywtMjQwNjA3MDU1LDIxMzU2MDE2MjQsODE1MjM2
