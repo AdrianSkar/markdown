@@ -1,84 +1,103 @@
 ---
-title: Using Objects for Lookups
+title: Record Collection
 ---
-## Using Objects for Lookups
+![:triangular_flag_on_post:](https://forum.freecodecamp.com/images/emoji/emoji_one/triangular_flag_on_post.png?v=3 ":triangular_flag_on_post:") Remember to use <a>**`Read-Search-Ask`**</a> if you get stuck. Try to pair program ![:busts_in_silhouette:](https://forum.freecodecamp.com/images/emoji/emoji_one/busts_in_silhouette.png?v=3 ":busts_in_silhouette:") and write your own code ![:pencil:](https://forum.freecodecamp.com/images/emoji/emoji_one/pencil.png?v=3 ":pencil:")
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+### ![:checkered_flag:](https://forum.freecodecamp.com/images/emoji/emoji_one/checkered_flag.png?v=3 ":checkered_flag:") Problem Explanation:
 
-Here’s the example:
-```javascript
-// Setup
-function phoneticLookup(val) {
-  var result = "";
+You are given a JSON object representing (a small part of) your record collection. Each album is identified by a unique id number and has several properties. Not all albums have complete information.
 
-  // Only change code below this line
-  switch(val) {
-    case "alpha": 
-      result = "Adams";
-      break;
-    case "bravo": 
-      result = "Boston";
-      break;
-    case "charlie": 
-      result = "Chicago";
-      break;
-    case "delta": 
-      result = "Denver";
-      break;
-    case "echo": 
-      result = "Easy";
-      break;
-    case "foxtrot": 
-      result = "Frank";
-  }
+Write a function which takes an **id**, a property (**prop**), and a **value**.
 
-  // Only change code above this line
-  return result;
-}
+For the given **id** in **collection**:
 
-// Change this value to test
-phoneticLookup("charlie");
-```
+If **value** is non-blank (**value !== ""**), then update or set the **value** for the **prop**.
 
-Here’s a solution:
-We do not change anything here:
-```javascript
-function phoneticLookup(val) {
-  var result = "";
-```
-We need to convert the switch statement into an object. Transfer all `case` values to object properties: 
+If the **prop** is **"tracks"** and **value** is non-blank, check to see if the given element in the array has the property of "tracks". If the element has the property of "tracks", push the **value** onto the end of the "tracks" array. If the element does not have the **property**, create the property and value pair.
 
-```javascript
-function phoneticLookup(val) {
-  var result = "";
-  var lookup = {
-    "alpha": "Adams",
-    "bravo": "Boston",
-    "charlie": "Chicago",
-    "delta": "Denver",
-    "echo": "Easy",
-    "foxtrot": "Frank"
-  };
-  ```
-After converting our case statements into object properties you can make use of the variable `result` to let the function return the correct value.
+If **value** is blank, delete that **prop**.
 
-```javascript
-  result = lookup[val];
- ```
+Always return the entire collection object.
 
-·  Run code at [repl.it](https://repl.it/@AdrianSkar/Using-objects-for-lookups).
+*   Change the code below `// Only change code below this line` and up to `// Alter values below to test your code`.
+*   Take note that you are editing the inside of the `updateRecords` function.
+*   For the given **id** parameter, which is associated to the **collection** object:
+    *   If the **value** parameter isn't an empty string, update (or set) the **value** parameter for the **prop** parameter.
+    *   If the **prop** parameter is equal to `"tracks"` and the **value** isn't an empty string, push the **value** onto the end of the **tracks** array.
+    *   If **value** is an empty string, delete that **prop** from the object.
+*   Finally, return the **collection** object.
 
-### Resources
+#### Relevant Links
 
-- ["JavaScript object basics" - *MDN JavaScript reference*](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Basics)
+*   <a href='http://www.freecodecamp.com/challenges/accessing-objects-properties-with-bracket-notation' target='_blank' rel='nofollow'>Challenge: Accessing Objects Properties with Bracket Notation</a>
+*   <a href='http://www.freecodecamp.com/challenges/add-new-properties-to-a-javascript-object' target='_blank' rel='nofollow'>Challenge: Add New Properties to a JavaScript Object</a>
+*   <a href='http://www.freecodecamp.com/challenges/delete-properties-from-a-javascript-object' target='_blank' rel='nofollow'>Challenge: Delete Properties from a JavaScript Object</a>
+*   <a href='http://www.freecodecamp.com/challenges/accessing-nested-objects-in-json' target='_blank' rel='nofollow'>Challenge: Accessing Nested Objects in JSON</a>
 
+## ![:speech_balloon:](https://forum.freecodecamp.com/images/emoji/emoji_one/speech_balloon.png?v=3 ":speech_balloon:") Hint: 1
+
+Use an `else if` statement to check the needed steps.
+
+> _try to solve the problem now_
+
+## ![:speech_balloon:](https://forum.freecodecamp.com/images/emoji/emoji_one/speech_balloon.png?v=3 ":speech_balloon:") Hint: 2
+
+The second step listed in the instructions should be first in your `else if` statement.
+
+> _try to solve the problem now_
+
+## ![:speech_balloon:](https://forum.freecodecamp.com/images/emoji/emoji_one/speech_balloon.png?v=3 ":speech_balloon:") Hint: 3
+
+To access the value of a key in this object, you will use `collection[id][prop]`.
+
+> _try to solve the problem now_
+
+## Spoiler Alert!
+
+![warning sign](//discourse-user-assets.s3.amazonaws.com/original/2X/2/2d6c412a50797771301e7ceabd554cef4edcd74d.gif)
+
+**Solution ahead!**
+
+## ![:beginner:](https://forum.freecodecamp.com/images/emoji/emoji_one/beginner.png?v=3 ":beginner:") Basic Code Solution:
+
+    function updateRecords(id, prop, value) {
+      if (prop === "tracks" && value !== "") {
+       if(collection[id][prop]) {
+        collection[id][prop].push(value);
+       }
+       else {
+        collection[id][prop]=[value];
+       }
+      } else if (value !== "") {
+        collection[id][prop] = value;
+      } else {
+        delete collection[id][prop];
+      }
+
+      return collection;
+    }
+
+![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") <a href='https://repl.it/C2AZ/0' target='_blank' rel='nofollow'>Run Code</a>
+
+### Code Explanation:
+
+*   First checks if **prop** is equal to **tracks** AND if **value** isn't a blank string. If both tests pass, **value** is pushed into the **tracks** array.
+*   If that first check doesn't pass, it next checks only if **value** isn't a blank string. If that test passes, either a new key (**prop**) and value (**value**) are added to the object, or an existing key is updated if the **prop** already exists.
+*   If both these checks fail (meaning **value** must be an empty string), then the key (**prop**) is removed from the object.
+
+**Example Run**
+
+*   `updateRecords(5439, "artist", "ABBA");` runs.
+*   **prop** is equal to "artist", not "tracks", so the first part of the `else if` statement fails.
+*   **value** is not a blank string, so the second part of the else if statement passes.
+*   `artist: "ABBA"` is added to the `5439` `id`.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjg1Njc1MTQ5LC04MjUzMDU0OCwtMTkzND
-g5MzI1LDIwNTI5OTU4NjAsMTU2MTAwMTc1NywxODM3NTUyMjkz
-LC0xMTUwMTMzMjY3LDE1MTM4NDYyMDQsLTIxNDY3NjQ0NDcsLT
-I0MDYwNzA1NSwyMTM1NjAxNjI0LDgxNTIzNjk1OCw4MjA4MTUy
-ODcsLTExNTY0MzI2MjYsLTU5ODkyNTQwNiwtOTkyMzQ2Mjk3LC
-0xMzY1MDA3NzU1LDM1NTE0MzA0NywtMTI1Mzg4MjM3OCwtMTQ0
-NDA4NDI0NF19
+eyJoaXN0b3J5IjpbMjEwOTQ5OTM4NSw2ODU2NzUxNDksLTgyNT
+MwNTQ4LC0xOTM0ODkzMjUsMjA1Mjk5NTg2MCwxNTYxMDAxNzU3
+LDE4Mzc1NTIyOTMsLTExNTAxMzMyNjcsMTUxMzg0NjIwNCwtMj
+E0Njc2NDQ0NywtMjQwNjA3MDU1LDIxMzU2MDE2MjQsODE1MjM2
+OTU4LDgyMDgxNTI4NywtMTE1NjQzMjYyNiwtNTk4OTI1NDA2LC
+05OTIzNDYyOTcsLTEzNjUwMDc3NTUsMzU1MTQzMDQ3LC0xMjUz
+ODgyMzc4XX0=
 -->
