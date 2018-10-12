@@ -56,7 +56,7 @@ This works similarly to the last solution but it's faster<sup><a href="#cite1">1
 - Condition: the loop is executed as long as `y` is greater than `0`.
 - Final-expression: `y` is decremented by `1`.
 - Statement: The function adds `myArr[y]`'s value to `total` until the condition isn't met like so:
-
+`ext
 `total` + `myArr[4]` -> 0 + 6 = 6
 `total` + `myArr[3]` -> 6 + 5 = 11
 `total` + `myArr[2]` -> 11 + 4 = 15
@@ -72,7 +72,7 @@ This works similarly to the last solution but it's faster<sup><a href="#cite1">1
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk5NzQzMTc5NCwtMzYxNTEzMjE4LC0xNj
+eyJoaXN0b3J5IjpbMjEyNDM1NzQyMSwtMzYxNTEzMjE4LC0xNj
 I5NTYxMDU5LC0xNjM1NzA3NTMxLC01MTcyMjM2MzUsNjg1Njc1
 MTQ5LC04MjUzMDU0OCwtMTkzNDg5MzI1LDIwNTI5OTU4NjAsMT
 U2MTAwMTc1NywxODM3NTUyMjkzLC0xMTUwMTMzMjY3LDE1MTM4
