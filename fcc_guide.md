@@ -31,7 +31,7 @@ for (var i = 0; i < myArr.length; i++) {
 
 ### Code explanation
 · Inititialization: `i` gets a value of `0` and its used as a counter.
-· Condition: 
+· Condition: the subsequent code is executed as long as `i` is less and the length of `myArr` (which is `5` but arrays are zero
 
 ### Sources
 <span id="cite1">1</span>. ["Basic JavaScript: Comparison with the Equality Operator", fCC lesson at *Javascript Algorithms And Data Structures Certification*](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/comparison-with-the-equality-operator)
@@ -45,11 +45,11 @@ for (var i = 0; i < myArr.length; i++) {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA5MDE4OTk2MSwtMTYyOTU2MTA1OSwtMT
-YzNTcwNzUzMSwtNTE3MjIzNjM1LDY4NTY3NTE0OSwtODI1MzA1
-NDgsLTE5MzQ4OTMyNSwyMDUyOTk1ODYwLDE1NjEwMDE3NTcsMT
-gzNzU1MjI5MywtMTE1MDEzMzI2NywxNTEzODQ2MjA0LC0yMTQ2
-NzY0NDQ3LC0yNDA2MDcwNTUsMjEzNTYwMTYyNCw4MTUyMzY5NT
-gsODIwODE1Mjg3LC0xMTU2NDMyNjI2LC01OTg5MjU0MDYsLTk5
-MjM0NjI5N119
+eyJoaXN0b3J5IjpbLTE1MTM3NTQ4NzIsLTE2Mjk1NjEwNTksLT
+E2MzU3MDc1MzEsLTUxNzIyMzYzNSw2ODU2NzUxNDksLTgyNTMw
+NTQ4LC0xOTM0ODkzMjUsMjA1Mjk5NTg2MCwxNTYxMDAxNzU3LD
+E4Mzc1NTIyOTMsLTExNTAxMzMyNjcsMTUxMzg0NjIwNCwtMjE0
+Njc2NDQ0NywtMjQwNjA3MDU1LDIxMzU2MDE2MjQsODE1MjM2OT
+U4LDgyMDgxNTI4NywtMTE1NjQzMjYyNiwtNTk4OTI1NDA2LC05
+OTIzNDYyOTddfQ==
 -->
