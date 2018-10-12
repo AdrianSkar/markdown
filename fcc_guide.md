@@ -20,7 +20,7 @@ Remember the structure of a `for` loop:
 
 **Solution ahead!**
 
-## Basic code solution:
+## Code solution:
 
 ```javascript
 for (var i = 0; i < myArr.length; i++) {
@@ -34,13 +34,23 @@ for (var i = 0; i < myArr.length; i++) {
 · Condition: the subsequent code is executed as long as `i` is less and the length of `myArr` (which is 5; five numbers but arrays are zero based).
 · Final-expression: `i` is incremented by `1`.
 · Statement: The function adds `myArr[i]`'s value to `total` until the condition isn't met like so:
+
 `total` + `myArr[0]` -> 0 + 2 = 2 
 `total` + `myArr[1]` -> 2 + 3 = 5
 `total` + `myArr[2]` -> 5 + 4 = 9
 `total` + `myArr[3]` -> 9 + 5 = 14 
 `total` + `myArr[4]` -> 14 + 6 = 20
 
+## Alternative code solution:
 
+```javascript
+for (var y = myArr.length - 1; y >= 0; y--) {
+  totalB += myArr[y];
+}
+```
+·  Run code at [repl.it](https://repl.it/@AdrianSkar/Basic-JS-iterate-for-loop).
+
+### Code explanation
 ### Sources
 <span id="cite1">1</span>. ["Basic JavaScript: Comparison with the Equality Operator", fCC lesson at *Javascript Algorithms And Data Structures Certification*](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/comparison-with-the-equality-operator)
 
@@ -53,11 +63,11 @@ for (var i = 0; i < myArr.length; i++) {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM2MTUxMzIxOCwtMTYyOTU2MTA1OSwtMT
-YzNTcwNzUzMSwtNTE3MjIzNjM1LDY4NTY3NTE0OSwtODI1MzA1
-NDgsLTE5MzQ4OTMyNSwyMDUyOTk1ODYwLDE1NjEwMDE3NTcsMT
-gzNzU1MjI5MywtMTE1MDEzMzI2NywxNTEzODQ2MjA0LC0yMTQ2
-NzY0NDQ3LC0yNDA2MDcwNTUsMjEzNTYwMTYyNCw4MTUyMzY5NT
-gsODIwODE1Mjg3LC0xMTU2NDMyNjI2LC01OTg5MjU0MDYsLTk5
-MjM0NjI5N119
+eyJoaXN0b3J5IjpbODI1NDkzNTY5LC0zNjE1MTMyMTgsLTE2Mj
+k1NjEwNTksLTE2MzU3MDc1MzEsLTUxNzIyMzYzNSw2ODU2NzUx
+NDksLTgyNTMwNTQ4LC0xOTM0ODkzMjUsMjA1Mjk5NTg2MCwxNT
+YxMDAxNzU3LDE4Mzc1NTIyOTMsLTExNTAxMzMyNjcsMTUxMzg0
+NjIwNCwtMjE0Njc2NDQ0NywtMjQwNjA3MDU1LDIxMzU2MDE2Mj
+QsODE1MjM2OTU4LDgyMDgxNTI4NywtMTE1NjQzMjYyNiwtNTk4
+OTI1NDA2XX0=
 -->
