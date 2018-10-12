@@ -45,14 +45,16 @@ for (var i = 0; i < myArr.length; i++) {
 
 ```javascript
 for (var y = myArr.length - 1; y >= 0; y--) {
-  totalB += myArr[y];
+  total += myArr[y];
 }
 ```
 ·  Run code at [repl.it](https://repl.it/@AdrianSkar/Basic-JS-iterate-for-loop).
 
 ### Code explanation
+This works like the last solution but it's faster<sup><a href="#cite1">1</a></sup>
+
 ### Sources
-<span id="cite1">1</span>. ["Basic JavaScript: Comparison with the Equality Operator", fCC lesson at *Javascript Algorithms And Data Structures Certification*](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/comparison-with-the-equality-operator)
+<span id="cite1">1</span>. ["Are loops really fast", fCC lesson at *Javascript Algorithms And Data Structures Certification*](https://stackoverflow.com/questions/1340589/are-loops-really-faster-in-reverse)
 
 ### Resources
 - ["Boolean" - *MDN Glossary*](https://developer.mozilla.org/en-US/docs/Glossary/Boolean)
@@ -63,11 +65,11 @@ for (var y = myArr.length - 1; y >= 0; y--) {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODI1NDkzNTY5LC0zNjE1MTMyMTgsLTE2Mj
-k1NjEwNTksLTE2MzU3MDc1MzEsLTUxNzIyMzYzNSw2ODU2NzUx
-NDksLTgyNTMwNTQ4LC0xOTM0ODkzMjUsMjA1Mjk5NTg2MCwxNT
-YxMDAxNzU3LDE4Mzc1NTIyOTMsLTExNTAxMzMyNjcsMTUxMzg0
-NjIwNCwtMjE0Njc2NDQ0NywtMjQwNjA3MDU1LDIxMzU2MDE2Mj
-QsODE1MjM2OTU4LDgyMDgxNTI4NywtMTE1NjQzMjYyNiwtNTk4
-OTI1NDA2XX0=
+eyJoaXN0b3J5IjpbLTE2NjQzNDMwNDUsLTM2MTUxMzIxOCwtMT
+YyOTU2MTA1OSwtMTYzNTcwNzUzMSwtNTE3MjIzNjM1LDY4NTY3
+NTE0OSwtODI1MzA1NDgsLTE5MzQ4OTMyNSwyMDUyOTk1ODYwLD
+E1NjEwMDE3NTcsMTgzNzU1MjI5MywtMTE1MDEzMzI2NywxNTEz
+ODQ2MjA0LC0yMTQ2NzY0NDQ3LC0yNDA2MDcwNTUsMjEzNTYwMT
+YyNCw4MTUyMzY5NTgsODIwODE1Mjg3LC0xMTU2NDMyNjI2LC01
+OTg5MjU0MDZdfQ==
 -->
