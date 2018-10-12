@@ -27,10 +27,11 @@ for (var i = 0; i < myArr.length; i++) {
   total += myArr[i];
 }
 ```
-·  Run code at [repl.it](https://repl.it/@AdrianSkar/Basic-JS-Comparison-with-greater-operator).
+·  Run code at [repl.it](https://repl.it/@AdrianSkar/Basic-JS-iterate-for-loop).
 
 ### Code explanation
-The function first evaluates `if` the condition `(val == 12)` evaluates to `true`. If it does, it returns the statement between the curly braces ("Equal"). If it doesn't, it returns the next `return` statement outside them ("Not equal"). 
+· Inititialization: `i` gets a value of `0` and its used as a counter.
+· Condition: 
 
 ### Sources
 <span id="cite1">1</span>. ["Basic JavaScript: Comparison with the Equality Operator", fCC lesson at *Javascript Algorithms And Data Structures Certification*](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/comparison-with-the-equality-operator)
@@ -44,7 +45,7 @@ The function first evaluates `if` the condition `(val == 12)` evaluates to `true
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg5OTg0ODIyNiwtMTYyOTU2MTA1OSwtMT
+eyJoaXN0b3J5IjpbMjA5MDE4OTk2MSwtMTYyOTU2MTA1OSwtMT
 YzNTcwNzUzMSwtNTE3MjIzNjM1LDY4NTY3NTE0OSwtODI1MzA1
 NDgsLTE5MzQ4OTMyNSwyMDUyOTk1ODYwLDE1NjEwMDE3NTcsMT
 gzNzU1MjI5MywtMTE1MDEzMzI2NywxNTEzODQ2MjA0LC0yMTQ2
