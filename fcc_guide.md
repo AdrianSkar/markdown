@@ -23,16 +23,9 @@ Remember the structure of a `for` loop:
 ## Basic code solution:
 
 ```javascript
-
-function testEqual(val) {
-  if (val == 12) { // Change this line
-    return "Equal";
-  }
-  return "Not equal";
+for (var i = 0; i < myArr.length; i++) {
+  total += myArr[i];
 }
-// Change this value to test
-testEqual(10);
-
 ```
 ·  Run code at [repl.it](https://repl.it/@AdrianSkar/Basic-JS-Comparison-with-greater-operator).
 
@@ -51,11 +44,11 @@ The function first evaluates `if` the condition `(val == 12)` evaluates to `true
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2Mjk1NjEwNTksLTE2MzU3MDc1MzEsLT
-UxNzIyMzYzNSw2ODU2NzUxNDksLTgyNTMwNTQ4LC0xOTM0ODkz
-MjUsMjA1Mjk5NTg2MCwxNTYxMDAxNzU3LDE4Mzc1NTIyOTMsLT
-ExNTAxMzMyNjcsMTUxMzg0NjIwNCwtMjE0Njc2NDQ0NywtMjQw
-NjA3MDU1LDIxMzU2MDE2MjQsODE1MjM2OTU4LDgyMDgxNTI4Ny
-wtMTE1NjQzMjYyNiwtNTk4OTI1NDA2LC05OTIzNDYyOTcsLTEz
-NjUwMDc3NTVdfQ==
+eyJoaXN0b3J5IjpbLTg5OTg0ODIyNiwtMTYyOTU2MTA1OSwtMT
+YzNTcwNzUzMSwtNTE3MjIzNjM1LDY4NTY3NTE0OSwtODI1MzA1
+NDgsLTE5MzQ4OTMyNSwyMDUyOTk1ODYwLDE1NjEwMDE3NTcsMT
+gzNzU1MjI5MywtMTE1MDEzMzI2NywxNTEzODQ2MjA0LC0yMTQ2
+NzY0NDQ3LC0yNDA2MDcwNTUsMjEzNTYwMTYyNCw4MTUyMzY5NT
+gsODIwODE1Mjg3LC0xMTU2NDMyNjI2LC01OTg5MjU0MDYsLTk5
+MjM0NjI5N119
 -->
