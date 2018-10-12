@@ -30,10 +30,10 @@ for (var i = 0; i < myArr.length; i++) {
 ·  Run code at [repl.it](https://repl.it/@AdrianSkar/Basic-JS-iterate-for-loop).
 
 ### Code explanation
-· Inititialization: `i` gets a value of `0` and its used as a counter.
-· Condition: the subsequent code is executed as long as `i` is less and the length of `myArr` (which is 5; five numbers but arrays are zero based).
-· Final-expression: `i` is incremented by `1`.
-· Statement: The function adds `myArr[i]`'s value to `total` until the condition isn't met like so:
+- Inititialization: `i` gets a value of `0` and its used as a counter.
+- Condition: the subsequent code is executed as long as `i` is less and the length of `myArr` (which is 5; five numbers but arrays are zero based).
+- Final-expression: `i` is incremented by `1`.
+- Statement: The function adds `myArr[i]`'s value to `total` until the condition isn't met like so:
 
 `total` + `myArr[0]` -> 0 + 2 = 2 
 `total` + `myArr[1]` -> 2 + 3 = 5
@@ -52,9 +52,12 @@ for (var y = myArr.length - 1; y >= 0; y--) {
 
 ### Code explanation
 This works similarly to the last solution but it's faster<sup><a href="#cite1">1</a></sup> although it might not meet your requirements if order is important.
-· Initialization: `y` gets the `myArr.length` value once so the function doesn't need to check it at `condition` every time the loop is executed.
-· Condition: the loop is executed as long as `y` is greater than `0`.
-· Final 
+- Initialization: `y` gets the `myArr.length` value once so the function doesn't need to check it at `condition` every time the loop is executed.
+- Condition: the loop is executed as long as `y` is greater than `0`.
+- Final-expression: `y` is decremented by `1`.
+- Statement: The function adds `myArr[y]`'s value to `total` until the condition isn't met like so:
+
+
 
 ### Sources
 <span id="cite1">1</span>. ["Are loops really faster in reverse?",  *stackoverflow.com*](https://stackoverflow.com/questions/1340589/are-loops-really-faster-in-reverse)
@@ -68,11 +71,11 @@ This works similarly to the last solution but it's faster<sup><a href="#cite1">1
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ1Mzg1Njc4MywtMzYxNTEzMjE4LC0xNj
-I5NTYxMDU5LC0xNjM1NzA3NTMxLC01MTcyMjM2MzUsNjg1Njc1
-MTQ5LC04MjUzMDU0OCwtMTkzNDg5MzI1LDIwNTI5OTU4NjAsMT
-U2MTAwMTc1NywxODM3NTUyMjkzLC0xMTUwMTMzMjY3LDE1MTM4
-NDYyMDQsLTIxNDY3NjQ0NDcsLTI0MDYwNzA1NSwyMTM1NjAxNj
-I0LDgxNTIzNjk1OCw4MjA4MTUyODcsLTExNTY0MzI2MjYsLTU5
-ODkyNTQwNl19
+eyJoaXN0b3J5IjpbLTE0ODE2OTgzMzgsLTM2MTUxMzIxOCwtMT
+YyOTU2MTA1OSwtMTYzNTcwNzUzMSwtNTE3MjIzNjM1LDY4NTY3
+NTE0OSwtODI1MzA1NDgsLTE5MzQ4OTMyNSwyMDUyOTk1ODYwLD
+E1NjEwMDE3NTcsMTgzNzU1MjI5MywtMTE1MDEzMzI2NywxNTEz
+ODQ2MjA0LC0yMTQ2NzY0NDQ3LC0yNDA2MDcwNTUsMjEzNTYwMT
+YyNCw4MTUyMzY5NTgsODIwODE1Mjg3LC0xMTU2NDMyNjI2LC01
+OTg5MjU0MDZdfQ==
 -->
