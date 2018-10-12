@@ -52,7 +52,9 @@ for (var y = myArr.length - 1; y >= 0; y--) {
 
 ### Code explanation
 This works similarly to the last solution but it's faster<sup><a href="#cite1">1</a></sup> although it might not meet your requirements if order is important.
-· Initialization: `y` gets the 
+· Initialization: `y` gets the `myArr.length` value once so the function doesn't need to check it at `condition` every time the loop is executed.
+· Condition: the loop is executed as long as `y` is greater than `0`.
+· Final 
 
 ### Sources
 <span id="cite1">1</span>. ["Are loops really faster in reverse?",  *stackoverflow.com*](https://stackoverflow.com/questions/1340589/are-loops-really-faster-in-reverse)
@@ -66,7 +68,7 @@ This works similarly to the last solution but it's faster<sup><a href="#cite1">1
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEwOTAzMjg4MCwtMzYxNTEzMjE4LC0xNj
+eyJoaXN0b3J5IjpbLTQ1Mzg1Njc4MywtMzYxNTEzMjE4LC0xNj
 I5NTYxMDU5LC0xNjM1NzA3NTMxLC01MTcyMjM2MzUsNjg1Njc1
 MTQ5LC04MjUzMDU0OCwtMTkzNDg5MzI1LDIwNTI5OTU4NjAsMT
 U2MTAwMTc1NywxODM3NTUyMjkzLC0xMTUwMTMzMjY3LDE1MTM4
