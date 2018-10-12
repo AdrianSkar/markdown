@@ -6,7 +6,10 @@ title: Iterate Through an Array with a For Loop
 _Declare and initialize a variable `total` to `0`. Use a `for` loop to add the value of each element of the `myArr` array to `total`._
 
 #### Hint 1
-Remember the structure of a
+Remember the structure of a `for` loop:
+`for ([initialization]; [condition]; [final-expression])
+   statement`
+The `[initialization]` part is executed only
 > _try to solve the problem now_
 
 
@@ -45,7 +48,7 @@ The function first evaluates `if` the condition `(val == 12)` evaluates to `true
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI0Njc5MzkxNSwtMTYzNTcwNzUzMSwtNT
+eyJoaXN0b3J5IjpbMTM1MDY0MzkwNCwtMTYzNTcwNzUzMSwtNT
 E3MjIzNjM1LDY4NTY3NTE0OSwtODI1MzA1NDgsLTE5MzQ4OTMy
 NSwyMDUyOTk1ODYwLDE1NjEwMDE3NTcsMTgzNzU1MjI5MywtMT
 E1MDEzMzI2NywxNTEzODQ2MjA0LC0yMTQ2NzY0NDQ3LC0yNDA2
