@@ -68,15 +68,15 @@ This works similarly to the last solution but it's faster<sup><a href="#cite1">1
 
 ### Resources
 
-- ["for - *MDN JavaScript reference*](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for)
+- ["for" - *MDN JavaScript reference*](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzY2NzcwNjgyLC0zNjE1MTMyMTgsLTE2Mj
-k1NjEwNTksLTE2MzU3MDc1MzEsLTUxNzIyMzYzNSw2ODU2NzUx
-NDksLTgyNTMwNTQ4LC0xOTM0ODkzMjUsMjA1Mjk5NTg2MCwxNT
-YxMDAxNzU3LDE4Mzc1NTIyOTMsLTExNTAxMzMyNjcsMTUxMzg0
-NjIwNCwtMjE0Njc2NDQ0NywtMjQwNjA3MDU1LDIxMzU2MDE2Mj
-QsODE1MjM2OTU4LDgyMDgxNTI4NywtMTE1NjQzMjYyNiwtNTk4
-OTI1NDA2XX0=
+eyJoaXN0b3J5IjpbLTE4NTcwMDEwOCwtMzYxNTEzMjE4LC0xNj
+I5NTYxMDU5LC0xNjM1NzA3NTMxLC01MTcyMjM2MzUsNjg1Njc1
+MTQ5LC04MjUzMDU0OCwtMTkzNDg5MzI1LDIwNTI5OTU4NjAsMT
+U2MTAwMTc1NywxODM3NTUyMjkzLC0xMTUwMTMzMjY3LDE1MTM4
+NDYyMDQsLTIxNDY3NjQ0NDcsLTI0MDYwNzA1NSwyMTM1NjAxNj
+I0LDgxNTIzNjk1OCw4MjA4MTUyODcsLTExNTY0MzI2MjYsLTU5
+ODkyNTQwNl19
 -->
