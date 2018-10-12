@@ -57,7 +57,11 @@ This works similarly to the last solution but it's faster<sup><a href="#cite1">1
 - Final-expression: `y` is decremented by `1`.
 - Statement: The function adds `myArr[y]`'s value to `total` until the condition isn't met like so:
 
-
+`total` + `myArr[4]` -> 0 + 6 = 6
+`total` + `myArr[3]` -> 6 + 5 = 11
+`total` + `myArr[2]` -> 11 + 4 = 15
+`total` + `myArr[1]` -> 15 + 3 = 18
+`total` + `myArr[0]` -> 18 + 2 = 1
 
 ### Sources
 <span id="cite1">1</span>. ["Are loops really faster in reverse?",  *stackoverflow.com*](https://stackoverflow.com/questions/1340589/are-loops-really-faster-in-reverse)
@@ -71,7 +75,7 @@ This works similarly to the last solution but it's faster<sup><a href="#cite1">1
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0ODE2OTgzMzgsLTM2MTUxMzIxOCwtMT
+eyJoaXN0b3J5IjpbLTExNTE0Nzk4NzYsLTM2MTUxMzIxOCwtMT
 YyOTU2MTA1OSwtMTYzNTcwNzUzMSwtNTE3MjIzNjM1LDY4NTY3
 NTE0OSwtODI1MzA1NDgsLTE5MzQ4OTMyNSwyMDUyOTk1ODYwLD
 E1NjEwMDE3NTcsMTgzNzU1MjI5MywtMTE1MDEzMzI2NywxNTEz
