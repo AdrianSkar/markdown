@@ -31,7 +31,7 @@ for (var i = 0; i < myArr.length; i++) {
 
 ### Code explanation
 - Inititialization: `i` gets a value of `0` and its used as a counter.
-- Condition: the subsequent code is executed as long as `i` is less and the length of `myArr` (which is 5; five numbers but arrays are zero based).
+- Condition: the subsequent code is executed as long as `i` is lower than the length of `myArr` (which is 5; five numbers but arrays are zero based).
 - Final-expression: `i` is incremented by `1`.
 - Statement: The function adds `myArr[i]`'s value to `total` until the condition isn't met like so:
 
@@ -72,11 +72,11 @@ This works similarly to the last solution but it's faster<sup><a href="#cite1">1
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzAxNDUyMDMwLC0zNjE1MTMyMTgsLTE2Mj
-k1NjEwNTksLTE2MzU3MDc1MzEsLTUxNzIyMzYzNSw2ODU2NzUx
-NDksLTgyNTMwNTQ4LC0xOTM0ODkzMjUsMjA1Mjk5NTg2MCwxNT
-YxMDAxNzU3LDE4Mzc1NTIyOTMsLTExNTAxMzMyNjcsMTUxMzg0
-NjIwNCwtMjE0Njc2NDQ0NywtMjQwNjA3MDU1LDIxMzU2MDE2Mj
-QsODE1MjM2OTU4LDgyMDgxNTI4NywtMTE1NjQzMjYyNiwtNTk4
-OTI1NDA2XX0=
+eyJoaXN0b3J5IjpbLTk5NzQzMTc5NCwtMzYxNTEzMjE4LC0xNj
+I5NTYxMDU5LC0xNjM1NzA3NTMxLC01MTcyMjM2MzUsNjg1Njc1
+MTQ5LC04MjUzMDU0OCwtMTkzNDg5MzI1LDIwNTI5OTU4NjAsMT
+U2MTAwMTc1NywxODM3NTUyMjkzLC0xMTUwMTMzMjY3LDE1MTM4
+NDYyMDQsLTIxNDY3NjQ0NDcsLTI0MDYwNzA1NSwyMTM1NjAxNj
+I0LDgxNTIzNjk1OCw4MjA4MTUyODcsLTExNTY0MzI2MjYsLTU5
+ODkyNTQwNl19
 -->
