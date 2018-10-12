@@ -9,9 +9,10 @@ _Declare and initialize a variable `total` to `0`. Use a `for` loop to add the v
 Remember the structure of a `for` loop:
 `for ([initialization]; [condition]; [final-expression])
    statement`
+   
 · The `[initialization]` part is executed only once (the first time).
 · The `[condition]` is checked on every iteration.
-· The `[final-expression]` is executed if `[condition]` is `true`.
+· The `[final-expression]` is executed along the `statement` if `[condition]` resolves to `true`.
 > _try to solve the problem now_
 
 
@@ -50,11 +51,11 @@ The function first evaluates `if` the condition `(val == 12)` evaluates to `true
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY1NjY4MTM5OCwtMTYzNTcwNzUzMSwtNT
-E3MjIzNjM1LDY4NTY3NTE0OSwtODI1MzA1NDgsLTE5MzQ4OTMy
-NSwyMDUyOTk1ODYwLDE1NjEwMDE3NTcsMTgzNzU1MjI5MywtMT
-E1MDEzMzI2NywxNTEzODQ2MjA0LC0yMTQ2NzY0NDQ3LC0yNDA2
-MDcwNTUsMjEzNTYwMTYyNCw4MTUyMzY5NTgsODIwODE1Mjg3LC
-0xMTU2NDMyNjI2LC01OTg5MjU0MDYsLTk5MjM0NjI5NywtMTM2
-NTAwNzc1NV19
+eyJoaXN0b3J5IjpbLTE2Mjk1NjEwNTksLTE2MzU3MDc1MzEsLT
+UxNzIyMzYzNSw2ODU2NzUxNDksLTgyNTMwNTQ4LC0xOTM0ODkz
+MjUsMjA1Mjk5NTg2MCwxNTYxMDAxNzU3LDE4Mzc1NTIyOTMsLT
+ExNTAxMzMyNjcsMTUxMzg0NjIwNCwtMjE0Njc2NDQ0NywtMjQw
+NjA3MDU1LDIxMzU2MDE2MjQsODE1MjM2OTU4LDgyMDgxNTI4Ny
+wtMTE1NjQzMjYyNiwtNTk4OTI1NDA2LC05OTIzNDYyOTcsLTEz
+NjUwMDc3NTVdfQ==
 -->
