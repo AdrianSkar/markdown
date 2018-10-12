@@ -51,10 +51,11 @@ for (var y = myArr.length - 1; y >= 0; y--) {
 ·  Run code at [repl.it](https://repl.it/@AdrianSkar/Basic-JS-iterate-for-loop).
 
 ### Code explanation
-This works like the last solution but it's faster<sup><a href="#cite1">1</a></sup>
+This works similarly to the last solution but it's faster<sup><a href="#cite1">1</a></sup> although it might not meet your requirements if order is important.
+· Initialization: `y` gets the 
 
 ### Sources
-<span id="cite1">1</span>. ["Are loops really fast", fCC lesson at *Javascript Algorithms And Data Structures Certification*](https://stackoverflow.com/questions/1340589/are-loops-really-faster-in-reverse)
+<span id="cite1">1</span>. ["Are loops really faster in reverse?",  *stackoverflow.com*](https://stackoverflow.com/questions/1340589/are-loops-really-faster-in-reverse)
 
 ### Resources
 - ["Boolean" - *MDN Glossary*](https://developer.mozilla.org/en-US/docs/Glossary/Boolean)
@@ -65,11 +66,11 @@ This works like the last solution but it's faster<sup><a href="#cite1">1</a></su
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NjQzNDMwNDUsLTM2MTUxMzIxOCwtMT
-YyOTU2MTA1OSwtMTYzNTcwNzUzMSwtNTE3MjIzNjM1LDY4NTY3
-NTE0OSwtODI1MzA1NDgsLTE5MzQ4OTMyNSwyMDUyOTk1ODYwLD
-E1NjEwMDE3NTcsMTgzNzU1MjI5MywtMTE1MDEzMzI2NywxNTEz
-ODQ2MjA0LC0yMTQ2NzY0NDQ3LC0yNDA2MDcwNTUsMjEzNTYwMT
-YyNCw4MTUyMzY5NTgsODIwODE1Mjg3LC0xMTU2NDMyNjI2LC01
-OTg5MjU0MDZdfQ==
+eyJoaXN0b3J5IjpbMjEwOTAzMjg4MCwtMzYxNTEzMjE4LC0xNj
+I5NTYxMDU5LC0xNjM1NzA3NTMxLC01MTcyMjM2MzUsNjg1Njc1
+MTQ5LC04MjUzMDU0OCwtMTkzNDg5MzI1LDIwNTI5OTU4NjAsMT
+U2MTAwMTc1NywxODM3NTUyMjkzLC0xMTUwMTMzMjY3LDE1MTM4
+NDYyMDQsLTIxNDY3NjQ0NDcsLTI0MDYwNzA1NSwyMTM1NjAxNj
+I0LDgxNTIzNjk1OCw4MjA4MTUyODcsLTExNTY0MzI2MjYsLTU5
+ODkyNTQwNl19
 -->
