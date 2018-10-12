@@ -31,14 +31,14 @@ for (var i = 0; i < myArr.length; i++) {
 
 ### Code explanation
 · Inititialization: `i` gets a value of `0` and its used as a counter.
-· Condition: the subsequent code is executed as long as `i` is less and the length of `myArr`.
+· Condition: the subsequent code is executed as long as `i` is less and the length of `myArr` (which is 5; five numbers but arrays are zero based).
 · Final-expression: `i` is incremented by `1`.
 · Statement: The function adds `myArr[i]`'s value to `total` until the condition isn't met like so:
 `total` + `myArr[0]` -> 0 + 2 = 2 
 `total` + `myArr[1]` -> 2 + 3 = 5
 `total` + `myArr[2]` -> 5 + 4 = 9
-`total` + `myArr[3]` -> 6 + 2 = 2 
-`total` + `myArr[4]` -> 0 + 2 = 2 
+`total` + `myArr[3]` -> 9 + 5 = 14 
+`total` + `myArr[4]` -> 14 + 6 = 20
 
 
 ### Sources
@@ -53,11 +53,11 @@ for (var i = 0; i < myArr.length; i++) {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjMwODYwNDc0LC0xNjI5NTYxMDU5LC0xNj
-M1NzA3NTMxLC01MTcyMjM2MzUsNjg1Njc1MTQ5LC04MjUzMDU0
-OCwtMTkzNDg5MzI1LDIwNTI5OTU4NjAsMTU2MTAwMTc1NywxOD
-M3NTUyMjkzLC0xMTUwMTMzMjY3LDE1MTM4NDYyMDQsLTIxNDY3
-NjQ0NDcsLTI0MDYwNzA1NSwyMTM1NjAxNjI0LDgxNTIzNjk1OC
-w4MjA4MTUyODcsLTExNTY0MzI2MjYsLTU5ODkyNTQwNiwtOTky
-MzQ2Mjk3XX0=
+eyJoaXN0b3J5IjpbLTM2MTUxMzIxOCwtMTYyOTU2MTA1OSwtMT
+YzNTcwNzUzMSwtNTE3MjIzNjM1LDY4NTY3NTE0OSwtODI1MzA1
+NDgsLTE5MzQ4OTMyNSwyMDUyOTk1ODYwLDE1NjEwMDE3NTcsMT
+gzNzU1MjI5MywtMTE1MDEzMzI2NywxNTEzODQ2MjA0LC0yMTQ2
+NzY0NDQ3LC0yNDA2MDcwNTUsMjEzNTYwMTYyNCw4MTUyMzY5NT
+gsODIwODE1Mjg3LC0xMTU2NDMyNjI2LC01OTg5MjU0MDYsLTk5
+MjM0NjI5N119
 -->
