@@ -20,7 +20,7 @@ for (var i=0; i < arr.length; i++) {
 }
 ```
 
-_This outputs each sub-element in  `arr` one at a time. Note that for the inner loop, we are checking the  `.length`of  `arr[i]`, since  `arr[i]`is itself an array._
+_This outputs each sub-element in  `arr` one at a time. Note that for the inner loop, we are checking the  `.length`of  `arr[i]`, since  `arr[i]` is itself an array._
 
 ----------
 
@@ -98,11 +98,11 @@ See :point_right: <a href="http://forum.freecodecamp.com/t/algorithm-article-tem
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODEwOTMyODcyLC02Mzk1MzU5MjAsNTc4Mj
-UwMDAwLC0zNjE1MTMyMTgsLTE2Mjk1NjEwNTksLTE2MzU3MDc1
-MzEsLTUxNzIyMzYzNSw2ODU2NzUxNDksLTgyNTMwNTQ4LC0xOT
-M0ODkzMjUsMjA1Mjk5NTg2MCwxNTYxMDAxNzU3LDE4Mzc1NTIy
-OTMsLTExNTAxMzMyNjcsMTUxMzg0NjIwNCwtMjE0Njc2NDQ0Ny
-wtMjQwNjA3MDU1LDIxMzU2MDE2MjQsODE1MjM2OTU4LDgyMDgx
-NTI4N119
+eyJoaXN0b3J5IjpbLTE1MDQ2ODcyODYsLTYzOTUzNTkyMCw1Nz
+gyNTAwMDAsLTM2MTUxMzIxOCwtMTYyOTU2MTA1OSwtMTYzNTcw
+NzUzMSwtNTE3MjIzNjM1LDY4NTY3NTE0OSwtODI1MzA1NDgsLT
+E5MzQ4OTMyNSwyMDUyOTk1ODYwLDE1NjEwMDE3NTcsMTgzNzU1
+MjI5MywtMTE1MDEzMzI2NywxNTEzODQ2MjA0LC0yMTQ2NzY0ND
+Q3LC0yNDA2MDcwNTUsMjEzNTYwMTYyNCw4MTUyMzY5NTgsODIw
+ODE1Mjg3XX0=
 -->
