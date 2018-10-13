@@ -65,15 +65,16 @@ multiplyAll([[1,2],[3,4],[5,6,7]]);
  - The `[final-expression]` on both loops is executed at the end of each one, incrementing their counter variables (`i` and `y` respectively).
 
 
-Resources:
-
+### Resources
+- ["for" - *MDN JavaScript reference*](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for)
+- ["Nest one Array within Another Array" - *fCC's guide*](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for)
 <ul>
   <li><a href="https://guide.freecodecamp.org/certifications/javascript-algorithms-and-data-structures/basic-javascript/nest-one-array-within-another-array">Nest One Array Within Another Array</a></li>
   <li><a href="https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/iterate-through-an-array-with-a-for-loop">Iterate Through An Array With A For Loop</a></li>
   <li><a href="https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/accessing-nested-arrays">Accessing Nested Arrays</a></li>
 </ul>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEzNDMyMzEwMCwtNTkzODcyMDUyLC02Mz
+eyJoaXN0b3J5IjpbMTU0MTUzNjYzMywtNTkzODcyMDUyLC02Mz
 k1MzU5MjAsNTc4MjUwMDAwLC0zNjE1MTMyMTgsLTE2Mjk1NjEw
 NTksLTE2MzU3MDc1MzEsLTUxNzIyMzYzNSw2ODU2NzUxNDksLT
 gyNTMwNTQ4LC0xOTM0ODkzMjUsMjA1Mjk5NTg2MCwxNTYxMDAx
