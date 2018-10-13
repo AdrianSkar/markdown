@@ -31,7 +31,7 @@ Make sure to check with `length` and not the overall array.
 > _try to solve the problem now_
 > 
 #### Hint 2
-Remember to use `arr[i]` when you multiply the sub-arrays with the <code>product</code> variable.
+Remember to select the proper values inside arrays (eg: `arr[i][y]`) when you multiply them with the `product` variable.
 > _try to solve the problem now_
 > 
 
@@ -78,11 +78,11 @@ Resources:
   <li><a href="https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/accessing-nested-arrays">Accessing Nested Arrays</a></li>
 </ul>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU5Mzg3MjA1MiwtNjM5NTM1OTIwLDU3OD
-I1MDAwMCwtMzYxNTEzMjE4LC0xNjI5NTYxMDU5LC0xNjM1NzA3
-NTMxLC01MTcyMjM2MzUsNjg1Njc1MTQ5LC04MjUzMDU0OCwtMT
-kzNDg5MzI1LDIwNTI5OTU4NjAsMTU2MTAwMTc1NywxODM3NTUy
-MjkzLC0xMTUwMTMzMjY3LDE1MTM4NDYyMDQsLTIxNDY3NjQ0ND
-csLTI0MDYwNzA1NSwyMTM1NjAxNjI0LDgxNTIzNjk1OCw4MjA4
-MTUyODddfQ==
+eyJoaXN0b3J5IjpbLTI3Mjk5OTczNSwtNTkzODcyMDUyLC02Mz
+k1MzU5MjAsNTc4MjUwMDAwLC0zNjE1MTMyMTgsLTE2Mjk1NjEw
+NTksLTE2MzU3MDc1MzEsLTUxNzIyMzYzNSw2ODU2NzUxNDksLT
+gyNTMwNTQ4LC0xOTM0ODkzMjUsMjA1Mjk5NTg2MCwxNTYxMDAx
+NzU3LDE4Mzc1NTIyOTMsLTExNTAxMzMyNjcsMTUxMzg0NjIwNC
+wtMjE0Njc2NDQ0NywtMjQwNjA3MDU1LDIxMzU2MDE2MjQsODE1
+MjM2OTU4XX0=
 -->
