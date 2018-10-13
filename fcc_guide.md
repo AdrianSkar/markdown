@@ -1,84 +1,111 @@
 ---
-title: Iterate Through an Array with a For Loop
+title: Nesting For Loops
 ---
-## Iterate Through an Array with a For Loop
-### Problem explanation:
-_Declare and initialize a variable `total` to `0`. Use a `for` loop to add the value of each element of the `myArr` array to `total`._
+## Nesting For Loops
 
-#### Hint 1
-Remember the structure of a `for` loop:
-`for ([initialization]; [condition]; [final-expression])
-   statement`
-   
-- The `[initialization]` part is executed only once (the first time).
-- The `[condition]` is checked on every iteration.
-- The `[final-expression]` is executed along the `statement` if `[condition]` resolves to `true`.
-> _try to solve the problem now_
+<strong>Remember to use Read-Search-Ask if you get stuck. Try to pair program :busts_in_silhouette: and write your own code :pencil:</strong>
 
+:checkered_flag: <strong>Problem Explanation:</strong>
 
-## Spoiler alert!
+If you have a multi-dimensional array, you can use the same logic as the prior waypoint to loop through both the array and any sub-arrays. 
 
-**Solution ahead!**
+Here is an example:
 
-## Code solution:
-
-```javascript
-for (var i = 0; i < myArr.length; i++) {
-  total += myArr[i];
+```
+var arr = [
+  [1,2], [3,4], [5,6]
+];
+for (var i=0; i < arr.length; i++) {
+  for (var j=0; j < arr[i].length; j++) {
+    console.log(arr[i][j]);
+  }
 }
+
 ```
-·  Run code at [repl.it](https://repl.it/@AdrianSkar/Basic-JS-iterate-for-loop).
+This outputs each sub-element in <code>arr</code> one at a time. Note that for the inner loop, we are checking the length of arr[i], since arr[i] is itself an array.
 
-### Code explanation
-- Inititialization: `i` gets a value of `0` and its used as a counter.
-- Condition: the subsequent code is executed as long as `i` is lower than the length of `myArr` (which is 5; five numbers but arrays are zero based).
-- Final-expression: `i` is incremented by `1`.
-- Statement: The function adds `myArr[i]`'s value to `total` until the condition isn't met like so:
+<ul>
+  <li>Modify function <code>multiplyAll</code> so that it multiplies the <code>product</code> variable by each number in the sub-arrays of <code>arr</code>.</li>
+  <li>Make sure the second for loop is nested inside the first.</li>
+</ul>
 
-```text
-total + myArr[0] -> 0 + 2 = 2 
-total + myArr[1] -> 2 + 3 = 5
-total + myArr[2] -> 5 + 4 = 9
-total + myArr[3] -> 9 + 5 = 14 
-total + myArr[4] -> 14 + 6 = 20
+<strong>Relevant Links</strong>
+<ul>
+  <li><a href="https://guide.freecodecamp.org/certifications/javascript-algorithms-and-data-structures/basic-javascript/nest-one-array-within-another-array">Nest One Array Within Another Array</a></li>
+  <li><a href="https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/iterate-through-an-array-with-a-for-loop">Iterate Through An Array With A For Loop</a></li>
+  <li><a href="https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/accessing-nested-arrays">Accessing Nested Arrays</a></li>
+</ul>
+  
+:speech_balloon: Hint: 1
+
+Make sure to check with <code>length</code> and not the overall array.
+
+<em>try to solve the problem now</em>
+
+:speech_balloon: Hint 2<br>
+
+Use both <code>i</code> and <code>j</code> when multiplying the product.
+
+<em>try to solve the problem now</em>
+
+:speech_balloon: Hint 3<br>
+
+Remember to use <code>arr[i]</code> when you multiply the sub-arrays with the <code>product</code> variable.
+
+<em>try to solve the problem now</em>
+
+<em>Spoiler Alert!</em>
+<img src="https://discourse-user-assets.s3.amazonaws.com/original/2X/2/2d6c412a50797771301e7ceabd554cef4edcd74d.gif">
+
+<br>
+<strong>Solution Ahead!</strong>
+
+:beginner: <strong>Basic Code Solution:</strong>
 ```
-
-## Alternative code solution:
-
-```javascript
-for (var y = myArr.length - 1; y >= 0; y--) {
-  total += myArr[y];
+function multiplyAll(arr) {
+  var product = 1;
+  // Only change code below this line
+  for(var i=0; i < arr.length; i++){
+    for (var j=0; j < arr[i].length; j++){
+      product = product * arr[i][j];
+    }
+  }
+  // Only change code above this line
+  return product;
 }
+
+// Modify values below to test your code
+multiplyAll([[1,2],[3,4],[5,6,7]]);
+
 ```
-·  Run code at [repl.it](https://repl.it/@AdrianSkar/Basic-JS-iterate-for-loop).
+:rocket: <strong><a href="https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/nesting-for-loops/">Run Code</a></strong>
 
-### Code explanation
-This works similarly to the last solution but it's faster<sup><a href="#cite1">1</a></sup> although it might not meet your requirements if order is important.
-- Initialization: `y` gets the `myArr.length`'s value once so the function doesn't need to check it at `condition` every time the loop is executed.
-- Condition: the loop is executed as long as `y` is greater than `0`.
-- Final-expression: `y` is decremented by `1`.
-- Statement: The function adds `myArr[y]`'s value to `total` until the condition isn't met like so:
-```text
-total + myArr[4] -> 0 + 6 = 6
-total + myArr[3] -> 6 + 5 = 11
-total + myArr[2] -> 11 + 4 = 15
-total + myArr[1] -> 15 + 3 = 18
-total + myArr[0] -> 18 + 2 = 20
-```
-### Sources
-<span id="cite1">1</span>. ["Are loops really faster in reverse?",  *stackoverflow.com*](https://stackoverflow.com/questions/1340589/are-loops-really-faster-in-reverse)
+<strong>Code Explanation:</strong>
 
-### Resources
+<ul>
+  <li>We check the length of <code>arr</code> in the <code>i</code> for loop and the <code>arr[i]</code> length in the <code>j</code> for loop.</li>
+  <li>We multiply the <code>product</code> variable by itself because it equals 1, and then multiply it by the sub-arrays.</li>
+  <li>The two sub-arrays to multiply are <code>arr[i]</code> and <code>j</code>.</li>
+</ul>
 
-- ["for" - *MDN JavaScript reference*](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for)
+:clipboard: <strong>NOTES FOR CONTRIBUTIONS:</strong>
+<ul>
+<li>:warning: <strong>DO NOT</strong> add solutions that are similar to any existing solutions. If you think it is similar but better, then try to merge (or replace) the existing similar solution.</li>
+  <li>Add an explanation of your solution.</li>
+<li>Categorize the solution in one of the following categories — Basic, Intermediate and Advanced. :traffic_light:</li>
+<li>Please add your username only if you have added any relevant main contents. (:warning: <em><strong>DO NOT</strong></em> remove any existing usernames)</li>
+  </ul>
+  
+See :point_right: <a href="http://forum.freecodecamp.com/t/algorithm-article-template/14272"> Wiki Challenge Solution Template</a> for reference.
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTc4MjUwMDAwLC0zNjE1MTMyMTgsLTE2Mj
-k1NjEwNTksLTE2MzU3MDc1MzEsLTUxNzIyMzYzNSw2ODU2NzUx
-NDksLTgyNTMwNTQ4LC0xOTM0ODkzMjUsMjA1Mjk5NTg2MCwxNT
-YxMDAxNzU3LDE4Mzc1NTIyOTMsLTExNTAxMzMyNjcsMTUxMzg0
-NjIwNCwtMjE0Njc2NDQ0NywtMjQwNjA3MDU1LDIxMzU2MDE2Mj
-QsODE1MjM2OTU4LDgyMDgxNTI4NywtMTE1NjQzMjYyNiwtNTk4
-OTI1NDA2XX0=
+eyJoaXN0b3J5IjpbLTYzOTUzNTkyMCw1NzgyNTAwMDAsLTM2MT
+UxMzIxOCwtMTYyOTU2MTA1OSwtMTYzNTcwNzUzMSwtNTE3MjIz
+NjM1LDY4NTY3NTE0OSwtODI1MzA1NDgsLTE5MzQ4OTMyNSwyMD
+UyOTk1ODYwLDE1NjEwMDE3NTcsMTgzNzU1MjI5MywtMTE1MDEz
+MzI2NywxNTEzODQ2MjA0LC0yMTQ2NzY0NDQ3LC0yNDA2MDcwNT
+UsMjEzNTYwMTYyNCw4MTUyMzY5NTgsODIwODE1Mjg3LC0xMTU2
+NDMyNjI2XX0=
 -->
