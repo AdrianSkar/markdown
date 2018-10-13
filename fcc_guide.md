@@ -27,14 +27,17 @@ _This outputs each sub-element in  `arr` one at a time. Note that for the inner 
 _Modify function  `multiplyAll` so that it multiplies the  `product` variable by each number in the sub-arrays of  `arr`_
 
 #### Hint 1
-Hint X, remember that _text/paraphrasing_<sup><a href="#cite1">1</a></sup>
+Make sure to check with `length` and not the overall array.
 > _try to solve the problem now_
 > 
-:speech_balloon: Hint: 1
-
-Make sure to check with <code>length</code> and not the overall array.
-
-<em>try to solve the problem now</em>
+#### Hint 2
+Use both <code>i</code> and <code>j</code> when multiplying the product.
+> _try to solve the problem now_
+> 
+#### Hint 3
+Make sure to check with `length` and not the overall array.
+> _try to solve the problem now_
+> 
 
 :speech_balloon: Hint 2<br>
 
@@ -90,7 +93,7 @@ Resources:
   <li><a href="https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/accessing-nested-arrays">Accessing Nested Arrays</a></li>
 </ul>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwOTUyMjM2MzYsLTYzOTUzNTkyMCw1Nz
+eyJoaXN0b3J5IjpbLTEyMDE2NjEwMTIsLTYzOTUzNTkyMCw1Nz
 gyNTAwMDAsLTM2MTUxMzIxOCwtMTYyOTU2MTA1OSwtMTYzNTcw
 NzUzMSwtNTE3MjIzNjM1LDY4NTY3NTE0OSwtODI1MzA1NDgsLT
 E5MzQ4OTMyNSwyMDUyOTk1ODYwLDE1NjEwMDE3NTcsMTgzNzU1
