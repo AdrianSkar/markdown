@@ -3,15 +3,13 @@ title: Nesting For Loops
 ---
 ## Nesting For Loops
 
-<strong>Remember to use Read-Search-Ask if you get stuck. Try to pair program :busts_in_silhouette: and write your own code :pencil:</strong>
+### Problem Explanation:
 
-:checkered_flag: <strong>Problem Explanation:</strong>
+_If you have a multi-dimensional array, you can use the same logic as the prior waypoint to loop through both the array and any sub-arrays._
 
-If you have a multi-dimensional array, you can use the same logic as the prior waypoint to loop through both the array and any sub-arrays. 
+_Here is an example:_
 
-Here is an example:
-
-```
+```javascript
 var arr = [
   [1,2], [3,4], [5,6]
 ];
@@ -20,9 +18,8 @@ for (var i=0; i < arr.length; i++) {
     console.log(arr[i][j]);
   }
 }
-
 ```
-This outputs each sub-element in <code>arr</code> one at a time. Note that for the inner loop, we are checking the length of arr[i], since arr[i] is itself an array.
+_This outputs each sub-element in <code>arr</code> one at a time. Note that for the inner loop, we are checking the length of arr[i], since arr[i] is itself an array.
 
 <ul>
   <li>Modify function <code>multiplyAll</code> so that it multiplies the <code>product</code> variable by each number in the sub-arrays of <code>arr</code>.</li>
@@ -101,11 +98,11 @@ See :point_right: <a href="http://forum.freecodecamp.com/t/algorithm-article-tem
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYzOTUzNTkyMCw1NzgyNTAwMDAsLTM2MT
-UxMzIxOCwtMTYyOTU2MTA1OSwtMTYzNTcwNzUzMSwtNTE3MjIz
-NjM1LDY4NTY3NTE0OSwtODI1MzA1NDgsLTE5MzQ4OTMyNSwyMD
-UyOTk1ODYwLDE1NjEwMDE3NTcsMTgzNzU1MjI5MywtMTE1MDEz
-MzI2NywxNTEzODQ2MjA0LC0yMTQ2NzY0NDQ3LC0yNDA2MDcwNT
-UsMjEzNTYwMTYyNCw4MTUyMzY5NTgsODIwODE1Mjg3LC0xMTU2
-NDMyNjI2XX0=
+eyJoaXN0b3J5IjpbNzEwMjEzMTc1LC02Mzk1MzU5MjAsNTc4Mj
+UwMDAwLC0zNjE1MTMyMTgsLTE2Mjk1NjEwNTksLTE2MzU3MDc1
+MzEsLTUxNzIyMzYzNSw2ODU2NzUxNDksLTgyNTMwNTQ4LC0xOT
+M0ODkzMjUsMjA1Mjk5NTg2MCwxNTYxMDAxNzU3LDE4Mzc1NTIy
+OTMsLTExNTAxMzMyNjcsMTUxMzg0NjIwNCwtMjE0Njc2NDQ0Ny
+wtMjQwNjA3MDU1LDIxMzU2MDE2MjQsODE1MjM2OTU4LDgyMDgx
+NTI4N119
 -->
