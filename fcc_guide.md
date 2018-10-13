@@ -36,29 +36,25 @@ Remember to select the proper values inside arrays (eg: `arr[i][y]`) when you mu
 > 
 
 
-<em>Spoiler Alert!</em>
-<img src="https://discourse-user-assets.s3.amazonaws.com/original/2X/2/2d6c412a50797771301e7ceabd554cef4edcd74d.gif">
+## Spoiler alert!
 
-<br>
-<strong>Solution Ahead!</strong>
+**Solution ahead!**
 
-:beginner: <strong>Basic Code Solution:</strong>
-```
+## Code solution:
+```javascript
 function multiplyAll(arr) {
   var product = 1;
   // Only change code below this line
-  for(var i=0; i < arr.length; i++){
-    for (var j=0; j < arr[i].length; j++){
-      product = product * arr[i][j];
+  for (var i=0; i<arr.length;i++){
+    for (var y=0; y<arr[i].length;y++){
+      product *= arr[i][y];
     }
   }
   // Only change code above this line
   return product;
 }
-
 // Modify values below to test your code
 multiplyAll([[1,2],[3,4],[5,6,7]]);
-
 ```
 :rocket: <strong><a href="https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/nesting-for-loops/">Run Code</a></strong>
 
@@ -78,7 +74,7 @@ Resources:
   <li><a href="https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/accessing-nested-arrays">Accessing Nested Arrays</a></li>
 </ul>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI3Mjk5OTczNSwtNTkzODcyMDUyLC02Mz
+eyJoaXN0b3J5IjpbLTQ3Njc2OTQ5MywtNTkzODcyMDUyLC02Mz
 k1MzU5MjAsNTc4MjUwMDAwLC0zNjE1MTMyMTgsLTE2Mjk1NjEw
 NTksLTE2MzU3MDc1MzEsLTUxNzIyMzYzNSw2ODU2NzUxNDksLT
 gyNTMwNTQ4LC0xOTM0ODkzMjUsMjA1Mjk5NTg2MCwxNTYxMDAx
