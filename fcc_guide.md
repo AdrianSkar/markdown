@@ -35,11 +35,6 @@ Remember to use `arr[i]` when you multiply the sub-arrays with the <code>product
 > _try to solve the problem now_
 > 
 
-:speech_balloon: Hint 3<br>
-
-Remember to use <code>arr[i]</code> when you multiply the sub-arrays with the <code>product</code> variable.
-
-<em>try to solve the problem now</em>
 
 <em>Spoiler Alert!</em>
 <img src="https://discourse-user-assets.s3.amazonaws.com/original/2X/2/2d6c412a50797771301e7ceabd554cef4edcd74d.gif">
@@ -83,11 +78,11 @@ Resources:
   <li><a href="https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/accessing-nested-arrays">Accessing Nested Arrays</a></li>
 </ul>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMzU1ODk2MTAsLTYzOTUzNTkyMCw1Nz
-gyNTAwMDAsLTM2MTUxMzIxOCwtMTYyOTU2MTA1OSwtMTYzNTcw
-NzUzMSwtNTE3MjIzNjM1LDY4NTY3NTE0OSwtODI1MzA1NDgsLT
-E5MzQ4OTMyNSwyMDUyOTk1ODYwLDE1NjEwMDE3NTcsMTgzNzU1
-MjI5MywtMTE1MDEzMzI2NywxNTEzODQ2MjA0LC0yMTQ2NzY0ND
-Q3LC0yNDA2MDcwNTUsMjEzNTYwMTYyNCw4MTUyMzY5NTgsODIw
-ODE1Mjg3XX0=
+eyJoaXN0b3J5IjpbLTU5Mzg3MjA1MiwtNjM5NTM1OTIwLDU3OD
+I1MDAwMCwtMzYxNTEzMjE4LC0xNjI5NTYxMDU5LC0xNjM1NzA3
+NTMxLC01MTcyMjM2MzUsNjg1Njc1MTQ5LC04MjUzMDU0OCwtMT
+kzNDg5MzI1LDIwNTI5OTU4NjAsMTU2MTAwMTc1NywxODM3NTUy
+MjkzLC0xMTUwMTMzMjY3LDE1MTM4NDYyMDQsLTIxNDY3NjQ0ND
+csLTI0MDYwNzA1NSwyMTM1NjAxNjI0LDgxNTIzNjk1OCw4MjA4
+MTUyODddfQ==
 -->
