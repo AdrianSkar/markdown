@@ -67,18 +67,20 @@ multiplyAll([[1,2],[3,4],[5,6,7]]);
 
 ### Resources
 - ["for" - *MDN JavaScript reference*](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for)
-- ["Nest one Array within Another Array" - *fCC's guide*](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for)
+- ["Nest one Array within Another Array" - *fCC's guide*](https://guide.freecodecamp.org/certifications/javascript-algorithms-and-data-structures/basic-javascript/nest-one-array-within-another-array/)
+- ["Accessing Nested Arrays" - *fCC's guide*](https://guide.freecodecamp.org/certifications/javascript-algorithms-and-data-structures/basic-javascript/accessing-nested-arrays/)
+- ["Nest one Array within Another Array" - *fCC's guide*](https://guide.freecodecamp.org/certifications/javascript-algorithms-and-data-structures/basic-javascript/nest-one-array-within-another-array/)
 <ul>
   <li><a href="https://guide.freecodecamp.org/certifications/javascript-algorithms-and-data-structures/basic-javascript/nest-one-array-within-another-array">Nest One Array Within Another Array</a></li>
   <li><a href="https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/iterate-through-an-array-with-a-for-loop">Iterate Through An Array With A For Loop</a></li>
   <li><a href="https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/accessing-nested-arrays">Accessing Nested Arrays</a></li>
 </ul>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU0MTUzNjYzMywtNTkzODcyMDUyLC02Mz
-k1MzU5MjAsNTc4MjUwMDAwLC0zNjE1MTMyMTgsLTE2Mjk1NjEw
-NTksLTE2MzU3MDc1MzEsLTUxNzIyMzYzNSw2ODU2NzUxNDksLT
-gyNTMwNTQ4LC0xOTM0ODkzMjUsMjA1Mjk5NTg2MCwxNTYxMDAx
-NzU3LDE4Mzc1NTIyOTMsLTExNTAxMzMyNjcsMTUxMzg0NjIwNC
-wtMjE0Njc2NDQ0NywtMjQwNjA3MDU1LDIxMzU2MDE2MjQsODE1
-MjM2OTU4XX0=
+eyJoaXN0b3J5IjpbMjMwNjkzNDIwLC01OTM4NzIwNTIsLTYzOT
+UzNTkyMCw1NzgyNTAwMDAsLTM2MTUxMzIxOCwtMTYyOTU2MTA1
+OSwtMTYzNTcwNzUzMSwtNTE3MjIzNjM1LDY4NTY3NTE0OSwtOD
+I1MzA1NDgsLTE5MzQ4OTMyNSwyMDUyOTk1ODYwLDE1NjEwMDE3
+NTcsMTgzNzU1MjI5MywtMTE1MDEzMzI2NywxNTEzODQ2MjA0LC
+0yMTQ2NzY0NDQ3LC0yNDA2MDcwNTUsMjEzNTYwMTYyNCw4MTUy
+MzY5NThdfQ==
 -->
