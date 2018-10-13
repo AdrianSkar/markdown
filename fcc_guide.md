@@ -60,7 +60,9 @@ multiplyAll([[1,2],[3,4],[5,6,7]]);
 
 ### Code explanation
 - A loop is nested inside another. One for the "outer" values (eg: `arr[0]` corresponds to `[1,2]`) and another for the "inner" ones (eg: `arr[0][0]` corresponds to `1`.
- - Both loops run by a limited number of times that are determined by their `condition`statement `(i<arr.length)`
+ - Both loops run by a limited number of times that are determined by their `condition`statement `(i<arr.length)`.
+ - Then it multiplies the value stored in the `product` variable by the value corresponding to `arr[i][y]`.
+ - T
 
 
 Resources:
@@ -71,11 +73,11 @@ Resources:
   <li><a href="https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/accessing-nested-arrays">Accessing Nested Arrays</a></li>
 </ul>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDQxNzQwNzAsLTU5Mzg3MjA1MiwtNjM5NT
-M1OTIwLDU3ODI1MDAwMCwtMzYxNTEzMjE4LC0xNjI5NTYxMDU5
-LC0xNjM1NzA3NTMxLC01MTcyMjM2MzUsNjg1Njc1MTQ5LC04Mj
-UzMDU0OCwtMTkzNDg5MzI1LDIwNTI5OTU4NjAsMTU2MTAwMTc1
-NywxODM3NTUyMjkzLC0xMTUwMTMzMjY3LDE1MTM4NDYyMDQsLT
-IxNDY3NjQ0NDcsLTI0MDYwNzA1NSwyMTM1NjAxNjI0LDgxNTIz
-Njk1OF19
+eyJoaXN0b3J5IjpbMTgxNjY0Njg1MCwtNTkzODcyMDUyLC02Mz
+k1MzU5MjAsNTc4MjUwMDAwLC0zNjE1MTMyMTgsLTE2Mjk1NjEw
+NTksLTE2MzU3MDc1MzEsLTUxNzIyMzYzNSw2ODU2NzUxNDksLT
+gyNTMwNTQ4LC0xOTM0ODkzMjUsMjA1Mjk5NTg2MCwxNTYxMDAx
+NzU3LDE4Mzc1NTIyOTMsLTExNTAxMzMyNjcsMTUxMzg0NjIwNC
+wtMjE0Njc2NDQ0NywtMjQwNjA3MDU1LDIxMzU2MDE2MjQsODE1
+MjM2OTU4XX0=
 -->
