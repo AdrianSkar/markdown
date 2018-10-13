@@ -59,7 +59,7 @@ multiplyAll([[1,2],[3,4],[5,6,7]]);
 ·  Run code at [repl.it](https://repl.it/@AdrianSkar/Basic-JS-Nesting-for-loops).
 
 ### Code explanation
- - THe 
+ - Both loops run by a limited number of times that are determined by the `condition`statement `(i<arr.length)`
 
 
 Resources:
@@ -70,11 +70,11 @@ Resources:
   <li><a href="https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/accessing-nested-arrays">Accessing Nested Arrays</a></li>
 </ul>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI2MTI0NzksLTU5Mzg3MjA1MiwtNjM5NT
-M1OTIwLDU3ODI1MDAwMCwtMzYxNTEzMjE4LC0xNjI5NTYxMDU5
-LC0xNjM1NzA3NTMxLC01MTcyMjM2MzUsNjg1Njc1MTQ5LC04Mj
-UzMDU0OCwtMTkzNDg5MzI1LDIwNTI5OTU4NjAsMTU2MTAwMTc1
-NywxODM3NTUyMjkzLC0xMTUwMTMzMjY3LDE1MTM4NDYyMDQsLT
-IxNDY3NjQ0NDcsLTI0MDYwNzA1NSwyMTM1NjAxNjI0LDgxNTIz
-Njk1OF19
+eyJoaXN0b3J5IjpbLTExMzgyODgyNDIsLTU5Mzg3MjA1MiwtNj
+M5NTM1OTIwLDU3ODI1MDAwMCwtMzYxNTEzMjE4LC0xNjI5NTYx
+MDU5LC0xNjM1NzA3NTMxLC01MTcyMjM2MzUsNjg1Njc1MTQ5LC
+04MjUzMDU0OCwtMTkzNDg5MzI1LDIwNTI5OTU4NjAsMTU2MTAw
+MTc1NywxODM3NTUyMjkzLC0xMTUwMTMzMjY3LDE1MTM4NDYyMD
+QsLTIxNDY3NjQ0NDcsLTI0MDYwNzA1NSwyMTM1NjAxNjI0LDgx
+NTIzNjk1OF19
 -->
