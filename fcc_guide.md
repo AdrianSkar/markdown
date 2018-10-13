@@ -56,15 +56,11 @@ function multiplyAll(arr) {
 // Modify values below to test your code
 multiplyAll([[1,2],[3,4],[5,6,7]]);
 ```
-:rocket: <strong><a href="https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/nesting-for-loops/">Run Code</a></strong>
+·  Run code at [repl.it](https://repl.it/@AdrianSkar/Basic-JS-Nesting-for-loops).
 
-<strong>Code Explanation:</strong>
+### Code explanation
+ - THe 
 
-<ul>
-  <li>We check the length of <code>arr</code> in the <code>i</code> for loop and the <code>arr[i]</code> length in the <code>j</code> for loop.</li>
-  <li>We multiply the <code>product</code> variable by itself because it equals 1, and then multiply it by the sub-arrays.</li>
-  <li>The two sub-arrays to multiply are <code>arr[i]</code> and <code>j</code>.</li>
-</ul>
 
 Resources:
 
@@ -74,11 +70,11 @@ Resources:
   <li><a href="https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/accessing-nested-arrays">Accessing Nested Arrays</a></li>
 </ul>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ3Njc2OTQ5MywtNTkzODcyMDUyLC02Mz
-k1MzU5MjAsNTc4MjUwMDAwLC0zNjE1MTMyMTgsLTE2Mjk1NjEw
-NTksLTE2MzU3MDc1MzEsLTUxNzIyMzYzNSw2ODU2NzUxNDksLT
-gyNTMwNTQ4LC0xOTM0ODkzMjUsMjA1Mjk5NTg2MCwxNTYxMDAx
-NzU3LDE4Mzc1NTIyOTMsLTExNTAxMzMyNjcsMTUxMzg0NjIwNC
-wtMjE0Njc2NDQ0NywtMjQwNjA3MDU1LDIxMzU2MDE2MjQsODE1
-MjM2OTU4XX0=
+eyJoaXN0b3J5IjpbLTI2MTI0NzksLTU5Mzg3MjA1MiwtNjM5NT
+M1OTIwLDU3ODI1MDAwMCwtMzYxNTEzMjE4LC0xNjI5NTYxMDU5
+LC0xNjM1NzA3NTMxLC01MTcyMjM2MzUsNjg1Njc1MTQ5LC04Mj
+UzMDU0OCwtMTkzNDg5MzI1LDIwNTI5OTU4NjAsMTU2MTAwMTc1
+NywxODM3NTUyMjkzLC0xMTUwMTMzMjY3LDE1MTM4NDYyMDQsLT
+IxNDY3NjQ0NDcsLTI0MDYwNzA1NSwyMTM1NjAxNjI0LDgxNTIz
+Njk1OF19
 -->
