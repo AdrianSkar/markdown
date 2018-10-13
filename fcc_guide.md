@@ -31,19 +31,9 @@ Make sure to check with `length` and not the overall array.
 > _try to solve the problem now_
 > 
 #### Hint 2
-Use both <code>i</code> and <code>j</code> when multiplying the product.
+Remember to use `arr[i]` when you multiply the sub-arrays with the <code>product</code> variable.
 > _try to solve the problem now_
 > 
-#### Hint 3
-Make sure to check with `length` and not the overall array.
-> _try to solve the problem now_
-> 
-
-:speech_balloon: Hint 2<br>
-
-Use both <code>i</code> and <code>j</code> when multiplying the product.
-
-<em>try to solve the problem now</em>
 
 :speech_balloon: Hint 3<br>
 
@@ -93,7 +83,7 @@ Resources:
   <li><a href="https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/accessing-nested-arrays">Accessing Nested Arrays</a></li>
 </ul>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMDE2NjEwMTIsLTYzOTUzNTkyMCw1Nz
+eyJoaXN0b3J5IjpbLTIwMzU1ODk2MTAsLTYzOTUzNTkyMCw1Nz
 gyNTAwMDAsLTM2MTUxMzIxOCwtMTYyOTU2MTA1OSwtMTYzNTcw
 NzUzMSwtNTE3MjIzNjM1LDY4NTY3NTE0OSwtODI1MzA1NDgsLT
 E5MzQ4OTMyNSwyMDUyOTk1ODYwLDE1NjEwMDE3NTcsMTgzNzU1
