@@ -24,15 +24,12 @@ _This outputs each sub-element in  `arr` one at a time. Note that for the inner 
 
 ----------
 
-Modify function  `multiplyAll`so that it multiplies the  `product`variable by each number in the sub-arrays of  `arr`
+_Modify function  `multiplyAll` so that it multiplies the  `product` variable by each number in the sub-arrays of  `arr`_
 
-<strong>Relevant Links</strong>
-<ul>
-  <li><a href="https://guide.freecodecamp.org/certifications/javascript-algorithms-and-data-structures/basic-javascript/nest-one-array-within-another-array">Nest One Array Within Another Array</a></li>
-  <li><a href="https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/iterate-through-an-array-with-a-for-loop">Iterate Through An Array With A For Loop</a></li>
-  <li><a href="https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/accessing-nested-arrays">Accessing Nested Arrays</a></li>
-</ul>
-  
+#### Hint 1
+Hint X, remember that _text/paraphrasing_<sup><a href="#cite1">1</a></sup>
+> _try to solve the problem now_
+> 
 :speech_balloon: Hint: 1
 
 Make sure to check with <code>length</code> and not the overall array.
@@ -85,20 +82,15 @@ multiplyAll([[1,2],[3,4],[5,6,7]]);
   <li>The two sub-arrays to multiply are <code>arr[i]</code> and <code>j</code>.</li>
 </ul>
 
-:clipboard: <strong>NOTES FOR CONTRIBUTIONS:</strong>
+Resources:
+
 <ul>
-<li>:warning: <strong>DO NOT</strong> add solutions that are similar to any existing solutions. If you think it is similar but better, then try to merge (or replace) the existing similar solution.</li>
-  <li>Add an explanation of your solution.</li>
-<li>Categorize the solution in one of the following categories — Basic, Intermediate and Advanced. :traffic_light:</li>
-<li>Please add your username only if you have added any relevant main contents. (:warning: <em><strong>DO NOT</strong></em> remove any existing usernames)</li>
-  </ul>
-  
-See :point_right: <a href="http://forum.freecodecamp.com/t/algorithm-article-template/14272"> Wiki Challenge Solution Template</a> for reference.
-
-
-
+  <li><a href="https://guide.freecodecamp.org/certifications/javascript-algorithms-and-data-structures/basic-javascript/nest-one-array-within-another-array">Nest One Array Within Another Array</a></li>
+  <li><a href="https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/iterate-through-an-array-with-a-for-loop">Iterate Through An Array With A For Loop</a></li>
+  <li><a href="https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/accessing-nested-arrays">Accessing Nested Arrays</a></li>
+</ul>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MDQ2ODcyODYsLTYzOTUzNTkyMCw1Nz
+eyJoaXN0b3J5IjpbLTIwOTUyMjM2MzYsLTYzOTUzNTkyMCw1Nz
 gyNTAwMDAsLTM2MTUxMzIxOCwtMTYyOTU2MTA1OSwtMTYzNTcw
 NzUzMSwtNTE3MjIzNjM1LDY4NTY3NTE0OSwtODI1MzA1NDgsLT
 E5MzQ4OTMyNSwyMDUyOTk1ODYwLDE1NjEwMDE3NTcsMTgzNzU1
