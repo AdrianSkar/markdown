@@ -19,12 +19,12 @@ for (var i=0; i < arr.length; i++) {
   }
 }
 ```
-_This outputs each sub-element in <code>arr</code> one at a time. Note that for the inner loop, we are checking the length of arr[i], since arr[i] is itself an array.
 
-<ul>
-  <li>Modify function <code>multiplyAll</code> so that it multiplies the <code>product</code> variable by each number in the sub-arrays of <code>arr</code>.</li>
-  <li>Make sure the second for loop is nested inside the first.</li>
-</ul>
+_This outputs each sub-element in  `arr` one at a time. Note that for the inner loop, we are checking the  `.length`of  `arr[i]`, since  `arr[i]`is itself an array._
+
+----------
+
+Modify function  `multiplyAll`so that it multiplies the  `product`variable by each number in the sub-arrays of  `arr`
 
 <strong>Relevant Links</strong>
 <ul>
@@ -98,7 +98,7 @@ See :point_right: <a href="http://forum.freecodecamp.com/t/algorithm-article-tem
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzEwMjEzMTc1LC02Mzk1MzU5MjAsNTc4Mj
+eyJoaXN0b3J5IjpbODEwOTMyODcyLC02Mzk1MzU5MjAsNTc4Mj
 UwMDAwLC0zNjE1MTMyMTgsLTE2Mjk1NjEwNTksLTE2MzU3MDc1
 MzEsLTUxNzIyMzYzNSw2ODU2NzUxNDksLTgyNTMwNTQ4LC0xOT
 M0ODkzMjUsMjA1Mjk5NTg2MCwxNTYxMDAxNzU3LDE4Mzc1NTIy
