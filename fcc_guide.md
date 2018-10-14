@@ -1,81 +1,105 @@
 ---
-title: Nesting For Loops
+title: Profile Lookup
 ---
-## Nesting For Loops
+## Profile Lookup
+![:triangular_flag_on_post:](https://forum.freecodecamp.com/images/emoji/emoji_one/triangular_flag_on_post.png?v=3 ":triangular_flag_on_post:") Remember to use `Read-Search-Ask` if you get stuck. Try to pair program ![:busts_in_silhouette:](https://forum.freecodecamp.com/images/emoji/emoji_one/busts_in_silhouette.png?v=3 ":busts_in_silhouette:") and write your own code ![:pencil:](https://forum.freecodecamp.com/images/emoji/emoji_one/pencil.png?v=3 ":pencil:")
 
-### Problem Explanation:
+### ![:checkered_flag:](https://forum.freecodecamp.com/images/emoji/emoji_one/checkered_flag.png?v=3 ":checkered_flag:") Problem Explanation:
 
-_If you have a multi-dimensional array, you can use the same logic as the prior waypoint to loop through both the array and any sub-arrays._
+We have an array of objects representing different people in our contacts lists.
 
-_Here is an example:_
+A `lookUpProfile()` function that takes **firstName** and a property (**prop**) as arguments has been pre-written for you.
 
-```javascript
-var arr = [
-  [1,2], [3,4], [5,6]
-];
-for (var i=0; i < arr.length; i++) {
-  for (var j=0; j < arr[i].length; j++) {
-    console.log(arr[i][j]);
-  }
-}
-```
+The function should check if **firstName** is an actual contact's **firstName** and the given property (**prop**) is a property of that contact.
 
-_This outputs each sub-element in  `arr` one at a time. Note that for the inner loop, we are checking the  `.length`of  `arr[i]`, since  `arr[i]` is itself an array._
+If both are true, then return the _value_ of that property.
 
-----------
+If **firstName** does not correspond to any contacts then return `No such contact`.
 
-_Modify function  `multiplyAll` so that it multiplies the  `product` variable by each number in the sub-arrays of  `arr`_
+If **prop** does not correspond to any valid properties then return `No such property`.
 
-#### Hint 1
-Make sure to check with `length` and not the overall array.
+*   Change the code below `// Only change code below this line` and up to `// Only change code above this line`.
+*   Ensure that you are editing the inside of the `lookUpProfile()` function.
+    *   This function includes two parameters, **firstName** and **prop**.
+*   The function should look through the **contacts** list for the given **firstName** parameter.
+    *   If there is a match found, the function should then look for the given **prop** parameter.
+    *   If both **firstName** and the associated **prop** are found, you should return the value of the **prop**.
+    *   If **firstName** is found and no associated **prop** is found, you should return `No such property`.
+*   If **firstName** isn't found anywhere, you should return `No such contact`.
+
+#### Relevant Links
+
+*   <a href='http://www.freecodecamp.com/challenges/accessing-objects-properties-with-bracket-notation' target='_blank' rel='nofollow'>Challenge: Accessing Objects Properties with Bracket Notation</a>
+*   <a href='http://www.freecodecamp.com/challenges/iterate-with-javascript-for-loops' target='_blank' rel='nofollow'>Challenge: Iterate with JavaScript For Loops</a>
+
+## ![:speech_balloon:](https://forum.freecodecamp.com/images/emoji/emoji_one/speech_balloon.png?v=3 ":speech_balloon:") Hint: 1
+
+Use a `for` loop to cycle through the **contacts** list.
+
 > _try to solve the problem now_
-> 
-#### Hint 2
-Remember to select the proper values inside arrays (eg: `arr[i][y]`) when you multiply them with the `product` variable.
+
+## ![:speech_balloon:](https://forum.freecodecamp.com/images/emoji/emoji_one/speech_balloon.png?v=3 ":speech_balloon:") Hint: 2
+
+Use a nested `if` statement to first check if the **firstName** matches, and then checks `if` the **prop** matches.
+
 > _try to solve the problem now_
-> 
 
+## ![:speech_balloon:](https://forum.freecodecamp.com/images/emoji/emoji_one/speech_balloon.png?v=3 ":speech_balloon:") Hint: 3
 
-## Spoiler alert!
+Leave your `return "No such contact"` out of the `for` loop as a final catch-all.
+
+> _try to solve the problem now_
+
+## Spoiler Alert!
+
+![warning sign](//discourse-user-assets.s3.amazonaws.com/original/2X/2/2d6c412a50797771301e7ceabd554cef4edcd74d.gif)
 
 **Solution ahead!**
 
-## Code solution:
-```javascript
-function multiplyAll(arr) {
-  var product = 1;
-  // Only change code below this line
-  for (var i=0; i<arr.length;i++){
-    for (var y=0; y<arr[i].length;y++){
-      product *= arr[i][y];
+## ![:beginner:](https://forum.freecodecamp.com/images/emoji/emoji_one/beginner.png?v=3 ":beginner:") Basic Code Solution:
+
+    for (var x = 0; x < contacts.length; x++){
+        if (contacts[x].firstName === name) {
+            if (contacts[x].hasOwnProperty(prop)) {
+                return contacts[x][prop];
+            } else {
+                return "No such property";
+            }
+        }
     }
-  }
-  // Only change code above this line
-  return product;
-}
-// Modify values below to test your code
-multiplyAll([[1,2],[3,4],[5,6,7]]);
-```
-·  Run code at [repl.it](https://repl.it/@AdrianSkar/Basic-JS-Nesting-for-loops).
+    return "No such contact";
 
-### Code explanation
-- A loop is nested inside another. One for the "outer" values (eg: `arr[0]` corresponds to `[1,2]`) and another for the "inner" ones (eg: `arr[0][0]` corresponds to `1`.
- - Both loops run by a limited number of times that are determined by their `condition` statement (eg: `i<arr.length`).
- - Then it multiplies the value stored in the `product` variable by the value corresponding to `arr[i][y]`.
- - The `[final-expression]` on both loops is executed at the end of each one, incrementing their counter variables (`i` and `y` respectively).
+### Code Explanation:
 
+*   The `for` loop runs, starting at the first object in the **contacts** list.
+*   If the **firstName** parameter passed into the function matches the value of the `"firstName"` key in the first object, the `if` statement passes.
+*   Then, we use `.hasOwnProperty()` method (checks if there's a given property and returns a boolean) with **prop** as an argument. If it's true, the value of **prop** is returned.
+    *   If the second `if` statement fails, `No such property` is returned.
+*   If the first `if` statement fails, the `for` loop continues on to the next object in the **contacts** list.
+*   If the **firstName** parameter isn't matched by the final **contacts** object, the `for` loop exits and `No such contact` is returned.
 
-### Resources
-- ["for" - *MDN JavaScript reference*](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for)
-- ["Nest one Array within Another Array" - *fCC's guide*](https://guide.freecodecamp.org/certifications/javascript-algorithms-and-data-structures/basic-javascript/nest-one-array-within-another-array/)
-- ["Accessing Nested Arrays" - *fCC's guide*](https://guide.freecodecamp.org/certifications/javascript-algorithms-and-data-structures/basic-javascript/accessing-nested-arrays/)
-- ["Iterate Through An Array With A For Loop" - *fCC's guide*](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/iterate-through-an-array-with-a-for-loop/)
+**Example Run**
+
+*   `lookUpProfile("Akira","likes");` runs.
+*   `"Akira"` is matched to the `"firstName"` key in the first object, so the `if` statement returns true.
+*   `"likes"` is found within the first object, so the second `if` statement returns true.
+*   The value of `"likes"` is returned - `"Pizza", "Coding", "Brownie Points"`.
+
+## ![:clipboard:](https://forum.freecodecamp.com/images/emoji/emoji_one/clipboard.png?v=3 ":clipboard:") NOTES FOR CONTRIBUTIONS:
+
+*   ![:warning:](https://forum.freecodecamp.com/images/emoji/emoji_one/warning.png?v=3 ":warning:") **DO NOT** add solutions that are similar to any existing solutions. If you think it is **_similar but better_**, then try to merge (or replace) the existing similar solution.
+*   Add an explanation of your solution.
+*   Categorize the solution in one of the following categories — **Basic**, **Intermediate** and **Advanced**. ![:traffic_light:](https://forum.freecodecamp.com/images/emoji/emoji_one/traffic_light.png?v=3 ":traffic_light:")
+*   Please add your username only if you have added any **relevant main contents**. (![:warning:](https://forum.freecodecamp.com/images/emoji/emoji_one/warning.png?v=3 ":warning:") **_DO NOT_** _remove any existing usernames_)
+
+> See ![:point_right:](https://forum.freecodecamp.com/images/emoji/emoji_one/point_right.png?v=3 ":point_right:") <a>**`Wiki Challenge Solution Template`**</a> for reference.
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkxMjUzNTQ0MywtNTkzODcyMDUyLC02Mz
-k1MzU5MjAsNTc4MjUwMDAwLC0zNjE1MTMyMTgsLTE2Mjk1NjEw
-NTksLTE2MzU3MDc1MzEsLTUxNzIyMzYzNSw2ODU2NzUxNDksLT
-gyNTMwNTQ4LC0xOTM0ODkzMjUsMjA1Mjk5NTg2MCwxNTYxMDAx
-NzU3LDE4Mzc1NTIyOTMsLTExNTAxMzMyNjcsMTUxMzg0NjIwNC
-wtMjE0Njc2NDQ0NywtMjQwNjA3MDU1LDIxMzU2MDE2MjQsODE1
-MjM2OTU4XX0=
+eyJoaXN0b3J5IjpbMTU4MzY2ODgwNSwxOTEyNTM1NDQzLC01OT
+M4NzIwNTIsLTYzOTUzNTkyMCw1NzgyNTAwMDAsLTM2MTUxMzIx
+OCwtMTYyOTU2MTA1OSwtMTYzNTcwNzUzMSwtNTE3MjIzNjM1LD
+Y4NTY3NTE0OSwtODI1MzA1NDgsLTE5MzQ4OTMyNSwyMDUyOTk1
+ODYwLDE1NjEwMDE3NTcsMTgzNzU1MjI5MywtMTE1MDEzMzI2Ny
+wxNTEzODQ2MjA0LC0yMTQ2NzY0NDQ3LC0yNDA2MDcwNTUsMjEz
+NTYwMTYyNF19
 -->
