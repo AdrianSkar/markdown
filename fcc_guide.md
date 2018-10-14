@@ -101,7 +101,9 @@ return "No such contact";
 ·  Run code at [repl.it](https://repl.it/@AdrianSkar/Basic-JS-Profile-lookup).
 
 ### Code explanation
-The function first evaluates `if` the condition `(val == 12)` evaluates to `true`. If it does, it returns the statement between the curly braces ("Equal"). If it doesn't, it returns the next `return` statement outside them ("Not equal"). 
+This works as the last example but uses the `in` operator to look for `prop` instead of the `hasOwnProperty()` method.
+
+
 ### Resources
 
 - ["Iterate with JavaScript For Loops" - *fCC's challenge*](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/iterate-with-javascript-for-loops/)
@@ -109,11 +111,11 @@ The function first evaluates `if` the condition `(val == 12)` evaluates to `true
 - ["in operator" - *MDN JavaScript reference*](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/in)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMDI3NTQzOTIsMTA2NTg3MzA5Nyw0Nj
-MzMjAyNjgsMTkxMjUzNTQ0MywtNTkzODcyMDUyLC02Mzk1MzU5
-MjAsNTc4MjUwMDAwLC0zNjE1MTMyMTgsLTE2Mjk1NjEwNTksLT
-E2MzU3MDc1MzEsLTUxNzIyMzYzNSw2ODU2NzUxNDksLTgyNTMw
-NTQ4LC0xOTM0ODkzMjUsMjA1Mjk5NTg2MCwxNTYxMDAxNzU3LD
-E4Mzc1NTIyOTMsLTExNTAxMzMyNjcsMTUxMzg0NjIwNCwtMjE0
-Njc2NDQ0N119
+eyJoaXN0b3J5IjpbMTAxMTg4MTE5NSwxMDY1ODczMDk3LDQ2Mz
+MyMDI2OCwxOTEyNTM1NDQzLC01OTM4NzIwNTIsLTYzOTUzNTky
+MCw1NzgyNTAwMDAsLTM2MTUxMzIxOCwtMTYyOTU2MTA1OSwtMT
+YzNTcwNzUzMSwtNTE3MjIzNjM1LDY4NTY3NTE0OSwtODI1MzA1
+NDgsLTE5MzQ4OTMyNSwyMDUyOTk1ODYwLDE1NjEwMDE3NTcsMT
+gzNzU1MjI5MywtMTE1MDEzMzI2NywxNTEzODQ2MjA0LC0yMTQ2
+NzY0NDQ3XX0=
 -->
