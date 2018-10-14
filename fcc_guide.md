@@ -83,14 +83,15 @@ Leave your `return "No such contact"` out of the `for` loop as a final catch-all
 
 ### Resources
 
+
 *   <a href='http://www.freecodecamp.com/challenges/accessing-objects-properties-with-bracket-notation' target='_blank' rel='nofollow'>Challenge: Accessing Objects Properties with Bracket Notation</a>
 *   <a href='http://www.freecodecamp.com/challenges/iterate-with-javascript-for-loops' target='_blank' rel='nofollow'>Challenge: Iterate with JavaScript For Loops</a>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDYzMzIwMjY4LDE5MTI1MzU0NDMsLTU5Mz
-g3MjA1MiwtNjM5NTM1OTIwLDU3ODI1MDAwMCwtMzYxNTEzMjE4
-LC0xNjI5NTYxMDU5LC0xNjM1NzA3NTMxLC01MTcyMjM2MzUsNj
-g1Njc1MTQ5LC04MjUzMDU0OCwtMTkzNDg5MzI1LDIwNTI5OTU4
-NjAsMTU2MTAwMTc1NywxODM3NTUyMjkzLC0xMTUwMTMzMjY3LD
-E1MTM4NDYyMDQsLTIxNDY3NjQ0NDcsLTI0MDYwNzA1NSwyMTM1
-NjAxNjI0XX0=
+eyJoaXN0b3J5IjpbLTE2NDEyNDgwNzAsNDYzMzIwMjY4LDE5MT
+I1MzU0NDMsLTU5Mzg3MjA1MiwtNjM5NTM1OTIwLDU3ODI1MDAw
+MCwtMzYxNTEzMjE4LC0xNjI5NTYxMDU5LC0xNjM1NzA3NTMxLC
+01MTcyMjM2MzUsNjg1Njc1MTQ5LC04MjUzMDU0OCwtMTkzNDg5
+MzI1LDIwNTI5OTU4NjAsMTU2MTAwMTc1NywxODM3NTUyMjkzLC
+0xMTUwMTMzMjY3LDE1MTM4NDYyMDQsLTIxNDY3NjQ0NDcsLTI0
+MDYwNzA1NV19
 -->
