@@ -27,10 +27,6 @@ If **prop** does not correspond to any valid properties then return `No such pro
     *   If **firstName** is found and no associated **prop** is found, you should return `No such property`.
 *   If **firstName** isn't found anywhere, you should return `No such contact`.
 
-#### Relevant Links
-
-*   <a href='http://www.freecodecamp.com/challenges/accessing-objects-properties-with-bracket-notation' target='_blank' rel='nofollow'>Challenge: Accessing Objects Properties with Bracket Notation</a>
-*   <a href='http://www.freecodecamp.com/challenges/iterate-with-javascript-for-loops' target='_blank' rel='nofollow'>Challenge: Iterate with JavaScript For Loops</a>
 
 ## ![:speech_balloon:](https://forum.freecodecamp.com/images/emoji/emoji_one/speech_balloon.png?v=3 ":speech_balloon:") Hint: 1
 
@@ -94,8 +90,12 @@ Leave your `return "No such contact"` out of the `for` loop as a final catch-all
 
 > See ![:point_right:](https://forum.freecodecamp.com/images/emoji/emoji_one/point_right.png?v=3 ":point_right:") <a>**`Wiki Challenge Solution Template`**</a> for reference.
 
+### Resources
+
+*   <a href='http://www.freecodecamp.com/challenges/accessing-objects-properties-with-bracket-notation' target='_blank' rel='nofollow'>Challenge: Accessing Objects Properties with Bracket Notation</a>
+*   <a href='http://www.freecodecamp.com/challenges/iterate-with-javascript-for-loops' target='_blank' rel='nofollow'>Challenge: Iterate with JavaScript For Loops</a>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU4MzY2ODgwNSwxOTEyNTM1NDQzLC01OT
+eyJoaXN0b3J5IjpbLTQ0NzAwMTc0NywxOTEyNTM1NDQzLC01OT
 M4NzIwNTIsLTYzOTUzNTkyMCw1NzgyNTAwMDAsLTM2MTUxMzIx
 OCwtMTYyOTU2MTA1OSwtMTYzNTcwNzUzMSwtNTE3MjIzNjM1LD
 Y4NTY3NTE0OSwtODI1MzA1NDgsLTE5MzQ4OTMyNSwyMDUyOTk1
