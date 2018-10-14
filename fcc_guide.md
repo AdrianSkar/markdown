@@ -83,11 +83,13 @@ Leave your `return "No such contact"` out of the `for` loop as a final catch-all
 
 ### Resources
 
+- ["if...else" - *MDN JavaScript reference*](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/if...else)
+- ["if...else" - *MDN JavaScript reference*](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/if...else)
 
 *   <a href='http://www.freecodecamp.com/challenges/accessing-objects-properties-with-bracket-notation' target='_blank' rel='nofollow'>Challenge: Accessing Objects Properties with Bracket Notation</a>
 *   <a href='http://www.freecodecamp.com/challenges/iterate-with-javascript-for-loops' target='_blank' rel='nofollow'>Challenge: Iterate with JavaScript For Loops</a>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NDEyNDgwNzAsNDYzMzIwMjY4LDE5MT
+eyJoaXN0b3J5IjpbLTE4MzM4NTg1MDQsNDYzMzIwMjY4LDE5MT
 I1MzU0NDMsLTU5Mzg3MjA1MiwtNjM5NTM1OTIwLDU3ODI1MDAw
 MCwtMzYxNTEzMjE4LC0xNjI5NTYxMDU5LC0xNjM1NzA3NTMxLC
 01MTcyMjM2MzUsNjg1Njc1MTQ5LC04MjUzMDU0OCwtMTkzNDg5
