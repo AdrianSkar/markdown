@@ -84,15 +84,15 @@ Leave your `return "No such contact"` out of the `for` loop as a final catch-all
 ### Resources
 
 - ["Iterate with JavaScript For Loops" - *fCC's challenge*](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/iterate-with-javascript-for-loops/)
- - ["if...else" - *MDN JavaScript reference*](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/if...else)
-- ["if...else" - *MDN JavaScript reference*](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/if...else)
+ - ["Object.prototype.hasOwnProperty()" - *MDN JavaScript reference*](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/hasOwnProperty)
+- ["in operator" - *MDN JavaScript reference*](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/in)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MDcwNTE2OTYsNDYzMzIwMjY4LDE5MT
-I1MzU0NDMsLTU5Mzg3MjA1MiwtNjM5NTM1OTIwLDU3ODI1MDAw
-MCwtMzYxNTEzMjE4LC0xNjI5NTYxMDU5LC0xNjM1NzA3NTMxLC
-01MTcyMjM2MzUsNjg1Njc1MTQ5LC04MjUzMDU0OCwtMTkzNDg5
-MzI1LDIwNTI5OTU4NjAsMTU2MTAwMTc1NywxODM3NTUyMjkzLC
-0xMTUwMTMzMjY3LDE1MTM4NDYyMDQsLTIxNDY3NjQ0NDcsLTI0
-MDYwNzA1NV19
+eyJoaXN0b3J5IjpbMTA2NTg3MzA5Nyw0NjMzMjAyNjgsMTkxMj
+UzNTQ0MywtNTkzODcyMDUyLC02Mzk1MzU5MjAsNTc4MjUwMDAw
+LC0zNjE1MTMyMTgsLTE2Mjk1NjEwNTksLTE2MzU3MDc1MzEsLT
+UxNzIyMzYzNSw2ODU2NzUxNDksLTgyNTMwNTQ4LC0xOTM0ODkz
+MjUsMjA1Mjk5NTg2MCwxNTYxMDAxNzU3LDE4Mzc1NTIyOTMsLT
+ExNTAxMzMyNjcsMTUxMzg0NjIwNCwtMjE0Njc2NDQ0NywtMjQw
+NjA3MDU1XX0=
 -->
