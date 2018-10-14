@@ -57,7 +57,6 @@ Leave your `return "No such contact"` out of the `for` loop as a final catch-all
 
 ``` javascript    
 for (var x = 0; x < contacts.length; x++){
-for (var x = 0; x < contacts.length; x++){
     if (contacts[x].firstName === name) {
         if (contacts[x].hasOwnProperty(prop)) {
             return contacts[x][prop];
@@ -92,7 +91,7 @@ return "No such contact";
 - ["in operator" - *MDN JavaScript reference*](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/in)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg0ODkzNTI4LDEwNjU4NzMwOTcsNDYzMz
+eyJoaXN0b3J5IjpbNzg2ODkxNzU0LDEwNjU4NzMwOTcsNDYzMz
 IwMjY4LDE5MTI1MzU0NDMsLTU5Mzg3MjA1MiwtNjM5NTM1OTIw
 LDU3ODI1MDAwMCwtMzYxNTEzMjE4LC0xNjI5NTYxMDU5LC0xNj
 M1NzA3NTMxLC01MTcyMjM2MzUsNjg1Njc1MTQ5LC04MjUzMDU0
