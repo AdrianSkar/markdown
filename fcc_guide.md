@@ -81,25 +81,16 @@ Leave your `return "No such contact"` out of the `for` loop as a final catch-all
 *   `"likes"` is found within the first object, so the second `if` statement returns true.
 *   The value of `"likes"` is returned - `"Pizza", "Coding", "Brownie Points"`.
 
-## ![:clipboard:](https://forum.freecodecamp.com/images/emoji/emoji_one/clipboard.png?v=3 ":clipboard:") NOTES FOR CONTRIBUTIONS:
-
-*   ![:warning:](https://forum.freecodecamp.com/images/emoji/emoji_one/warning.png?v=3 ":warning:") **DO NOT** add solutions that are similar to any existing solutions. If you think it is **_similar but better_**, then try to merge (or replace) the existing similar solution.
-*   Add an explanation of your solution.
-*   Categorize the solution in one of the following categories — **Basic**, **Intermediate** and **Advanced**. ![:traffic_light:](https://forum.freecodecamp.com/images/emoji/emoji_one/traffic_light.png?v=3 ":traffic_light:")
-*   Please add your username only if you have added any **relevant main contents**. (![:warning:](https://forum.freecodecamp.com/images/emoji/emoji_one/warning.png?v=3 ":warning:") **_DO NOT_** _remove any existing usernames_)
-
-> See ![:point_right:](https://forum.freecodecamp.com/images/emoji/emoji_one/point_right.png?v=3 ":point_right:") <a>**`Wiki Challenge Solution Template`**</a> for reference.
-
 ### Resources
 
 *   <a href='http://www.freecodecamp.com/challenges/accessing-objects-properties-with-bracket-notation' target='_blank' rel='nofollow'>Challenge: Accessing Objects Properties with Bracket Notation</a>
 *   <a href='http://www.freecodecamp.com/challenges/iterate-with-javascript-for-loops' target='_blank' rel='nofollow'>Challenge: Iterate with JavaScript For Loops</a>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ0NzAwMTc0NywxOTEyNTM1NDQzLC01OT
-M4NzIwNTIsLTYzOTUzNTkyMCw1NzgyNTAwMDAsLTM2MTUxMzIx
-OCwtMTYyOTU2MTA1OSwtMTYzNTcwNzUzMSwtNTE3MjIzNjM1LD
-Y4NTY3NTE0OSwtODI1MzA1NDgsLTE5MzQ4OTMyNSwyMDUyOTk1
-ODYwLDE1NjEwMDE3NTcsMTgzNzU1MjI5MywtMTE1MDEzMzI2Ny
-wxNTEzODQ2MjA0LC0yMTQ2NzY0NDQ3LC0yNDA2MDcwNTUsMjEz
-NTYwMTYyNF19
+eyJoaXN0b3J5IjpbNDYzMzIwMjY4LDE5MTI1MzU0NDMsLTU5Mz
+g3MjA1MiwtNjM5NTM1OTIwLDU3ODI1MDAwMCwtMzYxNTEzMjE4
+LC0xNjI5NTYxMDU5LC0xNjM1NzA3NTMxLC01MTcyMjM2MzUsNj
+g1Njc1MTQ5LC04MjUzMDU0OCwtMTkzNDg5MzI1LDIwNTI5OTU4
+NjAsMTU2MTAwMTc1NywxODM3NTUyMjkzLC0xMTUwMTMzMjY3LD
+E1MTM4NDYyMDQsLTIxNDY3NjQ0NDcsLTI0MDYwNzA1NSwyMTM1
+NjAxNjI0XX0=
 -->
