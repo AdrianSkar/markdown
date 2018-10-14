@@ -84,6 +84,24 @@ return "No such contact";
 *   `"likes"` is found within the first object, so the second `if` statement returns true.
 *   The value of `"likes"` is returned - `"Pizza", "Coding", "Brownie Points"`.
 
+## Alternative code solution:
+
+```javascript
+for (var i = 0; i < contacts.length; i++){
+  if (contacts[i].firstName === name){
+    if (prop in contacts[i]){
+      return contacts[i][prop];
+    }
+    else return "No such property"; 
+  }
+}
+return "No such contact";
+}
+```
+·  Run code at [repl.it](https://repl.it/@AdrianSkar/Basic-JS-Profile-lookup).
+
+### Code explanation
+The function first evaluates `if` the condition `(val == 12)` evaluates to `true`. If it does, it returns the statement between the curly braces ("Equal"). If it doesn't, it returns the next `return` statement outside them ("Not equal"). 
 ### Resources
 
 - ["Iterate with JavaScript For Loops" - *fCC's challenge*](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/iterate-with-javascript-for-loops/)
@@ -91,11 +109,11 @@ return "No such contact";
 - ["in operator" - *MDN JavaScript reference*](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/in)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzg2ODkxNzU0LDEwNjU4NzMwOTcsNDYzMz
-IwMjY4LDE5MTI1MzU0NDMsLTU5Mzg3MjA1MiwtNjM5NTM1OTIw
-LDU3ODI1MDAwMCwtMzYxNTEzMjE4LC0xNjI5NTYxMDU5LC0xNj
-M1NzA3NTMxLC01MTcyMjM2MzUsNjg1Njc1MTQ5LC04MjUzMDU0
-OCwtMTkzNDg5MzI1LDIwNTI5OTU4NjAsMTU2MTAwMTc1NywxOD
-M3NTUyMjkzLC0xMTUwMTMzMjY3LDE1MTM4NDYyMDQsLTIxNDY3
-NjQ0NDddfQ==
+eyJoaXN0b3J5IjpbLTIwMDI3NTQzOTIsMTA2NTg3MzA5Nyw0Nj
+MzMjAyNjgsMTkxMjUzNTQ0MywtNTkzODcyMDUyLC02Mzk1MzU5
+MjAsNTc4MjUwMDAwLC0zNjE1MTMyMTgsLTE2Mjk1NjEwNTksLT
+E2MzU3MDc1MzEsLTUxNzIyMzYzNSw2ODU2NzUxNDksLTgyNTMw
+NTQ4LC0xOTM0ODkzMjUsMjA1Mjk5NTg2MCwxNTYxMDAxNzU3LD
+E4Mzc1NTIyOTMsLTExNTAxMzMyNjcsMTUxMzg0NjIwNCwtMjE0
+Njc2NDQ0N119
 -->
