@@ -54,16 +54,20 @@ Leave your `return "No such contact"` out of the `for` loop as a final catch-all
 
 ## ![:beginner:](https://forum.freecodecamp.com/images/emoji/emoji_one/beginner.png?v=3 ":beginner:") Basic Code Solution:
 
-    for (var x = 0; x < contacts.length; x++){
-        if (contacts[x].firstName === name) {
-            if (contacts[x].hasOwnProperty(prop)) {
-                return contacts[x][prop];
-            } else {
-                return "No such property";
-            }
+
+``` javascript    
+for (var x = 0; x < contacts.length; x++){
+for (var x = 0; x < contacts.length; x++){
+    if (contacts[x].firstName === name) {
+        if (contacts[x].hasOwnProperty(prop)) {
+            return contacts[x][prop];
+        } else {
+            return "No such property";
         }
     }
-    return "No such contact";
+}
+return "No such contact";
+ ```
 
 ### Code Explanation:
 
@@ -88,11 +92,11 @@ Leave your `return "No such contact"` out of the `for` loop as a final catch-all
 - ["in operator" - *MDN JavaScript reference*](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/in)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA2NTg3MzA5Nyw0NjMzMjAyNjgsMTkxMj
-UzNTQ0MywtNTkzODcyMDUyLC02Mzk1MzU5MjAsNTc4MjUwMDAw
-LC0zNjE1MTMyMTgsLTE2Mjk1NjEwNTksLTE2MzU3MDc1MzEsLT
-UxNzIyMzYzNSw2ODU2NzUxNDksLTgyNTMwNTQ4LC0xOTM0ODkz
-MjUsMjA1Mjk5NTg2MCwxNTYxMDAxNzU3LDE4Mzc1NTIyOTMsLT
-ExNTAxMzMyNjcsMTUxMzg0NjIwNCwtMjE0Njc2NDQ0NywtMjQw
-NjA3MDU1XX0=
+eyJoaXN0b3J5IjpbLTg0ODkzNTI4LDEwNjU4NzMwOTcsNDYzMz
+IwMjY4LDE5MTI1MzU0NDMsLTU5Mzg3MjA1MiwtNjM5NTM1OTIw
+LDU3ODI1MDAwMCwtMzYxNTEzMjE4LC0xNjI5NTYxMDU5LC0xNj
+M1NzA3NTMxLC01MTcyMjM2MzUsNjg1Njc1MTQ5LC04MjUzMDU0
+OCwtMTkzNDg5MzI1LDIwNTI5OTU4NjAsMTU2MTAwMTc1NywxOD
+M3NTUyMjkzLC0xMTUwMTMzMjY3LDE1MTM4NDYyMDQsLTIxNDY3
+NjQ0NDddfQ==
 -->
