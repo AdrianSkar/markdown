@@ -42,8 +42,6 @@ If our values were `myMin = 1, myMax= 10`, one result could be the following:
 · d) `c + myMin = 9.244326990411024`
 · e) `Math.floor(9.244326990411024) = 9`
 
-### Sources
-<span id="cite1">1</span>. ["Basic JavaScript: Comparison with the Equality Operator", fCC lesson at *Javascript Algorithms And Data Structures Certification*](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/comparison-with-the-equality-operator)
 
 ### Resources
 - ["Boolean" - *MDN Glossary*](https://developer.mozilla.org/en-US/docs/Glossary/Boolean)
@@ -54,8 +52,8 @@ If our values were `myMin = 1, myMax= 10`, one result could be the following:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg4MzAzNzk5OCwxMTE1NTIzMDIsMTAwOT
-M2NzY3MCwtOTA0NTMzNzA3LC0yMTI4NDE5NTg0LDE3MTg4ODEy
-NDksLTE1MTE5OTUxNDIsMTU4MDU5MjU5MSwxNzM0MzQyMzU0XX
-0=
+eyJoaXN0b3J5IjpbLTU4Nzk0ODAyMCwtODgzMDM3OTk4LDExMT
+U1MjMwMiwxMDA5MzY3NjcwLC05MDQ1MzM3MDcsLTIxMjg0MTk1
+ODQsMTcxODg4MTI0OSwtMTUxMTk5NTE0MiwxNTgwNTkyNTkxLD
+E3MzQzNDIzNTRdfQ==
 -->
