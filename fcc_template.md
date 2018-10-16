@@ -32,7 +32,8 @@ function randomRange(myMin, myMax) {
 ·  Run code at [repl.it](https://repl.it/@AdrianSkar/Basic-JS-Random-whole-numbers-within-range).
 
 ### Code explanation
-- `Math.random()` generates our random number betwee. 0 and 0.9 
+- `Math.random()` generates our random number between 0 and ≈ 0.9.
+- Before multiplying it, ir resolves the part between parenthesis `(myMax - myMin + 1)`: 
 
 ### Sources
 <span id="cite1">1</span>. ["Basic JavaScript: Comparison with the Equality Operator", fCC lesson at *Javascript Algorithms And Data Structures Certification*](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/comparison-with-the-equality-operator)
@@ -46,7 +47,7 @@ function randomRange(myMin, myMax) {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk5NjY2NjUyNywxMTE1NTIzMDIsMTAwOT
+eyJoaXN0b3J5IjpbLTc3OTQ3OTEyMCwxMTE1NTIzMDIsMTAwOT
 M2NzY3MCwtOTA0NTMzNzA3LC0yMTI4NDE5NTg0LDE3MTg4ODEy
 NDksLTE1MTE5OTUxNDIsMTU4MDU5MjU5MSwxNzM0MzQyMzU0XX
 0=
