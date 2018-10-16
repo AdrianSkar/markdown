@@ -1,14 +1,18 @@
 ---
-title: Comparison with the equality operator
+title: Generate Random Whole Numbers within a Range
 ---
-## Comparison with the equality operator
+## Generate Random Whole Numbers within a Range
+
+**Help for passing the final test:**
 
 
 ### Problem explanation:
 _Exercise_
 
 #### Hint 1
-Hint X, remember that _text/paraphrasing_<sup><a href="#cite1">1</a></sup>
+`randomRange` should use both `myMax` and `myMin`, and return a random number in your range.
+
+You cannot pass the final test if you are only re-using the function `ourRandomRange` inside your `randomRange` formula. You need to write your own formula that uses the variables `myMax` and `myMin`. It will do the same job as using `ourRandomRange`, but ensures that you have understood the principles of the `Math.floor()` and `Math.random()` functions.
 > _try to solve the problem now_
 
 
@@ -47,7 +51,7 @@ The function first evaluates `if` the condition `(val == 12)` evaluates to `true
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAwOTM2NzY3MCwtOTA0NTMzNzA3LC0yMT
-I4NDE5NTg0LDE3MTg4ODEyNDksLTE1MTE5OTUxNDIsMTU4MDU5
-MjU5MSwxNzM0MzQyMzU0XX0=
+eyJoaXN0b3J5IjpbLTU4MzkxNjU2LDEwMDkzNjc2NzAsLTkwND
+UzMzcwNywtMjEyODQxOTU4NCwxNzE4ODgxMjQ5LC0xNTExOTk1
+MTQyLDE1ODA1OTI1OTEsMTczNDM0MjM1NF19
 -->
