@@ -33,7 +33,8 @@ function randomRange(myMin, myMax) {
 
 ### Code explanation
 - `Math.random()` generates our random number between 0 and ≈ 0.9.
-- Before multiplying it, ir resolves the part between parenthesis `(myMax - myMin + 1)`: 
+- Before multiplying it, ir resolves the part between parenthesis `(myMax - myMin + 1)`.
+- The result of that multplication is followed by adding `mYMin` and then 
 
 ### Sources
 <span id="cite1">1</span>. ["Basic JavaScript: Comparison with the Equality Operator", fCC lesson at *Javascript Algorithms And Data Structures Certification*](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/comparison-with-the-equality-operator)
@@ -47,8 +48,8 @@ function randomRange(myMin, myMax) {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc3OTQ3OTEyMCwxMTE1NTIzMDIsMTAwOT
-M2NzY3MCwtOTA0NTMzNzA3LC0yMTI4NDE5NTg0LDE3MTg4ODEy
-NDksLTE1MTE5OTUxNDIsMTU4MDU5MjU5MSwxNzM0MzQyMzU0XX
-0=
+eyJoaXN0b3J5IjpbODkzODcxNTQwLDExMTU1MjMwMiwxMDA5Mz
+Y3NjcwLC05MDQ1MzM3MDcsLTIxMjg0MTk1ODQsMTcxODg4MTI0
+OSwtMTUxMTk5NTE0MiwxNTgwNTkyNTkxLDE3MzQzNDIzNTRdfQ
+==
 -->
