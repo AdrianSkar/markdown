@@ -4,8 +4,6 @@ title: Generate Random Whole Numbers within a Range
 ## Generate Random Whole Numbers within a Range
 
 
-
-
 ### Problem explanation:
 _Create a function called `randomRange` that takes a range `myMin` and `myMax`and returns a random number that's greater than or equal to `myMin`, and is less than or equal to `myMax`, inclusive._
 
@@ -52,8 +50,8 @@ If the values were `myMin = 1, myMax= 10`, one result could be the following:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MTY3ODcyNzAsLTg4MzAzNzk5OCwxMT
-E1NTIzMDIsMTAwOTM2NzY3MCwtOTA0NTMzNzA3LC0yMTI4NDE5
-NTg0LDE3MTg4ODEyNDksLTE1MTE5OTUxNDIsMTU4MDU5MjU5MS
-wxNzM0MzQyMzU0XX0=
+eyJoaXN0b3J5IjpbMTU3ODA5NzQzMCwtODgzMDM3OTk4LDExMT
+U1MjMwMiwxMDA5MzY3NjcwLC05MDQ1MzM3MDcsLTIxMjg0MTk1
+ODQsMTcxODg4MTI0OSwtMTUxMTk5NTE0MiwxNTgwNTkyNTkxLD
+E3MzQzNDIzNTRdfQ==
 -->
