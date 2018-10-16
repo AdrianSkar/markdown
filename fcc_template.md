@@ -44,16 +44,16 @@ If our values were `myMin = 1, myMax= 10`, one result could be the following:
 
 
 ### Resources
-- ["Boolean" - *MDN Glossary*](https://developer.mozilla.org/en-US/docs/Glossary/Boolean)
 
-- ["if...else" - *MDN JavaScript reference*](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/if...else)
+- ["Math.random()" - *MDN JavaScript reference*](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random)
+- ["Math.floor()" - *MDN JavaScript reference*](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/floor)
 
-- [Samoshkin, Alexey. "Type coercion explained". *freeCodeCamp, Medium*, 17 Jan. 2018.](https://medium.freecodecamp.org/js-type-coercion-explained-27ba3d9a2839) Accessed 2 Sep 2018. 
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU4Nzk0ODAyMCwtODgzMDM3OTk4LDExMT
-U1MjMwMiwxMDA5MzY3NjcwLC05MDQ1MzM3MDcsLTIxMjg0MTk1
-ODQsMTcxODg4MTI0OSwtMTUxMTk5NTE0MiwxNTgwNTkyNTkxLD
-E3MzQzNDIzNTRdfQ==
+eyJoaXN0b3J5IjpbMzAwNzA5MzY0LC04ODMwMzc5OTgsMTExNT
+UyMzAyLDEwMDkzNjc2NzAsLTkwNDUzMzcwNywtMjEyODQxOTU4
+NCwxNzE4ODgxMjQ5LC0xNTExOTk1MTQyLDE1ODA1OTI1OTEsMT
+czNDM0MjM1NF19
 -->
