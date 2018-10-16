@@ -36,9 +36,10 @@ function randomRange(myMin, myMax) {
 - Before multiplying it, ir resolves the part between parenthesis `(myMax - myMin + 1)`.
 - The result of that multplication is followed by adding `mYMin` and then "rounded" to the largest integer less than or equal to it (eg: 9.9 would result in 9)
 If our values were `myMin = 1, myMax= 10`, one result could be the following:
-- `Math.random() = 0.8244326990411024`
-- `(myMax - myMin + 1) = 10 - 1 +1 -> 10`
-- 
+· a) `Math.random() = 0.8244326990411024`
+· b) `(myMax - myMin + 1) = 10 - 1 + 1 -> 10`
+· c) a * b =  08.244326990411024
+· d) c + 
 
 ### Sources
 <span id="cite1">1</span>. ["Basic JavaScript: Comparison with the Equality Operator", fCC lesson at *Javascript Algorithms And Data Structures Certification*](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/comparison-with-the-equality-operator)
@@ -52,8 +53,8 @@ If our values were `myMin = 1, myMax= 10`, one result could be the following:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk3ODMzOTI5MywxMTE1NTIzMDIsMTAwOT
-M2NzY3MCwtOTA0NTMzNzA3LC0yMTI4NDE5NTg0LDE3MTg4ODEy
-NDksLTE1MTE5OTUxNDIsMTU4MDU5MjU5MSwxNzM0MzQyMzU0XX
-0=
+eyJoaXN0b3J5IjpbNzEyNDE1NzYzLDExMTU1MjMwMiwxMDA5Mz
+Y3NjcwLC05MDQ1MzM3MDcsLTIxMjg0MTk1ODQsMTcxODg4MTI0
+OSwtMTUxMTk5NTE0MiwxNTgwNTkyNTkxLDE3MzQzNDIzNTRdfQ
+==
 -->
