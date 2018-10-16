@@ -3,7 +3,7 @@ title: Generate Random Whole Numbers within a Range
 ---
 ## Generate Random Whole Numbers within a Range
 
-**Help for passing the final test:**
+
 
 
 ### Problem explanation:
@@ -52,7 +52,7 @@ If the values were `myMin = 1, myMax= 10`, one result could be the following:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MDYzNDEzMDgsLTg4MzAzNzk5OCwxMT
+eyJoaXN0b3J5IjpbLTE2MTY3ODcyNzAsLTg4MzAzNzk5OCwxMT
 E1NTIzMDIsMTAwOTM2NzY3MCwtOTA0NTMzNzA3LC0yMTI4NDE5
 NTg0LDE3MTg4ODEyNDksLTE1MTE5OTUxNDIsMTU4MDU5MjU5MS
 wxNzM0MzQyMzU0XX0=
