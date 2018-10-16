@@ -34,7 +34,7 @@ function randomRange(myMin, myMax) {
 ### Code explanation
 - `Math.random()` generates our random number between 0 and ≈ 0.9.
 - Before multiplying it, ir resolves the part between parenthesis `(myMax - myMin + 1)`.
-- The result of that multplication is followed by adding `mYMin` and then "rounded" to the largest integer less than or equal to it (eg: 9.9 would result in 9)
+- The result of that multiplication is followed by adding `myMin` and then "rounded" to the largest integer less than or equal to it (eg: 9.9 would result in 9)
 If our values were `myMin = 1, myMax= 10`, one result could be the following:
 · a) `Math.random() = 0.8244326990411024`
 · b) `(myMax - myMin + 1) = 10 - 1 + 1 -> 10`
@@ -47,12 +47,12 @@ If our values were `myMin = 1, myMax= 10`, one result could be the following:
 
 - ["Math.random()" - *MDN JavaScript reference*](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random)
 - ["Math.floor()" - *MDN JavaScript reference*](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/floor)
-
+- ["Grouping operator" - *MDN JavaScript reference*](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Grouping)
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzAwNzA5MzY0LC04ODMwMzc5OTgsMTExNT
+eyJoaXN0b3J5IjpbLTEzMTY1NDA3LC04ODMwMzc5OTgsMTExNT
 UyMzAyLDEwMDkzNjc2NzAsLTkwNDUzMzcwNywtMjEyODQxOTU4
 NCwxNzE4ODgxMjQ5LC0xNTExOTk1MTQyLDE1ODA1OTI1OTEsMT
 czNDM0MjM1NF19
