@@ -12,7 +12,7 @@ _Exercise_
 #### Hint 1
 `randomRange` should use both `myMax` and `myMin`, and return a random number in your range.
 
-You cannot pass the final test if you are only re-using the function `ourRandomRange` inside your `randomRange` formula. You need to write your own formula that uses the variables `myMax` and `myMin`. It will do the same job as using `ourRandomRange`, but ensures that you have understood the principles of the `Math.floor()` and `Math.random()` functions.
+You cannot pass the test if you are only re-using the function `ourRandomRange` inside your `randomRange` formula. You need to write your own formula that uses the variables `myMax` and `myMin`. It will do the same job as using `ourRandomRange`, but ensures that you have understood the principles of the `Math.floor()` and `Math.random()` functions.
 > _try to solve the problem now_
 
 
@@ -51,7 +51,7 @@ The function first evaluates `if` the condition `(val == 12)` evaluates to `true
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU4MzkxNjU2LDEwMDkzNjc2NzAsLTkwND
+eyJoaXN0b3J5IjpbMTExNTUyMzAyLDEwMDkzNjc2NzAsLTkwND
 UzMzcwNywtMjEyODQxOTU4NCwxNzE4ODgxMjQ5LC0xNTExOTk1
 MTQyLDE1ODA1OTI1OTEsMTczNDM0MjM1NF19
 -->
