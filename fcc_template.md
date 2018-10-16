@@ -23,21 +23,16 @@ You cannot pass the test if you are only re-using the function `ourRandomRange` 
 ## Basic code solution:
 
 ```javascript
+function randomRange(myMin, myMax) {
 
-function testEqual(val) {
-  if (val == 12) { // Change this line
-    return "Equal";
-  }
-  return "Not equal";
+  return Math.floor(Math.random() * (myMax - myMin + 1) + myMin);
+
 }
-// Change this value to test
-testEqual(10);
-
 ```
-·  Run code at [repl.it](https://repl.it/@AdrianSkar/Basic-JS-Comparison-with-greater-operator).
+·  Run code at [repl.it](https://repl.it/@AdrianSkar/Basic-JS-Random-whole-numbers-within-range).
 
 ### Code explanation
-The function first evaluates `if` the condition `(val == 12)` evaluates to `true`. If it does, it returns the statement between the curly braces ("Equal"). If it doesn't, it returns the next `return` statement outside them ("Not equal"). 
+- `Math.random()` generates our random number betwee. 0 and 0.9 
 
 ### Sources
 <span id="cite1">1</span>. ["Basic JavaScript: Comparison with the Equality Operator", fCC lesson at *Javascript Algorithms And Data Structures Certification*](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/comparison-with-the-equality-operator)
@@ -51,7 +46,8 @@ The function first evaluates `if` the condition `(val == 12)` evaluates to `true
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTExNTUyMzAyLDEwMDkzNjc2NzAsLTkwND
-UzMzcwNywtMjEyODQxOTU4NCwxNzE4ODgxMjQ5LC0xNTExOTk1
-MTQyLDE1ODA1OTI1OTEsMTczNDM0MjM1NF19
+eyJoaXN0b3J5IjpbLTk5NjY2NjUyNywxMTE1NTIzMDIsMTAwOT
+M2NzY3MCwtOTA0NTMzNzA3LC0yMTI4NDE5NTg0LDE3MTg4ODEy
+NDksLTE1MTE5OTUxNDIsMTU4MDU5MjU5MSwxNzM0MzQyMzU0XX
+0=
 -->
