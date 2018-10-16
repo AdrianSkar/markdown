@@ -33,7 +33,7 @@ function randomRange(myMin, myMax) {
 
 ### Code explanation
 - `Math.random()` generates our random number between 0 and ≈ 0.9.
-- Before multiplying it, it resolves the part between parenthesis `(myMax - myMin + 1)` because of the Grouping operator `(   )`.
+- Before multiplying it, it resolves the part between parenthesis `(myMax - myMin + 1)` because of the grouping operator `(   )`.
 - The result of that multiplication is followed by adding `myMin` and then "rounded" to the largest integer less than or equal to it (eg: 9.9 would result in 9)
 If our values were `myMin = 1, myMax= 10`, one result could be the following:
 · a) `Math.random() = 0.8244326990411024`
@@ -52,7 +52,7 @@ If our values were `myMin = 1, myMax= 10`, one result could be the following:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NDc1NTk0MTUsLTg4MzAzNzk5OCwxMT
+eyJoaXN0b3J5IjpbLTEwMjc4OTk5MjcsLTg4MzAzNzk5OCwxMT
 E1NTIzMDIsMTAwOTM2NzY3MCwtOTA0NTMzNzA3LC0yMTI4NDE5
 NTg0LDE3MTg4ODEyNDksLTE1MTE5OTUxNDIsMTU4MDU5MjU5MS
 wxNzM0MzQyMzU0XX0=
