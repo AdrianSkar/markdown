@@ -7,7 +7,7 @@ title: Generate Random Whole Numbers within a Range
 
 
 ### Problem explanation:
-_Exercise_
+_Create a function called `randomRange` that takes a range `myMin` and `myMax`and returns a random number that's greater than or equal to `myMin`, and is less than or equal to `myMax`, inclusive._
 
 #### Hint 1
 `randomRange` should use both `myMax` and `myMin`, and return a random number in your range.
@@ -52,8 +52,8 @@ If the values were `myMin = 1, myMax= 10`, one result could be the following:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIyOTc0NiwtODgzMDM3OTk4LDExMTU1Mj
-MwMiwxMDA5MzY3NjcwLC05MDQ1MzM3MDcsLTIxMjg0MTk1ODQs
-MTcxODg4MTI0OSwtMTUxMTk5NTE0MiwxNTgwNTkyNTkxLDE3Mz
-QzNDIzNTRdfQ==
+eyJoaXN0b3J5IjpbLTE3MDYzNDEzMDgsLTg4MzAzNzk5OCwxMT
+E1NTIzMDIsMTAwOTM2NzY3MCwtOTA0NTMzNzA3LC0yMTI4NDE5
+NTg0LDE3MTg4ODEyNDksLTE1MTE5OTUxNDIsMTU4MDU5MjU5MS
+wxNzM0MzQyMzU0XX0=
 -->
