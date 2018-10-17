@@ -1,57 +1,118 @@
 ---
-title: Generate Random Whole Numbers within a Range
+title: Profile Lookup
 ---
-## Generate Random Whole Numbers within a Range
+## Profile Lookup
+![:triangular_flag_on_post:](https://forum.freecodecamp.com/images/emoji/emoji_one/triangular_flag_on_post.png?v=3 ":triangular_flag_on_post:") Remember to use `Read-Search-Ask` if you get stuck. Try to pair program ![:busts_in_silhouette:](https://forum.freecodecamp.com/images/emoji/emoji_one/busts_in_silhouette.png?v=3 ":busts_in_silhouette:") and write your own code ![:pencil:](https://forum.freecodecamp.com/images/emoji/emoji_one/pencil.png?v=3 ":pencil:")
+
+### ![:checkered_flag:](https://forum.freecodecamp.com/images/emoji/emoji_one/checkered_flag.png?v=3 ":checkered_flag:") Problem Explanation:
+
+We have an array of objects representing different people in our contacts lists.
+
+A `lookUpProfile()` function that takes **firstName** and a property (**prop**) as arguments has been pre-written for you.
+
+The function should check if **firstName** is an actual contact's **firstName** and the given property (**prop**) is a property of that contact.
+
+If both are true, then return the _value_ of that property.
+
+If **firstName** does not correspond to any contacts then return `No such contact`.
+
+If **prop** does not correspond to any valid properties then return `No such property`.
+
+*   Change the code below `// Only change code below this line` and up to `// Only change code above this line`.
+*   Ensure that you are editing the inside of the `lookUpProfile()` function.
+    *   This function includes two parameters, **firstName** and **prop**.
+*   The function should look through the **contacts** list for the given **firstName** parameter.
+    *   If there is a match found, the function should then look for the given **prop** parameter.
+    *   If both **firstName** and the associated **prop** are found, you should return the value of the **prop**.
+    *   If **firstName** is found and no associated **prop** is found, you should return `No such property`.
+*   If **firstName** isn't found anywhere, you should return `No such contact`.
 
 
-### Problem explanation:
-_Create a function called `randomRange` that takes a range `myMin` and `myMax`and returns a random number that's greater than or equal to `myMin`, and is less than or equal to `myMax`, inclusive._
+## ![:speech_balloon:](https://forum.freecodecamp.com/images/emoji/emoji_one/speech_balloon.png?v=3 ":speech_balloon:") Hint: 1
 
-#### Hint 1
-`randomRange` should use both `myMax` and `myMin`, and return a random number in your range.
+Use a `for` loop to cycle through the **contacts** list.
 
-You cannot pass the test if you are only re-using the function `ourRandomRange` inside your `randomRange` formula. You need to write your own formula that uses the variables `myMax` and `myMin`. It will do the same job as using `ourRandomRange`, but ensures that you have understood the principles of the `Math.floor()` and `Math.random()` functions.
 > _try to solve the problem now_
 
+## ![:speech_balloon:](https://forum.freecodecamp.com/images/emoji/emoji_one/speech_balloon.png?v=3 ":speech_balloon:") Hint: 2
 
-## Spoiler alert!
+Use a nested `if` statement to first check if the **firstName** matches, and then checks `if` the **prop** matches.
+
+> _try to solve the problem now_
+
+## ![:speech_balloon:](https://forum.freecodecamp.com/images/emoji/emoji_one/speech_balloon.png?v=3 ":speech_balloon:") Hint: 3
+
+Leave your `return "No such contact"` out of the `for` loop as a final catch-all.
+
+> _try to solve the problem now_
+
+## Spoiler Alert!
+
+![warning sign](//discourse-user-assets.s3.amazonaws.com/original/2X/2/2d6c412a50797771301e7ceabd554cef4edcd74d.gif)
 
 **Solution ahead!**
 
-## Basic code solution:
+## ![:beginner:](https://forum.freecodecamp.com/images/emoji/emoji_one/beginner.png?v=3 ":beginner:") Basic Code Solution:
+
+
+``` javascript    
+for (var x = 0; x < contacts.length; x++){
+    if (contacts[x].firstName === name) {
+        if (contacts[x].hasOwnProperty(prop)) {
+            return contacts[x][prop];
+        } else {
+            return "No such property";
+        }
+    }
+}
+return "No such contact";
+ ```
+
+### Code Explanation:
+
+*   The `for` loop runs, starting at the first object in the **contacts** list.
+*   If the **firstName** parameter passed into the function matches the value of the `"firstName"` key in the first object, the `if` statement passes.
+*   Then, we use `.hasOwnProperty()` method (checks if there's a given property and returns a boolean) with **prop** as an argument. If it's true, the value of **prop** is returned.
+    *   If the second `if` statement fails, `No such property` is returned.
+*   If the first `if` statement fails, the `for` loop continues on to the next object in the **contacts** list.
+*   If the **firstName** parameter isn't matched by the final **contacts** object, the `for` loop exits and `No such contact` is returned.
+
+**Example Run**
+
+*   `lookUpProfile("Akira","likes");` runs.
+*   `"Akira"` is matched to the `"firstName"` key in the first object, so the `if` statement returns true.
+*   `"likes"` is found within the first object, so the second `if` statement returns true.
+*   The value of `"likes"` is returned - `"Pizza", "Coding", "Brownie Points"`.
+
+## Alternative code solution:
 
 ```javascript
-function randomRange(myMin, myMax) {
-
-  return Math.floor(Math.random() * (myMax - myMin + 1) + myMin);
-
+for (var i = 0; i < contacts.length; i++){
+  if (contacts[i].firstName === name){
+    if (prop in contacts[i]){
+      return contacts[i][prop];
+    }
+    else return "No such property"; 
+  }
+}
+return "No such contact";
 }
 ```
-·  Run code at [repl.it](https://repl.it/@AdrianSkar/Basic-JS-Random-whole-numbers-within-range).
+·  Run code at [repl.it](https://repl.it/@AdrianSkar/Basic-JS-Profile-lookup).
 
 ### Code explanation
-- `Math.random()` generates our random number between 0 and ≈ 0.9.
-- Before multiplying it, it resolves the part between parenthesis `(myMax - myMin + 1)` because of the grouping operator `(   )`.
-- The result of that multiplication is followed by adding `myMin` and then "rounded" to the largest integer less than or equal to it (eg: 9.9 would result in 9)
-If the values were `myMin = 1, myMax= 10`, one result could be the following:
-· a) `Math.random() = 0.8244326990411024`
-· b) `(myMax - myMin + 1) = 10 - 1 + 1 -> 10`
-· c) `a * b =  8.244326990411024`
-· d) `c + myMin = 9.244326990411024`
-· e) `Math.floor(9.244326990411024) = 9`
+This works as the last example but uses the `in` operator to look for `prop` instead of the `hasOwnProperty()` method.
 
 
 ### Resources
 
-- ["Math.random()" - *MDN JavaScript reference*](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random)
-- ["Math.floor()" - *MDN JavaScript reference*](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/floor)
-- ["Grouping operator" - *MDN JavaScript reference*](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Grouping)
-
-
+- ["Iterate with JavaScript For Loops" - *fCC's challenge*](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/iterate-with-javascript-for-loops/)
+ - ["Object.prototype.hasOwnProperty()" - *MDN JavaScript reference*](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/hasOwnProperty)
+- ["in operator" - *MDN JavaScript reference*](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/in)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU3ODA5NzQzMCwtODgzMDM3OTk4LDExMT
-U1MjMwMiwxMDA5MzY3NjcwLC05MDQ1MzM3MDcsLTIxMjg0MTk1
-ODQsMTcxODg4MTI0OSwtMTUxMTk5NTE0MiwxNTgwNTkyNTkxLD
-E3MzQzNDIzNTRdfQ==
+eyJoaXN0b3J5IjpbMTAxMTg4MTE5NSwxNTc4MDk3NDMwLC04OD
+MwMzc5OTgsMTExNTUyMzAyLDEwMDkzNjc2NzAsLTkwNDUzMzcw
+NywtMjEyODQxOTU4NCwxNzE4ODgxMjQ5LC0xNTExOTk1MTQyLD
+E1ODA1OTI1OTEsMTczNDM0MjM1NF19
 -->
