@@ -26,23 +26,23 @@ function checkEqual(a, b) {
 ·  Run code at [repl.it](https://repl.it/@AdrianSkar/Basic-JS-Ternary-operator).
 
 ### Code explanation
-- The function checks if the `condition` before the interrogation sign (`?`) is true and, if so, executes the `true` statement. Otherwise, returns `false`.
+- The function checks if the `condition` before the interrogation sign (`?`) is true and, if so, executes the `true` statement. Otherwise, it returns `false`.
 
 
 ### Resources
 
-- ["parseInt()" - *MDN JavaScript reference*](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/parseInt)
-- ["Radix" - *Wikipedia*](https://en.wikipedia.org/wiki/Radix)
+- ["Conditional (ternary) operator" - *MDN JavaScript reference*](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_Operator)
+
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTEwOTg1NDUsMTMwNjkxODM0NSw2MDY3Mz
-c3NTMsODU4MTM4MDAsMTAxMTg4MTE5NSwxMDY1ODczMDk3LDQ2
-MzMyMDI2OCwxOTEyNTM1NDQzLC01OTM4NzIwNTIsLTYzOTUzNT
-kyMCw1NzgyNTAwMDAsLTM2MTUxMzIxOCwtMTYyOTU2MTA1OSwt
-MTYzNTcwNzUzMSwtNTE3MjIzNjM1LDY4NTY3NTE0OSwtODI1Mz
-A1NDgsLTE5MzQ4OTMyNSwyMDUyOTk1ODYwLDE1NjEwMDE3NTdd
-fQ==
+eyJoaXN0b3J5IjpbMTI3MjA0MTAyNCwxMzA2OTE4MzQ1LDYwNj
+czNzc1Myw4NTgxMzgwMCwxMDExODgxMTk1LDEwNjU4NzMwOTcs
+NDYzMzIwMjY4LDE5MTI1MzU0NDMsLTU5Mzg3MjA1MiwtNjM5NT
+M1OTIwLDU3ODI1MDAwMCwtMzYxNTEzMjE4LC0xNjI5NTYxMDU5
+LC0xNjM1NzA3NTMxLC01MTcyMjM2MzUsNjg1Njc1MTQ5LC04Mj
+UzMDU0OCwtMTkzNDg5MzI1LDIwNTI5OTU4NjAsMTU2MTAwMTc1
+N119
 -->
