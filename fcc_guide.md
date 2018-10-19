@@ -10,7 +10,11 @@ _Use the `conditional operator` in the `checkEqual` function to check if two num
 Remember that the "traditional" `if...else` syntax can be re-written using the conditional operator (`condition ? statement if true : statement if false;`)
 > _try to solve the problem now_
 > 
+> 
 
+ 1. 
+ 2. 
+ 3. 
 
 ## Spoiler alert!
 
@@ -38,11 +42,11 @@ function checkEqual(a, b) {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI3MjA0MTAyNCwxMzA2OTE4MzQ1LDYwNj
-czNzc1Myw4NTgxMzgwMCwxMDExODgxMTk1LDEwNjU4NzMwOTcs
-NDYzMzIwMjY4LDE5MTI1MzU0NDMsLTU5Mzg3MjA1MiwtNjM5NT
-M1OTIwLDU3ODI1MDAwMCwtMzYxNTEzMjE4LC0xNjI5NTYxMDU5
-LC0xNjM1NzA3NTMxLC01MTcyMjM2MzUsNjg1Njc1MTQ5LC04Mj
-UzMDU0OCwtMTkzNDg5MzI1LDIwNTI5OTU4NjAsMTU2MTAwMTc1
-N119
+eyJoaXN0b3J5IjpbMTIyMTU4OTY2LDEyNzIwNDEwMjQsMTMwNj
+kxODM0NSw2MDY3Mzc3NTMsODU4MTM4MDAsMTAxMTg4MTE5NSwx
+MDY1ODczMDk3LDQ2MzMyMDI2OCwxOTEyNTM1NDQzLC01OTM4Nz
+IwNTIsLTYzOTUzNTkyMCw1NzgyNTAwMDAsLTM2MTUxMzIxOCwt
+MTYyOTU2MTA1OSwtMTYzNTcwNzUzMSwtNTE3MjIzNjM1LDY4NT
+Y3NTE0OSwtODI1MzA1NDgsLTE5MzQ4OTMyNSwyMDUyOTk1ODYw
+XX0=
 -->
