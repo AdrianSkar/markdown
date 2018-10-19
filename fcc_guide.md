@@ -7,8 +7,7 @@ title: Use the Conditional (Ternary) Operator
 _Use the `conditional operator` in the `checkEqual` function to check if two numbers are equal or not. The function should return either true or false._
 
 #### Hint 1
-If you use a variable to assign the result of `parseInt(str)` to it, remember to return that variable. 
-Otherwise you can just use a `return` statement for your function.
+Remember that the "traditional" `if...else` syntax can be re-written using the conditional operator (`condition ? )
 > _try to solve the problem now_
 > 
 #### Hint 2
@@ -42,11 +41,11 @@ convertToInteger("10011");
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMwNjkxODM0NSw2MDY3Mzc3NTMsODU4MT
-M4MDAsMTAxMTg4MTE5NSwxMDY1ODczMDk3LDQ2MzMyMDI2OCwx
-OTEyNTM1NDQzLC01OTM4NzIwNTIsLTYzOTUzNTkyMCw1NzgyNT
-AwMDAsLTM2MTUxMzIxOCwtMTYyOTU2MTA1OSwtMTYzNTcwNzUz
-MSwtNTE3MjIzNjM1LDY4NTY3NTE0OSwtODI1MzA1NDgsLTE5Mz
-Q4OTMyNSwyMDUyOTk1ODYwLDE1NjEwMDE3NTcsMTgzNzU1MjI5
-M119
+eyJoaXN0b3J5IjpbMTQxOTE2NDAzMCwxMzA2OTE4MzQ1LDYwNj
+czNzc1Myw4NTgxMzgwMCwxMDExODgxMTk1LDEwNjU4NzMwOTcs
+NDYzMzIwMjY4LDE5MTI1MzU0NDMsLTU5Mzg3MjA1MiwtNjM5NT
+M1OTIwLDU3ODI1MDAwMCwtMzYxNTEzMjE4LC0xNjI5NTYxMDU5
+LC0xNjM1NzA3NTMxLC01MTcyMjM2MzUsNjg1Njc1MTQ5LC04Mj
+UzMDU0OCwtMTkzNDg5MzI1LDIwNTI5OTU4NjAsMTU2MTAwMTc1
+N119
 -->
