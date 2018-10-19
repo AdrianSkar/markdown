@@ -1,11 +1,10 @@
 ---
-title: Use the parseInt Function with a Radix
+title: Use the Conditional (Ternary) Operator
 ---
-## Use the parseInt Function with a Radix
-
+## Use the Conditional (Ternary) Operator
 
 ### Problem explanation:
-_Use `parseInt()` in the `convertToInteger` function so it converts a binary number to an integer and returns it._
+_Use the `conditional operator`in the `checkEqual`function to check if two numbers are equal or not. The function should return either true or false._
 
 #### Hint 1
 If you use a variable to assign the result of `parseInt(str)` to it, remember to return that variable. 
@@ -43,11 +42,11 @@ convertToInteger("10011");
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjA2NzM3NzUzLDg1ODEzODAwLDEwMTE4OD
-ExOTUsMTA2NTg3MzA5Nyw0NjMzMjAyNjgsMTkxMjUzNTQ0Mywt
-NTkzODcyMDUyLC02Mzk1MzU5MjAsNTc4MjUwMDAwLC0zNjE1MT
-MyMTgsLTE2Mjk1NjEwNTksLTE2MzU3MDc1MzEsLTUxNzIyMzYz
-NSw2ODU2NzUxNDksLTgyNTMwNTQ4LC0xOTM0ODkzMjUsMjA1Mj
-k5NTg2MCwxNTYxMDAxNzU3LDE4Mzc1NTIyOTMsLTExNTAxMzMy
-NjddfQ==
+eyJoaXN0b3J5IjpbMTI5OTE2NjA5Myw2MDY3Mzc3NTMsODU4MT
+M4MDAsMTAxMTg4MTE5NSwxMDY1ODczMDk3LDQ2MzMyMDI2OCwx
+OTEyNTM1NDQzLC01OTM4NzIwNTIsLTYzOTUzNTkyMCw1NzgyNT
+AwMDAsLTM2MTUxMzIxOCwtMTYyOTU2MTA1OSwtMTYzNTcwNzUz
+MSwtNTE3MjIzNjM1LDY4NTY3NTE0OSwtODI1MzA1NDgsLTE5Mz
+Q4OTMyNSwyMDUyOTk1ODYwLDE1NjEwMDE3NTcsMTgzNzU1MjI5
+M119
 -->
