@@ -26,7 +26,7 @@ function checkEqual(a, b) {
 ·  Run code at [repl.it](https://repl.it/@AdrianSkar/Basic-JS-Ternary-operator).
 
 ### Code explanation
-- The function takes checks if the `condition` before the interrogation sign (.
+- The function checks if the `condition` before the interrogation sign (`?`) is true and, if so, executes the `true` statement. Otherwise, returns `false`.
 
 
 ### Resources
@@ -38,11 +38,11 @@ function checkEqual(a, b) {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MDA1ODc4MzUsMTMwNjkxODM0NSw2MD
-Y3Mzc3NTMsODU4MTM4MDAsMTAxMTg4MTE5NSwxMDY1ODczMDk3
-LDQ2MzMyMDI2OCwxOTEyNTM1NDQzLC01OTM4NzIwNTIsLTYzOT
-UzNTkyMCw1NzgyNTAwMDAsLTM2MTUxMzIxOCwtMTYyOTU2MTA1
-OSwtMTYzNTcwNzUzMSwtNTE3MjIzNjM1LDY4NTY3NTE0OSwtOD
-I1MzA1NDgsLTE5MzQ4OTMyNSwyMDUyOTk1ODYwLDE1NjEwMDE3
-NTddfQ==
+eyJoaXN0b3J5IjpbOTEwOTg1NDUsMTMwNjkxODM0NSw2MDY3Mz
+c3NTMsODU4MTM4MDAsMTAxMTg4MTE5NSwxMDY1ODczMDk3LDQ2
+MzMyMDI2OCwxOTEyNTM1NDQzLC01OTM4NzIwNTIsLTYzOTUzNT
+kyMCw1NzgyNTAwMDAsLTM2MTUxMzIxOCwtMTYyOTU2MTA1OSwt
+MTYzNTcwNzUzMSwtNTE3MjIzNjM1LDY4NTY3NTE0OSwtODI1Mz
+A1NDgsLTE5MzQ4OTMyNSwyMDUyOTk1ODYwLDE1NjEwMDE3NTdd
+fQ==
 -->
