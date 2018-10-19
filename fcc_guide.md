@@ -36,18 +36,18 @@ convertToInteger("10011");
 
 ### Resources
 
-- ["Math.random()" - *MDN JavaScript reference*](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random)
-- ["Math.floor()" - *MDN JavaScript reference*](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/floor)
+- ["parseInt()" - *MDN JavaScript reference*](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/parseInt)
+- ["Radic" - *MDN JavaScript reference*](https://en.wikipedia.org/wiki/Radix)
 - ["Grouping operator" - *MDN JavaScript reference*](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Grouping)
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgwODEzNjQ2LDg1ODEzODAwLDEwMTE4OD
-ExOTUsMTA2NTg3MzA5Nyw0NjMzMjAyNjgsMTkxMjUzNTQ0Mywt
-NTkzODcyMDUyLC02Mzk1MzU5MjAsNTc4MjUwMDAwLC0zNjE1MT
-MyMTgsLTE2Mjk1NjEwNTksLTE2MzU3MDc1MzEsLTUxNzIyMzYz
-NSw2ODU2NzUxNDksLTgyNTMwNTQ4LC0xOTM0ODkzMjUsMjA1Mj
-k5NTg2MCwxNTYxMDAxNzU3LDE4Mzc1NTIyOTMsLTExNTAxMzMy
-NjddfQ==
+eyJoaXN0b3J5IjpbLTEwNjYzNjYxMDgsODU4MTM4MDAsMTAxMT
+g4MTE5NSwxMDY1ODczMDk3LDQ2MzMyMDI2OCwxOTEyNTM1NDQz
+LC01OTM4NzIwNTIsLTYzOTUzNTkyMCw1NzgyNTAwMDAsLTM2MT
+UxMzIxOCwtMTYyOTU2MTA1OSwtMTYzNTcwNzUzMSwtNTE3MjIz
+NjM1LDY4NTY3NTE0OSwtODI1MzA1NDgsLTE5MzQ4OTMyNSwyMD
+UyOTk1ODYwLDE1NjEwMDE3NTcsMTgzNzU1MjI5MywtMTE1MDEz
+MzI2N119
 -->
