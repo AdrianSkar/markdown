@@ -37,13 +37,13 @@ convertToInteger("10011");
 ### Resources
 
 - ["parseInt()" - *MDN JavaScript reference*](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/parseInt)
-- ["Radic" - *MDN JavaScript reference*](https://en.wikipedia.org/wiki/Radix)
-- ["Grouping operator" - *MDN JavaScript reference*](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Grouping)
+- ["Radix" - *Wikipedia*](https://en.wikipedia.org/wiki/Radix)
+
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNjYzNjYxMDgsODU4MTM4MDAsMTAxMT
+eyJoaXN0b3J5IjpbLTEyNzkyNDUwNTcsODU4MTM4MDAsMTAxMT
 g4MTE5NSwxMDY1ODczMDk3LDQ2MzMyMDI2OCwxOTEyNTM1NDQz
 LC01OTM4NzIwNTIsLTYzOTUzNTkyMCw1NzgyNTAwMDAsLTM2MT
 UxMzIxOCwtMTYyOTU2MTA1OSwtMTYzNTcwNzUzMSwtNTE3MjIz
