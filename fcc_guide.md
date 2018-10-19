@@ -12,7 +12,7 @@ If you use a variable to assign the result of `parseInt(str)` to it, remember to
 Otherwise you can just use a `return` statement for your function.
 > _try to solve the problem now_
 > 
-#### Hint 
+#### Hint 2
 In this exercise you need to "convert" a binary number into a decimal number using the `radix` parameter in order to specify the base on which the input number is represented on.
 > _try to solve the problem now_
 
@@ -43,11 +43,11 @@ convertToInteger("10011");
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNzkyNDUwNTcsODU4MTM4MDAsMTAxMT
-g4MTE5NSwxMDY1ODczMDk3LDQ2MzMyMDI2OCwxOTEyNTM1NDQz
-LC01OTM4NzIwNTIsLTYzOTUzNTkyMCw1NzgyNTAwMDAsLTM2MT
-UxMzIxOCwtMTYyOTU2MTA1OSwtMTYzNTcwNzUzMSwtNTE3MjIz
-NjM1LDY4NTY3NTE0OSwtODI1MzA1NDgsLTE5MzQ4OTMyNSwyMD
-UyOTk1ODYwLDE1NjEwMDE3NTcsMTgzNzU1MjI5MywtMTE1MDEz
-MzI2N119
+eyJoaXN0b3J5IjpbNjA2NzM3NzUzLDg1ODEzODAwLDEwMTE4OD
+ExOTUsMTA2NTg3MzA5Nyw0NjMzMjAyNjgsMTkxMjUzNTQ0Mywt
+NTkzODcyMDUyLC02Mzk1MzU5MjAsNTc4MjUwMDAwLC0zNjE1MT
+MyMTgsLTE2Mjk1NjEwNTksLTE2MzU3MDc1MzEsLTUxNzIyMzYz
+NSw2ODU2NzUxNDksLTgyNTMwNTQ4LC0xOTM0ODkzMjUsMjA1Mj
+k5NTg2MCwxNTYxMDAxNzU3LDE4Mzc1NTIyOTMsLTExNTAxMzMy
+NjddfQ==
 -->
