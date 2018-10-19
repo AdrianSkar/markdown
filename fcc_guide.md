@@ -1,17 +1,15 @@
-
 ---
-title: Generate Random Whole Numbers within a Range
+title: Use the parseInt Function with a Radix
 ---
-## Generate Random Whole Numbers within a Range
+## Use the parseInt Function with a Radix
 
 
 ### Problem explanation:
-_Create a function called `randomRange` that takes a range `myMin` and `myMax`and returns a random number that's greater than or equal to `myMin`, and is less than or equal to `myMax`, inclusive._
+_Use `parseInt()` in the `convertToInteger` function so it converts a binary number to an integer and returns it._
 
 #### Hint 1
-`randomRange` should use both `myMax` and `myMin`, and return a random number in your range.
-
-You cannot pass the test if you are only re-using the function `ourRandomRange` inside your `randomRange` formula. You need to write your own formula that uses the variables `myMax` and `myMin`. It will do the same job as using `ourRandomRange`, but ensures that you have understood the principles of the `Math.floor()` and `Math.random()` functions.
+If you use a variable to assign the result of `parseInt(str)` to it, remember to return that variable. 
+Otherwise you can just 
 > _try to solve the problem now_
 
 
@@ -51,11 +49,11 @@ If the values were `myMin = 1, myMax= 10`, one result could be the following:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODU4MTM4MDAsMTAxMTg4MTE5NSwxMDY1OD
-czMDk3LDQ2MzMyMDI2OCwxOTEyNTM1NDQzLC01OTM4NzIwNTIs
-LTYzOTUzNTkyMCw1NzgyNTAwMDAsLTM2MTUxMzIxOCwtMTYyOT
-U2MTA1OSwtMTYzNTcwNzUzMSwtNTE3MjIzNjM1LDY4NTY3NTE0
-OSwtODI1MzA1NDgsLTE5MzQ4OTMyNSwyMDUyOTk1ODYwLDE1Nj
-EwMDE3NTcsMTgzNzU1MjI5MywtMTE1MDEzMzI2NywxNTEzODQ2
-MjA0XX0=
+eyJoaXN0b3J5IjpbLTE4NjAxNzM3MjEsODU4MTM4MDAsMTAxMT
+g4MTE5NSwxMDY1ODczMDk3LDQ2MzMyMDI2OCwxOTEyNTM1NDQz
+LC01OTM4NzIwNTIsLTYzOTUzNTkyMCw1NzgyNTAwMDAsLTM2MT
+UxMzIxOCwtMTYyOTU2MTA1OSwtMTYzNTcwNzUzMSwtNTE3MjIz
+NjM1LDY4NTY3NTE0OSwtODI1MzA1NDgsLTE5MzQ4OTMyNSwyMD
+UyOTk1ODYwLDE1NjEwMDE3NTcsMTgzNzU1MjI5MywtMTE1MDEz
+MzI2N119
 -->
