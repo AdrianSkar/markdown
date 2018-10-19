@@ -13,7 +13,7 @@ Otherwise you can just use a `return` statement for your function.
 > _try to solve the problem now_
 > 
 #### Hint 
-In this exercise you need to "convert" a binary number into a 
+In this exercise you need to "convert" a binary number into a decimal number using the `radix` parameter in order to specify the base on which the input number
 > _try to solve the problem now_
 
 ## Spoiler alert!
@@ -52,11 +52,11 @@ If the values were `myMin = 1, myMax= 10`, one result could be the following:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgyNzM3MzAzMiw4NTgxMzgwMCwxMDExOD
-gxMTk1LDEwNjU4NzMwOTcsNDYzMzIwMjY4LDE5MTI1MzU0NDMs
-LTU5Mzg3MjA1MiwtNjM5NTM1OTIwLDU3ODI1MDAwMCwtMzYxNT
-EzMjE4LC0xNjI5NTYxMDU5LC0xNjM1NzA3NTMxLC01MTcyMjM2
-MzUsNjg1Njc1MTQ5LC04MjUzMDU0OCwtMTkzNDg5MzI1LDIwNT
-I5OTU4NjAsMTU2MTAwMTc1NywxODM3NTUyMjkzLC0xMTUwMTMz
-MjY3XX0=
+eyJoaXN0b3J5IjpbLTE0Nzk2OTc1NTksODU4MTM4MDAsMTAxMT
+g4MTE5NSwxMDY1ODczMDk3LDQ2MzMyMDI2OCwxOTEyNTM1NDQz
+LC01OTM4NzIwNTIsLTYzOTUzNTkyMCw1NzgyNTAwMDAsLTM2MT
+UxMzIxOCwtMTYyOTU2MTA1OSwtMTYzNTcwNzUzMSwtNTE3MjIz
+NjM1LDY4NTY3NTE0OSwtODI1MzA1NDgsLTE5MzQ4OTMyNSwyMD
+UyOTk1ODYwLDE1NjEwMDE3NTcsMTgzNzU1MjI5MywtMTE1MDEz
+MzI2N119
 -->
