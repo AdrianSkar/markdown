@@ -26,11 +26,12 @@ In this exercise you need to "convert" a binary number into a decimal number usi
 function convertToInteger(str) {
   return parseInt(str, 2);
 }
+convertToInteger("10011");
 ```
 ·  Run code at [repl.it](https://repl.it/@AdrianSkar/Basic-JS-Use-parseInt-with-radix).
 
 ### Code explanation
-- 
+- The function takes `str` and returns an integer instead of a string but "understanding" its a binary number instead of a decimal one thanks to the `radix` parameter (2).
 
 
 ### Resources
@@ -42,11 +43,11 @@ function convertToInteger(str) {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA1ODQyMTEyNyw4NTgxMzgwMCwxMDExOD
-gxMTk1LDEwNjU4NzMwOTcsNDYzMzIwMjY4LDE5MTI1MzU0NDMs
-LTU5Mzg3MjA1MiwtNjM5NTM1OTIwLDU3ODI1MDAwMCwtMzYxNT
-EzMjE4LC0xNjI5NTYxMDU5LC0xNjM1NzA3NTMxLC01MTcyMjM2
-MzUsNjg1Njc1MTQ5LC04MjUzMDU0OCwtMTkzNDg5MzI1LDIwNT
-I5OTU4NjAsMTU2MTAwMTc1NywxODM3NTUyMjkzLC0xMTUwMTMz
-MjY3XX0=
+eyJoaXN0b3J5IjpbLTgwODEzNjQ2LDg1ODEzODAwLDEwMTE4OD
+ExOTUsMTA2NTg3MzA5Nyw0NjMzMjAyNjgsMTkxMjUzNTQ0Mywt
+NTkzODcyMDUyLC02Mzk1MzU5MjAsNTc4MjUwMDAwLC0zNjE1MT
+MyMTgsLTE2Mjk1NjEwNTksLTE2MzU3MDc1MzEsLTUxNzIyMzYz
+NSw2ODU2NzUxNDksLTgyNTMwNTQ4LC0xOTM0ODkzMjUsMjA1Mj
+k5NTg2MCwxNTYxMDAxNzU3LDE4Mzc1NTIyOTMsLTExNTAxMzMy
+NjddfQ==
 -->
