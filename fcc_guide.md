@@ -1,52 +1,50 @@
+
 ---
-title: Use the Conditional (Ternary) Operator
+title: Comparison with the Inequality Operator
 ---
-## Use the Conditional (Ternary) Operator
+## Comparison with the Inequality Operator
+
 
 ### Problem explanation:
-_Use the `conditional operator` in the `checkEqual` function to check if two numbers are equal or not. The function should return either true or false._
+· _Add the inequality operator `!=` in the `if` statement so that the function will return "Not equal" when `val` is not equivalent to `99`._
 
 #### Hint 1
-Remember that the "traditional" `if...else` syntax can be re-written using the conditional operator (`condition ? statement if true : statement if false;`)
+The inequality operator (`!=`) will return `true` if the first value is not equal to the second one without taking value type into consideration.
 > _try to solve the problem now_
 > 
-> 
-
- 1. 
- 2. 
- 3. 
 
 ## Spoiler alert!
 
 **Solution ahead!**
 
-## Code solution:
+## Basic code solution:
 
 ```javascript
-function checkEqual(a, b) {
-  return a === b ? true : false;
+// Setup
+function testNotEqual(val) {
+  if (val != 99) { // Change this line
+    return "Not equal";
+  }
+  return "Equal";
 }
+
+// Change this value to test
+testNotEqual(10);
 ```
-·  Run code at [repl.it](https://repl.it/@AdrianSkar/Basic-JS-Ternary-operator).
+·  Run code at [repl.it](https://repl.it/@AdrianSkar/Basic-JS-Comparison-with-the-inequality-operator).
 
 ### Code explanation
-- The function checks if the `condition` before the interrogation sign (`?`) is true and, if so, executes the `true` statement. Otherwise, it returns `false`.
-
+The function first evaluates `if` the condition `(val != 99)` evaluates to `true`. If it does, it returns the statement between the curly braces ("Not equal"). If it doesn't, it returns the next `return` statement outside them ("Equal"). 
 
 ### Resources
 
-- ["Conditional (ternary) operator" - *MDN JavaScript reference*](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_Operator)
-
-
-
-
-
+- ["Inequality operator" - *MDN JavaScript reference*](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Comparison_Operators#Using_the_Equality_Operators#Inequality_(!))
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIyMTU4OTY2LDEyNzIwNDEwMjQsMTMwNj
-kxODM0NSw2MDY3Mzc3NTMsODU4MTM4MDAsMTAxMTg4MTE5NSwx
-MDY1ODczMDk3LDQ2MzMyMDI2OCwxOTEyNTM1NDQzLC01OTM4Nz
-IwNTIsLTYzOTUzNTkyMCw1NzgyNTAwMDAsLTM2MTUxMzIxOCwt
-MTYyOTU2MTA1OSwtMTYzNTcwNzUzMSwtNTE3MjIzNjM1LDY4NT
-Y3NTE0OSwtODI1MzA1NDgsLTE5MzQ4OTMyNSwyMDUyOTk1ODYw
+eyJoaXN0b3J5IjpbMTQ2NjcwMTU3NCwxMjIxNTg5NjYsMTI3Mj
+A0MTAyNCwxMzA2OTE4MzQ1LDYwNjczNzc1Myw4NTgxMzgwMCwx
+MDExODgxMTk1LDEwNjU4NzMwOTcsNDYzMzIwMjY4LDE5MTI1Mz
+U0NDMsLTU5Mzg3MjA1MiwtNjM5NTM1OTIwLDU3ODI1MDAwMCwt
+MzYxNTEzMjE4LC0xNjI5NTYxMDU5LC0xNjM1NzA3NTMxLC01MT
+cyMjM2MzUsNjg1Njc1MTQ5LC04MjUzMDU0OCwtMTkzNDg5MzI1
 XX0=
 -->
