@@ -1,4 +1,3 @@
-
 ---
 title: Comparison with the Inequality Operator
 ---
@@ -40,11 +39,11 @@ The function first evaluates `if` the condition `(val != 99)` evaluates to `true
 
 - ["Inequality operator" - *MDN JavaScript reference*](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Comparison_Operators#Using_the_Equality_Operators#Inequality_(!))
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ2NjcwMTU3NCwxMjIxNTg5NjYsMTI3Mj
-A0MTAyNCwxMzA2OTE4MzQ1LDYwNjczNzc1Myw4NTgxMzgwMCwx
-MDExODgxMTk1LDEwNjU4NzMwOTcsNDYzMzIwMjY4LDE5MTI1Mz
-U0NDMsLTU5Mzg3MjA1MiwtNjM5NTM1OTIwLDU3ODI1MDAwMCwt
-MzYxNTEzMjE4LC0xNjI5NTYxMDU5LC0xNjM1NzA3NTMxLC01MT
-cyMjM2MzUsNjg1Njc1MTQ5LC04MjUzMDU0OCwtMTkzNDg5MzI1
-XX0=
+eyJoaXN0b3J5IjpbLTExMTg5Nzk4NTIsMTQ2NjcwMTU3NCwxMj
+IxNTg5NjYsMTI3MjA0MTAyNCwxMzA2OTE4MzQ1LDYwNjczNzc1
+Myw4NTgxMzgwMCwxMDExODgxMTk1LDEwNjU4NzMwOTcsNDYzMz
+IwMjY4LDE5MTI1MzU0NDMsLTU5Mzg3MjA1MiwtNjM5NTM1OTIw
+LDU3ODI1MDAwMCwtMzYxNTEzMjE4LC0xNjI5NTYxMDU5LC0xNj
+M1NzA3NTMxLC01MTcyMjM2MzUsNjg1Njc1MTQ5LC04MjUzMDU0
+OF19
 -->
