@@ -1,14 +1,14 @@
 ---
-title: Comparison with the Inequality Operator
+title: Comparison with the greater than operator (>)
 ---
-## Comparison with the Inequality Operator
+## Comparison with the greater than operator (>)
 
 
 ### Problem explanation:
-· _Add the inequality operator `!=` in the `if` statement so that the function will return "Not equal" when `val` is not equivalent to `99`._
+· _Add the `greater than` operator to the indicated lines so that the return statements make sense._
 
 #### Hint 1
-The inequality operator (`!=`) will return `true` if the first value is not equal to the second one without taking value type into consideration.
+The greater than operator `(>)` compares both operands using type coercion (converting data types if necessary) and returns `true` if the first one is greater than the second one.
 > _try to solve the problem now_
 > 
 
@@ -19,31 +19,35 @@ The inequality operator (`!=`) will return `true` if the first value is not equa
 ## Basic code solution:
 
 ```javascript
-// Setup
-function testNotEqual(val) {
-  if (val != 99) { // Change this line
-    return "Not equal";
+function testGreaterThan(val) {
+  if (val > 100) {  // Change this line
+    return "Over 100";
   }
-  return "Equal";
+  
+  if (val > 10) {  // Change this line
+    return "Over 10";
+  }
+
+  return "10 or under";
 }
 
 // Change this value to test
-testNotEqual(10);
+testGreaterThan(10);
 ```
-·  Run code at [repl.it](https://repl.it/@AdrianSkar/Basic-JS-Comparison-with-the-inequality-operator).
+· [Run code at repl.it](https://repl.it/@AdrianSkar/Basic-JS-Comparison-with-greater-operator)
 
 ### Code explanation
-The function first evaluates `if` the condition `(val != 99)` evaluates to `true`. If it does, it returns the statement between the curly braces ("Not equal"). If it doesn't, it returns the next `return` statement outside them ("Equal"). 
+The function first evaluates `if` the condition `(val > 100)` evaluates to `true` converting `val` to a number if necessary. If it does, it returns the statement between the curly braces ("Over 100"). If it doesn't, it checks if the next condition is `true` (returning "Over 10"). Otherwise the function will return "10 or under".
 
 ### Resources
 
-- ["Inequality operator" - *MDN JavaScript reference*](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Comparison_Operators#Using_the_Equality_Operators#Inequality_(!))
+- ["Greater than operator (>)" - *MDN JavaScript reference*](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Comparison_Operators#Greater_than_operator_(%3E))
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMTg5Nzk4NTIsMTQ2NjcwMTU3NCwxMj
-IxNTg5NjYsMTI3MjA0MTAyNCwxMzA2OTE4MzQ1LDYwNjczNzc1
-Myw4NTgxMzgwMCwxMDExODgxMTk1LDEwNjU4NzMwOTcsNDYzMz
-IwMjY4LDE5MTI1MzU0NDMsLTU5Mzg3MjA1MiwtNjM5NTM1OTIw
-LDU3ODI1MDAwMCwtMzYxNTEzMjE4LC0xNjI5NTYxMDU5LC0xNj
-M1NzA3NTMxLC01MTcyMjM2MzUsNjg1Njc1MTQ5LC04MjUzMDU0
-OF19
+eyJoaXN0b3J5IjpbLTE1MzExMDgzMjksLTExMTg5Nzk4NTIsMT
+Q2NjcwMTU3NCwxMjIxNTg5NjYsMTI3MjA0MTAyNCwxMzA2OTE4
+MzQ1LDYwNjczNzc1Myw4NTgxMzgwMCwxMDExODgxMTk1LDEwNj
+U4NzMwOTcsNDYzMzIwMjY4LDE5MTI1MzU0NDMsLTU5Mzg3MjA1
+MiwtNjM5NTM1OTIwLDU3ODI1MDAwMCwtMzYxNTEzMjE4LC0xNj
+I5NTYxMDU5LC0xNjM1NzA3NTMxLC01MTcyMjM2MzUsNjg1Njc1
+MTQ5XX0=
 -->
