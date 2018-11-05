@@ -32,7 +32,7 @@ We need to change each `var` to `let` in our code.
     }
     catTalk();
 ```
-![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") <a href='https://codepen.io/dylantyates/pen/eKqoGY' target='_blank' rel='nofollow'>Run Code</a>
+![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") [Run code at codepen.io](https://codepen.io/dylantyates/pen/eKqoGY)
 
 # Code Explanation:
 
@@ -42,14 +42,16 @@ By using `let` instead of `var` we can avoid overriding `catName` and `quote`.
 
 *   <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/var' target='_blank' rel='nofollow'>var</a>
 *   <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let' target='_blank' rel='nofollow'>let</a>
+["if...else" - *MDN JavaScript reference*](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/if...else)
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NzU0MzU5OTMsLTE1MzExMDgzMjksLT
-ExMTg5Nzk4NTIsMTQ2NjcwMTU3NCwxMjIxNTg5NjYsMTI3MjA0
-MTAyNCwxMzA2OTE4MzQ1LDYwNjczNzc1Myw4NTgxMzgwMCwxMD
-ExODgxMTk1LDEwNjU4NzMwOTcsNDYzMzIwMjY4LDE5MTI1MzU0
-NDMsLTU5Mzg3MjA1MiwtNjM5NTM1OTIwLDU3ODI1MDAwMCwtMz
-YxNTEzMjE4LC0xNjI5NTYxMDU5LC0xNjM1NzA3NTMxLC01MTcy
-MjM2MzVdfQ==
+eyJoaXN0b3J5IjpbMTAxNjUxMTM0MSwtMTUzMTEwODMyOSwtMT
+ExODk3OTg1MiwxNDY2NzAxNTc0LDEyMjE1ODk2NiwxMjcyMDQx
+MDI0LDEzMDY5MTgzNDUsNjA2NzM3NzUzLDg1ODEzODAwLDEwMT
+E4ODExOTUsMTA2NTg3MzA5Nyw0NjMzMjAyNjgsMTkxMjUzNTQ0
+MywtNTkzODcyMDUyLC02Mzk1MzU5MjAsNTc4MjUwMDAwLC0zNj
+E1MTMyMTgsLTE2Mjk1NjEwNTksLTE2MzU3MDc1MzEsLTUxNzIy
+MzYzNV19
 -->
