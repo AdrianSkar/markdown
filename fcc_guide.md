@@ -40,14 +40,13 @@ By using `let` instead of `var` we can avoid overriding `catName` and `quote`.
 
 #### Relevant Links
 
-*   <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/var' target='_blank' rel='nofollow'>var</a>
-*   <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let' target='_blank' rel='nofollow'>let</a>
-["if...else" - *MDN JavaScript reference*](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/if...else)
+- ["var" - *MDN JavaScript reference*](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/var)
+- ["let" - *MDN JavaScript reference*](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let)
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAxNjUxMTM0MSwtMTUzMTEwODMyOSwtMT
+eyJoaXN0b3J5IjpbLTk4OTgxOTY0NywtMTUzMTEwODMyOSwtMT
 ExODk3OTg1MiwxNDY2NzAxNTc0LDEyMjE1ODk2NiwxMjcyMDQx
 MDI0LDEzMDY5MTgzNDUsNjA2NzM3NzUzLDg1ODEzODAwLDEwMT
 E4ODExOTUsMTA2NTg3MzA5Nyw0NjMzMjAyNjgsMTkxMjUzNTQ0
