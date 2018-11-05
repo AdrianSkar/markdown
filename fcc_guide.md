@@ -43,20 +43,13 @@ By using `let` instead of `var` we can avoid overriding `catName` and `quote`.
 *   <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/var' target='_blank' rel='nofollow'>var</a>
 *   <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let' target='_blank' rel='nofollow'>let</a>
 
-## ![:clipboard:](https://forum.freecodecamp.com/images/emoji/emoji_one/clipboard.png?v=3 ":clipboard:") NOTES FOR CONTRIBUTIONS:
 
-*   ![:warning:](https://forum.freecodecamp.com/images/emoji/emoji_one/warning.png?v=3 ":warning:") **DO NOT** add solutions that are similar to any existing solutions. If you think it is **_similar but better_**, then try to merge (or replace) the existing similar solution.
-*   Add an explanation of your solution.
-*   Categorize the solution in one of the following categories — **Basic**, **Intermediate** and **Advanced**. ![:traffic_light:](https://forum.freecodecamp.com/images/emoji/emoji_one/traffic_light.png?v=3 ":traffic_light:")
-*   Please add your username only if you have added any **relevant main contents**. (![:warning:](https://forum.freecodecamp.com/images/emoji/emoji_one/warning.png?v=3 ":warning:") **_DO NOT_** _remove any existing usernames_)
-
-> See ![:point_right:](https://forum.freecodecamp.com/images/emoji/emoji_one/point_right.png?v=3 ":point_right:") <a href='http://forum.freecodecamp.com/t/algorithm-article-template/14272' target='_blank' rel='nofollow'>**`Wiki Challenge Solution Template`**</a> for reference.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ3MTU2OTE1OSwtMTUzMTEwODMyOSwtMT
-ExODk3OTg1MiwxNDY2NzAxNTc0LDEyMjE1ODk2NiwxMjcyMDQx
-MDI0LDEzMDY5MTgzNDUsNjA2NzM3NzUzLDg1ODEzODAwLDEwMT
-E4ODExOTUsMTA2NTg3MzA5Nyw0NjMzMjAyNjgsMTkxMjUzNTQ0
-MywtNTkzODcyMDUyLC02Mzk1MzU5MjAsNTc4MjUwMDAwLC0zNj
-E1MTMyMTgsLTE2Mjk1NjEwNTksLTE2MzU3MDc1MzEsLTUxNzIy
-MzYzNV19
+eyJoaXN0b3J5IjpbLTE5NzU0MzU5OTMsLTE1MzExMDgzMjksLT
+ExMTg5Nzk4NTIsMTQ2NjcwMTU3NCwxMjIxNTg5NjYsMTI3MjA0
+MTAyNCwxMzA2OTE4MzQ1LDYwNjczNzc1Myw4NTgxMzgwMCwxMD
+ExODgxMTk1LDEwNjU4NzMwOTcsNDYzMzIwMjY4LDE5MTI1MzU0
+NDMsLTU5Mzg3MjA1MiwtNjM5NTM1OTIwLDU3ODI1MDAwMCwtMz
+YxNTEzMjE4LC0xNjI5NTYxMDU5LC0xNjM1NzA3NTMxLC01MTcy
+MjM2MzVdfQ==
 -->
