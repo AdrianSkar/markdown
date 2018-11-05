@@ -1,53 +1,62 @@
 ---
-title: Comparison with the greater than operator (>)
+title: Explore Differences Between the var and let Keywords
 ---
-## Comparison with the greater than operator (>)
+![:triangular_flag_on_post:](https://forum.freecodecamp.com/images/emoji/emoji_one/triangular_flag_on_post.png?v=3 ":triangular_flag_on_post:") Remember to use **`Read-Search-Ask`** if you get stuck. Try to pair program ![:busts_in_silhouette:](https://forum.freecodecamp.com/images/emoji/emoji_one/busts_in_silhouette.png?v=3 ":busts_in_silhouette:") and write your own code ![:pencil:](https://forum.freecodecamp.com/images/emoji/emoji_one/pencil.png?v=3 ":pencil:")
 
+### Problem Explanation:
 
-### Problem explanation:
-· _Add the `greater than` operator to the indicated lines so that the return statements make sense._
+We need to change each `var` to `let` in our code.
 
-#### Hint 1
-The greater than operator `(>)` compares both operands using type coercion (converting data types if necessary) and returns `true` if the first one is greater than the second one.
+## ![:speech_balloon:](https://forum.freecodecamp.com/images/emoji/emoji_one/speech_balloon.png?v=3 ":speech_balloon:") Hint: 1
+
+*   Find each `var` and replace with `let`.
+
 > _try to solve the problem now_
-> 
 
-## Spoiler alert!
+## Spoiler Alert!
+
+![warning sign](//discourse-user-assets.s3.amazonaws.com/original/2X/2/2d6c412a50797771301e7ceabd554cef4edcd74d.gif)
 
 **Solution ahead!**
 
-## Basic code solution:
-
+## ![:beginner:](https://forum.freecodecamp.com/images/emoji/emoji_one/beginner.png?v=3 ":beginner:") Basic Code Solution:
 ```javascript
-function testGreaterThan(val) {
-  if (val > 100) {  // Change this line
-    return "Over 100";
-  }
-  
-  if (val > 10) {  // Change this line
-    return "Over 10";
-  }
+    let catName;
+    let quote;
+    function catTalk() {
+      "use strict";
 
-  return "10 or under";
-}
+      catName = "Oliver";
+      quote = catName + " says Meow!";
 
-// Change this value to test
-testGreaterThan(10);
+    }
+    catTalk();
 ```
-· [Run code at repl.it](https://repl.it/@AdrianSkar/Basic-JS-Comparison-with-greater-operator)
+![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") <a href='https://codepen.io/dylantyates/pen/eKqoGY' target='_blank' rel='nofollow'>Run Code</a>
 
-### Code explanation
-The function first evaluates `if` the condition `(val > 100)` evaluates to `true` converting `val` to a number if necessary. If it does, it returns the statement between the curly braces ("Over 100"). If it doesn't, it checks if the next condition is `true` (returning "Over 10"). Otherwise the function will return "10 or under".
+# Code Explanation:
 
-### Resources
+By using `let` instead of `var` we can avoid overriding `catName` and `quote`.
 
-- ["Greater than operator (>)" - *MDN JavaScript reference*](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Comparison_Operators#Greater_than_operator_(%3E))
+#### Relevant Links
+
+*   <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/var' target='_blank' rel='nofollow'>var</a>
+*   <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let' target='_blank' rel='nofollow'>let</a>
+
+## ![:clipboard:](https://forum.freecodecamp.com/images/emoji/emoji_one/clipboard.png?v=3 ":clipboard:") NOTES FOR CONTRIBUTIONS:
+
+*   ![:warning:](https://forum.freecodecamp.com/images/emoji/emoji_one/warning.png?v=3 ":warning:") **DO NOT** add solutions that are similar to any existing solutions. If you think it is **_similar but better_**, then try to merge (or replace) the existing similar solution.
+*   Add an explanation of your solution.
+*   Categorize the solution in one of the following categories — **Basic**, **Intermediate** and **Advanced**. ![:traffic_light:](https://forum.freecodecamp.com/images/emoji/emoji_one/traffic_light.png?v=3 ":traffic_light:")
+*   Please add your username only if you have added any **relevant main contents**. (![:warning:](https://forum.freecodecamp.com/images/emoji/emoji_one/warning.png?v=3 ":warning:") **_DO NOT_** _remove any existing usernames_)
+
+> See ![:point_right:](https://forum.freecodecamp.com/images/emoji/emoji_one/point_right.png?v=3 ":point_right:") <a href='http://forum.freecodecamp.com/t/algorithm-article-template/14272' target='_blank' rel='nofollow'>**`Wiki Challenge Solution Template`**</a> for reference.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MzExMDgzMjksLTExMTg5Nzk4NTIsMT
-Q2NjcwMTU3NCwxMjIxNTg5NjYsMTI3MjA0MTAyNCwxMzA2OTE4
-MzQ1LDYwNjczNzc1Myw4NTgxMzgwMCwxMDExODgxMTk1LDEwNj
-U4NzMwOTcsNDYzMzIwMjY4LDE5MTI1MzU0NDMsLTU5Mzg3MjA1
-MiwtNjM5NTM1OTIwLDU3ODI1MDAwMCwtMzYxNTEzMjE4LC0xNj
-I5NTYxMDU5LC0xNjM1NzA3NTMxLC01MTcyMjM2MzUsNjg1Njc1
-MTQ5XX0=
+eyJoaXN0b3J5IjpbLTQ3MTU2OTE1OSwtMTUzMTEwODMyOSwtMT
+ExODk3OTg1MiwxNDY2NzAxNTc0LDEyMjE1ODk2NiwxMjcyMDQx
+MDI0LDEzMDY5MTgzNDUsNjA2NzM3NzUzLDg1ODEzODAwLDEwMT
+E4ODExOTUsMTA2NTg3MzA5Nyw0NjMzMjAyNjgsMTkxMjUzNTQ0
+MywtNTkzODcyMDUyLC02Mzk1MzU5MjAsNTc4MjUwMDAwLC0zNj
+E1MTMyMTgsLTE2Mjk1NjEwNTksLTE2MzU3MDc1MzEsLTUxNzIy
+MzYzNV19
 -->
