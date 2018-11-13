@@ -16,7 +16,8 @@ This behavior will cause problems if you were to create a function and store it 
 <blockquote>var printNumTwo;<br>for (var i = 0; i < 3; i++) {<br>&nbsp;&nbsp;if(i === 2){<br>&nbsp;&nbsp;&nbsp;&nbsp;printNumTwo = function() {<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return i;<br>&nbsp;&nbsp;&nbsp;&nbsp;};<br>&nbsp;&nbsp;}<br>}<br>console.log(printNumTwo());<br>// returns 3</blockquote>
 As you can see, <code>printNumTwo()</code> prints 3 and not 2. This is because the value assigned to <code>i</code> was updated and the <code>printNumTwo()</code> returns the global <code>i</code> and not the value <code>i</code> had when the function was created in the for loop. The <code>let</code> keyword does not follow this behavior:
 
-As you can see, <code>printNumTwo()</code> prints 3 and not 2. This is because the value assigned to <code>i</code> was updated and the <code>printNumTwo()</code> returns the global <code>i</code> and not the value <code>i</code> had when the function was created in the for loop. The <code>let</code> keyword does not follow this behavior:
+As you can see, <code>printNumTwo()</code> prints 3 and not 2. This is because `i` has the same scope as the for loop and `i++` increments its value before it "sees" that the condition is no longer met. Then, it assings `i`'s value to `printNumTwo`.
+The `let`  keyword does not follow this behavior:
 
 <blockquote>'use strict';<br>let printNumTwo;<br>for (let i = 0; i < 3; i++) {<br>&nbsp;&nbsp;if (i === 2) {<br>&nbsp;&nbsp;&nbsp;&nbsp;printNumTwo = function() {<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return i;<br>&nbsp;&nbsp;&nbsp;&nbsp;};<br>&nbsp;&nbsp;}<br>}<br>console.log(printNumTwo());<br>// returns 2<br>console.log(i);<br>// returns "i is not defined"</blockquote>
 <code>i</code> is not defined because it was not declared in the global scope. It is only declared within the for loop statement. <code>printNumTwo()</code> returned the correct value because three different <code>i</code> variables with unique values (0, 1, and 2) were created by the <code>let</code> keyword within the loop statement.
@@ -87,11 +88,11 @@ function checkScope() {
 </section>
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAxOTM4MjkyNSwtOTg5ODE5NjQ3LC0xNT
-MxMTA4MzI5LC0xMTE4OTc5ODUyLDE0NjY3MDE1NzQsMTIyMTU4
-OTY2LDEyNzIwNDEwMjQsMTMwNjkxODM0NSw2MDY3Mzc3NTMsOD
-U4MTM4MDAsMTAxMTg4MTE5NSwxMDY1ODczMDk3LDQ2MzMyMDI2
-OCwxOTEyNTM1NDQzLC01OTM4NzIwNTIsLTYzOTUzNTkyMCw1Nz
-gyNTAwMDAsLTM2MTUxMzIxOCwtMTYyOTU2MTA1OSwtMTYzNTcw
-NzUzMV19
+eyJoaXN0b3J5IjpbLTE3NDg2Nzk5MjMsMTAxOTM4MjkyNSwtOT
+g5ODE5NjQ3LC0xNTMxMTA4MzI5LC0xMTE4OTc5ODUyLDE0NjY3
+MDE1NzQsMTIyMTU4OTY2LDEyNzIwNDEwMjQsMTMwNjkxODM0NS
+w2MDY3Mzc3NTMsODU4MTM4MDAsMTAxMTg4MTE5NSwxMDY1ODcz
+MDk3LDQ2MzMyMDI2OCwxOTEyNTM1NDQzLC01OTM4NzIwNTIsLT
+YzOTUzNTkyMCw1NzgyNTAwMDAsLTM2MTUxMzIxOCwtMTYyOTU2
+MTA1OV19
 -->
