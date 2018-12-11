@@ -45,14 +45,14 @@ By using `let` you can declare variables in relation to their scope.
 
 ### Resources
 - ["let" - *MDN Javascript reference*](https://developer.mozilla.org/en-US/docs/Glossary/Boolean)
- - [Rauschmayer, Axel. "Type coercion explained". *freeCodeCamp, Medium*, 17 Jan. 2018.](https://medium.freecodecamp.org/js-type-coercion-explained-27ba3d9a2839) Accessed 2 Sep 2018. 
+ - [Rauschmayer, Axel. "Variables and scoping in ECMAScript 6". *2ality.com*, 2015-02-07.](https://medium.freecodecamp.org/js-type-coercion-explained-27ba3d9a2839) Accessed 11 Dec 2018. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE4MzAyMjU2NCwtMTg1NDg1OTI1Myw1MT
-Q2MzE0MDksLTE3NDg2Nzk5MjMsMTAxOTM4MjkyNSwtOTg5ODE5
-NjQ3LC0xNTMxMTA4MzI5LC0xMTE4OTc5ODUyLDE0NjY3MDE1Nz
-QsMTIyMTU4OTY2LDEyNzIwNDEwMjQsMTMwNjkxODM0NSw2MDY3
-Mzc3NTMsODU4MTM4MDAsMTAxMTg4MTE5NSwxMDY1ODczMDk3LD
-Q2MzMyMDI2OCwxOTEyNTM1NDQzLC01OTM4NzIwNTIsLTYzOTUz
-NTkyMF19
+eyJoaXN0b3J5IjpbLTE0MjkzODM5ODksLTE4NTQ4NTkyNTMsNT
+E0NjMxNDA5LC0xNzQ4Njc5OTIzLDEwMTkzODI5MjUsLTk4OTgx
+OTY0NywtMTUzMTEwODMyOSwtMTExODk3OTg1MiwxNDY2NzAxNT
+c0LDEyMjE1ODk2NiwxMjcyMDQxMDI0LDEzMDY5MTgzNDUsNjA2
+NzM3NzUzLDg1ODEzODAwLDEwMTE4ODExOTUsMTA2NTg3MzA5Ny
+w0NjMzMjAyNjgsMTkxMjUzNTQ0MywtNTkzODcyMDUyLC02Mzk1
+MzU5MjBdfQ==
 -->
