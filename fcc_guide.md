@@ -10,12 +10,11 @@ _Fix the code so that `i` declared in the if statement is a separate variable th
 
 ## ![:speech_balloon:](https://forum.freecodecamp.com/images/emoji/emoji_one/speech_balloon.png?v=3 ":speech_balloon:") Hint: 1
 
-*   Find `var` and replace with `let`.
+*  _Be certain not to use the `var` keyword anywhere in your code._
 
 > _try to solve the problem now_
 
-*   _Be certain not to use the `var`keyword anywhere in your code._
-
+*   Remember that `let`'s scope is limited to the block, funci
 > _try to solve the problem now_
 
 ## Spoiler alert!
@@ -49,7 +48,7 @@ By using `let` you can declare variables in relation to their scope.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyOTMyOTkwNDQsLTE4NTQ4NTkyNTMsNT
+eyJoaXN0b3J5IjpbLTE0MDU4NjU3MjEsLTE4NTQ4NTkyNTMsNT
 E0NjMxNDA5LC0xNzQ4Njc5OTIzLDEwMTkzODI5MjUsLTk4OTgx
 OTY0NywtMTUzMTEwODMyOSwtMTExODk3OTg1MiwxNDY2NzAxNT
 c0LDEyMjE1ODk2NiwxMjcyMDQxMDI0LDEzMDY5MTgzNDUsNjA2
