@@ -6,7 +6,7 @@ title: Compare Scopes of the var and let Keywords
 
 ### Problem explanation:
 
-We need to change `var` to `let` in our function scope and add `let` to our block scope.
+_Fix the code so that `i` declared in the if statement is a separate variable than `i` declared in the first line of the function._
 
 ## ![:speech_balloon:](https://forum.freecodecamp.com/images/emoji/emoji_one/speech_balloon.png?v=3 ":speech_balloon:") Hint: 1
 
@@ -14,7 +14,7 @@ We need to change `var` to `let` in our function scope and add `let` to our bloc
 
 > _try to solve the problem now_
 
-*   Add `let` to the variable `i` inside of your if statement.
+*   _Be certain not to use the `var`keyword anywhere in your code._
 
 > _try to solve the problem now_
 
@@ -49,11 +49,11 @@ By using `let` you can declare variables in relation to their scope.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY1MzQ4NzQ2MSwtMTg1NDg1OTI1Myw1MT
-Q2MzE0MDksLTE3NDg2Nzk5MjMsMTAxOTM4MjkyNSwtOTg5ODE5
-NjQ3LC0xNTMxMTA4MzI5LC0xMTE4OTc5ODUyLDE0NjY3MDE1Nz
-QsMTIyMTU4OTY2LDEyNzIwNDEwMjQsMTMwNjkxODM0NSw2MDY3
-Mzc3NTMsODU4MTM4MDAsMTAxMTg4MTE5NSwxMDY1ODczMDk3LD
-Q2MzMyMDI2OCwxOTEyNTM1NDQzLC01OTM4NzIwNTIsLTYzOTUz
-NTkyMF19
+eyJoaXN0b3J5IjpbLTEyOTMyOTkwNDQsLTE4NTQ4NTkyNTMsNT
+E0NjMxNDA5LC0xNzQ4Njc5OTIzLDEwMTkzODI5MjUsLTk4OTgx
+OTY0NywtMTUzMTEwODMyOSwtMTExODk3OTg1MiwxNDY2NzAxNT
+c0LDEyMjE1ODk2NiwxMjcyMDQxMDI0LDEzMDY5MTgzNDUsNjA2
+NzM3NzUzLDg1ODEzODAwLDEwMTE4ODExOTUsMTA2NTg3MzA5Ny
+w0NjMzMjAyNjgsMTkxMjUzNTQ0MywtNTkzODcyMDUyLC02Mzk1
+MzU5MjBdfQ==
 -->
