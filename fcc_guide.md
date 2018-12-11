@@ -14,7 +14,7 @@ _Fix the code so that `i` declared in the if statement is a separate variable th
 
 > _try to solve the problem now_
 
-*   Remember that `let`'s scope is limited to the block, funci
+*   Remember that `let`'s scope is limited to the block, function or statement in which you declare it.
 > _try to solve the problem now_
 
 ## Spoiler alert!
@@ -48,11 +48,11 @@ By using `let` you can declare variables in relation to their scope.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MDU4NjU3MjEsLTE4NTQ4NTkyNTMsNT
-E0NjMxNDA5LC0xNzQ4Njc5OTIzLDEwMTkzODI5MjUsLTk4OTgx
-OTY0NywtMTUzMTEwODMyOSwtMTExODk3OTg1MiwxNDY2NzAxNT
-c0LDEyMjE1ODk2NiwxMjcyMDQxMDI0LDEzMDY5MTgzNDUsNjA2
-NzM3NzUzLDg1ODEzODAwLDEwMTE4ODExOTUsMTA2NTg3MzA5Ny
-w0NjMzMjAyNjgsMTkxMjUzNTQ0MywtNTkzODcyMDUyLC02Mzk1
-MzU5MjBdfQ==
+eyJoaXN0b3J5IjpbMjc2NTUxNjU0LC0xODU0ODU5MjUzLDUxND
+YzMTQwOSwtMTc0ODY3OTkyMywxMDE5MzgyOTI1LC05ODk4MTk2
+NDcsLTE1MzExMDgzMjksLTExMTg5Nzk4NTIsMTQ2NjcwMTU3NC
+wxMjIxNTg5NjYsMTI3MjA0MTAyNCwxMzA2OTE4MzQ1LDYwNjcz
+Nzc1Myw4NTgxMzgwMCwxMDExODgxMTk1LDEwNjU4NzMwOTcsND
+YzMzIwMjY4LDE5MTI1MzU0NDMsLTU5Mzg3MjA1MiwtNjM5NTM1
+OTIwXX0=
 -->
