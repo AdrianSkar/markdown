@@ -1,98 +1,67 @@
+
 ---
-id: 587d7b87367417b2b2512b40
 title: Compare Scopes of the var and let Keywords
-challengeType: 1
 ---
 
-## Description
-<section id='description'>
-When you declare a variable with the <code>var</code> keyword, it is declared globally, or locally if declared inside a function.
-The <code>let</code> keyword behaves similarly, but with some extra features. When you declare a variable with the <code>let</code> keyword inside a block, statement, or expression, its scope is limited to that block, statement, or expression.
-For example:
-<blockquote>var numArray = [];<br>for (var i = 0; i < 3; i++) {<br>&nbsp;&nbsp;numArray.push(i);<br>}<br>console.log(numArray);<br>// returns [0, 1, 2]<br>console.log(i);<br>// returns 3</blockquote>
-With the <code>var</code> keyword, <code>i</code> is declared globally. So when <code>i++</code> is executed, it updates the global variable. This code is similar to the following:
-<blockquote>var numArray = [];<br>var i;<br>for (i = 0; i < 3; i++) {<br>&nbsp;&nbsp;numArray.push(i);<br>}<br>console.log(numArray);<br>// returns [0, 1, 2]<br>console.log(i);<br>// returns 3</blockquote>
-This behavior will cause problems if you were to create a function and store it for later use inside a for loop that uses the <code>i</code> variable. This is because the stored function will always refer to the value of the updated global <code>i</code> variable.
-<blockquote>var printNumTwo;<br>for (var i = 0; i < 3; i++) {<br>&nbsp;&nbsp;if(i === 2){<br>&nbsp;&nbsp;&nbsp;&nbsp;printNumTwo = function() {<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return i;<br>&nbsp;&nbsp;&nbsp;&nbsp;};<br>&nbsp;&nbsp;}<br>}<br>console.log(printNumTwo());<br>// returns 3</blockquote>
-As you can see, <code>printNumTwo()</code> prints 3 and not 2. This is because the value assigned to <code>i</code> was updated and the <code>printNumTwo()</code> returns the global <code>i</code> and not the value <code>i</code> had when the function was created in the for loop. The <code>let</code> keyword does not follow this behavior:
+![:triangular_flag_on_post:](https://forum.freecodecamp.com/images/emoji/emoji_one/triangular_flag_on_post.png?v=3 ":triangular_flag_on_post:") Remember to use <a>**`Read-Search-Ask`**</a> if you get stuck. Try to pair program ![:busts_in_silhouette:](https://forum.freecodecamp.com/images/emoji/emoji_one/busts_in_silhouette.png?v=3 ":busts_in_silhouette:") and write your own code ![:pencil:](https://forum.freecodecamp.com/images/emoji/emoji_one/pencil.png?v=3 ":pencil:")
 
-As you can see, <code>printNumTwo()</code> prints 3 and not 2. This is because `i` has the same scope as the for loop and `i++` increments its value before it "sees" that the condition is no longer met. Then, it assings `i`'s value to `printNumTwo`.
-The `let`  keyword does not follow this behavior:
+### Problem Explanation:
 
-<blockquote>'use strict';<br>let printNumTwo;<br>for (let i = 0; i < 3; i++) {<br>&nbsp;&nbsp;if (i === 2) {<br>&nbsp;&nbsp;&nbsp;&nbsp;printNumTwo = function() {<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return i;<br>&nbsp;&nbsp;&nbsp;&nbsp;};<br>&nbsp;&nbsp;}<br>}<br>console.log(printNumTwo());<br>// returns 2<br>console.log(i);<br>// returns "i is not defined"</blockquote>
-<code>i</code> is not defined because it was not declared in the global scope. It is only declared within the for loop statement. <code>printNumTwo()</code> returned the correct value because three different <code>i</code> variables with unique values (0, 1, and 2) were created by the <code>let</code> keyword within the loop statement.
-</section>
+We need to change `var` to `let` in our function scope and add `let` to our block scope.
 
-## Instructions
-<section id='instructions'>
-Fix the code so that <code>i</code> declared in the if statement is a separate variable than <code>i</code> declared in the first line of the function. Be certain not to use the <code>var</code> keyword anywhere in your code.
-This exercise is designed to illustrate the difference between how <code>var</code> and <code>let</code> keywords assign scope to the declared variable. When programming a function similar to the one used in this exercise, it is often better to use different variable names to avoid confusion.
-</section>
+## ![:speech_balloon:](https://forum.freecodecamp.com/images/emoji/emoji_one/speech_balloon.png?v=3 ":speech_balloon:") Hint: 1
 
-## Tests
-<section id='tests'>
+*   Find `var` and replace with `let`.
 
-```yml
-tests:
-  - text: <code>var</code> should not exist in code.
-    testString: getUserInput => assert(!getUserInput('index').match(/var/g),'<code>var</code> should not exist in code.');
-  - text: The variable <code>i</code> declared in the if statement should equal "block scope".
-    testString: getUserInput => assert(getUserInput('index').match(/(i\s*=\s*).*\s*.*\s*.*\1('|")block\s*scope\2/g), 'The variable <code>i</code> declared in the if statement should equal "block scope".');
-  - text: <code>checkScope()</code> should return "function scope"
-    testString: assert(checkScope() === "function scope", '<code>checkScope()</code> should return "function scope"');
+> _try to solve the problem now_
 
+*   Add `let` to the variable `i` inside of your if statement.
+
+> _try to solve the problem now_
+
+## Spoiler Alert!
+
+![warning sign](//discourse-user-assets.s3.amazonaws.com/original/2X/2/2d6c412a50797771301e7ceabd554cef4edcd74d.gif)
+
+**Solution ahead!**
+
+## ![:beginner:](https://forum.freecodecamp.com/images/emoji/emoji_one/beginner.png?v=3 ":beginner:") Basic Code Solution:
+```javascript
+    function checkScope() {
+      "use strict";
+      let i = "function scope";
+      if (true) {
+        let i = "block scope";
+        console.log("Block scope i is: ", i);
+      }
+    console.log("Function scope i is: ", i);
+    return i;
+    }
 ```
+![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") <a href='https://codepen.io/dylantyates/pen/wxwxRd' target='_blank' rel='nofollow'>Run Code</a>
 
-</section>
+# Code Explanation:
 
-## Challenge Seed
-<section id='challengeSeed'>
+By using `let` you can declare variables in relation to their scope.
 
-<div id='js-seed'>
+#### Relevant Links
 
-```js
-function checkScope() {
-  'use strict';
-  var i = 'function scope';
-  if (true) {
-    i = 'block scope';
-    console.log('Block scope i is: ', i);
-  }
-  console.log('Function scope i is: ', i);
-  return i;
-}
-```
+*   <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let' target='_blank' rel='nofollow'>let</a>
 
-</div>
+## ![:clipboard:](https://forum.freecodecamp.com/images/emoji/emoji_one/clipboard.png?v=3 ":clipboard:") NOTES FOR CONTRIBUTIONS:
 
+*   ![:warning:](https://forum.freecodecamp.com/images/emoji/emoji_one/warning.png?v=3 ":warning:") **DO NOT** add solutions that are similar to any existing solutions. If you think it is **_similar but better_**, then try to merge (or replace) the existing similar solution.
+*   Add an explanation of your solution.
+*   Categorize the solution in one of the following categories — **Basic**, **Intermediate** and **Advanced**. ![:traffic_light:](https://forum.freecodecamp.com/images/emoji/emoji_one/traffic_light.png?v=3 ":traffic_light:")
+*   Please add your username only if you have added any **relevant main contents**. (![:warning:](https://forum.freecodecamp.com/images/emoji/emoji_one/warning.png?v=3 ":warning:") **_DO NOT_** _remove any existing usernames_)
 
-
-</section>
-
-## Solution
-<section id='solution'>
-
-```js
-function checkScope() {
-  'use strict';
-  let i = 'function scope';
-  if (true) {
-    let i = 'block scope';
-    console.log('Block scope i is: ', i);
-  }
- 
-  console.log('Function scope i is: ', i);
-  return i;
-}
-```
-</section>
-
+> See ![:point_right:](https://forum.freecodecamp.com/images/emoji/emoji_one/point_right.png?v=3 ":point_right:") <a href='http://forum.freecodecamp.com/t/algorithm-article-template/14272' target='_blank' rel='nofollow'>**`Wiki Challenge Solution Template`**</a> for reference.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NDg2Nzk5MjMsMTAxOTM4MjkyNSwtOT
-g5ODE5NjQ3LC0xNTMxMTA4MzI5LC0xMTE4OTc5ODUyLDE0NjY3
-MDE1NzQsMTIyMTU4OTY2LDEyNzIwNDEwMjQsMTMwNjkxODM0NS
-w2MDY3Mzc3NTMsODU4MTM4MDAsMTAxMTg4MTE5NSwxMDY1ODcz
-MDk3LDQ2MzMyMDI2OCwxOTEyNTM1NDQzLC01OTM4NzIwNTIsLT
-YzOTUzNTkyMCw1NzgyNTAwMDAsLTM2MTUxMzIxOCwtMTYyOTU2
-MTA1OV19
+eyJoaXN0b3J5IjpbMTc4NjUwMTIwMywtMTc0ODY3OTkyMywxMD
+E5MzgyOTI1LC05ODk4MTk2NDcsLTE1MzExMDgzMjksLTExMTg5
+Nzk4NTIsMTQ2NjcwMTU3NCwxMjIxNTg5NjYsMTI3MjA0MTAyNC
+wxMzA2OTE4MzQ1LDYwNjczNzc1Myw4NTgxMzgwMCwxMDExODgx
+MTk1LDEwNjU4NzMwOTcsNDYzMzIwMjY4LDE5MTI1MzU0NDMsLT
+U5Mzg3MjA1MiwtNjM5NTM1OTIwLDU3ODI1MDAwMCwtMzYxNTEz
+MjE4XX0=
 -->
