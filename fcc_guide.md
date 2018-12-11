@@ -39,20 +39,21 @@ We need to change `var` to `let` in our function scope and add `let` to our bloc
 ```
 ![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") <a href='https://codepen.io/dylantyates/pen/wxwxRd' target='_blank' rel='nofollow'>Run Code</a>
 
+
 # Code Explanation:
 
 By using `let` you can declare variables in relation to their scope.
 
-#### Relevant Links
+### Resources
+- ["let" - *MDN Javascript reference*](https://developer.mozilla.org/en-US/docs/Glossary/Boolean)
 
-*   <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let' target='_blank' rel='nofollow'>let</a>
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTE0NjMxNDA5LC0xNzQ4Njc5OTIzLDEwMT
-kzODI5MjUsLTk4OTgxOTY0NywtMTUzMTEwODMyOSwtMTExODk3
-OTg1MiwxNDY2NzAxNTc0LDEyMjE1ODk2NiwxMjcyMDQxMDI0LD
-EzMDY5MTgzNDUsNjA2NzM3NzUzLDg1ODEzODAwLDEwMTE4ODEx
-OTUsMTA2NTg3MzA5Nyw0NjMzMjAyNjgsMTkxMjUzNTQ0MywtNT
-kzODcyMDUyLC02Mzk1MzU5MjAsNTc4MjUwMDAwLC0zNjE1MTMy
-MThdfQ==
+eyJoaXN0b3J5IjpbLTE4NTQ4NTkyNTMsNTE0NjMxNDA5LC0xNz
+Q4Njc5OTIzLDEwMTkzODI5MjUsLTk4OTgxOTY0NywtMTUzMTEw
+ODMyOSwtMTExODk3OTg1MiwxNDY2NzAxNTc0LDEyMjE1ODk2Ni
+wxMjcyMDQxMDI0LDEzMDY5MTgzNDUsNjA2NzM3NzUzLDg1ODEz
+ODAwLDEwMTE4ODExOTUsMTA2NTg3MzA5Nyw0NjMzMjAyNjgsMT
+kxMjUzNTQ0MywtNTkzODcyMDUyLC02Mzk1MzU5MjAsNTc4MjUw
+MDAwXX0=
 -->
