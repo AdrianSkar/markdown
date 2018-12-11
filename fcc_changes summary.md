@@ -5,6 +5,7 @@ Summary of changes:
 - Remove phantom image
 - Remove notes for contributors
 - Changed explanation and hints so they don't provide the solution too early.
+- Links to markdown + 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNjU3OTM1MzFdfQ==
+eyJoaXN0b3J5IjpbLTQ2ODU4MzI3Ml19
 -->
