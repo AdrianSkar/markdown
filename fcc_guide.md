@@ -5,11 +5,11 @@ title: Prevent Object Mutation
 
 ### Problem Explanation:
 
-_You need to freeze the `MATH_CONSTANTS`object so that no one is able to alter the value of `PI`, add, or delete properties ._
+_You need to freeze the `MATH_CONSTANTS` object so that no one is able to alter the value of `PI`, add, or delete properties ._
 
 ## ![:speech_balloon:](https://forum.freecodecamp.com/images/emoji/emoji_one/speech_balloon.png?v=3 ":speech_balloon:") Hint: 1
 
-*   Use Object.freeze(obj) to prevent object from being changed.
+*   _Use `Object.freeze()` to prevent mathematical constants from changing._
 
 > _try to solve the problem now_
 
@@ -50,7 +50,7 @@ By using Object.freeze() on `MATH_CONSTANTS` we can avoid manipulating it.
 - ["Object.freeze()" - *MDN Javascript reference*](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/freeze)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk5NDg3NjIwMSwxOTczNDc4MTU3LC0xOD
+eyJoaXN0b3J5IjpbLTU2MDcyMjIyNCwxOTczNDc4MTU3LC0xOD
 U0ODU5MjUzLDUxNDYzMTQwOSwtMTc0ODY3OTkyMywxMDE5Mzgy
 OTI1LC05ODk4MTk2NDcsLTE1MzExMDgzMjksLTExMTg5Nzk4NT
 IsMTQ2NjcwMTU3NCwxMjIxNTg5NjYsMTI3MjA0MTAyNCwxMzA2
