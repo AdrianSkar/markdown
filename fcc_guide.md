@@ -39,7 +39,7 @@ _You need to freeze the `MATH_CONSTANTS` object so that no one is able to alter 
     
     const PI = freezeObj();
 ```
-![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") <a href='https://codepen.io/dylantyates/pen/OwVxYB' target='_blank' rel='nofollow'>Run Code</a>
+![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:")[Run code at codepen.io](https://codepen.io/dylantyates/pen/OwVxYB)
 
 # Code Explanation:
 
@@ -50,7 +50,7 @@ By using Object.freeze() on `MATH_CONSTANTS` we can avoid manipulating it.
 - ["Object.freeze()" - *MDN Javascript reference*](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/freeze)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU2MDcyMjIyNCwxOTczNDc4MTU3LC0xOD
+eyJoaXN0b3J5IjpbLTExMjMxOTE4NiwxOTczNDc4MTU3LC0xOD
 U0ODU5MjUzLDUxNDYzMTQwOSwtMTc0ODY3OTkyMywxMDE5Mzgy
 OTI1LC05ODk4MTk2NDcsLTE1MzExMDgzMjksLTExMTg5Nzk4NT
 IsMTQ2NjcwMTU3NCwxMjIxNTg5NjYsMTI3MjA0MTAyNCwxMzA2
