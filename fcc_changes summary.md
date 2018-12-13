@@ -1,6 +1,8 @@
 Summary of changes:
 
-[Guide] ES6: Prevent object mutation; fixes and enhancements
+
+feat (lang): added polish language
+
 
 - Remove phantom image
 - Remove notes for contributors
@@ -17,6 +19,6 @@ Summary of changes:
 - [x] All the files I changed are in the same world language (for example: only English changes, or only Chinese changes, etc.)
 - [x] My changes do not use shortened URLs or affiliate links.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNDE3NjA2NSwxNDMyNjg3MjUxLC00Nj
-g1ODMyNzJdfQ==
+eyJoaXN0b3J5IjpbLTgyOTg1MTMwMywtMTM0MTc2MDY1LDE0Mz
+I2ODcyNTEsLTQ2ODU4MzI3Ml19
 -->
