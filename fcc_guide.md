@@ -1,60 +1,47 @@
 ---
-title: Prevent Object Mutation
+title: Use Arrow Functions to Write Concise Anonymous Functions
 ---
-![:triangular_flag_on_post:](https://forum.freecodecamp.com/images/emoji/emoji_one/triangular_flag_on_post.png?v=3 ":triangular_flag_on_post:") Remember to use <a>**`Read-Search-Ask`**</a> if you get stuck. Try to pair program ![:busts_in_silhouette:](https://forum.freecodecamp.com/images/emoji/emoji_one/busts_in_silhouette.png?v=3 ":busts_in_silhouette:") and write your own code ![:pencil:](https://forum.freecodecamp.com/images/emoji/emoji_one/pencil.png?v=3 ":pencil:")
+## Use Arrow Functions to Write Concise Anonymous Functions
 
-### Problem explanation:
+<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+Again, ES6 is all about making JavaScript more elegant, and for some, more readable. 
 
-_You need to freeze the `MATH_CONSTANTS` object so that no one is able to alter the value of `PI`, add, or delete properties ._
+Anonymous functions, as stated, can be created when you are sure that the function will not be called by name anywhere else.
 
-## ![:speech_balloon:](https://forum.freecodecamp.com/images/emoji/emoji_one/speech_balloon.png?v=3 ":speech_balloon:") Hint: 1
+## Hint 1:
 
-*   _Use `Object.freeze()` to prevent mathematical constants from changing._
+Get rid of the `function` key word, and plug in this `=>` arrow.
 
-> _try to solve the problem now_
+## Hint 2:
 
-## Spoiler alert!
+Did you get rid of the `var` keyword?
 
-![warning sign](//discourse-user-assets.s3.amazonaws.com/original/2X/2/2d6c412a50797771301e7ceabd554cef4edcd74d.gif)
+## Spoiler alert - Solution ahead!
 
-**Solution ahead!**
+## Solution:
 
-## ![:beginner:](https://forum.freecodecamp.com/images/emoji/emoji_one/beginner.png?v=3 ":beginner:") Basic code solution:
 ```javascript
-    function freezeObj() {
-      "use strict";
-      const MATH_CONSTANTS = {
-        PI: 3.14
-      };
-
-      Object.freeze(MATH_CONSTANTS);
-      
-      try {
-        MATH_CONSTANTS.PI = 99;
-      } catch( ex ) {
-        console.log(ex);
-      }
-      return MATH_CONSTANTS.PI;
-    }
-    
-    const PI = freezeObj();
+const magic = () => {
+  "use strict";
+  return new Date();
+};
 ```
-![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:")[Run code at codepen.io](https://codepen.io/dylantyates/pen/OwVxYB)
-
-# Code explanation:
-
-By using Object.freeze() on `MATH_CONSTANTS` we can avoid manipulating it.
+## Alternative code solution:
+```javascript
+const magic = () => new Date ();
+```
+As long as you got rid of the `var` keyword, you're good.
 
 
 ### Resources
 - ["Object.freeze()" - *MDN Javascript reference*](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/freeze)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjI5NzM0NjcwLC0xMTIzMTkxODYsMTk3Mz
-Q3ODE1NywtMTg1NDg1OTI1Myw1MTQ2MzE0MDksLTE3NDg2Nzk5
-MjMsMTAxOTM4MjkyNSwtOTg5ODE5NjQ3LC0xNTMxMTA4MzI5LC
-0xMTE4OTc5ODUyLDE0NjY3MDE1NzQsMTIyMTU4OTY2LDEyNzIw
-NDEwMjQsMTMwNjkxODM0NSw2MDY3Mzc3NTMsODU4MTM4MDAsMT
-AxMTg4MTE5NSwxMDY1ODczMDk3LDQ2MzMyMDI2OCwxOTEyNTM1
-NDQzXX0=
+eyJoaXN0b3J5IjpbMTgyNjEzMjM0MywyMjk3MzQ2NzAsLTExMj
+MxOTE4NiwxOTczNDc4MTU3LC0xODU0ODU5MjUzLDUxNDYzMTQw
+OSwtMTc0ODY3OTkyMywxMDE5MzgyOTI1LC05ODk4MTk2NDcsLT
+E1MzExMDgzMjksLTExMTg5Nzk4NTIsMTQ2NjcwMTU3NCwxMjIx
+NTg5NjYsMTI3MjA0MTAyNCwxMzA2OTE4MzQ1LDYwNjczNzc1My
+w4NTgxMzgwMCwxMDExODgxMTk1LDEwNjU4NzMwOTcsNDYzMzIw
+MjY4XX0=
 -->
