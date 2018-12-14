@@ -30,14 +30,15 @@ const magic = () => {
 ```javascript
 const magic = () => new Date ();
 ```
-As long as you got rid of the `var` keyword, you're good.
+[Run code at repl.it](
+Remember that _"When there is no function body, and only a return value, arrow function syntax allows you to omit the keyword `return` as well as the brackets surrounding the code."_
 
 
 ### Resources
 - ["Object.freeze()" - *MDN Javascript reference*](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/freeze)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgyNjEzMjM0MywyMjk3MzQ2NzAsLTExMj
+eyJoaXN0b3J5IjpbLTgxOTU5ODA4NSwyMjk3MzQ2NzAsLTExMj
 MxOTE4NiwxOTczNDc4MTU3LC0xODU0ODU5MjUzLDUxNDYzMTQw
 OSwtMTc0ODY3OTkyMywxMDE5MzgyOTI1LC05ODk4MTk2NDcsLT
 E1MzExMDgzMjksLTExMTg5Nzk4NTIsMTQ2NjcwMTU3NCwxMjIx
