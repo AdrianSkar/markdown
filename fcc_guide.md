@@ -26,6 +26,8 @@ const magic = () => {
   return new Date();
 };
 ```
+As long as you got rid of the `var` keyword, you’re good.
+
 ## Alternative code solution:
 ```javascript
 const magic = () => new Date ();
@@ -39,11 +41,11 @@ Remember that _"When there is no function body, and only a return value, arrow f
 - ["Arrow functions" - *MDN Javascript reference*](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk0ODc3NDU4MCwtODE5NTk4MDg1LDIyOT
-czNDY3MCwtMTEyMzE5MTg2LDE5NzM0NzgxNTcsLTE4NTQ4NTky
-NTMsNTE0NjMxNDA5LC0xNzQ4Njc5OTIzLDEwMTkzODI5MjUsLT
-k4OTgxOTY0NywtMTUzMTEwODMyOSwtMTExODk3OTg1MiwxNDY2
-NzAxNTc0LDEyMjE1ODk2NiwxMjcyMDQxMDI0LDEzMDY5MTgzND
-UsNjA2NzM3NzUzLDg1ODEzODAwLDEwMTE4ODExOTUsMTA2NTg3
-MzA5N119
+eyJoaXN0b3J5IjpbLTUzOTYzNDEyNiwtOTQ4Nzc0NTgwLC04MT
+k1OTgwODUsMjI5NzM0NjcwLC0xMTIzMTkxODYsMTk3MzQ3ODE1
+NywtMTg1NDg1OTI1Myw1MTQ2MzE0MDksLTE3NDg2Nzk5MjMsMT
+AxOTM4MjkyNSwtOTg5ODE5NjQ3LC0xNTMxMTA4MzI5LC0xMTE4
+OTc5ODUyLDE0NjY3MDE1NzQsMTIyMTU4OTY2LDEyNzIwNDEwMj
+QsMTMwNjkxODM0NSw2MDY3Mzc3NTMsODU4MTM4MDAsMTAxMTg4
+MTE5NV19
 -->
