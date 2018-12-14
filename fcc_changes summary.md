@@ -1,5 +1,6 @@
 Summary of changes:
 
+improvement(guide): ES6, code examples and resources
 
 feat (lang): added polish language
 
@@ -19,6 +20,6 @@ feat (lang): added polish language
 - [x] All the files I changed are in the same world language (for example: only English changes, or only Chinese changes, etc.)
 - [x] My changes do not use shortened URLs or affiliate links.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgyOTg1MTMwMywtMTM0MTc2MDY1LDE0Mz
-I2ODcyNTEsLTQ2ODU4MzI3Ml19
+eyJoaXN0b3J5IjpbLTEzODcwNjc2LC04Mjk4NTEzMDMsLTEzND
+E3NjA2NSwxNDMyNjg3MjUxLC00Njg1ODMyNzJdfQ==
 -->
