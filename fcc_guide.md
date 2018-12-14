@@ -30,7 +30,8 @@ const magic = () => {
 ```javascript
 const magic = () => new Date ();
 ```
-[Run code at repl.it](
+[Run code at repl.it](https://repl.it/@AdrianSkar/ES6-Use-arrow-functions)
+
 Remember that _"When there is no function body, and only a return value, arrow function syntax allows you to omit the keyword `return` as well as the brackets surrounding the code."_
 
 
@@ -38,11 +39,11 @@ Remember that _"When there is no function body, and only a return value, arrow f
 - ["Object.freeze()" - *MDN Javascript reference*](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/freeze)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgxOTU5ODA4NSwyMjk3MzQ2NzAsLTExMj
-MxOTE4NiwxOTczNDc4MTU3LC0xODU0ODU5MjUzLDUxNDYzMTQw
-OSwtMTc0ODY3OTkyMywxMDE5MzgyOTI1LC05ODk4MTk2NDcsLT
-E1MzExMDgzMjksLTExMTg5Nzk4NTIsMTQ2NjcwMTU3NCwxMjIx
-NTg5NjYsMTI3MjA0MTAyNCwxMzA2OTE4MzQ1LDYwNjczNzc1My
-w4NTgxMzgwMCwxMDExODgxMTk1LDEwNjU4NzMwOTcsNDYzMzIw
-MjY4XX0=
+eyJoaXN0b3J5IjpbMTI4OTg3NDg0NSwtODE5NTk4MDg1LDIyOT
+czNDY3MCwtMTEyMzE5MTg2LDE5NzM0NzgxNTcsLTE4NTQ4NTky
+NTMsNTE0NjMxNDA5LC0xNzQ4Njc5OTIzLDEwMTkzODI5MjUsLT
+k4OTgxOTY0NywtMTUzMTEwODMyOSwtMTExODk3OTg1MiwxNDY2
+NzAxNTc0LDEyMjE1ODk2NiwxMjcyMDQxMDI0LDEzMDY5MTgzND
+UsNjA2NzM3NzUzLDg1ODEzODAwLDEwMTE4ODExOTUsMTA2NTg3
+MzA5N119
 -->
