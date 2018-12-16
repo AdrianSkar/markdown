@@ -1,31 +1,60 @@
 ---
-title: Write Arrow Functions with Parameters
+title: Write Higher Order Arrow Functions
 ---
-## Write Arrow Functions with Parameters
+![:triangular_flag_on_post:](https://forum.freecodecamp.com/images/emoji/emoji_one/triangular_flag_on_post.png?v=3 ":triangular_flag_on_post:") Remember to use <a>**`Read-Search-Ask`**</a> if you get stuck. Try to pair program ![:busts_in_silhouette:](https://forum.freecodecamp.com/images/emoji/emoji_one/busts_in_silhouette.png?v=3 ":busts_in_silhouette:") and write your own code ![:pencil:](https://forum.freecodecamp.com/images/emoji/emoji_one/pencil.png?v=3 ":pencil:")
 
+### Problem Explanation:
 
-Now, you are tasked at putting parameters inside arrow functions. 
+We need to compute and square values from the `realNumberArray` and store them in the variable `squaredIntegers` using the `map()`, `filter()`, and/or `reduce()` functions.
 
-## Hint 1:
+## ![:speech_balloon:](https://forum.freecodecamp.com/images/emoji/emoji_one/speech_balloon.png?v=3 ":speech_balloon:") Hint: 1
 
-Get rid of the `function` keyword. Put the arrow operator.
+*   You will need to `filter()` the `realNumberArray` for positive integers (decimals are not integers).
 
-## Hint 2:
+> _try to solve the problem now_
 
-Make sure you changed the `var` to a `const`.
+## ![:speech_balloon:](https://forum.freecodecamp.com/images/emoji/emoji_one/speech_balloon.png?v=3 ":speech_balloon:") Hint: 2
 
-## Spoiler warning - Solution ahead!
+*   You will need to `map()` the values from your `filter()` function to the variable `squaredIntegers`.
 
-## Solution:
+> _try to solve the problem now_
 
+## ![:speech_balloon:](https://forum.freecodecamp.com/images/emoji/emoji_one/speech_balloon.png?v=3 ":speech_balloon:") Hint: 3
+
+*   Remember the magic of chaining functions.
+
+> _try to solve the problem now_
+
+## Spoiler Alert!
+
+![warning sign](//discourse-user-assets.s3.amazonaws.com/original/2X/2/2d6c412a50797771301e7ceabd554cef4edcd74d.gif)
+
+**Solution ahead!**
+
+## ![:beginner:](https://forum.freecodecamp.com/images/emoji/emoji_one/beginner.png?v=3 ":beginner:") Basic Code Solution:
 ```javascript
-const myConcat = (arr1, arr2) => {
-  "use strict";
-  return arr1.concat(arr2);
-};
-// test your code
-console.log(myConcat([1, 2], [3, 4, 5]));
+    const squareList = (arr) => {
+      "use strict";
+      const squaredIntegers = arr.filter( (num) => num > 0 && num % parseInt(num) === 0 ).map( (num) => Math.pow(num, 2) );
+      return squaredIntegers;
+    };
+
+    // test your code
+    const squaredIntegers = squareList(realNumberArray);
+    console.log(squaredIntegers);
 ```
+![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") <a href='https://codepen.io/dylantyates/pen/WyWoYJ' target='_blank' rel='nofollow'>Run Code</a>
+
+# Code Explanation:
+
+Uses the operator `filter()` and `map()` functions to square all positive integers in a given array.
+
+#### Relevant Links
+
+*   <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map' target='_blank' rel='nofollow'>map()</a>
+*   <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter' target='_blank' rel='nofollow'>filter()</a>
+*   <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce' target='_blank' rel='nofollow'>reduce()</a>
+ne of the following categories — **Basic**, **Intermediate** and 
 
 ## Alternative code solution:
 ```javascript
@@ -40,11 +69,11 @@ Remember that _"When there is no function body, and only a return value, arrow f
 - [Emerson, Helen. "Javascript anonymous functions". *Helephant.com*, 23 Aug 08.](http://helephant.com/2008/08/23/javascript-anonymous-functions) Accessed 16 Dec 2018.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYxNTk1MjEwMSwyMTE3MTc3OTA4LC0xMj
-AzMTUxMjk5LC05NDg3NzQ1ODAsLTgxOTU5ODA4NSwyMjk3MzQ2
-NzAsLTExMjMxOTE4NiwxOTczNDc4MTU3LC0xODU0ODU5MjUzLD
-UxNDYzMTQwOSwtMTc0ODY3OTkyMywxMDE5MzgyOTI1LC05ODk4
-MTk2NDcsLTE1MzExMDgzMjksLTExMTg5Nzk4NTIsMTQ2NjcwMT
-U3NCwxMjIxNTg5NjYsMTI3MjA0MTAyNCwxMzA2OTE4MzQ1LDYw
-NjczNzc1M119
+eyJoaXN0b3J5IjpbLTI2MDU3ODkxMSwxNjE1OTUyMTAxLDIxMT
+cxNzc5MDgsLTEyMDMxNTEyOTksLTk0ODc3NDU4MCwtODE5NTk4
+MDg1LDIyOTczNDY3MCwtMTEyMzE5MTg2LDE5NzM0NzgxNTcsLT
+E4NTQ4NTkyNTMsNTE0NjMxNDA5LC0xNzQ4Njc5OTIzLDEwMTkz
+ODI5MjUsLTk4OTgxOTY0NywtMTUzMTEwODMyOSwtMTExODk3OT
+g1MiwxNDY2NzAxNTc0LDEyMjE1ODk2NiwxMjcyMDQxMDI0LDEz
+MDY5MTgzNDVdfQ==
 -->
