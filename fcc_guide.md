@@ -54,7 +54,7 @@ Uses the operator `filter()` and `map()` functions to square all positive intege
 *   <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map' target='_blank' rel='nofollow'>map()</a>
 *   <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter' target='_blank' rel='nofollow'>filter()</a>
 *   <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce' target='_blank' rel='nofollow'>reduce()</a>
-ne of the following categories — **Basic**, **Intermediate** and 
+
 
 ## Alternative code solution:
 ```javascript
@@ -66,10 +66,12 @@ Remember that _"When there is no function body, and only a return value, arrow f
 
 
 ### Resources
-- [Emerson, Helen. "Javascript anonymous functions". *Helephant.com*, 23 Aug 08.](http://helephant.com/2008/08/23/javascript-anonymous-functions) Accessed 16 Dec 2018.
+
+- ["Array.prototype.map()" - *MDN JavaScript reference*](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/if...else)
+- ["if...else" - *MDN JavaScript reference*](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/if...else)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI2MDU3ODkxMSwxNjE1OTUyMTAxLDIxMT
+eyJoaXN0b3J5IjpbLTE0MjA0ODkxOCwxNjE1OTUyMTAxLDIxMT
 cxNzc5MDgsLTEyMDMxNTEyOTksLTk0ODc3NDU4MCwtODE5NTk4
 MDg1LDIyOTczNDY3MCwtMTEyMzE5MTg2LDE5NzM0NzgxNTcsLT
 E4NTQ4NTkyNTMsNTE0NjMxNDA5LC0xNzQ4Njc5OTIzLDEwMTkz
