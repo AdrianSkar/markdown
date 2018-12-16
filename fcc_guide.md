@@ -31,7 +31,7 @@ console.log(myConcat([1, 2], [3, 4, 5]));
 ```javascript
 const magic = () => new Date ();
 ```
-- [Run code at repl.it](https://repl.it/@AdrianSkar/ES6-Use-arrow-functions)
+- [Run code at repl.it](https://repl.it/@AdrianSkar/ES6-Write-arrow-functions-with-params)
 
 Remember that _"When there is no function body, and only a return value, arrow function syntax allows you to omit the keyword `return` as well as the brackets surrounding the code."_
 
@@ -40,11 +40,11 @@ Remember that _"When there is no function body, and only a return value, arrow f
 - [Emerson, Helen. "Javascript anonymous functions". *Helephant.com*, 23 Aug 08.](http://helephant.com/2008/08/23/javascript-anonymous-functions) Accessed 16 Dec 2018.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjExNzE3NzkwOCwtMTIwMzE1MTI5OSwtOT
-Q4Nzc0NTgwLC04MTk1OTgwODUsMjI5NzM0NjcwLC0xMTIzMTkx
-ODYsMTk3MzQ3ODE1NywtMTg1NDg1OTI1Myw1MTQ2MzE0MDksLT
-E3NDg2Nzk5MjMsMTAxOTM4MjkyNSwtOTg5ODE5NjQ3LC0xNTMx
-MTA4MzI5LC0xMTE4OTc5ODUyLDE0NjY3MDE1NzQsMTIyMTU4OT
-Y2LDEyNzIwNDEwMjQsMTMwNjkxODM0NSw2MDY3Mzc3NTMsODU4
-MTM4MDBdfQ==
+eyJoaXN0b3J5IjpbLTcwNzEwNjAwNCwyMTE3MTc3OTA4LC0xMj
+AzMTUxMjk5LC05NDg3NzQ1ODAsLTgxOTU5ODA4NSwyMjk3MzQ2
+NzAsLTExMjMxOTE4NiwxOTczNDc4MTU3LC0xODU0ODU5MjUzLD
+UxNDYzMTQwOSwtMTc0ODY3OTkyMywxMDE5MzgyOTI1LC05ODk4
+MTk2NDcsLTE1MzExMDgzMjksLTExMTg5Nzk4NTIsMTQ2NjcwMT
+U3NCwxMjIxNTg5NjYsMTI3MjA0MTAyNCwxMzA2OTE4MzQ1LDYw
+NjczNzc1M119
 -->
