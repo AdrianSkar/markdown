@@ -69,11 +69,12 @@ Remember that _"When there is no function body, and only a return value, arrow f
 
 - ["Array.prototype.map()" - *MDN JavaScript reference*](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map)
 - ["Array.prototype.filter()" - *MDN JavaScript reference*](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter)
-- ["Array.prototype.filter()" - *MDN JavaScript reference*](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/if...else)
-- ["Array.prototype.filter()" - *MDN JavaScript reference*](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/if...else)
+- ["Array.prototype.reduce()" - *MDN JavaScript reference*](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce)
+- ["Number.isInteger()" - *MDN JavaScript reference*](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/isInteger)
+- ["Math.pow()" - *MDN JavaScript reference*](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/pow)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg5OTk5MTE0LDE2MTU5NTIxMDEsMjExNz
+eyJoaXN0b3J5IjpbNjIwNzgyOTMzLDE2MTU5NTIxMDEsMjExNz
 E3NzkwOCwtMTIwMzE1MTI5OSwtOTQ4Nzc0NTgwLC04MTk1OTgw
 ODUsMjI5NzM0NjcwLC0xMTIzMTkxODYsMTk3MzQ3ODE1NywtMT
 g1NDg1OTI1Myw1MTQ2MzE0MDksLTE3NDg2Nzk5MjMsMTAxOTM4
