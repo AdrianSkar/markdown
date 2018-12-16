@@ -38,14 +38,14 @@ Remember that _"When there is no function body, and only a return value, arrow f
 
 
 ### Resources
-- ["Arrow functions" - *MDN Javascript reference*](http://helephant.com/2008/08/23/javascript-anonymous-functions)
+- [Emerson, Helen. "Javascript anonymous functions". *Helephant.com*, 23 Aug 08.](http://helephant.com/2008/08/23/javascript-anonymous-functions) Accessed 16 Dec 2018.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMDgzMTE4NiwtOTQ4Nzc0NTgwLC04MT
-k1OTgwODUsMjI5NzM0NjcwLC0xMTIzMTkxODYsMTk3MzQ3ODE1
-NywtMTg1NDg1OTI1Myw1MTQ2MzE0MDksLTE3NDg2Nzk5MjMsMT
-AxOTM4MjkyNSwtOTg5ODE5NjQ3LC0xNTMxMTA4MzI5LC0xMTE4
-OTc5ODUyLDE0NjY3MDE1NzQsMTIyMTU4OTY2LDEyNzIwNDEwMj
-QsMTMwNjkxODM0NSw2MDY3Mzc3NTMsODU4MTM4MDAsMTAxMTg4
-MTE5NV19
+eyJoaXN0b3J5IjpbLTEyMDMxNTEyOTksLTk0ODc3NDU4MCwtOD
+E5NTk4MDg1LDIyOTczNDY3MCwtMTEyMzE5MTg2LDE5NzM0Nzgx
+NTcsLTE4NTQ4NTkyNTMsNTE0NjMxNDA5LC0xNzQ4Njc5OTIzLD
+EwMTkzODI5MjUsLTk4OTgxOTY0NywtMTUzMTEwODMyOSwtMTEx
+ODk3OTg1MiwxNDY2NzAxNTc0LDEyMjE1ODk2NiwxMjcyMDQxMD
+I0LDEzMDY5MTgzNDUsNjA2NzM3NzUzLDg1ODEzODAwLDEwMTE4
+ODExOTVdfQ==
 -->
