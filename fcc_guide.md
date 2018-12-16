@@ -44,7 +44,7 @@ We need to compute and square values from the `realNumberArray` and store them i
     console.log(squaredIntegers);
 ```
 ![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:")[Run code at codepen.io](https://codepen.io/dylantyates/pen/WyWoYJ)
-# Code explanation:
+### Code explanation:
 
 Uses the operator `filter()` and `map()` functions to square all positive integers in a given array.
 
@@ -58,8 +58,8 @@ Uses the operator `filter()` and `map()` functions to square all positive intege
 
 ```
 - [Run code at repl.it](https://repl.it/@AdrianSkar/ES6-Write-higher-order-arrow-functions)
-
-Remember that _"When there is no function body, and only a return value, arrow function syntax allows you to omit the keyword `return` as well as the brackets surrounding the code."_
+### Code explanation
+This does basically the same but uses the `isInteger()` method 
 
 
 ### Resources
@@ -71,7 +71,7 @@ Remember that _"When there is no function body, and only a return value, arrow f
 - ["Math.pow()" - *MDN JavaScript reference*](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/pow)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYxMjAzMjkwMSwxOTQ3MDE5NTM3LDE2MT
+eyJoaXN0b3J5IjpbMTgxNzk2MzkzOSwxOTQ3MDE5NTM3LDE2MT
 U5NTIxMDEsMjExNzE3NzkwOCwtMTIwMzE1MTI5OSwtOTQ4Nzc0
 NTgwLC04MTk1OTgwODUsMjI5NzM0NjcwLC0xMTIzMTkxODYsMT
 k3MzQ3ODE1NywtMTg1NDg1OTI1Myw1MTQ2MzE0MDksLTE3NDg2
