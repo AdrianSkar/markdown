@@ -1,7 +1,7 @@
 Summary of changes:
 
-improvement(guide): ES6, write arrow functions with params
-
+improvement(guide): link to resources + alt. code solution
+ES6, write arrow functions with params
 - Link to resources
 - Add alternative code solution + run link
 
@@ -15,7 +15,7 @@ improvement(guide): ES6, write arrow functions with params
 - [x] All the files I changed are in the same world language (for example: only English changes, or only Chinese changes, etc.)
 - [x] My changes do not use shortened URLs or affiliate links.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MzcwNTM2MCwtMTM4NzA2NzYsLTgyOT
-g1MTMwMywtMTM0MTc2MDY1LDE0MzI2ODcyNTEsLTQ2ODU4MzI3
-Ml19
+eyJoaXN0b3J5IjpbMTg0NDg1MjgxNiwtMTQzNzA1MzYwLC0xMz
+g3MDY3NiwtODI5ODUxMzAzLC0xMzQxNzYwNjUsMTQzMjY4NzI1
+MSwtNDY4NTgzMjcyXX0=
 -->
