@@ -29,7 +29,7 @@ console.log(myConcat([1, 2], [3, 4, 5]));
 
 ## Alternative code solution:
 ```javascript
-const magic = () => new Date ();
+const myConcat = (arr1, arr2) => arr1.concat(arr2);
 ```
 - [Run code at repl.it](https://repl.it/@AdrianSkar/ES6-Write-arrow-functions-with-params)
 
@@ -40,7 +40,7 @@ Remember that _"When there is no function body, and only a return value, arrow f
 - [Emerson, Helen. "Javascript anonymous functions". *Helephant.com*, 23 Aug 08.](http://helephant.com/2008/08/23/javascript-anonymous-functions) Accessed 16 Dec 2018.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcwNzEwNjAwNCwyMTE3MTc3OTA4LC0xMj
+eyJoaXN0b3J5IjpbMTYxNTk1MjEwMSwyMTE3MTc3OTA4LC0xMj
 AzMTUxMjk5LC05NDg3NzQ1ODAsLTgxOTU5ODA4NSwyMjk3MzQ2
 NzAsLTExMjMxOTE4NiwxOTczNDc4MTU3LC0xODU0ODU5MjUzLD
 UxNDYzMTQwOSwtMTc0ODY3OTkyMywxMDE5MzgyOTI1LC05ODk4
