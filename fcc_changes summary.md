@@ -1,9 +1,11 @@
 Summary of changes:
 
-improvement(guide): link to resources + alt. code solution
+fix(guide): minor fixes + alt. code solution
 ES6, write arrow functions with params
 - Remove image of phantom
 - Remove notes for contributors
+- Links to bottom and to markdown + some more
+- Alternative code solution
 
 
 - [x] I have read [freeCodeCamp's contribution guidelines](https://github.com/freeCodeCamp/freeCodeCamp/blob/master/CONTRIBUTING.md).
@@ -13,7 +15,7 @@ ES6, write arrow functions with params
 - [x] All the files I changed are in the same world language (for example: only English changes, or only Chinese changes, etc.)
 - [x] My changes do not use shortened URLs or affiliate links.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAwMjg0Njk4NywtMTQzNzA1MzYwLC0xMz
+eyJoaXN0b3J5IjpbMTQ2OTc3MzQxMSwtMTQzNzA1MzYwLC0xMz
 g3MDY3NiwtODI5ODUxMzAzLC0xMzQxNzYwNjUsMTQzMjY4NzI1
 MSwtNDY4NTgzMjcyXX0=
 -->
