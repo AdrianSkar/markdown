@@ -67,15 +67,17 @@ Remember that _"When there is no function body, and only a return value, arrow f
 
 ### Resources
 
-- ["Array.prototype.map()" - *MDN JavaScript reference*](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/if...else)
-- ["if...else" - *MDN JavaScript reference*](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/if...else)
+- ["Array.prototype.map()" - *MDN JavaScript reference*](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map)
+- ["Array.prototype.filter()" - *MDN JavaScript reference*](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter)
+- ["Array.prototype.filter()" - *MDN JavaScript reference*](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/if...else)
+- ["Array.prototype.filter()" - *MDN JavaScript reference*](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/if...else)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MjA0ODkxOCwxNjE1OTUyMTAxLDIxMT
-cxNzc5MDgsLTEyMDMxNTEyOTksLTk0ODc3NDU4MCwtODE5NTk4
-MDg1LDIyOTczNDY3MCwtMTEyMzE5MTg2LDE5NzM0NzgxNTcsLT
-E4NTQ4NTkyNTMsNTE0NjMxNDA5LC0xNzQ4Njc5OTIzLDEwMTkz
-ODI5MjUsLTk4OTgxOTY0NywtMTUzMTEwODMyOSwtMTExODk3OT
-g1MiwxNDY2NzAxNTc0LDEyMjE1ODk2NiwxMjcyMDQxMDI0LDEz
-MDY5MTgzNDVdfQ==
+eyJoaXN0b3J5IjpbLTg5OTk5MTE0LDE2MTU5NTIxMDEsMjExNz
+E3NzkwOCwtMTIwMzE1MTI5OSwtOTQ4Nzc0NTgwLC04MTk1OTgw
+ODUsMjI5NzM0NjcwLC0xMTIzMTkxODYsMTk3MzQ3ODE1NywtMT
+g1NDg1OTI1Myw1MTQ2MzE0MDksLTE3NDg2Nzk5MjMsMTAxOTM4
+MjkyNSwtOTg5ODE5NjQ3LC0xNTMxMTA4MzI5LC0xMTE4OTc5OD
+UyLDE0NjY3MDE1NzQsMTIyMTU4OTY2LDEyNzIwNDEwMjQsMTMw
+NjkxODM0NV19
 -->
