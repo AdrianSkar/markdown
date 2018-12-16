@@ -59,7 +59,7 @@ Uses the operator `filter()` and `map()` functions to square all positive intege
 ```
 - [Run code at repl.it](https://repl.it/@AdrianSkar/ES6-Write-higher-order-arrow-functions)
 ### Code explanation
-This does basically the same but uses the `isInteger()` method 
+This does basically the same but uses the `isInteger()` method to check the numbers.
 
 
 ### Resources
@@ -71,11 +71,11 @@ This does basically the same but uses the `isInteger()` method
 - ["Math.pow()" - *MDN JavaScript reference*](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/pow)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgxNzk2MzkzOSwxOTQ3MDE5NTM3LDE2MT
-U5NTIxMDEsMjExNzE3NzkwOCwtMTIwMzE1MTI5OSwtOTQ4Nzc0
-NTgwLC04MTk1OTgwODUsMjI5NzM0NjcwLC0xMTIzMTkxODYsMT
-k3MzQ3ODE1NywtMTg1NDg1OTI1Myw1MTQ2MzE0MDksLTE3NDg2
-Nzk5MjMsMTAxOTM4MjkyNSwtOTg5ODE5NjQ3LC0xNTMxMTA4Mz
-I5LC0xMTE4OTc5ODUyLDE0NjY3MDE1NzQsMTIyMTU4OTY2LDEy
-NzIwNDEwMjRdfQ==
+eyJoaXN0b3J5IjpbLTExNDU5MDczMjUsMTk0NzAxOTUzNywxNj
+E1OTUyMTAxLDIxMTcxNzc5MDgsLTEyMDMxNTEyOTksLTk0ODc3
+NDU4MCwtODE5NTk4MDg1LDIyOTczNDY3MCwtMTEyMzE5MTg2LD
+E5NzM0NzgxNTcsLTE4NTQ4NTkyNTMsNTE0NjMxNDA5LC0xNzQ4
+Njc5OTIzLDEwMTkzODI5MjUsLTk4OTgxOTY0NywtMTUzMTEwOD
+MyOSwtMTExODk3OTg1MiwxNDY2NzAxNTc0LDEyMjE1ODk2Niwx
+MjcyMDQxMDI0XX0=
 -->
