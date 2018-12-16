@@ -1,33 +1,33 @@
 ---
-title: Use Arrow Functions to Write Concise Anonymous Functions
+title: Write Arrow Functions with Parameters
 ---
-## Use Arrow Functions to Write Concise Anonymous Functions
+## Write Arrow Functions with Parameters
 
 <!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
-Again, ES6 is all about making JavaScript more elegant, and for some, more readable. 
+Here is a [cool resource about anonymous functions in JavaScript](http://helephant.com/2008/08/23/javascript-anonymous-functions/), in case you are still wondering what they are, and their role.
 
-Anonymous functions, as stated, can be created when you are sure that the function will not be called by name anywhere else.
+Now, you are tasked at putting parameters inside arrow functions. 
 
 ## Hint 1:
 
-Get rid of the `function` key word, and plug in this `=>` arrow.
+Get rid of the `function` keyword. Put the arrow operator.
 
 ## Hint 2:
 
-Did you get rid of the `var` keyword?
+Make sure you changed the `var` to a `const`.
 
-## Spoiler alert - Solution ahead!
+## Spoiler Warning - Solution Ahead!
 
 ## Solution:
 
 ```javascript
-const magic = () => {
+const myConcat = (arr1, arr2) => {
   "use strict";
-  return new Date();
+  return arr1.concat(arr2);
 };
+// test your code
+console.log(myConcat([1, 2], [3, 4, 5]));
 ```
-As long as you got rid of the `var` keyword, you’re good.
-
 ## Alternative code solution:
 ```javascript
 const magic = () => new Date ();
@@ -38,10 +38,10 @@ Remember that _"When there is no function body, and only a return value, arrow f
 
 
 ### Resources
-- ["Arrow functions" - *MDN Javascript reference*](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions)
+- ["Arrow functions" - *MDN Javascript reference*](http://helephant.com/2008/08/23/javascript-anonymous-functions)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUzOTYzNDEyNiwtOTQ4Nzc0NTgwLC04MT
+eyJoaXN0b3J5IjpbLTEzMDgzMTE4NiwtOTQ4Nzc0NTgwLC04MT
 k1OTgwODUsMjI5NzM0NjcwLC0xMTIzMTkxODYsMTk3MzQ3ODE1
 NywtMTg1NDg1OTI1Myw1MTQ2MzE0MDksLTE3NDg2Nzk5MjMsMT
 AxOTM4MjkyNSwtOTg5ODE5NjQ3LC0xNTMxMTA4MzI5LC0xMTE4
