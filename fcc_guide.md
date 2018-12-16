@@ -1,9 +1,10 @@
+
 ---
 title: Write Higher Order Arrow Functions
 ---
 ![:triangular_flag_on_post:](https://forum.freecodecamp.com/images/emoji/emoji_one/triangular_flag_on_post.png?v=3 ":triangular_flag_on_post:") Remember to use <a>**`Read-Search-Ask`**</a> if you get stuck. Try to pair program ![:busts_in_silhouette:](https://forum.freecodecamp.com/images/emoji/emoji_one/busts_in_silhouette.png?v=3 ":busts_in_silhouette:") and write your own code ![:pencil:](https://forum.freecodecamp.com/images/emoji/emoji_one/pencil.png?v=3 ":pencil:")
 
-### Problem Explanation:
+### Problem explanation:
 
 We need to compute and square values from the `realNumberArray` and store them in the variable `squaredIntegers` using the `map()`, `filter()`, and/or `reduce()` functions.
 
@@ -71,11 +72,11 @@ This does basically the same but uses the `isInteger()` method to check the numb
 - ["Math.pow()" - *MDN JavaScript reference*](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/pow)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM5NjMxMDY3OCwxOTQ3MDE5NTM3LDE2MT
-U5NTIxMDEsMjExNzE3NzkwOCwtMTIwMzE1MTI5OSwtOTQ4Nzc0
-NTgwLC04MTk1OTgwODUsMjI5NzM0NjcwLC0xMTIzMTkxODYsMT
-k3MzQ3ODE1NywtMTg1NDg1OTI1Myw1MTQ2MzE0MDksLTE3NDg2
-Nzk5MjMsMTAxOTM4MjkyNSwtOTg5ODE5NjQ3LC0xNTMxMTA4Mz
-I5LC0xMTE4OTc5ODUyLDE0NjY3MDE1NzQsMTIyMTU4OTY2LDEy
-NzIwNDEwMjRdfQ==
+eyJoaXN0b3J5IjpbLTc4NDI2NDEzNiwtMzk2MzEwNjc4LDE5ND
+cwMTk1MzcsMTYxNTk1MjEwMSwyMTE3MTc3OTA4LC0xMjAzMTUx
+Mjk5LC05NDg3NzQ1ODAsLTgxOTU5ODA4NSwyMjk3MzQ2NzAsLT
+ExMjMxOTE4NiwxOTczNDc4MTU3LC0xODU0ODU5MjUzLDUxNDYz
+MTQwOSwtMTc0ODY3OTkyMywxMDE5MzgyOTI1LC05ODk4MTk2ND
+csLTE1MzExMDgzMjksLTExMTg5Nzk4NTIsMTQ2NjcwMTU3NCwx
+MjIxNTg5NjZdfQ==
 -->
