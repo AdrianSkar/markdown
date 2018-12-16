@@ -25,13 +25,13 @@ We need to compute and square values from the `realNumberArray` and store them i
 
 > _try to solve the problem now_
 
-## Spoiler Alert!
+## Spoiler alert!
 
 ![warning sign](//discourse-user-assets.s3.amazonaws.com/original/2X/2/2d6c412a50797771301e7ceabd554cef4edcd74d.gif)
 
 **Solution ahead!**
 
-## ![:beginner:](https://forum.freecodecamp.com/images/emoji/emoji_one/beginner.png?v=3 ":beginner:") Basic Code Solution:
+## ![:beginner:](https://forum.freecodecamp.com/images/emoji/emoji_one/beginner.png?v=3 ":beginner:") Code solution:
 ```javascript
     const squareList = (arr) => {
       "use strict";
@@ -43,9 +43,8 @@ We need to compute and square values from the `realNumberArray` and store them i
     const squaredIntegers = squareList(realNumberArray);
     console.log(squaredIntegers);
 ```
-![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") <a href='https://codepen.io/dylantyates/pen/WyWoYJ' target='_blank' rel='nofollow'>Run Code</a>
-
-# Code Explanation:
+![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:")[Run code at codepen.io](https://codepen.io/dylantyates/pen/WyWoYJ)
+# Code explanation:
 
 Uses the operator `filter()` and `map()` functions to square all positive integers in a given array.
 
@@ -68,7 +67,7 @@ Remember that _"When there is no function body, and only a return value, arrow f
 - ["Math.pow()" - *MDN JavaScript reference*](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/pow)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ3NzgzMjQxNSwxNjE1OTUyMTAxLDIxMT
+eyJoaXN0b3J5IjpbMTk0NzAxOTUzNywxNjE1OTUyMTAxLDIxMT
 cxNzc5MDgsLTEyMDMxNTEyOTksLTk0ODc3NDU4MCwtODE5NTk4
 MDg1LDIyOTczNDY3MCwtMTEyMzE5MTg2LDE5NzM0NzgxNTcsLT
 E4NTQ4NTkyNTMsNTE0NjMxNDA5LC0xNzQ4Njc5OTIzLDEwMTkz
