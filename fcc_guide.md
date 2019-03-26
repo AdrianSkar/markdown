@@ -71,15 +71,16 @@ function removeFirstTwo(list) {
 
 ### Resources
 
-- ["Destructuring assignment" - *MDN JavaScript reference*]([https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment))
+- ["Destructuring assignment" - *MDN JavaScript reference*](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment)
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNTkwNDYwMTUsLTc4NDI2NDEzNiwtMz
-k2MzEwNjc4LDE5NDcwMTk1MzcsMTYxNTk1MjEwMSwyMTE3MTc3
-OTA4LC0xMjAzMTUxMjk5LC05NDg3NzQ1ODAsLTgxOTU5ODA4NS
-wyMjk3MzQ2NzAsLTExMjMxOTE4NiwxOTczNDc4MTU3LC0xODU0
-ODU5MjUzLDUxNDYzMTQwOSwtMTc0ODY3OTkyMywxMDE5MzgyOT
-I1LC05ODk4MTk2NDcsLTE1MzExMDgzMjksLTExMTg5Nzk4NTIs
-MTQ2NjcwMTU3NF19
+eyJoaXN0b3J5IjpbLTE0MjIzNzM2MjksLTEwNTkwNDYwMTUsLT
+c4NDI2NDEzNiwtMzk2MzEwNjc4LDE5NDcwMTk1MzcsMTYxNTk1
+MjEwMSwyMTE3MTc3OTA4LC0xMjAzMTUxMjk5LC05NDg3NzQ1OD
+AsLTgxOTU5ODA4NSwyMjk3MzQ2NzAsLTExMjMxOTE4NiwxOTcz
+NDc4MTU3LC0xODU0ODU5MjUzLDUxNDYzMTQwOSwtMTc0ODY3OT
+kyMywxMDE5MzgyOTI1LC05ODk4MTk2NDcsLTE1MzExMDgzMjks
+LTExMTg5Nzk4NTJdfQ==
 -->
