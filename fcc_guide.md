@@ -7,7 +7,7 @@ Remember that the rest operator allows for variable numbers of arguments. In thi
 
 ## Hint 1: 
 
-Assign the first two elements to two random variables.
+Assign the first two elements to two random variables .
 
 ## Hint 2:
 
@@ -77,11 +77,11 @@ function removeFirstTwo(list) {
 - ["Math.pow()" - *MDN JavaScript reference*](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/pow)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzE2NTAxMTc3LC03ODQyNjQxMzYsLTM5Nj
-MxMDY3OCwxOTQ3MDE5NTM3LDE2MTU5NTIxMDEsMjExNzE3Nzkw
-OCwtMTIwMzE1MTI5OSwtOTQ4Nzc0NTgwLC04MTk1OTgwODUsMj
-I5NzM0NjcwLC0xMTIzMTkxODYsMTk3MzQ3ODE1NywtMTg1NDg1
-OTI1Myw1MTQ2MzE0MDksLTE3NDg2Nzk5MjMsMTAxOTM4MjkyNS
-wtOTg5ODE5NjQ3LC0xNTMxMTA4MzI5LC0xMTE4OTc5ODUyLDE0
-NjY3MDE1NzRdfQ==
+eyJoaXN0b3J5IjpbMTYxNzg0Nzg2MSwtNzg0MjY0MTM2LC0zOT
+YzMTA2NzgsMTk0NzAxOTUzNywxNjE1OTUyMTAxLDIxMTcxNzc5
+MDgsLTEyMDMxNTEyOTksLTk0ODc3NDU4MCwtODE5NTk4MDg1LD
+IyOTczNDY3MCwtMTEyMzE5MTg2LDE5NzM0NzgxNTcsLTE4NTQ4
+NTkyNTMsNTE0NjMxNDA5LC0xNzQ4Njc5OTIzLDEwMTkzODI5Mj
+UsLTk4OTgxOTY0NywtMTUzMTEwODMyOSwtMTExODk3OTg1Miwx
+NDY2NzAxNTc0XX0=
 -->
