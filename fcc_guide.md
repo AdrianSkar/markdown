@@ -3,6 +3,7 @@ title: Use Destructuring Assignment with the Rest Operator to Reassign Array Ele
 ---
 ## Use Destructuring Assignment with the Rest Operator to Reassign Array Elements
 <!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+
 Remember that the rest operator allows for variable numbers of arguments. In this challenge, you have to get rid of the first two elements of an array.
 
 ## Hint 1: 
@@ -44,6 +45,7 @@ function removeFirstTwo(list) {
 
 
 ## Spoiler Alert - Solution Ahead!
+You can use random variables to omit the first two values:
 
 ```javascript
 function removeFirstTwo(list) {
@@ -70,18 +72,15 @@ function removeFirstTwo(list) {
 
 ### Resources
 
-- ["Array.prototype.map()" - *MDN JavaScript reference*](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map)
-- ["Array.prototype.filter()" - *MDN JavaScript reference*](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter)
-- ["Array.prototype.reduce()" - *MDN JavaScript reference*](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce)
-- ["Number.isInteger()" - *MDN JavaScript reference*](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/isInteger)
-- ["Math.pow()" - *MDN JavaScript reference*](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/pow)
+- ["Destructuring assignment" - *MDN JavaScript reference*]([https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment))
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc3MzI0NzI2MiwtNzg0MjY0MTM2LC0zOT
-YzMTA2NzgsMTk0NzAxOTUzNywxNjE1OTUyMTAxLDIxMTcxNzc5
-MDgsLTEyMDMxNTEyOTksLTk0ODc3NDU4MCwtODE5NTk4MDg1LD
-IyOTczNDY3MCwtMTEyMzE5MTg2LDE5NzM0NzgxNTcsLTE4NTQ4
-NTkyNTMsNTE0NjMxNDA5LC0xNzQ4Njc5OTIzLDEwMTkzODI5Mj
-UsLTk4OTgxOTY0NywtMTUzMTEwODMyOSwtMTExODk3OTg1Miwx
-NDY2NzAxNTc0XX0=
+eyJoaXN0b3J5IjpbLTE1OTQ0NzIxMzUsLTc4NDI2NDEzNiwtMz
+k2MzEwNjc4LDE5NDcwMTk1MzcsMTYxNTk1MjEwMSwyMTE3MTc3
+OTA4LC0xMjAzMTUxMjk5LC05NDg3NzQ1ODAsLTgxOTU5ODA4NS
+wyMjk3MzQ2NzAsLTExMjMxOTE4NiwxOTczNDc4MTU3LC0xODU0
+ODU5MjUzLDUxNDYzMTQwOSwtMTc0ODY3OTkyMywxMDE5MzgyOT
+I1LC05ODk4MTk2NDcsLTE1MzExMDgzMjksLTExMTg5Nzk4NTIs
+MTQ2NjcwMTU3NF19
 -->
