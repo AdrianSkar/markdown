@@ -13,7 +13,6 @@ Assign the first two elements to two random variables.
 
 Set the remaining part of the array to `...arr`.
 
----
 ## Hint 3:
 
 Use destructuring to create the `arr` variable:
@@ -76,11 +75,11 @@ function removeFirstTwo(list) {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MjIzNzM2MjksLTEwNTkwNDYwMTUsLT
-c4NDI2NDEzNiwtMzk2MzEwNjc4LDE5NDcwMTk1MzcsMTYxNTk1
-MjEwMSwyMTE3MTc3OTA4LC0xMjAzMTUxMjk5LC05NDg3NzQ1OD
-AsLTgxOTU5ODA4NSwyMjk3MzQ2NzAsLTExMjMxOTE4NiwxOTcz
-NDc4MTU3LC0xODU0ODU5MjUzLDUxNDYzMTQwOSwtMTc0ODY3OT
-kyMywxMDE5MzgyOTI1LC05ODk4MTk2NDcsLTE1MzExMDgzMjks
-LTExMTg5Nzk4NTJdfQ==
+eyJoaXN0b3J5IjpbLTI5MTU4MzE1OCwtMTA1OTA0NjAxNSwtNz
+g0MjY0MTM2LC0zOTYzMTA2NzgsMTk0NzAxOTUzNywxNjE1OTUy
+MTAxLDIxMTcxNzc5MDgsLTEyMDMxNTEyOTksLTk0ODc3NDU4MC
+wtODE5NTk4MDg1LDIyOTczNDY3MCwtMTEyMzE5MTg2LDE5NzM0
+NzgxNTcsLTE4NTQ4NTkyNTMsNTE0NjMxNDA5LC0xNzQ4Njc5OT
+IzLDEwMTkzODI5MjUsLTk4OTgxOTY0NywtMTUzMTEwODMyOSwt
+MTExODk3OTg1Ml19
 -->
