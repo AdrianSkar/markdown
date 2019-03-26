@@ -30,7 +30,7 @@ function removeFirstTwo(list) {
 
 ## Hint 4:
 
-Spread the `list` parameter into `arr`.
+Spread the `list` parameter values into `arr`.
 
 ```javascript
 function removeFirstTwo(list) {
@@ -42,19 +42,6 @@ function removeFirstTwo(list) {
 }
 ```
 
-## Hint 3 
-
-Exclude the first two elements of the `arr` array with `,,`.
-
-```javascript
-function removeFirstTwo(list) {
-  "use strict";
-  // change code below this line
-  const [,,...arr] = list; // change this
-  // change code above this line
-  return arr;
-}
-```
 
 ## Spoiler Alert - Solution Ahead!
 
@@ -63,6 +50,19 @@ function removeFirstTwo(list) {
   "use strict";
   // change code below this line
   const [a, b, ...arr] = list; 
+  // change code above this line
+  return arr;
+}
+```
+## Solution 2:
+
+You can also exclude the first two elements of the `arr` array using `,,`.
+
+```javascript
+function removeFirstTwo(list) {
+  "use strict";
+  // change code below this line
+  const [,,...arr] = list; // change this
   // change code above this line
   return arr;
 }
@@ -77,11 +77,11 @@ function removeFirstTwo(list) {
 - ["Math.pow()" - *MDN JavaScript reference*](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/pow)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMDEwMzk5OTMsLTc4NDI2NDEzNiwtMz
-k2MzEwNjc4LDE5NDcwMTk1MzcsMTYxNTk1MjEwMSwyMTE3MTc3
-OTA4LC0xMjAzMTUxMjk5LC05NDg3NzQ1ODAsLTgxOTU5ODA4NS
-wyMjk3MzQ2NzAsLTExMjMxOTE4NiwxOTczNDc4MTU3LC0xODU0
-ODU5MjUzLDUxNDYzMTQwOSwtMTc0ODY3OTkyMywxMDE5MzgyOT
-I1LC05ODk4MTk2NDcsLTE1MzExMDgzMjksLTExMTg5Nzk4NTIs
-MTQ2NjcwMTU3NF19
+eyJoaXN0b3J5IjpbLTc3MzI0NzI2MiwtNzg0MjY0MTM2LC0zOT
+YzMTA2NzgsMTk0NzAxOTUzNywxNjE1OTUyMTAxLDIxMTcxNzc5
+MDgsLTEyMDMxNTEyOTksLTk0ODc3NDU4MCwtODE5NTk4MDg1LD
+IyOTczNDY3MCwtMTEyMzE5MTg2LDE5NzM0NzgxNTcsLTE4NTQ4
+NTkyNTMsNTE0NjMxNDA5LC0xNzQ4Njc5OTIzLDEwMTkzODI5Mj
+UsLTk4OTgxOTY0NywtMTUzMTEwODMyOSwtMTExODk3OTg1Miwx
+NDY2NzAxNTc0XX0=
 -->
