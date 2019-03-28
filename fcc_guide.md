@@ -46,19 +46,25 @@ function removeFirstTwo(list) {
 You can use random variables to omit the first two values:
 
 ```javascript
+const source = [1,2,3,4,5,6,7,8,9,10];
 function removeFirstTwo(list) {
-  "use strict";
+"use strict";
   // change code below this line
+  const source = [1,2,3,4,5,6,7,8,9,10];
   const [a, b, ...arr] = list; 
   // change code above this line
   return arr;
 }
+const arr = removeFirstTwo(source);
+console.log(arr); // should be [3,4,5,6,7,8,9,10]
+console.log(source); // should be [1,2,3,4,5,6,7,8,9,10];
 ```
 ## Solution 2:
 
 You can also exclude the first two elements of the `arr` array using `,,`.
 
 ```javascript
+const source = [1,2,3,4,5,6,7,8,9,10];
 function removeFirstTwo(list) {
   "use strict";
   // change code below this line
@@ -66,20 +72,20 @@ function removeFirstTwo(list) {
   // change code above this line
   return arr;
 }
+const arr = removeFirstTwo(source);
+console.log(arr); // should be [3,4,5,6,7,8,9,10]
+console.log(source); // should be [1,2,3,4,5,6,7,8,9,10];
 ```
 
 ### Resources
 
 - ["Destructuring assignment" - *MDN JavaScript reference*](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment)
-
-
-
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI5MTU4MzE1OCwtMTA1OTA0NjAxNSwtNz
-g0MjY0MTM2LC0zOTYzMTA2NzgsMTk0NzAxOTUzNywxNjE1OTUy
-MTAxLDIxMTcxNzc5MDgsLTEyMDMxNTEyOTksLTk0ODc3NDU4MC
-wtODE5NTk4MDg1LDIyOTczNDY3MCwtMTEyMzE5MTg2LDE5NzM0
-NzgxNTcsLTE4NTQ4NTkyNTMsNTE0NjMxNDA5LC0xNzQ4Njc5OT
-IzLDEwMTkzODI5MjUsLTk4OTgxOTY0NywtMTUzMTEwODMyOSwt
-MTExODk3OTg1Ml19
+eyJoaXN0b3J5IjpbLTE1NjY3NjAyNDYsLTI5MTU4MzE1OCwtMT
+A1OTA0NjAxNSwtNzg0MjY0MTM2LC0zOTYzMTA2NzgsMTk0NzAx
+OTUzNywxNjE1OTUyMTAxLDIxMTcxNzc5MDgsLTEyMDMxNTEyOT
+ksLTk0ODc3NDU4MCwtODE5NTk4MDg1LDIyOTczNDY3MCwtMTEy
+MzE5MTg2LDE5NzM0NzgxNTcsLTE4NTQ4NTkyNTMsNTE0NjMxND
+A5LC0xNzQ4Njc5OTIzLDEwMTkzODI5MjUsLTk4OTgxOTY0Nywt
+MTUzMTEwODMyOV19
 -->
