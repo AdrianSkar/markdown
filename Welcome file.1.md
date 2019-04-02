@@ -7,8 +7,8 @@ This is what it looks like in my panel (you can edit the icons too):
 
 ![screenshot two](https://i.imgur.com/8V2wokE.png) 
 
-You get a notification/tooltip confirming it connections (and to which server) or disconnections
+You get a notification/tool-tip confirming it connections (and to which server) or disconnections
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MDkxODQ1MTgsLTE2ODk2NDk0MzAsLT
+eyJoaXN0b3J5IjpbLTE3NjAyNDIzODUsLTE2ODk2NDk0MzAsLT
 E3NDM0NjQ0NjldfQ==
 -->
